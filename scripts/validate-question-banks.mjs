@@ -53,7 +53,7 @@ for (const file of files) {
       const id = q.provenance?.questionId;
       if (id && seenIds.has(id)) fail(file, at, `duplicate questionId: ${id}`);
       if (id) seenIds.add(id);
-      const key = prompt.toLocaleLowerCase().replace(/[\\s\\p{P}\\p{S}]+/gu, ' ').trim();
+      const key = prompt.toLocaleLowerCase().replace(/\s+/g, ' ').trim();
       if (key && seenPrompts.has(key)) fail(file, at, `duplicate prompt also in ${seenPrompts.get(key)}`);
       if (key) seenPrompts.set(key, `${file} ${at}`);
     }
