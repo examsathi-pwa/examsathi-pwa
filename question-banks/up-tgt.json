@@ -1,0 +1,467 @@
+{
+  "examId": "up-tgt-science",
+  "examName": "UP TGT",
+  "targetQuestions": 10000,
+  "sourceLabel": "ExamSathi original practice questions — initial pilot batch",
+  "tests": [
+    {
+      "id": "up-tgt-science-pilot-001",
+      "hi": "UP TGT Science — प्रारंभिक विषयवार अभ्यास",
+      "en": "UP TGT Science — Initial Topic Practice",
+      "minutes": 30,
+      "sourceKind": "authored_practice",
+      "questions": [
+        {
+          "hi": "किसी चालक का प्रतिरोध किन दो सिरों के बीच विभवांतर और धारा के अनुपात से परिभाषित होता है?",
+          "en": "Electrical resistance of a conductor is defined as the ratio of which two quantities?",
+          "optionsHi": [
+            "धारा/विभवांतर",
+            "विभवांतर/धारा",
+            "आवेश/समय",
+            "शक्ति/समय"
+          ],
+          "optionsEn": [
+            "Current/potential difference",
+            "Potential difference/current",
+            "Charge/time",
+            "Power/time"
+          ],
+          "answer": 1,
+          "whyHi": "ओम के नियम के अनुसार R = V/I, जब भौतिक परिस्थितियाँ स्थिर हों।",
+          "whyEn": "By Ohm's law, R = V/I when physical conditions remain constant.",
+          "subject": "Physics",
+          "topic": "Electricity",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "sourceUrl": null,
+            "sourceTitle": "ExamSathi original practice question",
+            "answerKeyStatus": "needs_review",
+            "reuseStatus": "original",
+            "questionId": "uptgt-sci-0001"
+          }
+        },
+        {
+          "hi": "यदि 2 Ω और 4 Ω के प्रतिरोध श्रेणीक्रम में जुड़े हों, तो तुल्य प्रतिरोध कितना होगा?",
+          "en": "What is the equivalent resistance of 2 Ω and 4 Ω resistors connected in series?",
+          "optionsHi": [
+            "2 Ω",
+            "3 Ω",
+            "6 Ω",
+            "8 Ω"
+          ],
+          "optionsEn": [
+            "2 Ω",
+            "3 Ω",
+            "6 Ω",
+            "8 Ω"
+          ],
+          "answer": 2,
+          "whyHi": "श्रेणीक्रम में प्रतिरोध जुड़ते हैं: 2 + 4 = 6 Ω।",
+          "whyEn": "In series, resistances add: 2 + 4 = 6 Ω.",
+          "subject": "Physics",
+          "topic": "Electricity",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "sourceUrl": null,
+            "sourceTitle": "ExamSathi original practice question",
+            "answerKeyStatus": "needs_review",
+            "reuseStatus": "original",
+            "questionId": "uptgt-sci-0002"
+          }
+        },
+        {
+          "hi": "उत्तल लेंस की फोकस दूरी 20 cm है। उसकी शक्ति कितनी है?",
+          "en": "A convex lens has a focal length of 20 cm. What is its power?",
+          "optionsHi": [
+            "+0.5 D",
+            "+2 D",
+            "−2 D",
+            "+5 D"
+          ],
+          "optionsEn": [
+            "+0.5 D",
+            "+2 D",
+            "−2 D",
+            "+5 D"
+          ],
+          "answer": 1,
+          "whyHi": "मीटर में f = +0.20 m; P = 1/f = +5 D. सही विकल्प +5 D है।",
+          "whyEn": "With f = +0.20 m, P = 1/f = +5 D.",
+          "subject": "Physics",
+          "topic": "Optics",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "sourceUrl": null,
+            "sourceTitle": "ExamSathi original practice question",
+            "answerKeyStatus": "needs_review",
+            "reuseStatus": "original",
+            "questionId": "uptgt-sci-0003"
+          }
+        },
+        {
+          "hi": "प्रकाश-विद्युत प्रभाव में उत्सर्जित इलेक्ट्रॉनों की अधिकतम गतिज ऊर्जा मुख्यतः किस पर निर्भर करती है?",
+          "en": "In the photoelectric effect, the maximum kinetic energy of emitted electrons mainly depends on what?",
+          "optionsHi": [
+            "प्रकाश की आवृत्ति",
+            "केवल प्रकाश स्रोत की दूरी",
+            "धातु के आकार",
+            "केवल प्रकाश पड़ने के समय"
+          ],
+          "optionsEn": [
+            "Frequency of light",
+            "Only distance from the source",
+            "Size of the metal",
+            "Only exposure duration"
+          ],
+          "answer": 0,
+          "whyHi": "निर्धारित धातु के लिए अधिकतम गतिज ऊर्जा आपतित प्रकाश की आवृत्ति से निर्धारित होती है।",
+          "whyEn": "For a given metal, maximum kinetic energy is determined by incident light frequency.",
+          "subject": "Physics",
+          "topic": "Modern Physics",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "sourceUrl": null,
+            "sourceTitle": "ExamSathi original practice question",
+            "answerKeyStatus": "needs_review",
+            "reuseStatus": "original",
+            "questionId": "uptgt-sci-0004"
+          }
+        },
+        {
+          "hi": "किसी रेडियोधर्मी नमूने की अर्ध-आयु 6 घंटे है। 12 घंटे बाद मूल मात्रा का कितना भाग बचेगा?",
+          "en": "A radioactive sample has a half-life of 6 hours. What fraction remains after 12 hours?",
+          "optionsHi": [
+            "1/2",
+            "1/3",
+            "1/4",
+            "1/8"
+          ],
+          "optionsEn": [
+            "1/2",
+            "1/3",
+            "1/4",
+            "1/8"
+          ],
+          "answer": 2,
+          "whyHi": "12 घंटे में दो अर्ध-आयु बीतती हैं; शेष अंश (1/2)² = 1/4 है।",
+          "whyEn": "Two half-lives pass in 12 hours, leaving (1/2)² = 1/4.",
+          "subject": "Physics",
+          "topic": "Nuclear Physics",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "sourceUrl": null,
+            "sourceTitle": "ExamSathi original practice question",
+            "answerKeyStatus": "needs_review",
+            "reuseStatus": "original",
+            "questionId": "uptgt-sci-0005"
+          }
+        },
+        {
+          "hi": "आदर्श गैस के लिए स्थिर ताप पर दाब और आयतन का गुणनफल कैसा रहता है?",
+          "en": "For an ideal gas at constant temperature, how does the product of pressure and volume behave?",
+          "optionsHi": [
+            "स्थिर रहता है",
+            "हमेशा शून्य होता है",
+            "ताप के बराबर होता है",
+            "आयतन के समानुपाती बढ़ता है"
+          ],
+          "optionsEn": [
+            "Remains constant",
+            "Is always zero",
+            "Equals temperature",
+            "Increases in proportion to volume"
+          ],
+          "answer": 0,
+          "whyHi": "बॉयल के नियम के अनुसार स्थिर ताप पर PV स्थिर रहता है।",
+          "whyEn": "By Boyle's law, PV remains constant at constant temperature.",
+          "subject": "Physics",
+          "topic": "Thermodynamics",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "sourceUrl": null,
+            "sourceTitle": "ExamSathi original practice question",
+            "answerKeyStatus": "needs_review",
+            "reuseStatus": "original",
+            "questionId": "uptgt-sci-0006"
+          }
+        },
+        {
+          "hi": "KMnO₄ में मैंगनीज की ऑक्सीकरण संख्या क्या है?",
+          "en": "What is the oxidation number of manganese in KMnO₄?",
+          "optionsHi": [
+            "+2",
+            "+4",
+            "+6",
+            "+7"
+          ],
+          "optionsEn": [
+            "+2",
+            "+4",
+            "+6",
+            "+7"
+          ],
+          "answer": 3,
+          "whyHi": "K = +1 और चार O का कुल −8; इसलिए Mn = +7 ताकि कुल आवेश शून्य हो।",
+          "whyEn": "K is +1 and four O atoms total −8, so Mn is +7 for a neutral compound.",
+          "subject": "Chemistry",
+          "topic": "Redox",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "sourceUrl": null,
+            "sourceTitle": "ExamSathi original practice question",
+            "answerKeyStatus": "needs_review",
+            "reuseStatus": "original",
+            "questionId": "uptgt-sci-0007"
+          }
+        },
+        {
+          "hi": "25°C पर शुद्ध जल का pH लगभग कितना होता है?",
+          "en": "What is the approximate pH of pure water at 25°C?",
+          "optionsHi": [
+            "1",
+            "5",
+            "7",
+            "14"
+          ],
+          "optionsEn": [
+            "1",
+            "5",
+            "7",
+            "14"
+          ],
+          "answer": 2,
+          "whyHi": "25°C पर शुद्ध जल उदासीन होता है और उसका pH लगभग 7 होता है।",
+          "whyEn": "At 25°C, pure water is neutral with a pH of about 7.",
+          "subject": "Chemistry",
+          "topic": "Acids and Bases",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "sourceUrl": null,
+            "sourceTitle": "ExamSathi original practice question",
+            "answerKeyStatus": "needs_review",
+            "reuseStatus": "original",
+            "questionId": "uptgt-sci-0008"
+          }
+        },
+        {
+          "hi": "एथीन में कार्बन-कार्बन के बीच कौन-सा बंध होता है?",
+          "en": "What type of bond exists between the two carbon atoms in ethene?",
+          "optionsHi": [
+            "एकल बंध",
+            "द्विबंध",
+            "त्रिबंध",
+            "आयनिक बंध"
+          ],
+          "optionsEn": [
+            "Single bond",
+            "Double bond",
+            "Triple bond",
+            "Ionic bond"
+          ],
+          "answer": 1,
+          "whyHi": "एथीन (C₂H₄) में दोनों कार्बन परमाणुओं के बीच द्विबंध होता है।",
+          "whyEn": "Ethene (C₂H₄) contains a carbon-carbon double bond.",
+          "subject": "Chemistry",
+          "topic": "Organic Chemistry",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "sourceUrl": null,
+            "sourceTitle": "ExamSathi original practice question",
+            "answerKeyStatus": "needs_review",
+            "reuseStatus": "original",
+            "questionId": "uptgt-sci-0009"
+          }
+        },
+        {
+          "hi": "उत्प्रेरक सामान्यतः रासायनिक अभिक्रिया की किस विशेषता को बदलता है?",
+          "en": "Which feature of a chemical reaction does a catalyst generally change?",
+          "optionsHi": [
+            "संतुलन स्थिरांक",
+            "सक्रियण ऊर्जा का मार्ग/बाधा",
+            "अभिकारकों का कुल परमाणु द्रव्यमान",
+            "तत्वों की पहचान"
+          ],
+          "optionsEn": [
+            "Equilibrium constant",
+            "Activation-energy pathway/barrier",
+            "Total atomic mass of reactants",
+            "Identity of elements"
+          ],
+          "answer": 1,
+          "whyHi": "उत्प्रेरक वैकल्पिक कम-सक्रियण-ऊर्जा मार्ग देता है; संतुलन स्थिरांक नहीं बदलता।",
+          "whyEn": "A catalyst provides an alternative lower-activation-energy pathway; it does not change the equilibrium constant.",
+          "subject": "Chemistry",
+          "topic": "Chemical Kinetics",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "sourceUrl": null,
+            "sourceTitle": "ExamSathi original practice question",
+            "answerKeyStatus": "needs_review",
+            "reuseStatus": "original",
+            "questionId": "uptgt-sci-0010"
+          }
+        },
+        {
+          "hi": "कोशिका में अधिकांश ATP का उत्पादन किस कोशिकांग में होता है?",
+          "en": "Which organelle produces most ATP in a typical eukaryotic cell?",
+          "optionsHi": [
+            "गॉल्जी तंत्र",
+            "माइटोकॉन्ड्रिया",
+            "लाइसोसोम",
+            "न्यूक्लियोलस"
+          ],
+          "optionsEn": [
+            "Golgi apparatus",
+            "Mitochondrion",
+            "Lysosome",
+            "Nucleolus"
+          ],
+          "answer": 1,
+          "whyHi": "यूकेरियोटिक कोशिकाओं में वायवीय श्वसन से अधिकांश ATP माइटोकॉन्ड्रिया में बनता है।",
+          "whyEn": "In eukaryotic cells, most ATP from aerobic respiration is produced in mitochondria.",
+          "subject": "Biology",
+          "topic": "Cell Biology",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "sourceUrl": null,
+            "sourceTitle": "ExamSathi original practice question",
+            "answerKeyStatus": "needs_review",
+            "reuseStatus": "original",
+            "questionId": "uptgt-sci-0011"
+          }
+        },
+        {
+          "hi": "प्रकाश संश्लेषण में निकलने वाली ऑक्सीजन का स्रोत मुख्यतः क्या है?",
+          "en": "What is the primary source of oxygen released during photosynthesis?",
+          "optionsHi": [
+            "कार्बन डाइऑक्साइड",
+            "ग्लूकोज़",
+            "जल",
+            "क्लोरोफिल"
+          ],
+          "optionsEn": [
+            "Carbon dioxide",
+            "Glucose",
+            "Water",
+            "Chlorophyll"
+          ],
+          "answer": 2,
+          "whyHi": "प्रकाश अभिक्रिया में जल के विखंडन से ऑक्सीजन निकलती है।",
+          "whyEn": "Oxygen is released by the splitting of water during the light reactions.",
+          "subject": "Biology",
+          "topic": "Photosynthesis",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "sourceUrl": null,
+            "sourceTitle": "ExamSathi original practice question",
+            "answerKeyStatus": "needs_review",
+            "reuseStatus": "original",
+            "questionId": "uptgt-sci-0012"
+          }
+        },
+        {
+          "hi": "मनुष्य में इंसुलिन का स्राव अग्न्याशय की किन कोशिकाओं से होता है?",
+          "en": "Which cells of the human pancreas secrete insulin?",
+          "optionsHi": [
+            "अल्फा कोशिकाएँ",
+            "बीटा कोशिकाएँ",
+            "लाल रक्त कोशिकाएँ",
+            "एसिनर कोशिकाएँ"
+          ],
+          "optionsEn": [
+            "Alpha cells",
+            "Beta cells",
+            "Red blood cells",
+            "Acinar cells"
+          ],
+          "answer": 1,
+          "whyHi": "लैंगरहैंस की द्वीपिकाओं की बीटा कोशिकाएँ इंसुलिन स्रावित करती हैं।",
+          "whyEn": "Beta cells in the islets of Langerhans secrete insulin.",
+          "subject": "Biology",
+          "topic": "Human Physiology",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "sourceUrl": null,
+            "sourceTitle": "ExamSathi original practice question",
+            "answerKeyStatus": "needs_review",
+            "reuseStatus": "original",
+            "questionId": "uptgt-sci-0013"
+          }
+        },
+        {
+          "hi": "मेंडल के एकल-संकर संकरण में F₂ पीढ़ी का सामान्य लक्षण-प्ररूप अनुपात क्या है?",
+          "en": "What is the usual phenotypic ratio in the F₂ generation of a Mendelian monohybrid cross?",
+          "optionsHi": [
+            "1:1",
+            "1:2:1",
+            "3:1",
+            "9:3:3:1"
+          ],
+          "optionsEn": [
+            "1:1",
+            "1:2:1",
+            "3:1",
+            "9:3:3:1"
+          ],
+          "answer": 2,
+          "whyHi": "पूर्ण प्रभाविता की स्थिति में F₂ लक्षण-प्ररूप अनुपात 3:1 होता है।",
+          "whyEn": "With complete dominance, the F₂ phenotypic ratio is 3:1.",
+          "subject": "Biology",
+          "topic": "Genetics",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "sourceUrl": null,
+            "sourceTitle": "ExamSathi original practice question",
+            "answerKeyStatus": "needs_review",
+            "reuseStatus": "original",
+            "questionId": "uptgt-sci-0014"
+          }
+        },
+        {
+          "hi": "खाद्य शृंखला में ऊर्जा का प्रवाह सामान्यतः कैसा होता है?",
+          "en": "How does energy generally flow through a food chain?",
+          "optionsHi": [
+            "दोनों दिशाओं में समान",
+            "उपभोक्ताओं से उत्पादकों की ओर",
+            "एक दिशा में उत्पादकों से उपभोक्ताओं की ओर",
+            "ऊर्जा का प्रवाह नहीं होता"
+          ],
+          "optionsEn": [
+            "Equally in both directions",
+            "From consumers to producers",
+            "One-way from producers to consumers",
+            "No energy flows"
+          ],
+          "answer": 2,
+          "whyHi": "ऊर्जा सूर्य/उत्पादकों से उपभोक्ताओं की ओर प्रवाहित होती है और हर स्तर पर उसका कुछ भाग ऊष्मा के रूप में निकलता है।",
+          "whyEn": "Energy flows from the Sun/producers to consumers, with some lost as heat at each trophic level.",
+          "subject": "Biology",
+          "topic": "Ecology",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "sourceUrl": null,
+            "sourceTitle": "ExamSathi original practice question",
+            "answerKeyStatus": "needs_review",
+            "reuseStatus": "original",
+            "questionId": "uptgt-sci-0015"
+          }
+        }
+      ]
+    }
+  ]
+}
