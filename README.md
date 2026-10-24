@@ -55,3 +55,13 @@ Edit `data.js`. Add categories and tests with bilingual fields. Keep each `answe
 - Real SMS OTP requires Firebase credentials and authorized hosting domain; payments require separate secure backend and gateway.
 - Before deploying, replace the old files completely, and reload the PWA to update the service worker cache.
 - Test in Chrome on Android and desktop; no application can be guaranteed crash-free on every device.
+
+
+## Version 4: Timed mock test and result analytics update
+- Added 10/50/100-question length controls and a demo option using the available unique questions.
+- Added time limit, subject and year filters; question metadata may include `subject`, `year`, `paper`, and `source`.
+- Added question navigation, mark-for-review, auto-submit, correct/wrong/skipped counts, per-question explanations, and score graphs.
+- Recent test history remains stored in the current browser/device local storage.
+- Important: the supplied question bank currently contains only a few sample questions. A 10/50/100-question test is enabled only when that many unique questions match the selected exam/subject/year. The demo option tests the questions currently present.
+- Year-wise previous papers are supported by the metadata fields but have **not** been populated with a complete verified archive. Add each real paper's questions, year, shift/paper label, official source, answer key, and explanations to `data.js` before presenting it as an actual previous-year paper.
+- `firebase-config.js` is still unconfigured; phone OTP will not work until configured. Payments remain disabled.
