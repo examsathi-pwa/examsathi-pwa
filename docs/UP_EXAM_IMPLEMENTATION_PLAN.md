@@ -26,3 +26,11 @@ Only count unique questions that pass schema and answer review. Do not pad with 
 
 ## Phase E — Repeat for all states/UTs
 After UP's source and content workflow is stable, apply the same source-first registry, bank, review and test process state by state.
+
+## Status: quiz engine and smoke tests
+
+- `quiz-engine.js` holds the DOM-free quiz rules (exam → category mapping, subject/year filters, duplicate removal, 10/50/100 eligibility, timer minutes, question selection, scoring). The UI in `app.js` and the tests both use it, and a future server-side attempt API can reuse it.
+- Scoring uses a marking scheme. The default is still `+1 / 0 / 0`. Exam patterns or individual questions can set `marks` and `negativeMarks`. History entries now store `marks`, `maxMarks`, `scoringVersion` and `verified: false`, so local scores can be told apart from future server-verified ones.
+- Submitting goes through a one-time guard, so the timer running out and a manual submit can't record the same attempt twice.
+- Fixed: exams with "Police" in the name were matched as Banking because `/lic/` matched inside "Police". Short bank acronyms now have to match as whole words.
+- `npm test` runs the smoke tests in `tests/`, and they run in CI through `.github/workflows/test.yml`.
