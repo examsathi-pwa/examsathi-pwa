@@ -1,0 +1,30 @@
+name: Validate question banks
+
+on:
+  push:
+    paths:
+      - 'question-banks/**'
+      - 'scripts/validate-question-banks.mjs'
+      - '.github/workflows/validate-question-banks.yml'
+  pull_request:
+    paths:
+      - 'question-banks/**'
+      - 'scripts/validate-question-banks.mjs'
+      - '.github/workflows/validate-question-banks.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Validate question-bank JSON, answers, provenance and duplicates
+        run: node scripts/validate-question-banks.mjs
