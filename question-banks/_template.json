@@ -1,0 +1,36 @@
+{
+  "examId": "replace-with-exam-id",
+  "examName": "Replace with exact exam name",
+  "targetQuestions": 10000,
+  "sourceLabel": "Authored practice / official source name",
+  "tests": [
+    {
+      "id": "practice-topic-001",
+      "hi": "विषयवार अभ्यास प्रश्न",
+      "en": "Topic practice questions",
+      "minutes": 30,
+      "sourceKind": "authored_practice",
+      "questions": [
+        {
+          "hi": "यहाँ प्रश्न लिखें",
+          "en": "Write the question here",
+          "optionsHi": ["विकल्प 1", "विकल्प 2", "विकल्प 3", "विकल्प 4"],
+          "optionsEn": ["Option 1", "Option 2", "Option 3", "Option 4"],
+          "answer": 0,
+          "whyHi": "उत्तर की व्याख्या",
+          "whyEn": "Explanation of the answer",
+          "subject": "General Awareness",
+          "topic": "Topic",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "sourceUrl": null,
+            "sourceTitle": "Original practice question",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        }
+      ]
+    }
+  ]
+}

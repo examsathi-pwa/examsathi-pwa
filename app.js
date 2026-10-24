@@ -1,10 +1,11 @@
 import {categories,tests} from './data.js';
 import {stateExams,centralExams,bankingExams} from './exam-catalog.js';
 import {firebaseConfig} from './firebase-config.js';
+import {loadQuestionBank, bankFileForExam} from './question-bank.js';
 const $=id=>document.getElementById(id);
 window.addEventListener('error',e=>{const box=document.getElementById('catalog');if(box&&!document.getElementById('appError')){const p=document.createElement('p');p.id='appError';p.className='exam-empty';p.textContent='App error: '+(e.message||'JavaScript error')+' — page refresh करें।';box.prepend(p)}});
 window.addEventListener('unhandledrejection',e=>{const box=document.getElementById('catalog');if(box&&!document.getElementById('appError')){const p=document.createElement('p');p.id='appError';p.className='exam-empty';p.textContent='App error: '+String(e.reason?.message||e.reason||'Request failed');box.prepend(p)}});
-let lang=(()=>{try{return localStorage.getItem('es_lang')||'hi'}catch{return 'hi'}})(),cat='All',current=null,index=0,answers=[],seconds=0,timer=null,auth=null,confirmation=null,loggedUser=null,marked=new Set(),testStartedAt=0;
+let lang=(()=>{try{return localStorage.getItem('es_lang')||'hi'}catch{return 'hi'}})(),cat='All',current=null,index=0,answers=[],seconds=0,timer=null,auth=null,confirmation=null,loggedUser=null,marked=new Set(),testStartedAt=0,loadedBankExam='',loadedBankTests=[];
 const tr=(hi,en)=>lang==='hi'?hi:en;
 const safeRead=(key,fallback)=>{try{const v=JSON.parse(localStorage.getItem(key)||'null');return Array.isArray(v)?v:fallback}catch{return fallback}};
 const safeWrite=(key,value)=>{try{localStorage.setItem(key,JSON.stringify(value));return true}catch{return false}};
@@ -21,12 +22,30 @@ function categoryForExam(ex,section){
 }
 function getExamTests(){
  const ex=$('examSelect').value,section=$('examSection').value,category=categoryForExam(ex,section);
- const available=tests.filter(t=>!t.paid&&Array.isArray(t.questions)&&t.questions.length);
- const matched=available.filter(t=>t.category===category);
- // If this catalogue exam has no dedicated bank yet, show available demo practice
- // questions rather than an empty screen; the title explicitly marks them as general practice.
- const pool=[...matched,...available.filter(t=>t.category!==category).map(t=>({...t,category,sourceCategory:t.category,hi:`सामान्य अभ्यास (डेमो): ${t.hi}`,en:`General practice (demo): ${t.en}`}))];
- return pool.filter(t=>cat==='All'||t.category===cat);
+ // Dedicated exam bank always takes precedence. Never mix another exam's questions into this bank.
+ const dedicated=loadedBankExam===ex?loadedBankTests:[];
+ const available=dedicated.length?dedicated:tests.filter(t=>!t.paid&&Array.isArray(t.questions)&&t.questions.length&&t.category===category);
+ return available.filter(t=>cat==='All'||t.category===cat);
+}
+async function refreshSelectedQuestionBank(){
+ const ex=$('examSelect').value;
+ if(!ex)return;
+ const section=$('examSection').value;
+ const category=categoryForExam(ex,section);
+ const file=bankFileForExam(ex);
+ loadedBankExam='';
+ loadedBankTests=[];
+ $('catalogNote').textContent=tr('इस परीक्षा का अलग प्रश्न बैंक जाँचा जा रहा है…','Checking this exam’s dedicated question bank…');
+ try{
+   const bank=await loadQuestionBank(file);
+   if($('examSelect').value!==ex)return;
+   loadedBankExam=ex;
+   loadedBankTests=bank.tests.map((t,i)=>({...t,id:t.id||`${file}-${i+1}`,category,paid:false,minutes:t.minutes||Math.max(1,t.questions.length),sourceKind:t.sourceKind||'practice'}));
+   $('catalogNote').textContent=tr(`${ex}: ${bank.questionCount} प्रश्न लोड हुए। स्रोत: ${bank.sourceLabel||'प्रश्न बैंक'}।`,`${ex}: ${bank.questionCount} questions loaded. Source: ${bank.sourceLabel||'question bank'}.`);
+ }catch{
+   $('catalogNote').textContent=tr(`${ex} के लिए अलग प्रश्न बैंक अभी नहीं जोड़ा गया है। नीचे केवल उसी श्रेणी के उपलब्ध अभ्यास प्रश्न दिखेंगे।`,`No dedicated question bank is published for ${ex} yet. Only available practice questions in the matching category are shown below.`);
+ }
+ render();
 }
 function allQuestions(){return getExamTests().flatMap(t=>t.questions.map((q,i)=>({...q,category:t.category,subject:q.subject||t.subject||defaultSubject(t.category),year:q.year||t.year||null,sourceTest:t.hi})));}
 function defaultSubject(category){return ({'UP TGT':'Science','SSC':'General Awareness','Railway':'Mathematics','UP Police':'General Knowledge','CTET':'Child Development & Pedagogy','Banking':'Banking Awareness'})[category]||'General';}
@@ -47,7 +66,7 @@ function finish(auto=false){if(!current)return;stop();const t=current;const corr
 function renderHistory(){const div=$('history');div.replaceChildren();const rows=safeRead('es_history',[]);if(!rows.length){div.textContent=tr('अभी कोई परिणाम नहीं है।','No results yet.');return;}const recent=rows.slice(0,10);const chart=document.createElement('div');chart.className='history-chart';const title=document.createElement('h3');title.textContent=tr('पिछले टेस्टों का स्कोर ग्राफ','Score graph for recent tests');div.append(title);recent.slice().reverse().forEach((r,i)=>{const row=document.createElement('div');row.className='bar-row';const label=document.createElement('span');label.textContent=(r.title||'Test').slice(0,24);const track=document.createElement('div');track.className='track';const fill=document.createElement('div');fill.className='track-fill';fill.style.width=`${Math.max(0,Math.min(100,Number(r.pct??(r.score/r.total*100))))}%`;track.append(fill);const n=document.createElement('b');n.textContent=`${Math.round(Number(r.pct??(r.score/r.total*100)))}%`;row.append(label,track,n);chart.append(row)});div.append(chart);for(const r of rows){const p=document.createElement('p');p.textContent=`${r.title}: ${r.score}/${r.total} • ${r.pct??Math.round(r.score/r.total*100)}% • ${r.date}`;div.append(p)}}
 $('language').onclick=()=>{lang=lang==='hi'?'en':'hi';try{localStorage.setItem('es_lang',lang)}catch{};updateLang();if(current)drawQuestion()};$('login').onclick=()=>{stop();current=null;show('auth')};$('closeAuth').onclick=()=>show('catalog');$('logout').onclick=async()=>{if(auth)await auth.signOut()};
 async function initFirebase(){if(!firebaseConfig.apiKey){$('authMessage').textContent='Firebase not configured. Read README.md';return}try{const [{initializeApp},{getAuth,RecaptchaVerifier,signInWithPhoneNumber,onAuthStateChanged}]=await Promise.all([import('https://www.gstatic.com/firebasejs/10.14.1/firebase-app.js'),import('https://www.gstatic.com/firebasejs/10.14.1/firebase-auth.js')]);const app=initializeApp(firebaseConfig);auth=getAuth(app);onAuthStateChanged(auth,user=>{loggedUser=user;$('login').hidden=!!user;$('logout').hidden=!user;$('userStatus').textContent=user?`✓ ${user.phoneNumber}`:'';if(user)show('catalog')});$('sendOtp').onclick=async()=>{try{if(!window.esVerifier)window.esVerifier=new RecaptchaVerifier(auth,'recaptcha-container',{size:'normal'});confirmation=await signInWithPhoneNumber(auth,$('phone').value.trim(),window.esVerifier);$('authMessage').textContent='OTP sent. Enter the code.'}catch(e){$('authMessage').textContent=`OTP error: ${e.code||e.message}`}};$('verifyOtp').onclick=async()=>{try{if(!confirmation)throw Error('Send OTP first');await confirmation.confirm($('otp').value.trim());$('authMessage').textContent='Login successful'}catch(e){$('authMessage').textContent=`Verification error: ${e.code||e.message}`}}}catch(e){$('authMessage').textContent=`Firebase setup error: ${e.message}`}}
-function initExamCatalog(){const section=$('examSection'),state=$('stateSelect'),exam=$('examSelect');for(const name of Object.keys(stateExams)){state.add(new Option(name,name))}state.value='Uttar Pradesh';function fill(){cat='All';const group=section.value;$('stateLabel').hidden=group!=='state';const arr=group==='state'?(stateExams[state.value]||[]):group==='central'?centralExams:bankingExams;exam.replaceChildren();for(const name of arr)exam.add(new Option(name,name));if(group==='state'&&state.value==='Uttar Pradesh')exam.value='UP TGT';if(group==='central')exam.value='SSC CGL';if(group==='banking')exam.value='IBPS PO';render()}section.onchange=()=>{ $('subjectSelect').value='All'; $('yearSelect').value='All'; fill() };state.onchange=()=>{ $('subjectSelect').value='All'; $('yearSelect').value='All'; fill() };exam.onchange=()=>{cat='All';$('subjectSelect').value='All';$('yearSelect').value='All';render()};$('subjectSelect').onchange=()=>{if($('yearSelect').value!=='All'&&!allQuestions().some(q=>q.subject===$('subjectSelect').value&&String(q.year)===$('yearSelect').value))$('yearSelect').value='All';render()};$('yearSelect').onchange=render;$('questionCount').onchange=render;$('timeMinutes').onchange=render;fill()}
+function initExamCatalog(){const section=$('examSection'),state=$('stateSelect'),exam=$('examSelect');for(const name of Object.keys(stateExams)){state.add(new Option(name,name))}state.value='Uttar Pradesh';function fill(){cat='All';const group=section.value;$('stateLabel').hidden=group!=='state';const arr=group==='state'?(stateExams[state.value]||[]):group==='central'?centralExams:bankingExams;exam.replaceChildren();for(const name of arr)exam.add(new Option(name,name));if(group==='state'&&state.value==='Uttar Pradesh')exam.value='UP TGT';if(group==='central')exam.value='SSC CGL';if(group==='banking')exam.value='IBPS PO';render()}section.onchange=()=>{ $('subjectSelect').value='All'; $('yearSelect').value='All'; fill();refreshSelectedQuestionBank() };state.onchange=()=>{ $('subjectSelect').value='All'; $('yearSelect').value='All'; fill();refreshSelectedQuestionBank() };exam.onchange=()=>{cat='All';$('subjectSelect').value='All';$('yearSelect').value='All';refreshSelectedQuestionBank();render()};$('subjectSelect').onchange=()=>{if($('yearSelect').value!=='All'&&!allQuestions().some(q=>q.subject===$('subjectSelect').value&&String(q.year)===$('yearSelect').value))$('yearSelect').value='All';render()};$('yearSelect').onchange=render;$('questionCount').onchange=render;$('timeMinutes').onchange=render;fill();refreshSelectedQuestionBank()}
 document.querySelectorAll('[data-exam]').forEach(button=>button.addEventListener('click',()=>{const section=$('examSection');section.value=button.dataset.section;section.dispatchEvent(new Event('change'));const target=button.dataset.exam;const option=[...$('examSelect').options].find(o=>o.value===target)||[...$('examSelect').options].find(o=>o.textContent.toLowerCase().includes(target.toLowerCase().split(' ')[0]));if(option){$('examSelect').value=option.value;$('examSelect').dispatchEvent(new Event('change'));} $('chooseExam').scrollIntoView({behavior:'smooth'});}));
 $('testSearch').addEventListener('input',render);$('searchBtn').addEventListener('click',()=>{$('catalog').scrollIntoView({behavior:'smooth'});render()});
 initExamCatalog();updateLang();initFirebase();if('serviceWorker'in navigator)navigator.serviceWorker.register('./sw.js').catch(()=>{});
