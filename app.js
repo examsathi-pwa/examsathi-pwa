@@ -25,7 +25,7 @@ function getExamTests(){
  const matched=available.filter(t=>t.category===category);
  // If this catalogue exam has no dedicated bank yet, show available demo practice
  // questions rather than an empty screen; the title explicitly marks them as general practice.
- const pool=matched.length?matched:available.map(t=>({...t,hi:\`सामान्य अभ्यास (डेमो): \${t.hi}\`,en:\`General practice (demo): \${t.en}\`}));
+ const pool=[...matched,...available.filter(t=>t.category!==category).map(t=>({...t,hi:`सामान्य अभ्यास (डेमो): ${t.hi}`,en:`General practice (demo): ${t.en}`}))];
  return pool.filter(t=>cat==='All'||t.category===cat);
 }
 function allQuestions(){return getExamTests().flatMap(t=>t.questions.map((q,i)=>({...q,category:t.category,subject:q.subject||t.subject||defaultSubject(t.category),year:q.year||t.year||null,sourceTest:t.hi})));}
