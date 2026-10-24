@@ -2,6 +2,8 @@ import {categories,tests} from './data.js';
 import {stateExams,centralExams,bankingExams} from './exam-catalog.js';
 import {firebaseConfig} from './firebase-config.js';
 const $=id=>document.getElementById(id);
+window.addEventListener('error',e=>{const box=document.getElementById('catalog');if(box&&!document.getElementById('appError')){const p=document.createElement('p');p.id='appError';p.className='exam-empty';p.textContent='App error: '+(e.message||'JavaScript error')+' — page refresh करें।';box.prepend(p)}});
+window.addEventListener('unhandledrejection',e=>{const box=document.getElementById('catalog');if(box&&!document.getElementById('appError')){const p=document.createElement('p');p.id='appError';p.className='exam-empty';p.textContent='App error: '+String(e.reason?.message||e.reason||'Request failed');box.prepend(p)}});
 let lang=(()=>{try{return localStorage.getItem('es_lang')||'hi'}catch{return 'hi'}})(),cat='All',current=null,index=0,answers=[],seconds=0,timer=null,auth=null,confirmation=null,loggedUser=null,marked=new Set(),testStartedAt=0;
 const tr=(hi,en)=>lang==='hi'?hi:en;
 const safeRead=(key,fallback)=>{try{const v=JSON.parse(localStorage.getItem(key)||'null');return Array.isArray(v)?v:fallback}catch{return fallback}};
