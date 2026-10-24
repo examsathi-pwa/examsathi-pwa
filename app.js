@@ -14,14 +14,19 @@ function categoryForExam(ex,section){
  const n=String(ex||'').toLowerCase();
  if(/ctet/.test(n))return 'CTET';
  if(section==='banking'||/bank|ibps|sbi|rbi|nabard|lic|sebi|sidbi|niacl|uiic|gic/.test(n))return 'Banking';
- if(/railway|rrb|ntpc|group d|alp|technician|paramedical/.test(n))return 'Railway';
- if(/police|constable|sub inspector|\\bsi\\b|capf|agniveer|army|navy|coast guard|nda|cds|afcat/.test(n))return 'UP Police';
+ if(/railway|rrb|ntpc|group\s*d|alp|technician|paramedical/.test(n))return 'Railway';
+ if(/police|constable|sub.?inspector|\bsi\b|capf|agniveer|army|navy|coast guard|nda|cds|afcat/.test(n))return 'UP Police';
  if(/tgt|pgt|teacher|tet|kvs|nvs|dsssb/.test(n))return 'UP TGT';
  return 'SSC';
 }
 function getExamTests(){
  const ex=$('examSelect').value,section=$('examSection').value,category=categoryForExam(ex,section);
- return tests.filter(t=>t.category===category&&!t.paid&&t.questions?.length).filter(t=>cat==='All'||t.category===cat);
+ const available=tests.filter(t=>!t.paid&&Array.isArray(t.questions)&&t.questions.length);
+ const matched=available.filter(t=>t.category===category);
+ // If this catalogue exam has no dedicated bank yet, show available demo practice
+ // questions rather than an empty screen; the title explicitly marks them as general practice.
+ const pool=matched.length?matched:available.map(t=>({...t,hi:\`सामान्य अभ्यास (डेमो): \${t.hi}\`,en:\`General practice (demo): \${t.en}\`}));
+ return pool.filter(t=>cat==='All'||t.category===cat);
 }
 function allQuestions(){return getExamTests().flatMap(t=>t.questions.map((q,i)=>({...q,category:t.category,subject:q.subject||t.subject||defaultSubject(t.category),year:q.year||t.year||null,sourceTest:t.hi})));}
 function defaultSubject(category){return ({'UP TGT':'Science','SSC':'General Awareness','Railway':'Mathematics','UP Police':'General Knowledge','CTET':'Child Development & Pedagogy','Banking':'Banking Awareness'})[category]||'General';}
