@@ -86,8 +86,8 @@
             "−2 D",
             "+5 D"
           ],
-          "answer": 1,
-          "whyHi": "मीटर में f = +0.20 m; P = 1/f = +5 D. सही विकल्प +5 D है।",
+          "answer": 3,
+          "whyHi": "मीटर में f = +0.20 m; P = 1/f = +5 D।",
           "whyEn": "With f = +0.20 m, P = 1/f = +5 D.",
           "subject": "Physics",
           "topic": "Optics",
