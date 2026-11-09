@@ -1,5 +1,6 @@
 import {categories,tests} from './data.js';
 import {stateExams,centralExams,bankingExams} from './exam-catalog.js';
+import {entranceExams} from './entrance-exam-catalog.js';
 import {firebaseConfig} from './firebase-config.js';
 import {loadQuestionBank, bankFileForExam} from './question-bank.js';
 const $=id=>document.getElementById(id);
