@@ -15,6 +15,7 @@ function show(section){for(const id of ['catalog','quiz','result','auth'])$(id).
 function categoryForExam(ex,section){
  const n=String(ex||'').toLowerCase();
  if(/ctet/.test(n))return 'CTET';
+ if(section==='entrance')return 'Entrance';
  if(section==='banking'||/bank|ibps|sbi|rbi|nabard|lic|sebi|sidbi|niacl|uiic|gic/.test(n))return 'Banking';
  if(/railway|rrb|ntpc|group\s*d|alp|technician|paramedical/.test(n))return 'Railway';
  if(/police|constable|sub.?inspector|\bsi\b|capf|agniveer|army|navy|coast guard|nda|cds|afcat/.test(n))return 'UP Police';
