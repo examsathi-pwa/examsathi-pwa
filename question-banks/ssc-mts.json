@@ -1,0 +1,813 @@
+{
+  "examId": "ssc-mts",
+  "examName": "SSC MTS",
+  "targetQuestions": 100,
+  "qualityStandardVersion": "1.0",
+  "bankStatus": "initial_practice_bank",
+  "sourceLabel": "ExamSathi original bilingual practice; not official PYQs",
+  "blueprint": {
+    "status": "provisional_latest_official_scheme_2025_until_2026_notice",
+    "checkedOn": "2026-11-10",
+    "noticeStatus": "No SSC MTS 2026 detailed notification verified on SSC site as of 2026-11-10; apply 2025 notice scheme provisionally.",
+    "sessionI": {
+      "questions": 40,
+      "marks": 120,
+      "durationMinutes": 45,
+      "sections": [
+        {
+          "subject": "Numerical and Mathematical Ability",
+          "questions": 20,
+          "marks": 60
+        },
+        {
+          "subject": "Reasoning Ability and Problem Solving",
+          "questions": 20,
+          "marks": 60
+        }
+      ],
+      "negativeMarking": 0
+    },
+    "sessionII": {
+      "questions": 50,
+      "marks": 150,
+      "durationMinutes": 45,
+      "sections": [
+        {
+          "subject": "General Awareness",
+          "questions": 25,
+          "marks": 75
+        },
+        {
+          "subject": "English Language and Comprehension",
+          "questions": 25,
+          "marks": 75
+        }
+      ],
+      "negativeMarking": 1
+    },
+    "difficulty": "Matriculation/10th-standard syllabus. Session I tests numerical ability and reasoning; Session II tests general awareness and English. This starter bank is not a full-length paper."
+  },
+  "sourceReferences": [
+    {
+      "title": "SSC Multi-Tasking (Non-Technical) Staff and Havaldar Examination, 2025 official notice",
+      "url": "https://ssc.gov.in/api/attachment/uploads/masterData/NoticeBoards/Notice_of_adv_mts_2025.pdf",
+      "checkedOn": "2026-11-10",
+      "use": "Exam structure, syllabus and marking scheme"
+    }
+  ],
+  "tests": [
+    {
+      "id": "ssc-mts-mixed-practice-001",
+      "hi": "SSC MTS मिश्रित अभ्यास प्रश्न",
+      "en": "SSC MTS mixed practice questions",
+      "minutes": 25,
+      "sourceKind": "authored_practice",
+      "questions": [
+        {
+          "hi": "एक संख्या में पहले 20% की वृद्धि और फिर नई संख्या में 20% की कमी की जाती है। कुल परिवर्तन क्या होगा?",
+          "en": "A number is first increased by 20% and then the new value is decreased by 20%. What is the net change?",
+          "optionsHi": [
+            "4% वृद्धि",
+            "4% कमी",
+            "कोई परिवर्तन नहीं",
+            "2% कमी"
+          ],
+          "optionsEn": [
+            "4% increase",
+            "4% decrease",
+            "No change",
+            "2% decrease"
+          ],
+          "answer": 1,
+          "whyHi": "1.20×0.80=0.96; अंतिम मान मूल का 96%, अर्थात 4% कम है।",
+          "whyEn": "1.20×0.80=0.96; the final value is 96% of the original, a 4% decrease.",
+          "subject": "Numerical and Mathematical Ability",
+          "topic": "Percentage",
+          "difficulty": "moderate",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "ssc-mts-001",
+            "sourceUrl": null,
+            "sourceTitle": "Original ExamSathi practice item; not a previous-year question",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "A और B की आय का अनुपात 5:7 है। यदि दोनों की कुल आय ₹48,000 है, तो B की आय कितनी है?",
+          "en": "A and B have income ratio 5:7. If their total income is ₹48,000, find B's income.",
+          "optionsHi": [
+            "₹20,000",
+            "₹24,000",
+            "₹28,000",
+            "₹30,000"
+          ],
+          "optionsEn": [
+            "₹20,000",
+            "₹24,000",
+            "₹28,000",
+            "₹30,000"
+          ],
+          "answer": 2,
+          "whyHi": "कुल 12 भाग=48,000; 1 भाग=4,000; B=7×4,000=₹28,000।",
+          "whyEn": "12 parts=48,000; one part=4,000; B=7×4,000=₹28,000.",
+          "subject": "Numerical and Mathematical Ability",
+          "topic": "Ratio proportion",
+          "difficulty": "moderate",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "ssc-mts-002",
+            "sourceUrl": null,
+            "sourceTitle": "Original ExamSathi practice item; not a previous-year question",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "एक नल टंकी को 6 घंटे में भरता है और दूसरा 9 घंटे में खाली करता है। दोनों साथ खुले हों तो खाली टंकी कितने घंटे में भरेगी?",
+          "en": "One pipe fills a tank in 6 hours and another empties it in 9 hours. How long will the empty tank take to fill if both are open?",
+          "optionsHi": [
+            "12 घंटे",
+            "15 घंटे",
+            "18 घंटे",
+            "21 घंटे"
+          ],
+          "optionsEn": [
+            "12 hours",
+            "15 hours",
+            "18 hours",
+            "21 hours"
+          ],
+          "answer": 2,
+          "whyHi": "शुद्ध दर=1/6−1/9=1/18; अतः 18 घंटे।",
+          "whyEn": "Net rate=1/6−1/9=1/18 tank per hour; time is 18 hours.",
+          "subject": "Numerical and Mathematical Ability",
+          "topic": "Pipes cisterns",
+          "difficulty": "hard",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "ssc-mts-003",
+            "sourceUrl": null,
+            "sourceTitle": "Original ExamSathi practice item; not a previous-year question",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "एक वस्तु ₹960 में बेचने पर 20% हानि होती है। 20% लाभ पाने के लिए कितने में बेचना चाहिए?",
+          "en": "An article sold for ₹960 incurs a 20% loss. At what price should it be sold to earn a 20% profit?",
+          "optionsHi": [
+            "₹1,200",
+            "₹1,360",
+            "₹1,440",
+            "₹1,500"
+          ],
+          "optionsEn": [
+            "₹1,200",
+            "₹1,360",
+            "₹1,440",
+            "₹1,500"
+          ],
+          "answer": 2,
+          "whyHi": "CP=960/0.8=₹1,200; 20% लाभ वाला SP=1200×1.2=₹1,440।",
+          "whyEn": "CP=960/0.8=₹1,200; SP for 20% profit=1200×1.2=₹1,440.",
+          "subject": "Numerical and Mathematical Ability",
+          "topic": "Profit loss",
+          "difficulty": "moderate",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "ssc-mts-004",
+            "sourceUrl": null,
+            "sourceTitle": "Original ExamSathi practice item; not a previous-year question",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "दो संख्याओं का HCF 12 और LCM 420 है। यदि एक संख्या 60 है, तो दूसरी संख्या क्या है?",
+          "en": "The HCF of two numbers is 12 and their LCM is 420. If one number is 60, find the other.",
+          "optionsHi": [
+            "72",
+            "84",
+            "96",
+            "108"
+          ],
+          "optionsEn": [
+            "72",
+            "84",
+            "96",
+            "108"
+          ],
+          "answer": 1,
+          "whyHi": "दो संख्याओं का गुणनफल=HCF×LCM=12×420; दूसरी संख्या=5040/60=84।",
+          "whyEn": "Product of two numbers=HCF×LCM=12×420; other number=5040/60=84.",
+          "subject": "Numerical and Mathematical Ability",
+          "topic": "HCF LCM",
+          "difficulty": "hard",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "ssc-mts-005",
+            "sourceUrl": null,
+            "sourceTitle": "Original ExamSathi practice item; not a previous-year question",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "किसी यात्रा का 3/5 भाग 48 km है। पूरी यात्रा कितनी है?",
+          "en": "Three-fifths of a journey is 48 km. Find the total journey.",
+          "optionsHi": [
+            "72 km",
+            "80 km",
+            "84 km",
+            "96 km"
+          ],
+          "optionsEn": [
+            "72 km",
+            "80 km",
+            "84 km",
+            "96 km"
+          ],
+          "answer": 1,
+          "whyHi": "पूरी दूरी=48×5/3=80 km।",
+          "whyEn": "Total distance=48×5/3=80 km.",
+          "subject": "Numerical and Mathematical Ability",
+          "topic": "Fractions",
+          "difficulty": "easy",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "ssc-mts-006",
+            "sourceUrl": null,
+            "sourceTitle": "Original ExamSathi practice item; not a previous-year question",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "श्रृंखला पूरी करें: AZ, BY, CX, DW, ?",
+          "en": "Complete the series: AZ, BY, CX, DW, ?",
+          "optionsHi": [
+            "EV",
+            "EU",
+            "FV",
+            "EW"
+          ],
+          "optionsEn": [
+            "EV",
+            "EU",
+            "FV",
+            "EW"
+          ],
+          "answer": 0,
+          "whyHi": "पहला अक्षर क्रमशः आगे बढ़ता है और दूसरा पीछे: E तथा V।",
+          "whyEn": "The first letter moves forward and the second backward: E and V.",
+          "subject": "Reasoning Ability and Problem Solving",
+          "topic": "Alpha series",
+          "difficulty": "easy",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "ssc-mts-007",
+            "sourceUrl": null,
+            "sourceTitle": "Original ExamSathi practice item; not a previous-year question",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "यदि SOUTH को TPVUI लिखा जाता है, तो NORTH का कूट क्या होगा?",
+          "en": "If SOUTH is coded as TPVUI, how is NORTH coded?",
+          "optionsHi": [
+            "OPSUI",
+            "OPSUI",
+            "OPSUH",
+            "NPSUI"
+          ],
+          "optionsEn": [
+            "OPSUI",
+            "OPSUI",
+            "OPSUH",
+            "NPSUI"
+          ],
+          "answer": 0,
+          "whyHi": "हर अक्षर को एक स्थान आगे बढ़ाया गया है: NORTH → OPSUI।",
+          "whyEn": "Each letter is shifted one position forward: NORTH → OPSUI.",
+          "subject": "Reasoning Ability and Problem Solving",
+          "topic": "Coding",
+          "difficulty": "easy",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "ssc-mts-008",
+            "sourceUrl": null,
+            "sourceTitle": "Original ExamSathi practice item; not a previous-year question",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "एक व्यक्ति पश्चिम की ओर मुख करके खड़ा है। वह 90° clockwise, फिर 180° anticlockwise घूमता है। अब उसका मुख किस दिशा में है?",
+          "en": "A person faces west, turns 90° clockwise and then 180° anticlockwise. Which direction is faced now?",
+          "optionsHi": [
+            "उत्तर",
+            "दक्षिण",
+            "पूर्व",
+            "पश्चिम"
+          ],
+          "optionsEn": [
+            "North",
+            "South",
+            "East",
+            "West"
+          ],
+          "answer": 1,
+          "whyHi": "पश्चिम से 90° clockwise = उत्तर; फिर 180° anticlockwise = दक्षिण।",
+          "whyEn": "West turned 90° clockwise becomes north; another 180° anticlockwise gives south.",
+          "subject": "Reasoning Ability and Problem Solving",
+          "topic": "Direction",
+          "difficulty": "moderate",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "ssc-mts-009",
+            "sourceUrl": null,
+            "sourceTitle": "Original ExamSathi practice item; not a previous-year question",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "यदि A=1, B=2,..., Z=26 हो, तो CODE का योग कितना है?",
+          "en": "If A=1, B=2,..., Z=26, what is the sum for CODE?",
+          "optionsHi": [
+            "25",
+            "26",
+            "27",
+            "28"
+          ],
+          "optionsEn": [
+            "25",
+            "26",
+            "27",
+            "28"
+          ],
+          "answer": 2,
+          "whyHi": "C=3, O=15, D=4, E=5; योग=27।",
+          "whyEn": "C=3, O=15, D=4, E=5; total=27.",
+          "subject": "Reasoning Ability and Problem Solving",
+          "topic": "Alphabet coding",
+          "difficulty": "easy",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "ssc-mts-010",
+            "sourceUrl": null,
+            "sourceTitle": "Original ExamSathi practice item; not a previous-year question",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "पाँच व्यक्तियों की आयु क्रमशः 18, 21, 24, 27 और 30 वर्ष है। औसत आयु कितनी है?",
+          "en": "Five people are aged 18, 21, 24, 27 and 30 years. Find the average age.",
+          "optionsHi": [
+            "22",
+            "23",
+            "24",
+            "25"
+          ],
+          "optionsEn": [
+            "22",
+            "23",
+            "24",
+            "25"
+          ],
+          "answer": 2,
+          "whyHi": "योग=120; औसत=120/5=24 वर्ष।",
+          "whyEn": "Sum=120; average=120/5=24 years.",
+          "subject": "Reasoning Ability and Problem Solving",
+          "topic": "Average",
+          "difficulty": "easy",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "ssc-mts-011",
+            "sourceUrl": null,
+            "sourceTitle": "Original ExamSathi practice item; not a previous-year question",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "घड़ी में 3:30 बजे घंटे और मिनट की सुई के बीच छोटा कोण कितना है?",
+          "en": "At 3:30, what is the smaller angle between the hour and minute hands?",
+          "optionsHi": [
+            "60°",
+            "75°",
+            "90°",
+            "105°"
+          ],
+          "optionsEn": [
+            "60°",
+            "75°",
+            "90°",
+            "105°"
+          ],
+          "answer": 1,
+          "whyHi": "मिनट सुई 180° पर; घंटे की सुई 3.5×30=105° पर; अंतर=75°।",
+          "whyEn": "Minute hand is at 180°; hour hand at 3.5×30=105°; difference=75°.",
+          "subject": "Reasoning Ability and Problem Solving",
+          "topic": "Clock",
+          "difficulty": "hard",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "ssc-mts-012",
+            "sourceUrl": null,
+            "sourceTitle": "Original ExamSathi practice item; not a previous-year question",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "भारतीय संसद के कितने सदन हैं?",
+          "en": "How many Houses does the Parliament of India have?",
+          "optionsHi": [
+            "एक",
+            "दो",
+            "तीन",
+            "चार"
+          ],
+          "optionsEn": [
+            "One",
+            "Two",
+            "Three",
+            "Four"
+          ],
+          "answer": 1,
+          "whyHi": "भारतीय संसद राष्ट्रपति और दो सदनों—लोकसभा तथा राज्यसभा—से मिलकर बनती है।",
+          "whyEn": "The Indian Parliament consists of the President and two Houses: Lok Sabha and Rajya Sabha.",
+          "subject": "General Awareness",
+          "topic": "Polity",
+          "difficulty": "easy",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "ssc-mts-013",
+            "sourceUrl": null,
+            "sourceTitle": "Original ExamSathi practice item; not a previous-year question",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "भारत का सबसे बड़ा राज्य क्षेत्रफल के आधार पर कौन-सा है?",
+          "en": "Which is India's largest state by area?",
+          "optionsHi": [
+            "मध्य प्रदेश",
+            "महाराष्ट्र",
+            "राजस्थान",
+            "उत्तर प्रदेश"
+          ],
+          "optionsEn": [
+            "Madhya Pradesh",
+            "Maharashtra",
+            "Rajasthan",
+            "Uttar Pradesh"
+          ],
+          "answer": 2,
+          "whyHi": "राजस्थान क्षेत्रफल के आधार पर भारत का सबसे बड़ा राज्य है।",
+          "whyEn": "Rajasthan is India's largest state by area.",
+          "subject": "General Awareness",
+          "topic": "Geography",
+          "difficulty": "easy",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "ssc-mts-014",
+            "sourceUrl": null,
+            "sourceTitle": "Original ExamSathi practice item; not a previous-year question",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "मानव रक्त का सामान्य pH लगभग कितना होता है?",
+          "en": "What is the approximate normal pH of human blood?",
+          "optionsHi": [
+            "6.4",
+            "7.0",
+            "7.4",
+            "8.2"
+          ],
+          "optionsEn": [
+            "6.4",
+            "7.0",
+            "7.4",
+            "8.2"
+          ],
+          "answer": 2,
+          "whyHi": "रक्त का सामान्य pH लगभग 7.35–7.45 होता है, औसतन 7.4।",
+          "whyEn": "Normal blood pH is about 7.35–7.45, averaging around 7.4.",
+          "subject": "General Awareness",
+          "topic": "Science",
+          "difficulty": "moderate",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "ssc-mts-015",
+            "sourceUrl": null,
+            "sourceTitle": "Original ExamSathi practice item; not a previous-year question",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "भारतीय राष्ट्रीय कांग्रेस की स्थापना किस वर्ष हुई?",
+          "en": "In which year was the Indian National Congress founded?",
+          "optionsHi": [
+            "1885",
+            "1887",
+            "1905",
+            "1911"
+          ],
+          "optionsEn": [
+            "1885",
+            "1887",
+            "1905",
+            "1911"
+          ],
+          "answer": 0,
+          "whyHi": "भारतीय राष्ट्रीय कांग्रेस की स्थापना 1885 में हुई थी।",
+          "whyEn": "The Indian National Congress was founded in 1885.",
+          "subject": "General Awareness",
+          "topic": "History",
+          "difficulty": "easy",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "ssc-mts-016",
+            "sourceUrl": null,
+            "sourceTitle": "Original ExamSathi practice item; not a previous-year question",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "मौलिक कर्तव्य संविधान के किस भाग में हैं?",
+          "en": "Fundamental Duties are contained in which Part of the Constitution?",
+          "optionsHi": [
+            "भाग III",
+            "भाग IV",
+            "भाग IVA",
+            "भाग V"
+          ],
+          "optionsEn": [
+            "Part III",
+            "Part IV",
+            "Part IVA",
+            "Part V"
+          ],
+          "answer": 2,
+          "whyHi": "मौलिक कर्तव्य भाग IVA के अनुच्छेद 51A में हैं।",
+          "whyEn": "Fundamental Duties are in Part IVA, Article 51A.",
+          "subject": "General Awareness",
+          "topic": "Polity",
+          "difficulty": "moderate",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "ssc-mts-017",
+            "sourceUrl": null,
+            "sourceTitle": "Original ExamSathi practice item; not a previous-year question",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "भारत में हरित क्रांति का प्रमुख संबंध किस फसल के उत्पादन से रहा?",
+          "en": "The Green Revolution in India was primarily associated with increased production of which crop?",
+          "optionsHi": [
+            "कपास",
+            "गेहूँ",
+            "चाय",
+            "जूट"
+          ],
+          "optionsEn": [
+            "Cotton",
+            "Wheat",
+            "Tea",
+            "Jute"
+          ],
+          "answer": 1,
+          "whyHi": "भारत में हरित क्रांति का प्रारंभिक और प्रमुख प्रभाव गेहूँ उत्पादन पर पड़ा।",
+          "whyEn": "The initial and major impact of India's Green Revolution was on wheat production.",
+          "subject": "General Awareness",
+          "topic": "Economy agriculture",
+          "difficulty": "easy",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "ssc-mts-018",
+            "sourceUrl": null,
+            "sourceTitle": "Original ExamSathi practice item; not a previous-year question",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "ओजोन परत वायुमंडल की किस परत में मुख्यतः स्थित है?",
+          "en": "The ozone layer is mainly located in which atmospheric layer?",
+          "optionsHi": [
+            "क्षोभमंडल",
+            "समतापमंडल",
+            "मध्यमंडल",
+            "तापमंडल"
+          ],
+          "optionsEn": [
+            "Troposphere",
+            "Stratosphere",
+            "Mesosphere",
+            "Thermosphere"
+          ],
+          "answer": 1,
+          "whyHi": "ओजोन की अधिकतम सांद्रता समतापमंडल में पाई जाती है।",
+          "whyEn": "The highest concentration of ozone is found in the stratosphere.",
+          "subject": "General Awareness",
+          "topic": "Environment",
+          "difficulty": "moderate",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "ssc-mts-019",
+            "sourceUrl": null,
+            "sourceTitle": "Original ExamSathi practice item; not a previous-year question",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "Choose the correct passive voice: 'The clerk prepared the report.'",
+          "en": "Choose the correct passive voice: 'The clerk prepared the report.'",
+          "optionsHi": [
+            "The report is prepared by the clerk.",
+            "The report was prepared by the clerk.",
+            "The report has prepared by the clerk.",
+            "The report had been prepare by the clerk."
+          ],
+          "optionsEn": [
+            "The report is prepared by the clerk.",
+            "The report was prepared by the clerk.",
+            "The report has prepared by the clerk.",
+            "The report had been prepare by the clerk."
+          ],
+          "answer": 1,
+          "whyHi": "Simple past active का passive: object + was/were + past participle।",
+          "whyEn": "The simple past passive is object + was/were + past participle.",
+          "subject": "English Language and Comprehension",
+          "topic": "Voice",
+          "difficulty": "moderate",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "ssc-mts-020",
+            "sourceUrl": null,
+            "sourceTitle": "Original ExamSathi practice item; not a previous-year question",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "Select the antonym of 'Scarce'.",
+          "en": "Select the antonym of 'Scarce'.",
+          "optionsHi": [
+            "Rare",
+            "Limited",
+            "Abundant",
+            "Insufficient"
+          ],
+          "optionsEn": [
+            "Rare",
+            "Limited",
+            "Abundant",
+            "Insufficient"
+          ],
+          "answer": 2,
+          "whyHi": "Scarce का अर्थ कम उपलब्ध; इसका विलोम Abundant है।",
+          "whyEn": "Scarce means limited in availability; its antonym is abundant.",
+          "subject": "English Language and Comprehension",
+          "topic": "Vocabulary",
+          "difficulty": "easy",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "ssc-mts-021",
+            "sourceUrl": null,
+            "sourceTitle": "Original ExamSathi practice item; not a previous-year question",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "Fill in the blank: Hardly had the train left ______ it began to rain.",
+          "en": "Fill in the blank: Hardly had the train left ______ it began to rain.",
+          "optionsHi": [
+            "than",
+            "when",
+            "then",
+            "while"
+          ],
+          "optionsEn": [
+            "than",
+            "when",
+            "then",
+            "while"
+          ],
+          "answer": 1,
+          "whyHi": "Hardly के साथ correlative conjunction 'when' प्रयुक्त होता है।",
+          "whyEn": "The correlative conjunction used with 'hardly' is 'when'.",
+          "subject": "English Language and Comprehension",
+          "topic": "Grammar",
+          "difficulty": "hard",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "ssc-mts-022",
+            "sourceUrl": null,
+            "sourceTitle": "Original ExamSathi practice item; not a previous-year question",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "Choose the correctly spelt word.",
+          "en": "Choose the correctly spelt word.",
+          "optionsHi": [
+            "Accomodation",
+            "Acommodation",
+            "Accommodation",
+            "Accommadation"
+          ],
+          "optionsEn": [
+            "Accomodation",
+            "Acommodation",
+            "Accommodation",
+            "Accommadation"
+          ],
+          "answer": 2,
+          "whyHi": "सही वर्तनी Accommodation है—दो c और दो m।",
+          "whyEn": "The correct spelling is Accommodation—with two c's and two m's.",
+          "subject": "English Language and Comprehension",
+          "topic": "Spelling",
+          "difficulty": "easy",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "ssc-mts-023",
+            "sourceUrl": null,
+            "sourceTitle": "Original ExamSathi practice item; not a previous-year question",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "Identify the error: 'One of my friend live in Jaipur.'",
+          "en": "Identify the error: 'One of my friend live in Jaipur.'",
+          "optionsHi": [
+            "One of",
+            "my friend",
+            "live",
+            "in Jaipur"
+          ],
+          "optionsEn": [
+            "One of",
+            "my friend",
+            "live",
+            "in Jaipur"
+          ],
+          "answer": 1,
+          "whyHi": "'One of' के बाद plural noun चाहिए: 'my friends'; verb 'lives' होगा।",
+          "whyEn": "'One of' takes a plural noun ('my friends'); the verb should be 'lives'.",
+          "subject": "English Language and Comprehension",
+          "topic": "Error spotting",
+          "difficulty": "moderate",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "ssc-mts-024",
+            "sourceUrl": null,
+            "sourceTitle": "Original ExamSathi practice item; not a previous-year question",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        }
+      ]
+    }
+  ]
+}
