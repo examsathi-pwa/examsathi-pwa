@@ -140,6 +140,11 @@
     <div class="exam-logo-browser" id="examLogoBrowser">
       <label for="examLogoSearch">परीक्षा खोजें / Search exams</label>
       <input id="examLogoSearch" type="search" placeholder="परीक्षा का नाम लिखें..." autocomplete="off">
+      <div class="exam-logo-filter-row">
+        <label for="examLogoFilter">श्रेणी से छाँटें / Filter by category</label>
+        <select id="examLogoFilter"><option value="all">सभी परीक्षाएँ / All</option></select>
+        <span id="examLogoCount" class="muted" aria-live="polite"></span>
+      </div>
       <div id="examLogoList" class="exam-logo-list" role="listbox" aria-label="परीक्षा सूची"></div>
     </div>
 
