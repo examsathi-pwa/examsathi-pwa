@@ -67,7 +67,86 @@ $('prev').onclick=()=>{if(index>0){index--;drawQuestion()}};$('next').onclick=()
 function finish(auto=false){if(!current)return;stop();const t=current;const correct=t.questions.reduce((sum,q,i)=>sum+(answers[i]===q.answer?1:0),0);const wrong=t.questions.reduce((sum,q,i)=>sum+(answers[i]!==null&&answers[i]!==q.answer?1:0),0);const skipped=t.questions.length-correct-wrong;const pct=Math.round(correct/t.questions.length*100);const elapsed=Math.round((Date.now()-testStartedAt)/60000);const record={id:t.id,title:tr(t.hi,t.en),score:correct,total:t.questions.length,wrong,skipped,pct,date:new Date().toLocaleString(),timestamp:Date.now(),minutesUsed:elapsed,uid:loggedUser?.uid||'guest'};const history=safeRead('es_history',[]);history.unshift(record);safeWrite('es_history',history.slice(0,50));show('result');const res=$('result');res.replaceChildren();const h=document.createElement('h2');h.textContent=`${tr('आपका स्कोर','Your Score')}: ${correct}/${t.questions.length}`;res.append(h);const stats=document.createElement('div');stats.className='result-stats';[[tr('सही','Correct'),correct,'good'],[tr('गलत','Wrong'),wrong,'bad'],[tr('छोड़े','Skipped'),skipped,'neutral'],[tr('Accuracy','Accuracy'),`${pct}%`,'neutral']].forEach(([label,val,cl])=>{const d=document.createElement('div');d.className='stat '+cl;const strong=document.createElement('strong');strong.textContent=val;const span=document.createElement('span');span.textContent=label;d.append(strong,span);stats.append(d)});res.append(stats);const note=document.createElement('p');note.textContent=auto?tr('समय पूरा होने पर टेस्ट अपने आप जमा हो गया।','The test was auto-submitted when time ran out.'):tr('टेस्ट पूरा हुआ। गलत और छोड़े गए प्रश्नों के समाधान नीचे देखें।','Test completed. Review explanations for wrong and skipped questions below.');res.append(note);const graphTitle=document.createElement('h3');graphTitle.textContent=tr('इस टेस्ट का सारांश','Test summary');res.append(graphTitle);const chart=document.createElement('div');chart.className='mini-bars';[['सही / Correct',correct,'#12805c'],['गलत / Wrong',wrong,'#c33f49'],['छोड़े / Skipped',skipped,'#8794a8']].forEach(([label,val,color])=>{const row=document.createElement('div');row.className='bar-row';const l=document.createElement('span');l.textContent=label;const track=document.createElement('div');track.className='track';const fill=document.createElement('div');fill.className='track-fill';fill.style.width=`${val/t.questions.length*100}%`;fill.style.background=color;track.append(fill);const n=document.createElement('b');n.textContent=val;row.append(l,track,n);chart.append(row)});res.append(chart);const reviewTitle=document.createElement('h3');reviewTitle.textContent=tr('प्रश्नवार उत्तर और समाधान','Question-wise answers & explanations');res.append(reviewTitle);t.questions.forEach((q,i)=>{const box=document.createElement('div');box.className='review';const title=document.createElement('strong');title.textContent=`${i+1}. ${tr(q.hi,q.en)}`;const choice=document.createElement('p');choice.className=answers[i]===q.answer?'correct':'wrong';choice.textContent=`${tr('आपका उत्तर','Your answer')}: ${answers[i]===null?tr('छोड़ा गया','Skipped'):tr(q.optionsHi,q.optionsEn)[answers[i]]}`;const correctLine=document.createElement('p');correctLine.className='correct';correctLine.textContent=`${tr('सही उत्तर','Correct answer')}: ${tr(q.optionsHi,q.optionsEn)[q.answer]}`;const why=document.createElement('p');why.textContent=`${tr('समाधान','Explanation')}: ${tr(q.whyHi,q.whyEn)||tr('विस्तृत समाधान अभी उपलब्ध नहीं है।','Detailed explanation not provided yet.')}`;box.append(title,choice,correctLine,why);if(q.source){const src=document.createElement('p');src.className='muted';src.textContent=`Source: ${q.source}`;box.append(src)}res.append(box)});const back=document.createElement('button');back.textContent=tr('सभी टेस्ट देखें','Back to Tests');back.onclick=()=>{show('catalog');render()};res.append(back);current=null;renderHistory();res.scrollIntoView({behavior:'smooth'});}
 function renderHistory(){const div=$('history');div.replaceChildren();const rows=safeRead('es_history',[]);if(!rows.length){div.textContent=tr('अभी कोई परिणाम नहीं है।','No results yet.');return;}const recent=rows.slice(0,10);const chart=document.createElement('div');chart.className='history-chart';const title=document.createElement('h3');title.textContent=tr('पिछले टेस्टों का स्कोर ग्राफ','Score graph for recent tests');div.append(title);recent.slice().reverse().forEach((r,i)=>{const row=document.createElement('div');row.className='bar-row';const label=document.createElement('span');label.textContent=(r.title||'Test').slice(0,24);const track=document.createElement('div');track.className='track';const fill=document.createElement('div');fill.className='track-fill';fill.style.width=`${Math.max(0,Math.min(100,Number(r.pct??(r.score/r.total*100))))}%`;track.append(fill);const n=document.createElement('b');n.textContent=`${Math.round(Number(r.pct??(r.score/r.total*100)))}%`;row.append(label,track,n);chart.append(row)});div.append(chart);for(const r of rows){const p=document.createElement('p');p.textContent=`${r.title}: ${r.score}/${r.total} • ${r.pct??Math.round(r.score/r.total*100)}% • ${r.date}`;div.append(p)}}
 $('language').onclick=()=>{lang=lang==='hi'?'en':'hi';try{localStorage.setItem('es_lang',lang)}catch{};updateLang();if(current)drawQuestion()};$('login').onclick=()=>{stop();current=null;show('auth')};$('closeAuth').onclick=()=>show('catalog');$('logout').onclick=async()=>{if(auth)await auth.signOut()};
-async function initFirebase(){if(!firebaseConfig.apiKey){$('authMessage').textContent='Firebase not configured. Read README.md';return}try{const [{initializeApp},{getAuth,RecaptchaVerifier,signInWithPhoneNumber,onAuthStateChanged}]=await Promise.all([import('https://www.gstatic.com/firebasejs/10.14.1/firebase-app.js'),import('https://www.gstatic.com/firebasejs/10.14.1/firebase-auth.js')]);const app=initializeApp(firebaseConfig);auth=getAuth(app);onAuthStateChanged(auth,user=>{loggedUser=user;$('login').hidden=!!user;$('logout').hidden=!user;$('userStatus').textContent=user?`✓ ${user.phoneNumber}`:'';if(user)show('catalog')});$('sendOtp').onclick=async()=>{try{if(!window.esVerifier)window.esVerifier=new RecaptchaVerifier(auth,'recaptcha-container',{size:'normal'});confirmation=await signInWithPhoneNumber(auth,$('phone').value.trim(),window.esVerifier);$('authMessage').textContent='OTP sent. Enter the code.'}catch(e){$('authMessage').textContent=`OTP error: ${e.code||e.message}`}};$('verifyOtp').onclick=async()=>{try{if(!confirmation)throw Error('Send OTP first');await confirmation.confirm($('otp').value.trim());$('authMessage').textContent='Login successful'}catch(e){$('authMessage').textContent=`Verification error: ${e.code||e.message}`}}}catch(e){$('authMessage').textContent=`Firebase setup error: ${e.message}`}}
+function authErrorMessage(error){
+ const code=error?.code||'';
+ const messages={
+  'auth/invalid-email':'ईमेल पता सही नहीं है।',
+  'auth/missing-password':'पासवर्ड दर्ज करें।',
+  'auth/weak-password':'पासवर्ड कम से कम 6 अक्षरों का रखें।',
+  'auth/email-already-in-use':'इस ईमेल से अकाउंट पहले से बना है। लॉगिन करें।',
+  'auth/invalid-credential':'ईमेल या पासवर्ड गलत है।',
+  'auth/user-not-found':'इस ईमेल का अकाउंट नहीं मिला।',
+  'auth/wrong-password':'पासवर्ड गलत है।',
+  'auth/too-many-requests':'कई बार कोशिश हुई है। थोड़ी देर बाद प्रयास करें।',
+  'auth/operation-not-allowed':'Firebase Console में यह Login तरीका Enable करें।',
+  'auth/unauthorized-domain':'इस वेबसाइट का domain Firebase Authorized domains में जोड़ें।',
+  'auth/invalid-phone-number':'मोबाइल नंबर country code सहित लिखें, जैसे +919876543210।',
+  'auth/invalid-verification-code':'OTP गलत है। दोबारा जाँचें।',
+  'auth/code-expired':'OTP की समय-सीमा समाप्त हो गई। नया OTP भेजें।',
+  'auth/billing-not-enabled':'वास्तविक SMS OTP के लिए Firebase billing सेटअप आवश्यक हो सकता है।'
+ };
+ return messages[code]||('समस्या: '+(error?.message||code||'कृपया फिर कोशिश करें।'));
+}
+function setAuthMessage(message,isError=false){const el=$('authMessage');el.textContent=message;el.className=isError?'auth-error':'auth-success';}
+function setAuthMode(mode){
+ const email=mode==='email';
+ $('emailAuthPanel').hidden=!email;
+ $('phoneAuthPanel').hidden=email;
+ $('emailMode').classList.toggle('active',email);
+ $('phoneMode').classList.toggle('active',!email);
+ $('emailMode').setAttribute('aria-pressed',String(email));
+ $('phoneMode').setAttribute('aria-pressed',String(!email));
+ setAuthMessage('');
+}
+async function initFirebase(){
+ if(!firebaseConfig.apiKey||!firebaseConfig.authDomain||!firebaseConfig.projectId||!firebaseConfig.appId){setAuthMessage('Firebase Web Config अधूरी है। firebase-config.js जाँचें।',true);return}
+ try{
+  const [{initializeApp},{getAuth,RecaptchaVerifier,signInWithPhoneNumber,onAuthStateChanged,createUserWithEmailAndPassword,signInWithEmailAndPassword,sendPasswordResetEmail,signOut}]=await Promise.all([
+   import('https://www.gstatic.com/firebasejs/10.14.1/firebase-app.js'),
+   import('https://www.gstatic.com/firebasejs/10.14.1/firebase-auth.js')
+  ]);
+  const app=initializeApp(firebaseConfig);auth=getAuth(app);
+  onAuthStateChanged(auth,user=>{
+   loggedUser=user;
+   $('login').hidden=!!user;$('logout').hidden=!user;
+   $('userStatus').textContent=user?('✓ '+(user.email||user.phoneNumber||'Signed in')):'';
+   if(user){setAuthMessage('लॉगिन सफल। आपका ExamSathi अकाउंट सक्रिय है।');show('catalog')}
+  });
+  $('emailMode').onclick=()=>setAuthMode('email');
+  $('phoneMode').onclick=()=>setAuthMode('phone');
+  $('emailSignIn').onclick=async()=>{
+   const email=$('email').value.trim(),password=$('password').value;
+   try{if(!email||!password)throw new Error('ईमेल और पासवर्ड दोनों दर्ज करें।');await signInWithEmailAndPassword(auth,email,password);setAuthMessage('लॉगिन सफल।')}
+   catch(e){setAuthMessage(e.message?.startsWith('ईमेल')?e.message:authErrorMessage(e),true)}
+  };
+  $('emailSignUp').onclick=async()=>{
+   const email=$('email').value.trim(),password=$('password').value;
+   try{if(!email||!password)throw new Error('ईमेल और पासवर्ड दोनों दर्ज करें।');await createUserWithEmailAndPassword(auth,email,password);setAuthMessage('अकाउंट बन गया और लॉगिन सफल हुआ।')}
+   catch(e){setAuthMessage(e.message?.startsWith('ईमेल')?e.message:authErrorMessage(e),true)}
+  };
+  $('resetPassword').onclick=async()=>{
+   const email=$('email').value.trim();
+   try{if(!email)throw new Error('पहले अपना ईमेल दर्ज करें।');await sendPasswordResetEmail(auth,email);setAuthMessage('Password reset link आपके ईमेल पर भेज दिया गया है।')}
+   catch(e){setAuthMessage(e.message?.startsWith('पहले')?e.message:authErrorMessage(e),true)}
+  };
+  $('sendOtp').onclick=async()=>{
+   try{
+    const phone=$('phone').value.trim();
+    if(!/^\+[1-9]\d{7,14}$/.test(phone))throw new Error('मोबाइल नंबर country code सहित लिखें, जैसे +919876543210।');
+    if(window.esVerifier){try{window.esVerifier.clear()}catch{}}
+    window.esVerifier=new RecaptchaVerifier(auth,'recaptcha-container',{size:'normal'});
+    confirmation=await signInWithPhoneNumber(auth,phone,window.esVerifier);
+    setAuthMessage('OTP भेज दिया गया है। SMS में आया 6 अंकों का OTP दर्ज करें।');
+   }catch(e){setAuthMessage(e.message?.startsWith('मोबाइल')?e.message:authErrorMessage(e),true);if(window.esVerifier){try{window.esVerifier.clear()}catch{}window.esVerifier=null}}
+  };
+  $('verifyOtp').onclick=async()=>{
+   try{if(!confirmation)throw new Error('पहले OTP भेजें।');const code=$('otp').value.trim();if(!/^\d{6}$/.test(code))throw new Error('6 अंकों का OTP दर्ज करें।');await confirmation.confirm(code);confirmation=null;setAuthMessage('मोबाइल OTP सत्यापित। लॉगिन सफल।')}
+   catch(e){setAuthMessage(e.message==='पहले OTP भेजें。'||e.message==='पहले OTP भेजें。'?e.message:authErrorMessage(e),true)}
+  };
+  $('logout').onclick=async()=>{try{await signOut(auth);confirmation=null;if(window.esVerifier){try{window.esVerifier.clear()}catch{}window.esVerifier=null}setAuthMessage('आप लॉगआउट हो गए हैं।')}catch(e){setAuthMessage(authErrorMessage(e),true)}};
+  setAuthMode('email');
+ }catch(e){setAuthMessage('Firebase शुरू नहीं हो पाया: '+(e.message||'setup जाँचें'),true)}
+}
 function initExamCatalog(){const section=$('examSection'),state=$('stateSelect'),exam=$('examSelect');for(const name of Object.keys(stateExams)){state.add(new Option(name,name))}state.value='Uttar Pradesh';function fill(){cat='All';const group=section.value;$('stateLabel').hidden=group!=='state';const arr=group==='state'?(stateExams[state.value]||[]):group==='central'?centralExams:bankingExams;exam.replaceChildren();for(const name of arr)exam.add(new Option(name,name));if(group==='state'&&state.value==='Uttar Pradesh')exam.value='UP TGT';if(group==='central')exam.value='SSC CGL';if(group==='banking')exam.value='IBPS PO';render()}section.onchange=()=>{ $('subjectSelect').value='All'; $('yearSelect').value='All'; fill();refreshSelectedQuestionBank() };state.onchange=()=>{ $('subjectSelect').value='All'; $('yearSelect').value='All'; fill();refreshSelectedQuestionBank() };exam.onchange=()=>{cat='All';$('subjectSelect').value='All';$('yearSelect').value='All';refreshSelectedQuestionBank();render()};$('subjectSelect').onchange=()=>{if($('yearSelect').value!=='All'&&!allQuestions().some(q=>q.subject===$('subjectSelect').value&&String(q.year)===$('yearSelect').value))$('yearSelect').value='All';render()};$('yearSelect').onchange=render;$('questionCount').onchange=render;$('timeMinutes').onchange=render;fill();refreshSelectedQuestionBank()}
 document.querySelectorAll('[data-exam]').forEach(button=>button.addEventListener('click',()=>{const section=$('examSection');section.value=button.dataset.section;section.dispatchEvent(new Event('change'));const target=button.dataset.exam;const option=[...$('examSelect').options].find(o=>o.value===target)||[...$('examSelect').options].find(o=>o.textContent.toLowerCase().includes(target.toLowerCase().split(' ')[0]));if(option){$('examSelect').value=option.value;$('examSelect').dispatchEvent(new Event('change'));} $('chooseExam').scrollIntoView({behavior:'smooth'});}));
 $('testSearch').addEventListener('input',render);$('searchBtn').addEventListener('click',()=>{$('catalog').scrollIntoView({behavior:'smooth'});render()});
