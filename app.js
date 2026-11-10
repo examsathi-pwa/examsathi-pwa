@@ -67,7 +67,7 @@ function render(){
  const lengths=$('setLengthOptions');lengths.replaceChildren();
  for(const n of [10,50,100]){const btn=document.createElement('button');btn.type='button';btn.className='length-choice'+(selectedLength===n?' active':'');btn.textContent=tr(`${n} प्रश्न`,`${n} Questions`);btn.setAttribute('aria-pressed',String(selectedLength===n));btn.onclick=()=>{selectedLength=n;$('questionCount').value=String(n);render()};lengths.append(btn)}
  $('questionCount').value=String(selectedLength);
- const wrap=$('tests');wrap.replaceChildren(),query=($('testSearch')?.value||'').trim().toLocaleLowerCase();
+ const wrap=$('tests');wrap.replaceChildren();const query=($('testSearch')?.value||'').trim().toLocaleLowerCase();
  const filtered=bankTests.filter(t=>!query||[t.hi,t.en,t.category].some(v=>String(v||'').toLocaleLowerCase().includes(query)));
  for(let i=0;i<20;i++){const t=filtered[i]||null,card=document.createElement('article');card.className='card set-card';const title=document.createElement('h3');title.textContent=tr(`सेट ${String(i+1).padStart(2,'0')}`,`Set ${String(i+1).padStart(2,'0')}`);const info=document.createElement('p');info.className='muted';
  const bank=t?t.questions.map(q=>({...q,category:t.category,subject:q.subject||t.subject||defaultSubject(t.category),year:q.year||t.year||null})).filter(q=>($('subjectSelect').value==='All'||q.subject===$('subjectSelect').value)&&($('yearSelect').value==='All'||String(q.year)===$('yearSelect').value)):[];
