@@ -7,7 +7,7 @@ export function bankFileForExam(examName){
   return `./question-banks/${slug}.json`;
 }
 async function fetchBank(path){
-  const localUrl=`${path}${path.includes('?')?'&':'?'}v=20261110`;
+  const localUrl=`${path}${path.includes('?')?'&':'?'}v=20261111`;
   let localError;
   try{
     const response=await fetch(localUrl,{cache:'no-store'});
@@ -16,7 +16,7 @@ async function fetchBank(path){
   }catch(error){localError=error}
   const relative=path.replace(/^\.\//,'');
   if(!relative.startsWith('question-banks/')||relative.includes('..'))throw localError;
-  const fallbackUrl=`https://raw.githubusercontent.com/examsathi-pwa/examsathi-pwa/main/${relative}?v=20261110`;
+  const fallbackUrl=`https://raw.githubusercontent.com/examsathi-pwa/examsathi-pwa/main/${relative}?v=20261111`;
   const fallback=await fetch(fallbackUrl,{cache:'no-store'});
   if(!fallback.ok)throw new Error(`Question bank unavailable locally and on GitHub (HTTP ${fallback.status})`);
   return {response:fallback,source:'github-raw'};
