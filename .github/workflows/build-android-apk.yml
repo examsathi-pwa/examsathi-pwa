@@ -1,0 +1,79 @@
+name: Build ExamSathi Android APK
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'index.html'
+      - '*.js'
+      - '*.css'
+      - '*.json'
+      - '*.webmanifest'
+      - '*.svg'
+      - '.github/workflows/build-android-apk.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  build-apk:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout source
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Set up Java
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '21'
+
+      - name: Prepare web assets
+        run: |
+          mkdir -p www
+          find . -maxdepth 1 -type f ! -name 'README.md' ! -name '*.md' ! -name '*.yml' ! -name '*.yaml' ! -name 'package-lock.json' -exec cp {} www/ \;
+          for dir in assets images icons; do
+            if [ -d "$dir" ]; then cp -R "$dir" www/; fi
+          done
+          cat > package.json <<'EOF'
+          {
+            "name": "examsathi-android",
+            "version": "1.0.0",
+            "private": true,
+            "scripts": { "build": "echo Web assets prepared" }
+          }
+          EOF
+          cat > capacitor.config.json <<'EOF'
+          {
+            "appId": "com.examsathi.app",
+            "appName": "ExamSathi",
+            "webDir": "www",
+            "server": { "androidScheme": "https" }
+          }
+          EOF
+
+      - name: Install Capacitor and create Android project
+        run: |
+          npm install @capacitor/core@^7 @capacitor/cli@^7 @capacitor/android@^7
+          npx cap add android
+          npx cap sync android
+
+      - name: Build installable debug APK
+        run: |
+          cd android
+          chmod +x gradlew
+          ./gradlew assembleDebug
+
+      - name: Upload APK
+        uses: actions/upload-artifact@v4
+        with:
+          name: ExamSathi-Android-APK
+          path: android/app/build/outputs/apk/debug/app-debug.apk
+          if-no-files-found: error
+          retention-days: 30
