@@ -4,6 +4,7 @@ import {entranceExams} from './entrance-exam-catalog.js';
 const $=id=>document.getElementById(id);
 const section=$('examSection'),state=$('stateSelect'),exam=$('examSelect'),stateLabel=$('stateLabel');
 if(section&&state&&exam&&stateLabel){
+  section.value='central';
   for(const name of Object.keys(stateExams)) state.add(new Option(name,name));
   state.value=stateExams['Uttar Pradesh']?'Uttar Pradesh':Object.keys(stateExams)[0];
   const fillExams=()=>{
