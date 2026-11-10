@@ -76,7 +76,21 @@ function render(){
    wrap.append(empty);
  }
  const query=($('testSearch')?.value||'').trim().toLocaleLowerCase();
- const filtered=bankTests.filter(t=>!query||[t.hi,t.en,t.category].some(v=>String(v||'').toLocaleLowerCase().includes(query)));
+ // A 100-question mock combines two consecutive sets from this exam.
+ // Existing questions are reused as-is; no new or duplicate questions are generated.
+ let displayTests=bankTests;
+ if(selectedLength===100){
+   displayTests=[];
+   for(let i=0;i<bankTests.length;){
+     const first=bankTests[i],second=bankTests[i+1];
+     if(first.questions.length>=100){displayTests.push(first);i++}
+     else if(second){
+       displayTests.push({...first,id:`${first.id}-plus-${second.id}`,hi:`${first.hi} + ${second.hi}`,en:`${first.en} + ${second.en}`,questions:[...first.questions,...second.questions]});
+       i+=2;
+     }else{displayTests.push(first);i++}
+   }
+ }
+ const filtered=displayTests.filter(t=>!query||[t.hi,t.en,t.category].some(v=>String(v||'').toLocaleLowerCase().includes(query)));
  for(let i=0;i<20;i++){const t=filtered[i]||null,card=document.createElement('article');card.className='card set-card';const title=document.createElement('h3');title.textContent=tr(`सेट ${String(i+1).padStart(2,'0')}`,`Set ${String(i+1).padStart(2,'0')}`);const info=document.createElement('p');info.className='muted';
  const bank=t?t.questions.map(q=>({...q,category:t.category,subject:q.subject||t.subject||defaultSubject(t.category),year:q.year||t.year||null})).filter(q=>($('subjectSelect').value==='All'||q.subject===$('subjectSelect').value)&&($('yearSelect').value==='All'||String(q.year)===$('yearSelect').value)):[];
  info.textContent=t?tr(`${selectedLength} प्रश्न चुने जाएंगे • ${bank.length} उपलब्ध`,`${selectedLength} questions selected • ${bank.length} available`):tr('इस सेट का प्रश्न बैंक अभी उपलब्ध नहीं है।','Question bank for this set is not available yet.');
