@@ -44,8 +44,8 @@ async function refreshSelectedQuestionBank(){
    loadedBankExam=ex;
    loadedBankTests=bank.tests.map((t,i)=>({...t,id:t.id||`${file}-${i+1}`,category,paid:false,minutes:t.minutes||Math.max(1,t.questions.length),sourceKind:t.sourceKind||'practice'}));
    $('catalogNote').textContent=tr(`${ex}: ${bank.questionCount} प्रश्न लोड हुए। स्रोत: ${bank.sourceLabel||'प्रश्न बैंक'}।`,`${ex}: ${bank.questionCount} questions loaded. Source: ${bank.sourceLabel||'question bank'}.`);
- }catch{
-   $('catalogNote').textContent=tr(`${ex} के लिए अलग प्रश्न बैंक अभी नहीं जोड़ा गया है। नीचे केवल उसी श्रेणी के उपलब्ध अभ्यास प्रश्न दिखेंगे।`,`No dedicated question bank is published for ${ex} yet. Only available practice questions in the matching category are shown below.`);
+ }catch(error){
+   $('catalogNote').textContent=tr(`${ex} का प्रश्न बैंक लोड नहीं हुआ। कारण: ${error?.message||'नेटवर्क समस्या'}। पेज रीफ्रेश करके पुनः प्रयास करें।`,`Could not load the ${ex} question bank: ${error?.message||'network error'}. Refresh and retry.`);
  }
  render();
 }
