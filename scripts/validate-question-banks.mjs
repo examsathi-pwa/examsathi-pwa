@@ -37,23 +37,28 @@ for (const file of files) {
       total++;
       bankCount++;
       const at = `${where}.questions[${qi}]`;
-      const prompt = String(q.hi || q.en || '').trim();
-      const optionsHi = Array.isArray(q.optionsHi) ? q.optionsHi : [];
-      const optionsEn = Array.isArray(q.optionsEn) ? q.optionsEn : [];
+      const prompt = String(q?.hi || q?.en || '').trim();
+      const optionsHi = Array.isArray(q?.optionsHi) ? q.optionsHi : [];
+      const optionsEn = Array.isArray(q?.optionsEn) ? q.optionsEn : [];
       const options = optionsHi.length ? optionsHi : optionsEn;
-      if (!q.hi && !q.en) fail(file, at, 'Hindi or English question text required');
+      if (!q?.hi && !q?.en) fail(file, at, 'Hindi or English question text required');
       if (options.length !== 4) fail(file, at, 'exactly four answer options required');
-      if (!Number.isInteger(q.answer) || q.answer < 0 || q.answer >= options.length) fail(file, at, 'answer must be a valid zero-based option index');
-      if (!q.whyHi && !q.whyEn) fail(file, at, 'Hindi or English explanation required');
-      if (!q.subject || !q.topic) fail(file, at, 'subject and topic required');
-      if (!q.provenance?.kind || !q.provenance?.questionId) fail(file, at, 'provenance.kind and provenance.questionId required');
-      if (q.provenance?.answerKeyStatus !== 'verified') {
-        console.warn(`REVIEW ${file} ${at}: answerKeyStatus is ${q.provenance?.answerKeyStatus || 'unset'}`);
+      for (const [language, choices] of [['optionsHi', optionsHi], ['optionsEn', optionsEn]]) {
+        if (choices.length && (choices.length !== 4 || choices.some((choice) => typeof choice !== 'string' || !choice.trim()))) {
+          fail(file, at, `${language} must contain four non-empty strings`);
+        }
       }
-      const id = q.provenance?.questionId;
+      if (!Number.isInteger(q?.answer) || q.answer < 0 || q.answer >= options.length) fail(file, at, 'answer must be a valid zero-based option index');
+      if (!q?.whyHi && !q?.whyEn) fail(file, at, 'Hindi or English explanation required');
+      if (!q?.subject || !q?.topic) fail(file, at, 'subject and topic required');
+      if (!q?.provenance?.kind || !q?.provenance?.questionId) fail(file, at, 'provenance.kind and provenance.questionId required');
+      if (q?.provenance?.answerKeyStatus !== 'verified') {
+        console.warn(`REVIEW ${file} ${at}: answerKeyStatus is ${q?.provenance?.answerKeyStatus || 'unset'}`);
+      }
+      const id = q?.provenance?.questionId;
       if (id && seenIds.has(id)) fail(file, at, `duplicate questionId: ${id}`);
       if (id) seenIds.add(id);
-      const key = prompt.toLocaleLowerCase().replace(/\s+/g, ' ').trim();
+      const key = prompt.toLocaleLowerCase().replace(/\\s+/g, ' ').trim();
       if (key && seenPrompts.has(key)) fail(file, at, `duplicate prompt also in ${seenPrompts.get(key)}`);
       if (key) seenPrompts.set(key, `${file} ${at}`);
     }
