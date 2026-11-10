@@ -432,6 +432,37 @@
           }
         },
         {
+          "hi": "Choose the correct indirect speech: He said, 'I am preparing for the examination.'",
+          "en": "Choose the correct indirect speech: He said, 'I am preparing for the examination.'",
+          "optionsHi": [
+            "He said that I am preparing for the examination.",
+            "He said that he was preparing for the examination.",
+            "He says that he had prepared for the examination.",
+            "He told that he is preparing for the examination."
+          ],
+          "optionsEn": [
+            "He said that I am preparing for the examination.",
+            "He said that he was preparing for the examination.",
+            "He says that he had prepared for the examination.",
+            "He told that he is preparing for the examination."
+          ],
+          "answer": 1,
+          "whyHi": "Reported speech में pronoun I→he और present continuous→past continuous होता है।",
+          "whyEn": "In reported speech, I changes to he and present continuous changes to past continuous.",
+          "subject": "English Language",
+          "topic": "Narration",
+          "difficulty": "moderate",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "ssc-chsl-035",
+            "sourceUrl": null,
+            "sourceTitle": "Original ExamSathi practice item; not a previous-year question",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
           "hi": "कथन: सभी पेन स्टेशनरी हैं। कुछ स्टेशनरी महँगी हैं। निष्कर्ष: (I) कुछ पेन महँगे हैं। (II) सभी पेन स्टेशनरी हैं।",
           "en": "Statements: All pens are stationery. Some stationery items are expensive. Conclusions: (I) Some pens are expensive. (II) All pens are stationery.",
           "optionsHi": [
@@ -518,6 +549,37 @@
           "provenance": {
             "kind": "authored_practice",
             "questionId": "ssc-chsl-024",
+            "sourceUrl": null,
+            "sourceTitle": "Original ExamSathi practice item; not a previous-year question",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "Select the correctly punctuated sentence.",
+          "en": "Select the correctly punctuated sentence.",
+          "optionsHi": [
+            "However I disagree with the proposal.",
+            "However, I disagree with the proposal.",
+            "However I, disagree with the proposal.",
+            "However; I disagree, with the proposal."
+          ],
+          "optionsEn": [
+            "However I disagree with the proposal.",
+            "However, I disagree with the proposal.",
+            "However I, disagree with the proposal.",
+            "However; I disagree, with the proposal."
+          ],
+          "answer": 1,
+          "whyHi": "वाक्य के आरंभ में conjunctive adverb 'However' के बाद comma लगाया जाता है।",
+          "whyEn": "A comma follows the introductory conjunctive adverb 'However'.",
+          "subject": "English Language",
+          "topic": "Punctuation",
+          "difficulty": "easy",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "ssc-chsl-037",
             "sourceUrl": null,
             "sourceTitle": "Original ExamSathi practice item; not a previous-year question",
             "answerKeyStatus": "reviewed",
@@ -618,6 +680,37 @@
           }
         },
         {
+          "hi": "Choose the appropriate preposition: The officer is senior ______ me.",
+          "en": "Choose the appropriate preposition: The officer is senior ______ me.",
+          "optionsHi": [
+            "than",
+            "to",
+            "from",
+            "with"
+          ],
+          "optionsEn": [
+            "than",
+            "to",
+            "from",
+            "with"
+          ],
+          "answer": 1,
+          "whyHi": "Senior के साथ preposition 'to' प्रयुक्त होता है, 'than' नहीं।",
+          "whyEn": "The adjective 'senior' takes the preposition 'to', not 'than'.",
+          "subject": "English Language",
+          "topic": "Prepositions",
+          "difficulty": "moderate",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "ssc-chsl-039",
+            "sourceUrl": null,
+            "sourceTitle": "Original ExamSathi practice item; not a previous-year question",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
           "hi": "छह व्यक्ति एक पंक्ति में बैठे हैं। P, Q के बाएँ है; R, Q के दाएँ है; S, P के बाएँ है। इनमें सबसे बाएँ कौन निश्चित है?",
           "en": "Six people sit in a row. P is left of Q; R is right of Q; S is left of P. Who is certainly the leftmost among these four?",
           "optionsHi": [
@@ -711,6 +804,68 @@
           "subject": "General Awareness"
         },
         {
+          "hi": "Select the word closest in meaning to 'Obsolete'.",
+          "en": "Select the word closest in meaning to 'Obsolete'.",
+          "optionsHi": [
+            "Current",
+            "Outdated",
+            "Useful",
+            "Frequent"
+          ],
+          "optionsEn": [
+            "Current",
+            "Outdated",
+            "Useful",
+            "Frequent"
+          ],
+          "answer": 1,
+          "whyHi": "Obsolete का अर्थ अप्रचलित या पुराना हो चुका है।",
+          "whyEn": "Obsolete means no longer in use or outdated.",
+          "subject": "English Language",
+          "topic": "Vocabulary",
+          "difficulty": "moderate",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "ssc-chsl-041",
+            "sourceUrl": null,
+            "sourceTitle": "Original ExamSathi practice item; not a previous-year question",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "यदि 'MANGO' को 'OCPIQ' लिखा जाए, तो प्रत्येक अक्षर में कितने स्थान की वृद्धि हुई?",
+          "en": "If 'MANGO' is coded as 'OCPIQ', by how many positions is each letter shifted?",
+          "optionsHi": [
+            "1",
+            "2",
+            "3",
+            "4"
+          ],
+          "optionsEn": [
+            "1",
+            "2",
+            "3",
+            "4"
+          ],
+          "answer": 1,
+          "whyHi": "M→O, A→C, N→P, G→I, O→Q; प्रत्येक अक्षर 2 स्थान आगे है।",
+          "whyEn": "M→O, A→C, N→P, G→I and O→Q; each letter moves forward by 2.",
+          "subject": "General Intelligence",
+          "topic": "Coding decoding",
+          "difficulty": "easy",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "ssc-chsl-027",
+            "sourceUrl": null,
+            "sourceTitle": "Original ExamSathi practice item; not a previous-year question",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
           "hi": "Identify the part containing an error: 'Each of the applicants / have received / an acknowledgement / from the office.'",
           "en": "Identify the part containing an error: 'Each of the applicants / have received / an acknowledgement / from the office.'",
           "optionsHi": [
@@ -742,6 +897,37 @@
           }
         },
         {
+          "hi": "भारत में वित्त आयोग का गठन संविधान के किस अनुच्छेद के अंतर्गत होता है?",
+          "en": "Under which Article of the Constitution is the Finance Commission of India constituted?",
+          "optionsHi": [
+            "अनुच्छेद 263",
+            "अनुच्छेद 280",
+            "अनुच्छेद 324",
+            "अनुच्छेद 356"
+          ],
+          "optionsEn": [
+            "Article 263",
+            "Article 280",
+            "Article 324",
+            "Article 356"
+          ],
+          "answer": 1,
+          "whyHi": "अनुच्छेद 280 राष्ट्रपति को प्रत्येक पाँच वर्ष या उससे पहले वित्त आयोग गठित करने का प्रावधान देता है।",
+          "whyEn": "Article 280 provides for the President to constitute a Finance Commission every five years or earlier.",
+          "subject": "General Awareness",
+          "topic": "Indian polity",
+          "difficulty": "moderate",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "ssc-chsl-043",
+            "sourceUrl": null,
+            "sourceTitle": "Original ExamSathi practice item; not a previous-year question",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
           "hi": "यदि किसी वस्तु को 20% लाभ पर ₹1,440 में बेचा गया, तो क्रय मूल्य क्या था?",
           "en": "An article is sold for ₹1,440 at a profit of 20%. Find its cost price.",
           "optionsHi": [
@@ -766,6 +952,37 @@
           "provenance": {
             "kind": "authored_practice",
             "questionId": "ssc-chsl-017",
+            "sourceUrl": null,
+            "sourceTitle": "Original ExamSathi practice item; not a previous-year question",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "विद्युत प्रतिरोध की SI इकाई क्या है?",
+          "en": "What is the SI unit of electrical resistance?",
+          "optionsHi": [
+            "वोल्ट",
+            "एम्पियर",
+            "ओम",
+            "वाट"
+          ],
+          "optionsEn": [
+            "Volt",
+            "Ampere",
+            "Ohm",
+            "Watt"
+          ],
+          "answer": 2,
+          "whyHi": "विद्युत प्रतिरोध की SI इकाई ओम (Ω) है।",
+          "whyEn": "The SI unit of electrical resistance is the ohm (Ω).",
+          "subject": "General Awareness",
+          "topic": "Physics",
+          "difficulty": "easy",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "ssc-chsl-045",
             "sourceUrl": null,
             "sourceTitle": "Original ExamSathi practice item; not a previous-year question",
             "answerKeyStatus": "reviewed",
