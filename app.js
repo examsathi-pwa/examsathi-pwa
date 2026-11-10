@@ -106,7 +106,9 @@ function render(){
  // than 2,000 unique questions. Other exams retain the original pair-merge rule.
  let displayTests=bankTests;
  if(selectedLength===100){
-   if($('examSelect').value==='SSC CGL'){
+   const selectedExamText=String($('examSelect').value||'')+' '+String($('examSelect').selectedOptions?.[0]?.textContent||'');
+   const isSscCgl=/ssc[\\s_-]*cgl/i.test(selectedExamText);
+   if(isSscCgl){
      displayTests=buildSscCgl100Sets(loadedBankExam===$('examSelect').value?loadedBankTests:bankTests);
    }else{
      displayTests=[];
