@@ -63,3 +63,10 @@
 .exam-logo-name{font-weight:800;font-size:13px;overflow-wrap:anywhere}
 .exam-logo-source{font-size:9px;color:var(--muted);line-height:1.25}
 @media(max-width:600px){.exam-logo-list{grid-template-columns:1fr;max-height:300px}.exam-logo-option{grid-template-columns:40px minmax(0,1fr)}}
+
+/* Always-visible logo fallback, with the authority website favicon layered above it */
+.exam-logo-option{position:relative}
+.exam-logo-box{grid-row:1 / span 2;position:relative;display:block;width:40px;height:40px}
+.exam-logo-mark{display:grid;place-items:center;width:40px;height:40px;border-radius:10px;background:linear-gradient(145deg,#173d85,#3976d8);color:#fff;font-weight:900;font-size:11px;letter-spacing:.2px;box-shadow:inset 0 0 0 1px #ffffff55}
+.exam-logo-image{position:absolute;inset:1px;width:38px;height:38px;object-fit:contain;border-radius:9px;background:#fff;padding:3px;box-sizing:border-box}
+.exam-logo-image[hidden]{display:none}
