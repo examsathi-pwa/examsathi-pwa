@@ -65,3 +65,12 @@ Edit `data.js`. Add categories and tests with bilingual fields. Keep each `answe
 - Important: the supplied question bank currently contains only a few sample questions. A 10/50/100-question test is enabled only when that many unique questions match the selected exam/subject/year. The demo option tests the questions currently present.
 - Year-wise previous papers are supported by the metadata fields but have **not** been populated with a complete verified archive. Add each real paper's questions, year, shift/paper label, official source, answer key, and explanations to `data.js` before presenting it as an actual previous-year paper.
 - `firebase-config.js` is still unconfigured; phone OTP will not work until configured. Payments remain disabled.
+
+
+## Firebase Authentication: Email + Phone OTP
+- The web app config is stored in `firebase-config.js`. Firebase Web API keys are public client identifiers; never add service-account private keys or admin credentials.
+- Enable **Email/Password** and **Phone** providers in Firebase Console > Authentication > Sign-in method.
+- Add the deployed site hostname (for GitHub Pages, e.g. `examsathi-pwa.github.io`) under Authentication > Settings > Authorized domains.
+- For Phone authentication, configure the SMS region policy to allow India, and test first with Firebase fictional test numbers. Real SMS can require a linked billing account and incur charges; do not enable billing unless you accept the cost.
+- Email login supports sign-in, account creation and password-reset email. Passwords are sent only to Firebase Auth over HTTPS and are not stored by this app.
+- This change adds client-side authentication only. Exam history is still stored locally on the device; secure cloud sync, admin roles, leaderboards and paid entitlements are not implemented.
