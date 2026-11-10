@@ -44,9 +44,10 @@ async function refreshSelectedQuestionBank(){
    loadedBankExam=ex;
    loadedBankTests=bank.tests.map((t,i)=>({...t,id:t.id||`${file}-${i+1}`,category,paid:false,minutes:t.minutes||Math.max(1,t.questions.length),sourceKind:t.sourceKind||'practice'}));
    const uniqueCount=uniqueQuestionPool(loadedBankTests).length;
-   $('catalogNote').textContent=ex==='SSC CGL'
-     ?tr(`${ex}: ${uniqueCount} अलग-अलग प्रश्न उपलब्ध हैं (कुल ${bank.questionCount} रिकॉर्ड)। 100 प्रश्नों के 20 अभ्यास सेट तैयार हैं; अलग-अलग सेटों में प्रश्न दोहर सकते हैं।`,`${ex}: ${uniqueCount} unique questions available (${bank.questionCount} total records). 20 practice sets of 100 are ready; questions may repeat across different sets.`)
-     :tr(`${ex}: ${bank.questionCount} प्रश्न लोड हुए। स्रोत: ${bank.sourceLabel||'प्रश्न बैंक'}।`,`${ex}: ${bank.questionCount} questions loaded. Source: ${bank.sourceLabel||'question bank'}.`);
+   $('catalogNote').textContent=tr(
+     `${ex}: ${uniqueCount} अलग-अलग प्रश्न उपलब्ध हैं। 10/50/100 प्रश्नों के 20 सेट पर्याप्त प्रश्न होने पर सक्रिय होंगे। एक सेट के भीतर प्रश्न नहीं दोहरेंगे; अलग-अलग सेटों में सीमित दोहराव हो सकता है। स्रोत: ${bank.sourceLabel||'प्रश्न बैंक'}।`,
+     `${ex}: ${uniqueCount} unique questions available. Twenty 10/50/100-question sets unlock when enough distinct questions exist. No repeats within a set; limited overlap across sets may occur. Source: ${bank.sourceLabel||'question bank'}.`
+   );
  }catch(error){
    $('catalogNote').textContent=tr(`${ex} का प्रश्न बैंक लोड नहीं हुआ। कारण: ${error?.message||'नेटवर्क समस्या'}। पेज रीफ्रेश करके पुनः प्रयास करें।`,`Could not load the ${ex} question bank: ${error?.message||'network error'}. Refresh and retry.`);
  }
