@@ -6,7 +6,7 @@ import {loadQuestionBank, bankFileForExam} from './question-bank.js';
 const $=id=>document.getElementById(id);
 window.addEventListener('error',e=>{const box=document.getElementById('catalog');if(box&&!document.getElementById('appError')){const p=document.createElement('p');p.id='appError';p.className='exam-empty';p.textContent='App error: '+(e.message||'JavaScript error')+' — page refresh करें।';box.prepend(p)}});
 window.addEventListener('unhandledrejection',e=>{const box=document.getElementById('catalog');if(box&&!document.getElementById('appError')){const p=document.createElement('p');p.id='appError';p.className='exam-empty';p.textContent='App error: '+String(e.reason?.message||e.reason||'Request failed');box.prepend(p)}});
-let lang=(()=>{try{return localStorage.getItem('es_lang')||'hi'}catch{return 'hi'}})(),cat='All',current=null,index=0,answers=[],seconds=0,timer=null,auth=null,confirmation=null,loggedUser=null,marked=new Set(),testStartedAt=0,loadedBankExam='',loadedBankTests=[],selectedLength=100;
+let lang=(()=>{try{return localStorage.getItem('es_lang')||'hi'}catch{return 'hi'}})(),cat='All',current=null,index=0,answers=[],seconds=0,timer=null,auth=null,confirmation=null,loggedUser=null,marked=new Set(),testStartedAt=0,loadedBankExam='',loadedBankTests=[],selectedLength=10;
 const tr=(hi,en)=>lang==='hi'?hi:en;
 const safeRead=(key,fallback)=>{try{const v=JSON.parse(localStorage.getItem(key)||'null');return Array.isArray(v)?v:fallback}catch{return fallback}};
 const safeWrite=(key,value)=>{try{localStorage.setItem(key,JSON.stringify(value));return true}catch{return false}};
@@ -26,7 +26,7 @@ function getExamTests(){
  const ex=$('examSelect').value,section=$('examSection').value,category=categoryForExam(ex,section);
  // Dedicated exam bank always takes precedence. Never mix another exam's questions into this bank.
  const dedicated=loadedBankExam===ex?loadedBankTests:[];
- // Never mix a different exam's generic demo bank into the selected exam.
+ // The selected exam's own bank is the only permitted source.
  return dedicated.filter(t=>cat==='All'||t.category===cat).slice(0,20);
 }
 async function refreshSelectedQuestionBank(){
@@ -67,7 +67,15 @@ function render(){
  const lengths=$('setLengthOptions');lengths.replaceChildren();
  for(const n of [10,50,100]){const btn=document.createElement('button');btn.type='button';btn.className='length-choice'+(selectedLength===n?' active':'');btn.textContent=tr(`${n} प्रश्न`,`${n} Questions`);btn.setAttribute('aria-pressed',String(selectedLength===n));btn.onclick=()=>{selectedLength=n;$('questionCount').value=String(n);render()};lengths.append(btn)}
  $('questionCount').value=String(selectedLength);
- const wrap=$('tests');wrap.replaceChildren();const query=($('testSearch')?.value||'').trim().toLocaleLowerCase();
+ const wrap=$('tests');wrap.replaceChildren();
+ if(!bankTests.length){
+   const empty=document.createElement('div');empty.className='exam-empty';
+   empty.textContent=loadedBankExam===$('examSelect').value
+     ?tr('इस परीक्षा का प्रकाशित प्रश्न बैंक खाली है। अभी इस परीक्षा का मॉक टेस्ट उपलब्ध नहीं है।','The published question bank for this exam is empty. No mock test is available yet.')
+     :tr('इस परीक्षा का प्रश्न बैंक लोड नहीं हुआ। परीक्षा बदलकर देखें या थोड़ी देर बाद पुनः प्रयास करें।','This exam question bank did not load. Try another exam or retry shortly.');
+   wrap.append(empty);
+ }
+ const query=($('testSearch')?.value||'').trim().toLocaleLowerCase();
  const filtered=bankTests.filter(t=>!query||[t.hi,t.en,t.category].some(v=>String(v||'').toLocaleLowerCase().includes(query)));
  for(let i=0;i<20;i++){const t=filtered[i]||null,card=document.createElement('article');card.className='card set-card';const title=document.createElement('h3');title.textContent=tr(`सेट ${String(i+1).padStart(2,'0')}`,`Set ${String(i+1).padStart(2,'0')}`);const info=document.createElement('p');info.className='muted';
  const bank=t?t.questions.map(q=>({...q,category:t.category,subject:q.subject||t.subject||defaultSubject(t.category),year:q.year||t.year||null})).filter(q=>($('subjectSelect').value==='All'||q.subject===$('subjectSelect').value)&&($('yearSelect').value==='All'||String(q.year)===$('yearSelect').value)):[];
@@ -77,7 +85,7 @@ function render(){
  btn.onclick=()=>{if(t)startMock(t,selectedLength)};card.append(title,info,btn);wrap.append(card)}
  renderHistory();
 }
-function startMock(base,desired){const bank=base.questions.map(q=>({...q,category:base.category,subject:q.subject||base.subject||defaultSubject(base.category),year:q.year||base.year||null,sourceTest:base.hi})).filter(q=>($('subjectSelect').value==='All'||q.subject===$('subjectSelect').value)&&($('yearSelect').value==='All'||String(q.year)===$('yearSelect').value));if(!bank.length){alert(tr('इस टेस्ट में चुने गए विषय/वर्ष के प्रश्न उपलब्ध नहीं हैं।','No questions in this test match the selected subject/year.'));return;}if(!desired||desired>bank.length)desired=bank.length;const shuffled=[...bank].sort(()=>Math.random()-.5).slice(0,desired);const chosenMinutes=Number($('timeMinutes').value);const minutes=chosenMinutes>0?chosenMinutes:desired;const mock={...base,id:`${base.id}-${Date.now()}`,hi:`${base.hi} — ${desired} प्रश्न`,en:`${base.en} — ${desired} questions`,minutes,questions:shuffled};start(mock);}
+function startMock(base,desired){const bank=base.questions.map(q=>({...q,category:base.category,subject:q.subject||base.subject||defaultSubject(base.category),year:q.year||base.year||null,sourceTest:base.hi})).filter(q=>($('subjectSelect').value==='All'||q.subject===$('subjectSelect').value)&&($('yearSelect').value==='All'||String(q.year)===$('yearSelect').value));if(!bank.length){alert(tr('इस टेस्ट में चुने गए विषय/वर्ष के प्रश्न उपलब्ध नहीं हैं।','No questions in this test match the selected subject/year.'));return;}if(!desired||desired>bank.length){alert(tr(`इस सेट में ${bank.length} प्रश्न उपलब्ध हैं। कृपया उतने या उससे कम प्रश्न चुनें।`,`This set has only ${bank.length} questions. Choose that number or fewer.`));return;}const shuffled=[...bank].sort(()=>Math.random()-.5).slice(0,desired);const chosenMinutes=Number($('timeMinutes').value);const minutes=chosenMinutes>0?chosenMinutes:desired;const mock={...base,id:`${base.id}-${Date.now()}`,hi:`${base.hi} — ${desired} प्रश्न`,en:`${base.en} — ${desired} questions`,minutes,questions:shuffled};start(mock);}
 function start(t){if(!t?.questions?.length)return;stop();current=t;index=0;answers=Array(t.questions.length).fill(null);marked=new Set();seconds=t.minutes*60;testStartedAt=Date.now();show('quiz');$('testMeta').textContent=`${tr(t.hi,t.en)} • ${t.questions.length} ${tr('प्रश्न','questions')}`;drawQuestion();tick();timer=setInterval(()=>{seconds--;tick();if(seconds<=0)finish(true)},1000);$('quiz').scrollIntoView({behavior:'smooth'});}
 function tick(){const m=Math.floor(Math.max(0,seconds)/60),s=String(Math.max(0,seconds)%60).padStart(2,'0');$('clock').textContent=`⏱ ${m}:${s}`;}
 function drawQuestion(){const q=current.questions[index];$('progress').textContent=`${index+1} / ${current.questions.length}`;$('barfill').style.width=`${(index+1)/current.questions.length*100}%`;$('question').textContent=tr(q.hi,q.en);$('questionMeta').textContent=[q.subject,q.year,q.paper?`Paper: ${q.paper}`:null].filter(Boolean).join(' • ');const opts=$('options');opts.replaceChildren();tr(q.optionsHi,q.optionsEn).forEach((label,i)=>{const b=document.createElement('button');b.className='choice'+(answers[index]===i?' selected':'');b.textContent=`${'ABCD'[i]}. ${label}`;b.onclick=()=>{answers[index]=i;drawQuestion()};opts.append(b)});$('prev').disabled=index===0;$('next').hidden=index===current.questions.length-1;$('submit').hidden=index!==current.questions.length-1;$('mark').textContent=marked.has(index)?tr('★ समीक्षा से हटाएँ','★ Unmark review'):tr('☆ समीक्षा के लिए चिह्नित करें','☆ Mark for review');$('prev').textContent=tr('← पिछला','← Previous');$('next').textContent=tr('अगला →','Next →');$('submit').textContent=tr('टेस्ट जमा करें','Submit Test');$('questionNav').replaceChildren();current.questions.forEach((_,i)=>{const b=document.createElement('button');b.className='qnav'+(i===index?' active':'')+(answers[i]!==null?' answered':'')+(marked.has(i)?' marked':'');b.textContent=String(i+1);b.title=`Question ${i+1}`;b.onclick=()=>{index=i;drawQuestion()};$('questionNav').append(b)});}
