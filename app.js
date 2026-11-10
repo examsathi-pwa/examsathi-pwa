@@ -55,7 +55,7 @@ async function refreshSelectedQuestionBank(){
 function uniqueQuestionPool(tests){
  const seen=new Set(),pool=[];
  for(const t of tests)for(const q of t.questions){
-   const key=String(q.hi||q.en||'').normalize('NFKC').replace(/\\s+/g,' ').trim().toLocaleLowerCase();
+   const key=String(q.hi||q.en||'').normalize('NFKC').replace(/\s+/g,' ').trim().toLocaleLowerCase();
    if(!key||seen.has(key))continue;
    seen.add(key);
    pool.push({...q,category:t.category,subject:q.subject||t.subject||defaultSubject(t.category),year:q.year||t.year||null,sourceTest:t.hi});
@@ -107,7 +107,7 @@ function render(){
  let displayTests=bankTests;
  if(selectedLength===100){
    if($('examSelect').value==='SSC CGL'){
-     displayTests=buildSscCgl100Sets(bankTests);
+     displayTests=buildSscCgl100Sets(loadedBankExam===$('examSelect').value?loadedBankTests:bankTests);
    }else{
      displayTests=[];
      for(let i=0;i<bankTests.length;){
