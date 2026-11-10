@@ -285,13 +285,13 @@
           "en": "If SOUTH is coded as TPVUI, how is NORTH coded?",
           "optionsHi": [
             "OPSUI",
-            "OPSUI",
+            "OPSVI",
             "OPSUH",
             "NPSUI"
           ],
           "optionsEn": [
             "OPSUI",
-            "OPSUI",
+            "OPSVI",
             "OPSUH",
             "NPSUI"
           ],
