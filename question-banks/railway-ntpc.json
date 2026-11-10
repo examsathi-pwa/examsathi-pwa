@@ -1,0 +1,545 @@
+{
+  "examId": "railway-ntpc",
+  "examName": "Railway NTPC",
+  "targetQuestions": 10000,
+  "qualityStandardVersion": "1.0",
+  "bankStatus": "initial_practice_bank",
+  "sourceLabel": "ExamSathi original bilingual practice; not official PYQs",
+  "blueprint": {
+    "status": "verified_against_official_cen_06_2025",
+    "checkedOn": "2026-11-10",
+    "notification": "CEN 06/2025 – NTPC Graduate",
+    "cbt1": {
+      "questions": 100,
+      "marks": 100,
+      "durationMinutes": 90,
+      "sections": [
+        {
+          "subject": "General Awareness",
+          "questions": 40,
+          "marks": 40
+        },
+        {
+          "subject": "Mathematics",
+          "questions": 30,
+          "marks": 30
+        },
+        {
+          "subject": "General Intelligence and Reasoning",
+          "questions": 30,
+          "marks": 30
+        }
+      ],
+      "negativeMarking": 0.3333333333333333
+    },
+    "cbt2": {
+      "questions": 120,
+      "marks": 120,
+      "durationMinutes": 90,
+      "sections": [
+        {
+          "subject": "General Awareness",
+          "questions": 50,
+          "marks": 50
+        },
+        {
+          "subject": "Mathematics",
+          "questions": 35,
+          "marks": 35
+        },
+        {
+          "subject": "General Intelligence and Reasoning",
+          "questions": 35,
+          "marks": 35
+        }
+      ],
+      "negativeMarking": 0.3333333333333333
+    },
+    "stages": "CBT-I, CBT-II, CBAT/CBTST as applicable, DV and medical examination",
+    "difficulty": "Graduate-level recruitment aptitude and general awareness. Initial starter pool, not a full-length paper."
+  },
+  "sourceReferences": [
+    {
+      "title": "RRB CEN 06/2025 – NTPC Graduate official notification",
+      "url": "https://rrbchennai.gov.in/downloads/Final-CEN-06-2025-21-10-2025-Publish.pdf",
+      "checkedOn": "2026-11-10",
+      "use": "CBT-I and CBT-II structure, duration, marking and syllabus"
+    }
+  ],
+  "tests": [
+    {
+      "id": "rrb-ntpc-graduate-mixed-001",
+      "hi": "RRB NTPC Graduate मिश्रित अभ्यास",
+      "en": "RRB NTPC Graduate mixed practice",
+      "minutes": 25,
+      "sourceKind": "authored_practice",
+      "questions": [
+        {
+          "hi": "एक वस्तु का अंकित मूल्य ₹2,400 है। 15% छूट के बाद 10% GST लगाया जाता है। अंतिम मूल्य कितना होगा?",
+          "en": "An item is marked at ₹2,400. After a 15% discount, 10% GST is applied. What is the final price?",
+          "optionsHi": [
+            "₹2,244",
+            "₹2,244?",
+            "₹2,244.00",
+            "₹2,280"
+          ],
+          "optionsEn": [
+            "₹2,244",
+            "₹2,244?",
+            "₹2,244.00",
+            "₹2,280"
+          ],
+          "answer": 0,
+          "whyHi": "छूट के बाद मूल्य 2400×0.85=₹2,040; GST सहित 2040×1.10=₹2,244।",
+          "whyEn": "After discount: 2400×0.85=₹2,040; after GST: 2040×1.10=₹2,244.",
+          "subject": "Mathematics",
+          "topic": "Successive percentage",
+          "difficulty": "moderate",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "rrb-ntpc-g-001",
+            "sourceUrl": null,
+            "sourceTitle": "Original ExamSathi practice item; not a previous-year question",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "A और B किसी काम को क्रमशः 12 और 18 दिनों में करते हैं। दोनों साथ काम करें तो काम कितने दिनों में पूरा होगा?",
+          "en": "A and B can complete a job in 12 and 18 days respectively. How long will they take together?",
+          "optionsHi": [
+            "6 दिन",
+            "7.2 दिन",
+            "8 दिन",
+            "9 दिन"
+          ],
+          "optionsEn": [
+            "6 दिन",
+            "7.2 दिन",
+            "8 दिन",
+            "9 दिन"
+          ],
+          "answer": 1,
+          "whyHi": "संयुक्त दर=1/12+1/18=5/36; समय=36/5=7.2 दिन।",
+          "whyEn": "Combined rate=1/12+1/18=5/36; time=36/5=7.2 days.",
+          "subject": "Mathematics",
+          "topic": "Time and work",
+          "difficulty": "moderate",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "rrb-ntpc-g-002",
+            "sourceUrl": null,
+            "sourceTitle": "Original ExamSathi practice item; not a previous-year question",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "एक ट्रेन 72 km/h की गति से 25 सेकंड में एक खंभा पार करती है। ट्रेन की लंबाई कितनी है?",
+          "en": "A train moving at 72 km/h crosses a pole in 25 seconds. Find its length.",
+          "optionsHi": [
+            "400 m",
+            "450 m",
+            "500 m",
+            "550 m"
+          ],
+          "optionsEn": [
+            "400 m",
+            "450 m",
+            "500 m",
+            "550 m"
+          ],
+          "answer": 2,
+          "whyHi": "72 km/h=20 m/s; लंबाई=20×25=500 मीटर।",
+          "whyEn": "72 km/h=20 m/s; length=20×25=500 metres.",
+          "subject": "Mathematics",
+          "topic": "Speed distance time",
+          "difficulty": "moderate",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "rrb-ntpc-g-003",
+            "sourceUrl": null,
+            "sourceTitle": "Original ExamSathi practice item; not a previous-year question",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "दो संख्याओं का अनुपात 5:7 है और उनका योग 144 है। बड़ी संख्या क्या है?",
+          "en": "Two numbers are in the ratio 5:7 and their sum is 144. Find the larger number.",
+          "optionsHi": [
+            "60",
+            "72",
+            "84",
+            "96"
+          ],
+          "optionsEn": [
+            "60",
+            "72",
+            "84",
+            "96"
+          ],
+          "answer": 2,
+          "whyHi": "कुल भाग=12; एक भाग=144/12=12; बड़ी संख्या=7×12=84।",
+          "whyEn": "Total parts=12; one part=144/12=12; larger number=7×12=84.",
+          "subject": "Mathematics",
+          "topic": "Ratio and proportion",
+          "difficulty": "easy",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "rrb-ntpc-g-004",
+            "sourceUrl": null,
+            "sourceTitle": "Original ExamSathi practice item; not a previous-year question",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "₹8,000 पर 7.5% वार्षिक दर से 2 वर्ष का साधारण ब्याज कितना होगा?",
+          "en": "Find the simple interest on ₹8,000 at 7.5% per annum for 2 years.",
+          "optionsHi": [
+            "₹1,000",
+            "₹1,100",
+            "₹1,200",
+            "₹1,300"
+          ],
+          "optionsEn": [
+            "₹1,000",
+            "₹1,100",
+            "₹1,200",
+            "₹1,300"
+          ],
+          "answer": 2,
+          "whyHi": "SI=PRT/100=8000×7.5×2/100=₹1,200।",
+          "whyEn": "SI=PRT/100=8000×7.5×2/100=₹1,200.",
+          "subject": "Mathematics",
+          "topic": "Simple interest",
+          "difficulty": "easy",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "rrb-ntpc-g-005",
+            "sourceUrl": null,
+            "sourceTitle": "Original ExamSathi practice item; not a previous-year question",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "श्रृंखला में अगली संख्या ज्ञात करें: 3, 8, 18, 38, 78, ?",
+          "en": "Find the next number: 3, 8, 18, 38, 78, ?",
+          "optionsHi": [
+            "148",
+            "156",
+            "158",
+            "160"
+          ],
+          "optionsEn": [
+            "148",
+            "156",
+            "158",
+            "160"
+          ],
+          "answer": 2,
+          "whyHi": "हर पद को 2 से गुणा करके 2 जोड़ा गया है: 78×2+2=158।",
+          "whyEn": "Each term is multiplied by 2 and then 2 is added: 78×2+2=158.",
+          "subject": "General Intelligence and Reasoning",
+          "topic": "Number series",
+          "difficulty": "moderate",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "rrb-ntpc-g-006",
+            "sourceUrl": null,
+            "sourceTitle": "Original ExamSathi practice item; not a previous-year question",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "यदि RAIL को SBJM लिखा जाता है, तो TRAIN को कैसे लिखा जाएगा?",
+          "en": "If RAIL is coded as SBJM, how will TRAIN be coded?",
+          "optionsHi": [
+            "USBJO",
+            "UQBJO",
+            "USCJO",
+            "USBIN"
+          ],
+          "optionsEn": [
+            "USBJO",
+            "UQBJO",
+            "USCJO",
+            "USBIN"
+          ],
+          "answer": 0,
+          "whyHi": "हर अक्षर को अंग्रेज़ी वर्णमाला में एक स्थान आगे बढ़ाया गया है।",
+          "whyEn": "Each letter is shifted one position forward in the alphabet.",
+          "subject": "General Intelligence and Reasoning",
+          "topic": "Coding decoding",
+          "difficulty": "easy",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "rrb-ntpc-g-007",
+            "sourceUrl": null,
+            "sourceTitle": "Original ExamSathi practice item; not a previous-year question",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "A, B का भाई है। B, C की माँ है। D, C का पिता है। A का D से क्या संबंध है?",
+          "en": "A is the brother of B. B is the mother of C. D is the father of C. How is A related to D?",
+          "optionsHi": [
+            "भाई",
+            "साला",
+            "पुत्र",
+            "चाचा"
+          ],
+          "optionsEn": [
+            "भाई",
+            "साला",
+            "पुत्र",
+            "चाचा"
+          ],
+          "answer": 1,
+          "whyHi": "A, B का भाई है और B, D की पत्नी है; इसलिए A, D का साला है।",
+          "whyEn": "A is B's brother and B is D's wife; therefore A is D's brother-in-law.",
+          "subject": "General Intelligence and Reasoning",
+          "topic": "Blood relation",
+          "difficulty": "moderate",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "rrb-ntpc-g-008",
+            "sourceUrl": null,
+            "sourceTitle": "Original ExamSathi practice item; not a previous-year question",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "एक व्यक्ति उत्तर की ओर 8 km चलता है, फिर दाएँ 6 km और फिर दाएँ 8 km चलता है। वह प्रारंभिक बिंदु से किस दिशा में है?",
+          "en": "A person walks 8 km north, then 6 km right, then 8 km right. In which direction is the person from the starting point?",
+          "optionsHi": [
+            "उत्तर",
+            "दक्षिण",
+            "पूर्व",
+            "पश्चिम"
+          ],
+          "optionsEn": [
+            "उत्तर",
+            "दक्षिण",
+            "पूर्व",
+            "पश्चिम"
+          ],
+          "answer": 2,
+          "whyHi": "उत्तर और दक्षिण की 8-8 km चाल कट जाती है; व्यक्ति 6 km पूर्व में है।",
+          "whyEn": "The 8 km north and south movements cancel; the person is 6 km east.",
+          "subject": "General Intelligence and Reasoning",
+          "topic": "Direction sense",
+          "difficulty": "easy",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "rrb-ntpc-g-009",
+            "sourceUrl": null,
+            "sourceTitle": "Original ExamSathi practice item; not a previous-year question",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "कथन: सभी पेन स्टेशनरी हैं। कुछ स्टेशनरी महँगी हैं। निष्कर्ष: (I) कुछ पेन महँगे हैं। (II) सभी पेन स्टेशनरी हैं। सही विकल्प चुनें।",
+          "en": "Statements: All pens are stationery. Some stationery items are expensive. Conclusions: (I) Some pens are expensive. (II) All pens are stationery. Choose the correct option.",
+          "optionsHi": [
+            "केवल I",
+            "केवल II",
+            "दोनों",
+            "कोई नहीं"
+          ],
+          "optionsEn": [
+            "केवल I",
+            "केवल II",
+            "दोनों",
+            "कोई नहीं"
+          ],
+          "answer": 1,
+          "whyHi": "निष्कर्ष I निश्चित नहीं है; निष्कर्ष II कथन का सीधा पुनरावर्तन है।",
+          "whyEn": "Conclusion I does not necessarily follow; conclusion II directly follows from the statement.",
+          "subject": "General Intelligence and Reasoning",
+          "topic": "Syllogism",
+          "difficulty": "moderate",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "rrb-ntpc-g-010",
+            "sourceUrl": null,
+            "sourceTitle": "Original ExamSathi practice item; not a previous-year question",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "भारतीय संविधान कब अंगीकृत किया गया था?",
+          "en": "When was the Constitution of India adopted?",
+          "optionsHi": [
+            "15 अगस्त 1947",
+            "26 जनवरी 1950",
+            "26 नवंबर 1949",
+            "2 अक्टूबर 1949"
+          ],
+          "optionsEn": [
+            "15 अगस्त 1947",
+            "26 जनवरी 1950",
+            "26 नवंबर 1949",
+            "2 अक्टूबर 1949"
+          ],
+          "answer": 2,
+          "whyHi": "संविधान सभा ने 26 नवंबर 1949 को संविधान अंगीकृत किया; यह 26 जनवरी 1950 से लागू हुआ।",
+          "whyEn": "The Constituent Assembly adopted the Constitution on 26 November 1949; it came into force on 26 January 1950.",
+          "subject": "General Awareness",
+          "topic": "Indian polity",
+          "difficulty": "easy",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "rrb-ntpc-g-011",
+            "sourceUrl": null,
+            "sourceTitle": "Original ExamSathi practice item; not a previous-year question",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "भारतीय रिज़र्व बैंक ने भारत में कार्य करना कब शुरू किया?",
+          "en": "When did the Reserve Bank of India commence operations in India?",
+          "optionsHi": [
+            "1 अप्रैल 1935",
+            "1 जनवरी 1949",
+            "15 अगस्त 1947",
+            "1 अप्रैल 1950"
+          ],
+          "optionsEn": [
+            "1 अप्रैल 1935",
+            "1 जनवरी 1949",
+            "15 अगस्त 1947",
+            "1 अप्रैल 1950"
+          ],
+          "answer": 0,
+          "whyHi": "भारतीय रिज़र्व बैंक ने 1 अप्रैल 1935 को कार्य प्रारंभ किया।",
+          "whyEn": "The Reserve Bank of India commenced operations on 1 April 1935.",
+          "subject": "General Awareness",
+          "topic": "Indian economy",
+          "difficulty": "moderate",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "rrb-ntpc-g-012",
+            "sourceUrl": null,
+            "sourceTitle": "Original ExamSathi practice item; not a previous-year question",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "कर्क रेखा भारत के कितने राज्यों से होकर गुजरती है?",
+          "en": "Through how many Indian states does the Tropic of Cancer pass?",
+          "optionsHi": [
+            "6",
+            "7",
+            "8",
+            "9"
+          ],
+          "optionsEn": [
+            "6",
+            "7",
+            "8",
+            "9"
+          ],
+          "answer": 2,
+          "whyHi": "कर्क रेखा भारत के 8 राज्यों से होकर गुजरती है।",
+          "whyEn": "The Tropic of Cancer passes through 8 Indian states.",
+          "subject": "General Awareness",
+          "topic": "Indian geography",
+          "difficulty": "moderate",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "rrb-ntpc-g-013",
+            "sourceUrl": null,
+            "sourceTitle": "Original ExamSathi practice item; not a previous-year question",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "मानव शरीर में लाल रक्त कणिकाओं का निर्माण मुख्यतः कहाँ होता है?",
+          "en": "Where are red blood cells primarily produced in the human body?",
+          "optionsHi": [
+            "यकृत",
+            "लाल अस्थि मज्जा",
+            "गुर्दा",
+            "अग्न्याशय"
+          ],
+          "optionsEn": [
+            "यकृत",
+            "लाल अस्थि मज्जा",
+            "गुर्दा",
+            "अग्न्याशय"
+          ],
+          "answer": 1,
+          "whyHi": "वयस्कों में लाल रक्त कणिकाएँ मुख्यतः लाल अस्थि मज्जा में बनती हैं।",
+          "whyEn": "In adults, red blood cells are primarily produced in the red bone marrow.",
+          "subject": "General Awareness",
+          "topic": "General science biology",
+          "difficulty": "easy",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "rrb-ntpc-g-014",
+            "sourceUrl": null,
+            "sourceTitle": "Original ExamSathi practice item; not a previous-year question",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "भारत में पहली यात्री रेलगाड़ी 1853 में किन दो स्थानों के बीच चली थी?",
+          "en": "Between which two places did India's first passenger train run in 1853?",
+          "optionsHi": [
+            "हावड़ा–हुगली",
+            "बंबई–ठाणे",
+            "चेन्नई–अरक्कोनम",
+            "दिल्ली–आगरा"
+          ],
+          "optionsEn": [
+            "हावड़ा–हुगली",
+            "बंबई–ठाणे",
+            "चेन्नई–अरक्कोनम",
+            "दिल्ली–आगरा"
+          ],
+          "answer": 1,
+          "whyHi": "भारत की पहली यात्री रेलगाड़ी 16 अप्रैल 1853 को बंबई (बोरीबंदर) से ठाणे के बीच चली।",
+          "whyEn": "India's first passenger train ran from Bombay (Bori Bunder) to Thane on 16 April 1853.",
+          "subject": "General Awareness",
+          "topic": "Indian railways history",
+          "difficulty": "easy",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "rrb-ntpc-g-015",
+            "sourceUrl": null,
+            "sourceTitle": "Original ExamSathi practice item; not a previous-year question",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        }
+      ]
+    }
+  ]
+}
