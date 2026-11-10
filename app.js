@@ -26,8 +26,8 @@ function getExamTests(){
  const ex=$('examSelect').value,section=$('examSection').value,category=categoryForExam(ex,section);
  // Dedicated exam bank always takes precedence. Never mix another exam's questions into this bank.
  const dedicated=loadedBankExam===ex?loadedBankTests:[];
- const available=dedicated.length?dedicated:tests.filter(t=>!t.paid&&Array.isArray(t.questions)&&t.questions.length&&t.category===category);
- return available.filter(t=>cat==='All'||t.category===cat);
+ // Never mix a different exam's generic demo bank into the selected exam.
+ return dedicated.filter(t=>cat==='All'||t.category===cat).slice(0,20);
 }
 async function refreshSelectedQuestionBank(){
  const ex=$('examSelect').value;
@@ -61,36 +61,20 @@ function filteredQuestions(){return allQuestions().filter(q=>($('subjectSelect')
 function render(){
  fillFilterOptions();
  const nav=$('categories');nav.replaceChildren();
- for(const c of categories){const b=document.createElement('button');b.textContent=c;b.className=c===cat?'active':'';b.onclick=()=>{cat=c;render()};nav.append(b)}
- const allTests=getExamTests();
- const qs=filteredQuestions();
- $('availableCount').textContent=tr(`चुने गए फ़िल्टर में ${qs.length} अलग प्रश्न उपलब्ध हैं।`,`${qs.length} unique questions available for the selected filters.`);
+ for(const c of categories){const btn=document.createElement('button');btn.textContent=c;btn.className=c===cat?'active':'';btn.onclick=()=>{cat=c;render()};nav.append(btn)}
+ const bankTests=getExamTests(),qs=filteredQuestions();
+ $('availableCount').textContent=tr(`चुने गए फ़िल्टर में ${qs.length} अलग प्रश्न उपलब्ध हैं।`,`${qs.length} unique questions available for selected filters.`);
  const lengths=$('setLengthOptions');lengths.replaceChildren();
- for(const n of [10,50,100]){
-  const b=document.createElement('button');b.type='button';b.className='length-choice'+(selectedLength===n?' active':'');
-  b.textContent=tr(`${n} प्रश्न`,`${n} Questions`);b.setAttribute('aria-pressed',String(selectedLength===n));
-  b.onclick=()=>{selectedLength=n;$('questionCount').value=String(n);render()};
-  lengths.append(b);
- }
+ for(const n of [10,50,100]){const btn=document.createElement('button');btn.type='button';btn.className='length-choice'+(selectedLength===n?' active':'');btn.textContent=tr(`${n} प्रश्न`,`${n} Questions`);btn.setAttribute('aria-pressed',String(selectedLength===n));btn.onclick=()=>{selectedLength=n;$('questionCount').value=String(n);render()};lengths.append(btn)}
  $('questionCount').value=String(selectedLength);
- const wrap=$('tests');wrap.replaceChildren();
- const query=($('testSearch')?.value||'').trim().toLocaleLowerCase();
- const matching=allTests.filter(t=>!query||[t.hi,t.en,t.category].some(v=>String(v||'').toLocaleLowerCase().includes(query)));
- matching.forEach((t,i)=>{
-  const card=document.createElement('article');card.className='card set-card';
-  const title=document.createElement('h3');title.textContent=tr(t.hi||`सेट ${i+1}`,t.en||`Set ${i+1}`);
-  const info=document.createElement('p');info.className='muted';
-  const cardBank=t.questions.map(q=>({...q,category:t.category,subject:q.subject||t.subject||defaultSubject(t.category),year:q.year||t.year||null})).filter(q=>($('subjectSelect').value==='All'||q.subject===$('subjectSelect').value)&&($('yearSelect').value==='All'||String(q.year)===$('yearSelect').value));
-  const desired=selectedLength;
-  info.textContent=tr(`सेट ${String(i+1).padStart(2,'0')} • ${cardBank.length} प्रश्न उपलब्ध • ${t.minutes||cardBank.length} मिनट`,`Set ${String(i+1).padStart(2,'0')} • ${cardBank.length} questions available • ${t.minutes||cardBank.length} min`);
-  const price=document.createElement('p');price.className='price';price.textContent=tr('मुफ्त अभ्यास सेट','Free practice set');
-  const b=document.createElement('button');b.textContent=tr(`${desired} प्रश्नों वाला सेट शुरू करें`,`Start ${desired}-question set`);
-  b.disabled=cardBank.length<desired;
-  if(b.disabled){b.textContent=tr(`अभी ${cardBank.length}/${desired} प्रश्न उपलब्ध`,`Only ${cardBank.length}/${desired} questions available`);b.title=tr('इस सेट में चुनी गई लंबाई के लिए पर्याप्त प्रश्न नहीं हैं।','This set does not have enough questions for the selected length.')}
-  b.onclick=()=>{try{startMock(t,desired)}catch(e){show('catalog');const err=$('appError')||document.createElement('p');err.id='appError';err.className='exam-empty';err.textContent='Mock test error: '+(e?.message||String(e));$('catalog').prepend(err)}};
-  card.append(title,info,price,b);wrap.append(card);
- });
- if(!wrap.children.length){const p=document.createElement('div');p.className='exam-empty';p.textContent=tr('इस परीक्षा का प्रश्न बैंक अभी उपलब्ध नहीं है। प्रश्न बैंक जुड़ने पर यहाँ क्रम से सेट दिखेंगे।','No question bank is available for this exam yet. Sets will appear here in order once its bank is added.');wrap.append(p)}
+ const wrap=$('tests');wrap.replaceChildren(),query=($('testSearch')?.value||'').trim().toLocaleLowerCase();
+ const filtered=bankTests.filter(t=>!query||[t.hi,t.en,t.category].some(v=>String(v||'').toLocaleLowerCase().includes(query)));
+ for(let i=0;i<20;i++){const t=filtered[i]||null,card=document.createElement('article');card.className='card set-card';const title=document.createElement('h3');title.textContent=tr(`सेट ${String(i+1).padStart(2,'0')}`,`Set ${String(i+1).padStart(2,'0')}`);const info=document.createElement('p');info.className='muted';
+ const bank=t?t.questions.map(q=>({...q,category:t.category,subject:q.subject||t.subject||defaultSubject(t.category),year:q.year||t.year||null})).filter(q=>($('subjectSelect').value==='All'||q.subject===$('subjectSelect').value)&&($('yearSelect').value==='All'||String(q.year)===$('yearSelect').value)):[];
+ info.textContent=t?tr(`${bank.length} प्रश्न उपलब्ध • ${t.minutes||bank.length} मिनट`,`${bank.length} questions available • ${t.minutes||bank.length} min`):tr('इस सेट का प्रश्न बैंक अभी उपलब्ध नहीं है।','Question bank for this set is not available yet.');
+ const btn=document.createElement('button');btn.textContent=tr(`${selectedLength} प्रश्नों वाला सेट शुरू करें`,`Start ${selectedLength}-question set`);btn.disabled=!t||bank.length<selectedLength;
+ if(t&&btn.disabled)btn.textContent=tr(`${bank.length}/${selectedLength} प्रश्न उपलब्ध`,`Only ${bank.length}/${selectedLength} questions available`);if(!t)btn.textContent=tr('जल्द उपलब्ध होगा','Coming soon');
+ btn.onclick=()=>{if(t)startMock(t,selectedLength)};card.append(title,info,btn);wrap.append(card)}
  renderHistory();
 }
 function startMock(base,desired){const bank=base.questions.map(q=>({...q,category:base.category,subject:q.subject||base.subject||defaultSubject(base.category),year:q.year||base.year||null,sourceTest:base.hi})).filter(q=>($('subjectSelect').value==='All'||q.subject===$('subjectSelect').value)&&($('yearSelect').value==='All'||String(q.year)===$('yearSelect').value));if(!bank.length){alert(tr('इस टेस्ट में चुने गए विषय/वर्ष के प्रश्न उपलब्ध नहीं हैं।','No questions in this test match the selected subject/year.'));return;}if(!desired||desired>bank.length)desired=bank.length;const shuffled=[...bank].sort(()=>Math.random()-.5).slice(0,desired);const chosenMinutes=Number($('timeMinutes').value);const minutes=chosenMinutes>0?chosenMinutes:desired;const mock={...base,id:`${base.id}-${Date.now()}`,hi:`${base.hi} — ${desired} प्रश्न`,en:`${base.en} — ${desired} questions`,minutes,questions:shuffled};start(mock);}
