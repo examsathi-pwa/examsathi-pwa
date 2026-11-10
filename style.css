@@ -36,3 +36,16 @@
 
 /* Exam-first vertical selector */
 .selector-grid{grid-template-columns:1fr;max-width:100%}.selector-grid label{max-width:100%}.set-length-panel{margin:16px 0;padding:15px;background:#f7f9ff;border:1px solid #e4eaf7;border-radius:13px}.set-length-panel h3{margin:0 0 5px;font-size:16px}.set-length-panel p{margin:0 0 12px}.set-length-options{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}.length-choice{border:1px solid #d7e0f0;background:#fff;border-radius:11px;padding:13px 10px;font-weight:800;cursor:pointer}.length-choice.active{background:#315ee8;color:#fff;border-color:#315ee8}#tests.cards{grid-template-columns:1fr;gap:10px}.set-card{min-height:0;display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:center;gap:6px 16px;padding:15px}.set-card h3,.set-card .muted{margin:0;grid-column:1}.set-card button{grid-column:2;grid-row:1 / span 2;min-width:220px;margin:0}@media(max-width:600px){.set-length-options{gap:7px}.length-choice{padding:12px 5px;font-size:12px}.set-card{grid-template-columns:1fr}.set-card button{grid-column:1;grid-row:auto;width:100%;min-width:0}}
+
+/* Dynamic identity marks for state, central and banking exam groups */
+.exam-identity{display:flex;align-items:center;gap:14px;margin:16px 0 18px;padding:13px 16px;border:1px solid var(--line);border-radius:15px;background:linear-gradient(100deg,#fbfcff,#f4f7ff)}
+.exam-identity-logo{width:58px;height:58px;flex:0 0 58px;display:grid;place-items:center;border-radius:16px;font-size:19px;font-weight:900;letter-spacing:-.5px;border:1px solid #dce5f4;box-shadow:inset 0 1px #ffffffa8}
+.identity-state{background:linear-gradient(145deg,#e8f1ff,#d5e5ff);color:#204c9d;border-color:#bcd0f2}
+.identity-central{background:linear-gradient(145deg,#fff4df,#ffe4b4);color:#8b5510;border-color:#f0d5a4;font-size:29px}
+.identity-banking{background:linear-gradient(145deg,#e2f8ee,#c9efdf);color:#08764f;border-color:#b7e4cf;font-size:16px}
+.identity-entrance{background:linear-gradient(145deg,#f0eaff,#e2d8ff);color:#6944bd;border-color:#d5c8f4;font-size:24px}
+.exam-identity-copy{display:flex;flex-direction:column;gap:3px;min-width:0}
+.exam-identity-kind{font-size:9px;font-weight:900;letter-spacing:1.2px;color:#71809a}
+.exam-identity-title{font-size:15px;color:var(--navy)}
+.exam-identity-subtitle{font-size:11px;color:var(--muted);overflow-wrap:anywhere}
+@media(max-width:600px){.exam-identity{padding:11px 12px}.exam-identity-logo{width:50px;height:50px;flex-basis:50px}.exam-identity-title{font-size:13px}}
