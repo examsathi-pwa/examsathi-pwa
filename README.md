@@ -4,7 +4,7 @@
 - Responsive Hindi/English interface, categories, free MCQ tests, question navigation, countdown, auto-submit, explanations, and device-local results.
 - PWA manifest, offline cache after first online load.
 - Premium test is deliberately locked: NO payment collection or paid entitlement is implemented.
-- Phone OTP integration is included but **requires your own Firebase configuration**; without setup OTP does not work.
+- Firebase Email/Password and Phone OTP client integration is included. Real SMS still requires Firebase Console setup, an authorized HTTPS domain, SMS region approval and any billing required by Firebase.
 
 ## Launch free on GitHub Pages
 1. Create a GitHub account and a **public** repository (e.g. `examsathi-pwa`).
@@ -43,7 +43,7 @@ Edit `data.js`. Add categories and tests with bilingual fields. Keep each `answe
 - Exam names are categories, **not claims of current notifications or available mock tests**. Many categories do not have questions yet and display an empty state.
 - To add a real test, edit `data.js` and extend filtering in `app.js`, or implement an admin backend.
 - Existing demo mock tests remain available for matching categories (UP TGT, UP Police Constable, SSC, Railway, CTET, Banking).
-- Phone OTP still needs Firebase configuration. Payments are not live.
+- Phone OTP code is integrated. Real SMS delivery depends on Firebase Console Phone provider, India SMS region policy, authorized domain, quotas and billing eligibility.
 - Check current exam names and recruiting bodies against official notifications before publishing them as active vacancies.
 
 
@@ -64,7 +64,7 @@ Edit `data.js`. Add categories and tests with bilingual fields. Keep each `answe
 - Recent test history remains stored in the current browser/device local storage.
 - Important: the supplied question bank currently contains only a few sample questions. A 10/50/100-question test is enabled only when that many unique questions match the selected exam/subject/year. The demo option tests the questions currently present.
 - Year-wise previous papers are supported by the metadata fields but have **not** been populated with a complete verified archive. Add each real paper's questions, year, shift/paper label, official source, answer key, and explanations to `data.js` before presenting it as an actual previous-year paper.
-- `firebase-config.js` is still unconfigured; phone OTP will not work until configured. Payments remain disabled.
+- `firebase-config.js` contains the Firebase Web app config. Real SMS delivery must still be enabled and tested in Firebase Console. Payments remain disabled.
 
 
 ## Firebase Authentication: Email + Phone OTP
