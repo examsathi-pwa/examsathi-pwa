@@ -597,7 +597,7 @@
             "45",
             "50"
           ],
-          "answer": 1,
+          "answer": 0,
           "whyHi": "अंतर 5,7,9,11 हैं; अगला 13, इसलिए 48। / Differences are 5,7,9,11; next is 13, giving 48.",
           "whyEn": "अंतर 5,7,9,11 हैं; अगला 13, इसलिए 48। / Differences are 5,7,9,11; next is 13, giving 48.",
           "subject": "General Intelligence",
