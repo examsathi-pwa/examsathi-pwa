@@ -52,7 +52,11 @@
           "whyHi": "200 × 5/100 = 10।",
           "whyEn": "200 × 5/100 = 10।",
           "subject": "Quantitative Aptitude",
-          "topic": "Percentage"
+          "topic": "Percentage",
+          "provenance": {
+            "kind": "original_practice",
+            "sourceTitle": "ExamSathi authored bilingual practice question"
+          }
         },
         {
           "hi": "₹1100 पर 6% वार्षिक दर से 2 वर्ष का साधारण ब्याज कितना होगा?",
@@ -73,7 +77,11 @@
           "whyHi": "साधारण ब्याज = मूलधन × दर × समय / 100 = ₹132।",
           "whyEn": "साधारण ब्याज = मूलधन × दर × समय / 100 = ₹132।",
           "subject": "Quantitative Aptitude",
-          "topic": "Simple Interest"
+          "topic": "Simple Interest",
+          "provenance": {
+            "kind": "original_practice",
+            "sourceTitle": "ExamSathi authored bilingual practice question"
+          }
         },
         {
           "hi": "24 और 38 का औसत कितना है?",
@@ -94,7 +102,11 @@
           "whyHi": "औसत = (24 + 38) / 2 = 31।",
           "whyEn": "औसत = (24 + 38) / 2 = 31।",
           "subject": "Quantitative Aptitude",
-          "topic": "Average"
+          "topic": "Average",
+          "provenance": {
+            "kind": "original_practice",
+            "sourceTitle": "ExamSathi authored bilingual practice question"
+          }
         },
         {
           "hi": "दो राशियों का अनुपात 5:6 है। पहली राशि 40 है। दूसरी राशि कितनी है?",
@@ -115,7 +127,11 @@
           "whyHi": "एक भाग = 40/5 = 8; दूसरी राशि = 6 × 8 = 48।",
           "whyEn": "एक भाग = 40/5 = 8; दूसरी राशि = 6 × 8 = 48।",
           "subject": "Quantitative Aptitude",
-          "topic": "Ratio"
+          "topic": "Ratio",
+          "provenance": {
+            "kind": "original_practice",
+            "sourceTitle": "ExamSathi authored bilingual practice question"
+          }
         },
         {
           "hi": "संख्या श्रृंखला 3, 5, 7, 9, ? में अगली संख्या क्या है?",
@@ -136,7 +152,11 @@
           "whyHi": "हर बार 2 जोड़ा जाता है; अगली संख्या 11 है।",
           "whyEn": "Add 2 each time; the next number is 11.",
           "subject": "General Intelligence & Reasoning",
-          "topic": "Number Series"
+          "topic": "Number Series",
+          "provenance": {
+            "kind": "original_practice",
+            "sourceTitle": "ExamSathi authored bilingual practice question"
+          }
         },
         {
           "hi": "संख्या श्रृंखला 8, 11, 14, 17, ? में अगली संख्या क्या है?",
@@ -157,7 +177,11 @@
           "whyHi": "हर बार 3 जोड़ा जाता है; अगली संख्या 20 है।",
           "whyEn": "Add 3 each time; the next number is 20.",
           "subject": "General Intelligence & Reasoning",
-          "topic": "Number Series"
+          "topic": "Number Series",
+          "provenance": {
+            "kind": "original_practice",
+            "sourceTitle": "ExamSathi authored bilingual practice question"
+          }
         },
         {
           "hi": "संख्या श्रृंखला 13, 17, 21, 25, ? में अगली संख्या क्या है?",
@@ -178,7 +202,11 @@
           "whyHi": "हर बार 4 जोड़ा जाता है; अगली संख्या 29 है।",
           "whyEn": "Add 4 each time; the next number is 29.",
           "subject": "General Intelligence & Reasoning",
-          "topic": "Number Series"
+          "topic": "Number Series",
+          "provenance": {
+            "kind": "original_practice",
+            "sourceTitle": "ExamSathi authored bilingual practice question"
+          }
         },
         {
           "hi": "संख्या श्रृंखला 18, 23, 28, 33, ? में अगली संख्या क्या है?",
@@ -199,7 +227,11 @@
           "whyHi": "हर बार 5 जोड़ा जाता है; अगली संख्या 38 है।",
           "whyEn": "Add 5 each time; the next number is 38.",
           "subject": "General Intelligence & Reasoning",
-          "topic": "Number Series"
+          "topic": "Number Series",
+          "provenance": {
+            "kind": "original_practice",
+            "sourceTitle": "ExamSathi authored bilingual practice question"
+          }
         },
         {
           "hi": "भारत का संविधान कब लागू हुआ?",
@@ -220,7 +252,11 @@
           "whyHi": "संविधान 26 जनवरी 1950 को लागू हुआ।",
           "whyEn": "The Constitution came into effect on 26 January 1950.",
           "subject": "General Awareness",
-          "topic": "Polity"
+          "topic": "Polity",
+          "provenance": {
+            "kind": "original_practice",
+            "sourceTitle": "ExamSathi authored bilingual practice question"
+          }
         },
         {
           "hi": "'abundant' का सबसे उपयुक्त समानार्थी शब्द चुनें।",
@@ -241,7 +277,11 @@
           "whyHi": "abundant का अर्थ प्रचुर है।",
           "whyEn": "abundant means plentiful.",
           "subject": "English Language",
-          "topic": "Vocabulary"
+          "topic": "Vocabulary",
+          "provenance": {
+            "kind": "original_practice",
+            "sourceTitle": "ExamSathi authored bilingual practice question"
+          }
         }
       ]
     },
@@ -273,7 +313,11 @@
           "whyHi": "240 × 9/100 = 21.6।",
           "whyEn": "240 × 9/100 = 21.6।",
           "subject": "Quantitative Aptitude",
-          "topic": "Percentage"
+          "topic": "Percentage",
+          "provenance": {
+            "kind": "original_practice",
+            "sourceTitle": "ExamSathi authored bilingual practice question"
+          }
         },
         {
           "hi": "₹1500 पर 10% वार्षिक दर से 2 वर्ष का साधारण ब्याज कितना होगा?",
@@ -294,7 +338,11 @@
           "whyHi": "साधारण ब्याज = मूलधन × दर × समय / 100 = ₹300।",
           "whyEn": "साधारण ब्याज = मूलधन × दर × समय / 100 = ₹300।",
           "subject": "Quantitative Aptitude",
-          "topic": "Simple Interest"
+          "topic": "Simple Interest",
+          "provenance": {
+            "kind": "original_practice",
+            "sourceTitle": "ExamSathi authored bilingual practice question"
+          }
         },
         {
           "hi": "32 और 54 का औसत कितना है?",
@@ -315,7 +363,11 @@
           "whyHi": "औसत = (32 + 54) / 2 = 43।",
           "whyEn": "औसत = (32 + 54) / 2 = 43।",
           "subject": "Quantitative Aptitude",
-          "topic": "Average"
+          "topic": "Average",
+          "provenance": {
+            "kind": "original_practice",
+            "sourceTitle": "ExamSathi authored bilingual practice question"
+          }
         },
         {
           "hi": "दो राशियों का अनुपात 2:5 है। पहली राशि 24 है। दूसरी राशि कितनी है?",
@@ -336,7 +388,11 @@
           "whyHi": "एक भाग = 24/2 = 12; दूसरी राशि = 5 × 12 = 60।",
           "whyEn": "एक भाग = 24/2 = 12; दूसरी राशि = 5 × 12 = 60।",
           "subject": "Quantitative Aptitude",
-          "topic": "Ratio"
+          "topic": "Ratio",
+          "provenance": {
+            "kind": "original_practice",
+            "sourceTitle": "ExamSathi authored bilingual practice question"
+          }
         },
         {
           "hi": "संख्या श्रृंखला 23, 29, 35, 41, ? में अगली संख्या क्या है?",
@@ -357,7 +413,11 @@
           "whyHi": "हर बार 6 जोड़ा जाता है; अगली संख्या 47 है।",
           "whyEn": "Add 6 each time; the next number is 47.",
           "subject": "General Intelligence & Reasoning",
-          "topic": "Number Series"
+          "topic": "Number Series",
+          "provenance": {
+            "kind": "original_practice",
+            "sourceTitle": "ExamSathi authored bilingual practice question"
+          }
         },
         {
           "hi": "संख्या श्रृंखला 28, 35, 42, 49, ? में अगली संख्या क्या है?",
@@ -378,7 +438,11 @@
           "whyHi": "हर बार 7 जोड़ा जाता है; अगली संख्या 56 है।",
           "whyEn": "Add 7 each time; the next number is 56.",
           "subject": "General Intelligence & Reasoning",
-          "topic": "Number Series"
+          "topic": "Number Series",
+          "provenance": {
+            "kind": "original_practice",
+            "sourceTitle": "ExamSathi authored bilingual practice question"
+          }
         },
         {
           "hi": "संख्या श्रृंखला 33, 41, 49, 57, ? में अगली संख्या क्या है?",
@@ -399,7 +463,11 @@
           "whyHi": "हर बार 8 जोड़ा जाता है; अगली संख्या 65 है।",
           "whyEn": "Add 8 each time; the next number is 65.",
           "subject": "General Intelligence & Reasoning",
-          "topic": "Number Series"
+          "topic": "Number Series",
+          "provenance": {
+            "kind": "original_practice",
+            "sourceTitle": "ExamSathi authored bilingual practice question"
+          }
         },
         {
           "hi": "संख्या श्रृंखला 38, 47, 56, 65, ? में अगली संख्या क्या है?",
@@ -420,7 +488,11 @@
           "whyHi": "हर बार 9 जोड़ा जाता है; अगली संख्या 74 है।",
           "whyEn": "Add 9 each time; the next number is 74.",
           "subject": "General Intelligence & Reasoning",
-          "topic": "Number Series"
+          "topic": "Number Series",
+          "provenance": {
+            "kind": "original_practice",
+            "sourceTitle": "ExamSathi authored bilingual practice question"
+          }
         },
         {
           "hi": "प्रारूप समिति के अध्यक्ष कौन थे?",
@@ -441,7 +513,11 @@
           "whyHi": "डॉ. बी. आर. आंबेडकर प्रारूप समिति के अध्यक्ष थे।",
           "whyEn": "Dr B. R. Ambedkar chaired the Drafting Committee.",
           "subject": "General Awareness",
-          "topic": "Polity"
+          "topic": "Polity",
+          "provenance": {
+            "kind": "original_practice",
+            "sourceTitle": "ExamSathi authored bilingual practice question"
+          }
         },
         {
           "hi": "'ancient' का सबसे उपयुक्त समानार्थी शब्द चुनें।",
@@ -462,7 +538,11 @@
           "whyHi": "ancient का अर्थ प्राचीन है।",
           "whyEn": "ancient means old.",
           "subject": "English Language",
-          "topic": "Vocabulary"
+          "topic": "Vocabulary",
+          "provenance": {
+            "kind": "original_practice",
+            "sourceTitle": "ExamSathi authored bilingual practice question"
+          }
         }
       ]
     },
@@ -494,7 +574,11 @@
           "whyHi": "280 × 13/100 = 36.4।",
           "whyEn": "280 × 13/100 = 36.4।",
           "subject": "Quantitative Aptitude",
-          "topic": "Percentage"
+          "topic": "Percentage",
+          "provenance": {
+            "kind": "original_practice",
+            "sourceTitle": "ExamSathi authored bilingual practice question"
+          }
         },
         {
           "hi": "₹1900 पर 8% वार्षिक दर से 2 वर्ष का साधारण ब्याज कितना होगा?",
@@ -515,7 +599,11 @@
           "whyHi": "साधारण ब्याज = मूलधन × दर × समय / 100 = ₹304।",
           "whyEn": "साधारण ब्याज = मूलधन × दर × समय / 100 = ₹304।",
           "subject": "Quantitative Aptitude",
-          "topic": "Simple Interest"
+          "topic": "Simple Interest",
+          "provenance": {
+            "kind": "original_practice",
+            "sourceTitle": "ExamSathi authored bilingual practice question"
+          }
         },
         {
           "hi": "40 और 56 का औसत कितना है?",
@@ -536,7 +624,11 @@
           "whyHi": "औसत = (40 + 56) / 2 = 48।",
           "whyEn": "औसत = (40 + 56) / 2 = 48।",
           "subject": "Quantitative Aptitude",
-          "topic": "Average"
+          "topic": "Average",
+          "provenance": {
+            "kind": "original_practice",
+            "sourceTitle": "ExamSathi authored bilingual practice question"
+          }
         },
         {
           "hi": "दो राशियों का अनुपात 6:4 है। पहली राशि 42 है। दूसरी राशि कितनी है?",
@@ -557,7 +649,11 @@
           "whyHi": "एक भाग = 42/6 = 7; दूसरी राशि = 4 × 7 = 28।",
           "whyEn": "एक भाग = 42/6 = 7; दूसरी राशि = 4 × 7 = 28।",
           "subject": "Quantitative Aptitude",
-          "topic": "Ratio"
+          "topic": "Ratio",
+          "provenance": {
+            "kind": "original_practice",
+            "sourceTitle": "ExamSathi authored bilingual practice question"
+          }
         },
         {
           "hi": "संख्या श्रृंखला 43, 53, 63, 73, ? में अगली संख्या क्या है?",
@@ -578,7 +674,11 @@
           "whyHi": "हर बार 10 जोड़ा जाता है; अगली संख्या 83 है।",
           "whyEn": "Add 10 each time; the next number is 83.",
           "subject": "General Intelligence & Reasoning",
-          "topic": "Number Series"
+          "topic": "Number Series",
+          "provenance": {
+            "kind": "original_practice",
+            "sourceTitle": "ExamSathi authored bilingual practice question"
+          }
         },
         {
           "hi": "संख्या श्रृंखला 48, 50, 52, 54, ? में अगली संख्या क्या है?",
@@ -599,7 +699,11 @@
           "whyHi": "हर बार 2 जोड़ा जाता है; अगली संख्या 56 है।",
           "whyEn": "Add 2 each time; the next number is 56.",
           "subject": "General Intelligence & Reasoning",
-          "topic": "Number Series"
+          "topic": "Number Series",
+          "provenance": {
+            "kind": "original_practice",
+            "sourceTitle": "ExamSathi authored bilingual practice question"
+          }
         },
         {
           "hi": "संख्या श्रृंखला 53, 56, 59, 62, ? में अगली संख्या क्या है?",
@@ -620,7 +724,11 @@
           "whyHi": "हर बार 3 जोड़ा जाता है; अगली संख्या 65 है।",
           "whyEn": "Add 3 each time; the next number is 65.",
           "subject": "General Intelligence & Reasoning",
-          "topic": "Number Series"
+          "topic": "Number Series",
+          "provenance": {
+            "kind": "original_practice",
+            "sourceTitle": "ExamSathi authored bilingual practice question"
+          }
         },
         {
           "hi": "संख्या श्रृंखला 58, 62, 66, 70, ? में अगली संख्या क्या है?",
@@ -641,7 +749,11 @@
           "whyHi": "हर बार 4 जोड़ा जाता है; अगली संख्या 74 है।",
           "whyEn": "Add 4 each time; the next number is 74.",
           "subject": "General Intelligence & Reasoning",
-          "topic": "Number Series"
+          "topic": "Number Series",
+          "provenance": {
+            "kind": "original_practice",
+            "sourceTitle": "ExamSathi authored bilingual practice question"
+          }
         },
         {
           "hi": "भारत का राष्ट्रीय जलीय जीव कौन है?",
@@ -662,7 +774,11 @@
           "whyHi": "गंगा नदी डॉल्फिन भारत का राष्ट्रीय जलीय जीव है।",
           "whyEn": "The Ganges river dolphin is India’s national aquatic animal.",
           "subject": "General Awareness",
-          "topic": "General Awareness"
+          "topic": "General Awareness",
+          "provenance": {
+            "kind": "original_practice",
+            "sourceTitle": "ExamSathi authored bilingual practice question"
+          }
         },
         {
           "hi": "'brief' का सबसे उपयुक्त समानार्थी शब्द चुनें।",
@@ -683,7 +799,11 @@
           "whyHi": "brief का अर्थ संक्षिप्त है।",
           "whyEn": "brief means short.",
           "subject": "English Language",
-          "topic": "Vocabulary"
+          "topic": "Vocabulary",
+          "provenance": {
+            "kind": "original_practice",
+            "sourceTitle": "ExamSathi authored bilingual practice question"
+          }
         }
       ]
     },
@@ -715,7 +835,11 @@
           "whyHi": "320 × 17/100 = 54.4।",
           "whyEn": "320 × 17/100 = 54.4।",
           "subject": "Quantitative Aptitude",
-          "topic": "Percentage"
+          "topic": "Percentage",
+          "provenance": {
+            "kind": "original_practice",
+            "sourceTitle": "ExamSathi authored bilingual practice question"
+          }
         },
         {
           "hi": "₹2300 पर 6% वार्षिक दर से 2 वर्ष का साधारण ब्याज कितना होगा?",
@@ -736,7 +860,11 @@
           "whyHi": "साधारण ब्याज = मूलधन × दर × समय / 100 = ₹276।",
           "whyEn": "साधारण ब्याज = मूलधन × दर × समय / 100 = ₹276।",
           "subject": "Quantitative Aptitude",
-          "topic": "Simple Interest"
+          "topic": "Simple Interest",
+          "provenance": {
+            "kind": "original_practice",
+            "sourceTitle": "ExamSathi authored bilingual practice question"
+          }
         },
         {
           "hi": "48 और 58 का औसत कितना है?",
@@ -757,7 +885,11 @@
           "whyHi": "औसत = (48 + 58) / 2 = 53।",
           "whyEn": "औसत = (48 + 58) / 2 = 53।",
           "subject": "Quantitative Aptitude",
-          "topic": "Average"
+          "topic": "Average",
+          "provenance": {
+            "kind": "original_practice",
+            "sourceTitle": "ExamSathi authored bilingual practice question"
+          }
         },
         {
           "hi": "दो राशियों का अनुपात 3:3 है। पहली राशि 33 है। दूसरी राशि कितनी है?",
@@ -778,7 +910,11 @@
           "whyHi": "एक भाग = 33/3 = 11; दूसरी राशि = 3 × 11 = 33।",
           "whyEn": "एक भाग = 33/3 = 11; दूसरी राशि = 3 × 11 = 33।",
           "subject": "Quantitative Aptitude",
-          "topic": "Ratio"
+          "topic": "Ratio",
+          "provenance": {
+            "kind": "original_practice",
+            "sourceTitle": "ExamSathi authored bilingual practice question"
+          }
         },
         {
           "hi": "संख्या श्रृंखला 63, 68, 73, 78, ? में अगली संख्या क्या है?",
@@ -799,7 +935,11 @@
           "whyHi": "हर बार 5 जोड़ा जाता है; अगली संख्या 83 है।",
           "whyEn": "Add 5 each time; the next number is 83.",
           "subject": "General Intelligence & Reasoning",
-          "topic": "Number Series"
+          "topic": "Number Series",
+          "provenance": {
+            "kind": "original_practice",
+            "sourceTitle": "ExamSathi authored bilingual practice question"
+          }
         },
         {
           "hi": "संख्या श्रृंखला 68, 74, 80, 86, ? में अगली संख्या क्या है?",
@@ -820,7 +960,11 @@
           "whyHi": "हर बार 6 जोड़ा जाता है; अगली संख्या 92 है।",
           "whyEn": "Add 6 each time; the next number is 92.",
           "subject": "General Intelligence & Reasoning",
-          "topic": "Number Series"
+          "topic": "Number Series",
+          "provenance": {
+            "kind": "original_practice",
+            "sourceTitle": "ExamSathi authored bilingual practice question"
+          }
         },
         {
           "hi": "संख्या श्रृंखला 73, 80, 87, 94, ? में अगली संख्या क्या है?",
@@ -841,7 +985,11 @@
           "whyHi": "हर बार 7 जोड़ा जाता है; अगली संख्या 101 है।",
           "whyEn": "Add 7 each time; the next number is 101.",
           "subject": "General Intelligence & Reasoning",
-          "topic": "Number Series"
+          "topic": "Number Series",
+          "provenance": {
+            "kind": "original_practice",
+            "sourceTitle": "ExamSathi authored bilingual practice question"
+          }
         },
         {
           "hi": "संख्या श्रृंखला 78, 86, 94, 102, ? में अगली संख्या क्या है?",
@@ -862,7 +1010,11 @@
           "whyHi": "हर बार 8 जोड़ा जाता है; अगली संख्या 110 है।",
           "whyEn": "Add 8 each time; the next number is 110.",
           "subject": "General Intelligence & Reasoning",
-          "topic": "Number Series"
+          "topic": "Number Series",
+          "provenance": {
+            "kind": "original_practice",
+            "sourceTitle": "ExamSathi authored bilingual practice question"
+          }
         },
         {
           "hi": "क्षेत्रफल के आधार पर भारत का सबसे बड़ा राज्य कौन-सा है?",
@@ -883,7 +1035,11 @@
           "whyHi": "राजस्थान क्षेत्रफल के आधार पर सबसे बड़ा राज्य है।",
           "whyEn": "Rajasthan is India’s largest state by area.",
           "subject": "General Awareness",
-          "topic": "Geography"
+          "topic": "Geography",
+          "provenance": {
+            "kind": "original_practice",
+            "sourceTitle": "ExamSathi authored bilingual practice question"
+          }
         },
         {
           "hi": "'candid' का सबसे उपयुक्त समानार्थी शब्द चुनें।",
@@ -904,7 +1060,11 @@
           "whyHi": "candid का अर्थ स्पष्टवादी है।",
           "whyEn": "candid means frank.",
           "subject": "English Language",
-          "topic": "Vocabulary"
+          "topic": "Vocabulary",
+          "provenance": {
+            "kind": "original_practice",
+            "sourceTitle": "ExamSathi authored bilingual practice question"
+          }
         }
       ]
     },
@@ -936,7 +1096,11 @@
           "whyHi": "360 × 5/100 = 18।",
           "whyEn": "360 × 5/100 = 18।",
           "subject": "Quantitative Aptitude",
-          "topic": "Percentage"
+          "topic": "Percentage",
+          "provenance": {
+            "kind": "original_practice",
+            "sourceTitle": "ExamSathi authored bilingual practice question"
+          }
         },
         {
           "hi": "₹2700 पर 10% वार्षिक दर से 2 वर्ष का साधारण ब्याज कितना होगा?",
@@ -957,7 +1121,11 @@
           "whyHi": "साधारण ब्याज = मूलधन × दर × समय / 100 = ₹540।",
           "whyEn": "साधारण ब्याज = मूलधन × दर × समय / 100 = ₹540।",
           "subject": "Quantitative Aptitude",
-          "topic": "Simple Interest"
+          "topic": "Simple Interest",
+          "provenance": {
+            "kind": "original_practice",
+            "sourceTitle": "ExamSathi authored bilingual practice question"
+          }
         },
         {
           "hi": "56 और 74 का औसत कितना है?",
@@ -978,7 +1146,11 @@
           "whyHi": "औसत = (56 + 74) / 2 = 65।",
           "whyEn": "औसत = (56 + 74) / 2 = 65।",
           "subject": "Quantitative Aptitude",
-          "topic": "Average"
+          "topic": "Average",
+          "provenance": {
+            "kind": "original_practice",
+            "sourceTitle": "ExamSathi authored bilingual practice question"
+          }
         },
         {
           "hi": "दो राशियों का अनुपात 7:7 है। पहली राशि 42 है। दूसरी राशि कितनी है?",
@@ -999,7 +1171,11 @@
           "whyHi": "एक भाग = 42/7 = 6; दूसरी राशि = 7 × 6 = 42।",
           "whyEn": "एक भाग = 42/7 = 6; दूसरी राशि = 7 × 6 = 42।",
           "subject": "Quantitative Aptitude",
-          "topic": "Ratio"
+          "topic": "Ratio",
+          "provenance": {
+            "kind": "original_practice",
+            "sourceTitle": "ExamSathi authored bilingual practice question"
+          }
         },
         {
           "hi": "संख्या श्रृंखला 83, 92, 101, 110, ? में अगली संख्या क्या है?",
@@ -1020,7 +1196,11 @@
           "whyHi": "हर बार 9 जोड़ा जाता है; अगली संख्या 119 है।",
           "whyEn": "Add 9 each time; the next number is 119.",
           "subject": "General Intelligence & Reasoning",
-          "topic": "Number Series"
+          "topic": "Number Series",
+          "provenance": {
+            "kind": "original_practice",
+            "sourceTitle": "ExamSathi authored bilingual practice question"
+          }
         },
         {
           "hi": "संख्या श्रृंखला 88, 98, 108, 118, ? में अगली संख्या क्या है?",
@@ -1041,7 +1221,11 @@
           "whyHi": "हर बार 10 जोड़ा जाता है; अगली संख्या 128 है।",
           "whyEn": "Add 10 each time; the next number is 128.",
           "subject": "General Intelligence & Reasoning",
-          "topic": "Number Series"
+          "topic": "Number Series",
+          "provenance": {
+            "kind": "original_practice",
+            "sourceTitle": "ExamSathi authored bilingual practice question"
+          }
         },
         {
           "hi": "संख्या श्रृंखला 93, 95, 97, 99, ? में अगली संख्या क्या है?",
@@ -1062,7 +1246,11 @@
           "whyHi": "हर बार 2 जोड़ा जाता है; अगली संख्या 101 है।",
           "whyEn": "Add 2 each time; the next number is 101.",
           "subject": "General Intelligence & Reasoning",
-          "topic": "Number Series"
+          "topic": "Number Series",
+          "provenance": {
+            "kind": "original_practice",
+            "sourceTitle": "ExamSathi authored bilingual practice question"
+          }
         },
         {
           "hi": "संख्या श्रृंखला 98, 101, 104, 107, ? में अगली संख्या क्या है?",
@@ -1083,7 +1271,11 @@
           "whyHi": "हर बार 3 जोड़ा जाता है; अगली संख्या 110 है।",
           "whyEn": "Add 3 each time; the next number is 110.",
           "subject": "General Intelligence & Reasoning",
-          "topic": "Number Series"
+          "topic": "Number Series",
+          "provenance": {
+            "kind": "original_practice",
+            "sourceTitle": "ExamSathi authored bilingual practice question"
+          }
         },
         {
           "hi": "RBI ने कार्य कब शुरू किया?",
@@ -1104,7 +1296,11 @@
           "whyHi": "RBI ने 1 अप्रैल 1935 को कार्य शुरू किया।",
           "whyEn": "The RBI commenced operations on 1 April 1935.",
           "subject": "General Awareness",
-          "topic": "Economy"
+          "topic": "Economy",
+          "provenance": {
+            "kind": "original_practice",
+            "sourceTitle": "ExamSathi authored bilingual practice question"
+          }
         },
         {
           "hi": "'diligent' का सबसे उपयुक्त समानार्थी शब्द चुनें।",
@@ -1125,7 +1321,11 @@
           "whyHi": "diligent का अर्थ परिश्रमी है।",
           "whyEn": "diligent means hardworking.",
           "subject": "English Language",
-          "topic": "Vocabulary"
+          "topic": "Vocabulary",
+          "provenance": {
+            "kind": "original_practice",
+            "sourceTitle": "ExamSathi authored bilingual practice question"
+          }
         }
       ]
     },
@@ -1157,7 +1357,11 @@
           "whyHi": "400 × 9/100 = 36।",
           "whyEn": "400 × 9/100 = 36।",
           "subject": "Quantitative Aptitude",
-          "topic": "Percentage"
+          "topic": "Percentage",
+          "provenance": {
+            "kind": "original_practice",
+            "sourceTitle": "ExamSathi authored bilingual practice question"
+          }
         },
         {
           "hi": "₹3100 पर 8% वार्षिक दर से 2 वर्ष का साधारण ब्याज कितना होगा?",
@@ -1178,7 +1382,11 @@
           "whyHi": "साधारण ब्याज = मूलधन × दर × समय / 100 = ₹496।",
           "whyEn": "साधारण ब्याज = मूलधन × दर × समय / 100 = ₹496।",
           "subject": "Quantitative Aptitude",
-          "topic": "Simple Interest"
+          "topic": "Simple Interest",
+          "provenance": {
+            "kind": "original_practice",
+            "sourceTitle": "ExamSathi authored bilingual practice question"
+          }
         },
         {
           "hi": "64 और 76 का औसत कितना है?",
@@ -1199,7 +1407,11 @@
           "whyHi": "औसत = (64 + 76) / 2 = 70।",
           "whyEn": "औसत = (64 + 76) / 2 = 70।",
           "subject": "Quantitative Aptitude",
-          "topic": "Average"
+          "topic": "Average",
+          "provenance": {
+            "kind": "original_practice",
+            "sourceTitle": "ExamSathi authored bilingual practice question"
+          }
         },
         {
           "hi": "दो राशियों का अनुपात 4:6 है। पहली राशि 40 है। दूसरी राशि कितनी है?",
@@ -1220,7 +1432,11 @@
           "whyHi": "एक भाग = 40/4 = 10; दूसरी राशि = 6 × 10 = 60।",
           "whyEn": "एक भाग = 40/4 = 10; दूसरी राशि = 6 × 10 = 60।",
           "subject": "Quantitative Aptitude",
-          "topic": "Ratio"
+          "topic": "Ratio",
+          "provenance": {
+            "kind": "original_practice",
+            "sourceTitle": "ExamSathi authored bilingual practice question"
+          }
         },
         {
           "hi": "संख्या श्रृंखला 103, 107, 111, 115, ? में अगली संख्या क्या है?",
@@ -1241,7 +1457,11 @@
           "whyHi": "हर बार 4 जोड़ा जाता है; अगली संख्या 119 है।",
           "whyEn": "Add 4 each time; the next number is 119.",
           "subject": "General Intelligence & Reasoning",
-          "topic": "Number Series"
+          "topic": "Number Series",
+          "provenance": {
+            "kind": "original_practice",
+            "sourceTitle": "ExamSathi authored bilingual practice question"
+          }
         },
         {
           "hi": "संख्या श्रृंखला 108, 113, 118, 123, ? में अगली संख्या क्या है?",
@@ -1262,7 +1482,11 @@
           "whyHi": "हर बार 5 जोड़ा जाता है; अगली संख्या 128 है।",
           "whyEn": "Add 5 each time; the next number is 128.",
           "subject": "General Intelligence & Reasoning",
-          "topic": "Number Series"
+          "topic": "Number Series",
+          "provenance": {
+            "kind": "original_practice",
+            "sourceTitle": "ExamSathi authored bilingual practice question"
+          }
         },
         {
           "hi": "संख्या श्रृंखला 113, 119, 125, 131, ? में अगली संख्या क्या है?",
@@ -1283,7 +1507,11 @@
           "whyHi": "हर बार 6 जोड़ा जाता है; अगली संख्या 137 है।",
           "whyEn": "Add 6 each time; the next number is 137.",
           "subject": "General Intelligence & Reasoning",
-          "topic": "Number Series"
+          "topic": "Number Series",
+          "provenance": {
+            "kind": "original_practice",
+            "sourceTitle": "ExamSathi authored bilingual practice question"
+          }
         },
         {
           "hi": "संख्या श्रृंखला 118, 125, 132, 139, ? में अगली संख्या क्या है?",
@@ -1304,7 +1532,11 @@
           "whyHi": "हर बार 7 जोड़ा जाता है; अगली संख्या 146 है।",
           "whyEn": "Add 7 each time; the next number is 146.",
           "subject": "General Intelligence & Reasoning",
-          "topic": "Number Series"
+          "topic": "Number Series",
+          "provenance": {
+            "kind": "original_practice",
+            "sourceTitle": "ExamSathi authored bilingual practice question"
+          }
         },
         {
           "hi": "पंचायती राज को संवैधानिक दर्जा किस संशोधन से मिला?",
@@ -1325,7 +1557,11 @@
           "whyHi": "73वें संशोधन ने पंचायती राज संस्थाओं को संवैधानिक दर्जा दिया।",
           "whyEn": "The 73rd Amendment gave constitutional status to Panchayati Raj.",
           "subject": "General Awareness",
-          "topic": "Polity"
+          "topic": "Polity",
+          "provenance": {
+            "kind": "original_practice",
+            "sourceTitle": "ExamSathi authored bilingual practice question"
+          }
         },
         {
           "hi": "'enormous' का सबसे उपयुक्त समानार्थी शब्द चुनें।",
@@ -1346,7 +1582,11 @@
           "whyHi": "enormous का अर्थ विशाल है।",
           "whyEn": "enormous means huge.",
           "subject": "English Language",
-          "topic": "Vocabulary"
+          "topic": "Vocabulary",
+          "provenance": {
+            "kind": "original_practice",
+            "sourceTitle": "ExamSathi authored bilingual practice question"
+          }
         }
       ]
     },
@@ -1378,7 +1618,11 @@
           "whyHi": "440 × 13/100 = 57.2।",
           "whyEn": "440 × 13/100 = 57.2।",
           "subject": "Quantitative Aptitude",
-          "topic": "Percentage"
+          "topic": "Percentage",
+          "provenance": {
+            "kind": "original_practice",
+            "sourceTitle": "ExamSathi authored bilingual practice question"
+          }
         },
         {
           "hi": "₹3500 पर 6% वार्षिक दर से 2 वर्ष का साधारण ब्याज कितना होगा?",
@@ -1399,7 +1643,11 @@
           "whyHi": "साधारण ब्याज = मूलधन × दर × समय / 100 = ₹420।",
           "whyEn": "साधारण ब्याज = मूलधन × दर × समय / 100 = ₹420।",
           "subject": "Quantitative Aptitude",
-          "topic": "Simple Interest"
+          "topic": "Simple Interest",
+          "provenance": {
+            "kind": "original_practice",
+            "sourceTitle": "ExamSathi authored bilingual practice question"
+          }
         },
         {
           "hi": "72 और 92 का औसत कितना है?",
@@ -1420,7 +1668,11 @@
           "whyHi": "औसत = (72 + 92) / 2 = 82।",
           "whyEn": "औसत = (72 + 92) / 2 = 82।",
           "subject": "Quantitative Aptitude",
-          "topic": "Average"
+          "topic": "Average",
+          "provenance": {
+            "kind": "original_practice",
+            "sourceTitle": "ExamSathi authored bilingual practice question"
+          }
         },
         {
           "hi": "दो राशियों का अनुपात 8:5 है। पहली राशि 40 है। दूसरी राशि कितनी है?",
@@ -1441,7 +1693,11 @@
           "whyHi": "एक भाग = 40/8 = 5; दूसरी राशि = 5 × 5 = 25।",
           "whyEn": "एक भाग = 40/8 = 5; दूसरी राशि = 5 × 5 = 25।",
           "subject": "Quantitative Aptitude",
-          "topic": "Ratio"
+          "topic": "Ratio",
+          "provenance": {
+            "kind": "original_practice",
+            "sourceTitle": "ExamSathi authored bilingual practice question"
+          }
         },
         {
           "hi": "संख्या श्रृंखला 123, 131, 139, 147, ? में अगली संख्या क्या है?",
@@ -1462,7 +1718,11 @@
           "whyHi": "हर बार 8 जोड़ा जाता है; अगली संख्या 155 है।",
           "whyEn": "Add 8 each time; the next number is 155.",
           "subject": "General Intelligence & Reasoning",
-          "topic": "Number Series"
+          "topic": "Number Series",
+          "provenance": {
+            "kind": "original_practice",
+            "sourceTitle": "ExamSathi authored bilingual practice question"
+          }
         },
         {
           "hi": "संख्या श्रृंखला 128, 137, 146, 155, ? में अगली संख्या क्या है?",
@@ -1483,7 +1743,11 @@
           "whyHi": "हर बार 9 जोड़ा जाता है; अगली संख्या 164 है।",
           "whyEn": "Add 9 each time; the next number is 164.",
           "subject": "General Intelligence & Reasoning",
-          "topic": "Number Series"
+          "topic": "Number Series",
+          "provenance": {
+            "kind": "original_practice",
+            "sourceTitle": "ExamSathi authored bilingual practice question"
+          }
         },
         {
           "hi": "संख्या श्रृंखला 133, 143, 153, 163, ? में अगली संख्या क्या है?",
@@ -1504,7 +1768,11 @@
           "whyHi": "हर बार 10 जोड़ा जाता है; अगली संख्या 173 है।",
           "whyEn": "Add 10 each time; the next number is 173.",
           "subject": "General Intelligence & Reasoning",
-          "topic": "Number Series"
+          "topic": "Number Series",
+          "provenance": {
+            "kind": "original_practice",
+            "sourceTitle": "ExamSathi authored bilingual practice question"
+          }
         },
         {
           "hi": "संख्या श्रृंखला 138, 140, 142, 144, ? में अगली संख्या क्या है?",
@@ -1525,7 +1793,11 @@
           "whyHi": "हर बार 2 जोड़ा जाता है; अगली संख्या 146 है।",
           "whyEn": "Add 2 each time; the next number is 146.",
           "subject": "General Intelligence & Reasoning",
-          "topic": "Number Series"
+          "topic": "Number Series",
+          "provenance": {
+            "kind": "original_practice",
+            "sourceTitle": "ExamSathi authored bilingual practice question"
+          }
         },
         {
           "hi": "भारत का पहला उपग्रह कौन-सा था?",
@@ -1546,7 +1818,11 @@
           "whyHi": "आर्यभट्ट भारत का पहला उपग्रह था, जिसे 1975 में प्रक्षेपित किया गया।",
           "whyEn": "Aryabhata was India’s first satellite, launched in 1975.",
           "subject": "General Awareness",
-          "topic": "Science"
+          "topic": "Science",
+          "provenance": {
+            "kind": "original_practice",
+            "sourceTitle": "ExamSathi authored bilingual practice question"
+          }
         },
         {
           "hi": "'fragile' का सबसे उपयुक्त समानार्थी शब्द चुनें।",
@@ -1567,7 +1843,11 @@
           "whyHi": "fragile का अर्थ नाजुक है।",
           "whyEn": "fragile means delicate.",
           "subject": "English Language",
-          "topic": "Vocabulary"
+          "topic": "Vocabulary",
+          "provenance": {
+            "kind": "original_practice",
+            "sourceTitle": "ExamSathi authored bilingual practice question"
+          }
         }
       ]
     },
@@ -1599,7 +1879,11 @@
           "whyHi": "480 × 17/100 = 81.6।",
           "whyEn": "480 × 17/100 = 81.6।",
           "subject": "Quantitative Aptitude",
-          "topic": "Percentage"
+          "topic": "Percentage",
+          "provenance": {
+            "kind": "original_practice",
+            "sourceTitle": "ExamSathi authored bilingual practice question"
+          }
         },
         {
           "hi": "₹3900 पर 10% वार्षिक दर से 2 वर्ष का साधारण ब्याज कितना होगा?",
@@ -1620,7 +1904,11 @@
           "whyHi": "साधारण ब्याज = मूलधन × दर × समय / 100 = ₹780।",
           "whyEn": "साधारण ब्याज = मूलधन × दर × समय / 100 = ₹780।",
           "subject": "Quantitative Aptitude",
-          "topic": "Simple Interest"
+          "topic": "Simple Interest",
+          "provenance": {
+            "kind": "original_practice",
+            "sourceTitle": "ExamSathi authored bilingual practice question"
+          }
         },
         {
           "hi": "80 और 94 का औसत कितना है?",
@@ -1641,7 +1929,11 @@
           "whyHi": "औसत = (80 + 94) / 2 = 87।",
           "whyEn": "औसत = (80 + 94) / 2 = 87।",
           "subject": "Quantitative Aptitude",
-          "topic": "Average"
+          "topic": "Average",
+          "provenance": {
+            "kind": "original_practice",
+            "sourceTitle": "ExamSathi authored bilingual practice question"
+          }
         },
         {
           "hi": "दो राशियों का अनुपात 5:4 है। पहली राशि 45 है। दूसरी राशि कितनी है?",
@@ -1662,7 +1954,11 @@
           "whyHi": "एक भाग = 45/5 = 9; दूसरी राशि = 4 × 9 = 36।",
           "whyEn": "एक भाग = 45/5 = 9; दूसरी राशि = 4 × 9 = 36।",
           "subject": "Quantitative Aptitude",
-          "topic": "Ratio"
+          "topic": "Ratio",
+          "provenance": {
+            "kind": "original_practice",
+            "sourceTitle": "ExamSathi authored bilingual practice question"
+          }
         },
         {
           "hi": "संख्या श्रृंखला 143, 146, 149, 152, ? में अगली संख्या क्या है?",
@@ -1683,7 +1979,11 @@
           "whyHi": "हर बार 3 जोड़ा जाता है; अगली संख्या 155 है।",
           "whyEn": "Add 3 each time; the next number is 155.",
           "subject": "General Intelligence & Reasoning",
-          "topic": "Number Series"
+          "topic": "Number Series",
+          "provenance": {
+            "kind": "original_practice",
+            "sourceTitle": "ExamSathi authored bilingual practice question"
+          }
         },
         {
           "hi": "संख्या श्रृंखला 148, 152, 156, 160, ? में अगली संख्या क्या है?",
@@ -1704,7 +2004,11 @@
           "whyHi": "हर बार 4 जोड़ा जाता है; अगली संख्या 164 है।",
           "whyEn": "Add 4 each time; the next number is 164.",
           "subject": "General Intelligence & Reasoning",
-          "topic": "Number Series"
+          "topic": "Number Series",
+          "provenance": {
+            "kind": "original_practice",
+            "sourceTitle": "ExamSathi authored bilingual practice question"
+          }
         },
         {
           "hi": "संख्या श्रृंखला 153, 158, 163, 168, ? में अगली संख्या क्या है?",
@@ -1725,7 +2029,11 @@
           "whyHi": "हर बार 5 जोड़ा जाता है; अगली संख्या 173 है।",
           "whyEn": "Add 5 each time; the next number is 173.",
           "subject": "General Intelligence & Reasoning",
-          "topic": "Number Series"
+          "topic": "Number Series",
+          "provenance": {
+            "kind": "original_practice",
+            "sourceTitle": "ExamSathi authored bilingual practice question"
+          }
         },
         {
           "hi": "संख्या श्रृंखला 158, 164, 170, 176, ? में अगली संख्या क्या है?",
@@ -1746,7 +2054,11 @@
           "whyHi": "हर बार 6 जोड़ा जाता है; अगली संख्या 182 है।",
           "whyEn": "Add 6 each time; the next number is 182.",
           "subject": "General Intelligence & Reasoning",
-          "topic": "Number Series"
+          "topic": "Number Series",
+          "provenance": {
+            "kind": "original_practice",
+            "sourceTitle": "ExamSathi authored bilingual practice question"
+          }
         },
         {
           "hi": "प्रकाश संश्लेषण में पौधे कौन-सी गैस ग्रहण करते हैं?",
@@ -1767,7 +2079,11 @@
           "whyHi": "प्रकाश संश्लेषण में पौधे कार्बन डाइऑक्साइड ग्रहण करते हैं।",
           "whyEn": "Plants absorb carbon dioxide during photosynthesis.",
           "subject": "General Awareness",
-          "topic": "Science"
+          "topic": "Science",
+          "provenance": {
+            "kind": "original_practice",
+            "sourceTitle": "ExamSathi authored bilingual practice question"
+          }
         },
         {
           "hi": "'genuine' का सबसे उपयुक्त समानार्थी शब्द चुनें।",
@@ -1788,7 +2104,11 @@
           "whyHi": "genuine का अर्थ असली है।",
           "whyEn": "genuine means authentic.",
           "subject": "English Language",
-          "topic": "Vocabulary"
+          "topic": "Vocabulary",
+          "provenance": {
+            "kind": "original_practice",
+            "sourceTitle": "ExamSathi authored bilingual practice question"
+          }
         }
       ]
     },
@@ -1820,7 +2140,11 @@
           "whyHi": "520 × 5/100 = 26।",
           "whyEn": "520 × 5/100 = 26।",
           "subject": "Quantitative Aptitude",
-          "topic": "Percentage"
+          "topic": "Percentage",
+          "provenance": {
+            "kind": "original_practice",
+            "sourceTitle": "ExamSathi authored bilingual practice question"
+          }
         },
         {
           "hi": "₹4300 पर 8% वार्षिक दर से 2 वर्ष का साधारण ब्याज कितना होगा?",
@@ -1841,7 +2165,11 @@
           "whyHi": "साधारण ब्याज = मूलधन × दर × समय / 100 = ₹688।",
           "whyEn": "साधारण ब्याज = मूलधन × दर × समय / 100 = ₹688।",
           "subject": "Quantitative Aptitude",
-          "topic": "Simple Interest"
+          "topic": "Simple Interest",
+          "provenance": {
+            "kind": "original_practice",
+            "sourceTitle": "ExamSathi authored bilingual practice question"
+          }
         },
         {
           "hi": "88 और 110 का औसत कितना है?",
@@ -1862,7 +2190,11 @@
           "whyHi": "औसत = (88 + 110) / 2 = 99।",
           "whyEn": "औसत = (88 + 110) / 2 = 99।",
           "subject": "Quantitative Aptitude",
-          "topic": "Average"
+          "topic": "Average",
+          "provenance": {
+            "kind": "original_practice",
+            "sourceTitle": "ExamSathi authored bilingual practice question"
+          }
         },
         {
           "hi": "दो राशियों का अनुपात 2:3 है। पहली राशि 26 है। दूसरी राशि कितनी है?",
@@ -1883,7 +2215,11 @@
           "whyHi": "एक भाग = 26/2 = 13; दूसरी राशि = 3 × 13 = 39।",
           "whyEn": "एक भाग = 26/2 = 13; दूसरी राशि = 3 × 13 = 39।",
           "subject": "Quantitative Aptitude",
-          "topic": "Ratio"
+          "topic": "Ratio",
+          "provenance": {
+            "kind": "original_practice",
+            "sourceTitle": "ExamSathi authored bilingual practice question"
+          }
         },
         {
           "hi": "संख्या श्रृंखला 163, 170, 177, 184, ? में अगली संख्या क्या है?",
@@ -1904,7 +2240,11 @@
           "whyHi": "हर बार 7 जोड़ा जाता है; अगली संख्या 191 है।",
           "whyEn": "Add 7 each time; the next number is 191.",
           "subject": "General Intelligence & Reasoning",
-          "topic": "Number Series"
+          "topic": "Number Series",
+          "provenance": {
+            "kind": "original_practice",
+            "sourceTitle": "ExamSathi authored bilingual practice question"
+          }
         },
         {
           "hi": "संख्या श्रृंखला 168, 176, 184, 192, ? में अगली संख्या क्या है?",
@@ -1925,7 +2265,11 @@
           "whyHi": "हर बार 8 जोड़ा जाता है; अगली संख्या 200 है।",
           "whyEn": "Add 8 each time; the next number is 200.",
           "subject": "General Intelligence & Reasoning",
-          "topic": "Number Series"
+          "topic": "Number Series",
+          "provenance": {
+            "kind": "original_practice",
+            "sourceTitle": "ExamSathi authored bilingual practice question"
+          }
         },
         {
           "hi": "संख्या श्रृंखला 173, 182, 191, 200, ? में अगली संख्या क्या है?",
@@ -1946,7 +2290,11 @@
           "whyHi": "हर बार 9 जोड़ा जाता है; अगली संख्या 209 है।",
           "whyEn": "Add 9 each time; the next number is 209.",
           "subject": "General Intelligence & Reasoning",
-          "topic": "Number Series"
+          "topic": "Number Series",
+          "provenance": {
+            "kind": "original_practice",
+            "sourceTitle": "ExamSathi authored bilingual practice question"
+          }
         },
         {
           "hi": "संख्या श्रृंखला 178, 188, 198, 208, ? में अगली संख्या क्या है?",
@@ -1967,7 +2315,11 @@
           "whyHi": "हर बार 10 जोड़ा जाता है; अगली संख्या 218 है।",
           "whyEn": "Add 10 each time; the next number is 218.",
           "subject": "General Intelligence & Reasoning",
-          "topic": "Number Series"
+          "topic": "Number Series",
+          "provenance": {
+            "kind": "original_practice",
+            "sourceTitle": "ExamSathi authored bilingual practice question"
+          }
         },
         {
           "hi": "रक्त का लाल रंग किसके कारण होता है?",
@@ -1988,7 +2340,11 @@
           "whyHi": "हीमोग्लोबिन में हीम समूह रक्त को लाल रंग देता है।",
           "whyEn": "Haem in haemoglobin gives blood its red colour.",
           "subject": "General Awareness",
-          "topic": "Science"
+          "topic": "Science",
+          "provenance": {
+            "kind": "original_practice",
+            "sourceTitle": "ExamSathi authored bilingual practice question"
+          }
         },
         {
           "hi": "'hostile' का सबसे उपयुक्त समानार्थी शब्द चुनें।",
@@ -2009,7 +2365,11 @@
           "whyHi": "hostile का अर्थ शत्रुतापूर्ण है।",
           "whyEn": "hostile means unfriendly.",
           "subject": "English Language",
-          "topic": "Vocabulary"
+          "topic": "Vocabulary",
+          "provenance": {
+            "kind": "original_practice",
+            "sourceTitle": "ExamSathi authored bilingual practice question"
+          }
         }
       ]
     },
@@ -2041,7 +2401,11 @@
           "whyHi": "560 × 9/100 = 50.4।",
           "whyEn": "560 × 9/100 = 50.4।",
           "subject": "Quantitative Aptitude",
-          "topic": "Percentage"
+          "topic": "Percentage",
+          "provenance": {
+            "kind": "original_practice",
+            "sourceTitle": "ExamSathi authored bilingual practice question"
+          }
         },
         {
           "hi": "₹4700 पर 6% वार्षिक दर से 2 वर्ष का साधारण ब्याज कितना होगा?",
@@ -2062,7 +2426,11 @@
           "whyHi": "साधारण ब्याज = मूलधन × दर × समय / 100 = ₹564।",
           "whyEn": "साधारण ब्याज = मूलधन × दर × समय / 100 = ₹564।",
           "subject": "Quantitative Aptitude",
-          "topic": "Simple Interest"
+          "topic": "Simple Interest",
+          "provenance": {
+            "kind": "original_practice",
+            "sourceTitle": "ExamSathi authored bilingual practice question"
+          }
         },
         {
           "hi": "96 और 112 का औसत कितना है?",
@@ -2083,7 +2451,11 @@
           "whyHi": "औसत = (96 + 112) / 2 = 104।",
           "whyEn": "औसत = (96 + 112) / 2 = 104।",
           "subject": "Quantitative Aptitude",
-          "topic": "Average"
+          "topic": "Average",
+          "provenance": {
+            "kind": "original_practice",
+            "sourceTitle": "ExamSathi authored bilingual practice question"
+          }
         },
         {
           "hi": "दो राशियों का अनुपात 6:7 है। पहली राशि 48 है। दूसरी राशि कितनी है?",
@@ -2104,7 +2476,11 @@
           "whyHi": "एक भाग = 48/6 = 8; दूसरी राशि = 7 × 8 = 56।",
           "whyEn": "एक भाग = 48/6 = 8; दूसरी राशि = 7 × 8 = 56।",
           "subject": "Quantitative Aptitude",
-          "topic": "Ratio"
+          "topic": "Ratio",
+          "provenance": {
+            "kind": "original_practice",
+            "sourceTitle": "ExamSathi authored bilingual practice question"
+          }
         },
         {
           "hi": "संख्या श्रृंखला 183, 185, 187, 189, ? में अगली संख्या क्या है?",
@@ -2125,7 +2501,11 @@
           "whyHi": "हर बार 2 जोड़ा जाता है; अगली संख्या 191 है।",
           "whyEn": "Add 2 each time; the next number is 191.",
           "subject": "General Intelligence & Reasoning",
-          "topic": "Number Series"
+          "topic": "Number Series",
+          "provenance": {
+            "kind": "original_practice",
+            "sourceTitle": "ExamSathi authored bilingual practice question"
+          }
         },
         {
           "hi": "संख्या श्रृंखला 188, 191, 194, 197, ? में अगली संख्या क्या है?",
@@ -2146,7 +2526,11 @@
           "whyHi": "हर बार 3 जोड़ा जाता है; अगली संख्या 200 है।",
           "whyEn": "Add 3 each time; the next number is 200.",
           "subject": "General Intelligence & Reasoning",
-          "topic": "Number Series"
+          "topic": "Number Series",
+          "provenance": {
+            "kind": "original_practice",
+            "sourceTitle": "ExamSathi authored bilingual practice question"
+          }
         },
         {
           "hi": "संख्या श्रृंखला 193, 197, 201, 205, ? में अगली संख्या क्या है?",
@@ -2167,7 +2551,11 @@
           "whyHi": "हर बार 4 जोड़ा जाता है; अगली संख्या 209 है।",
           "whyEn": "Add 4 each time; the next number is 209.",
           "subject": "General Intelligence & Reasoning",
-          "topic": "Number Series"
+          "topic": "Number Series",
+          "provenance": {
+            "kind": "original_practice",
+            "sourceTitle": "ExamSathi authored bilingual practice question"
+          }
         },
         {
           "hi": "संख्या श्रृंखला 198, 203, 208, 213, ? में अगली संख्या क्या है?",
@@ -2188,7 +2576,11 @@
           "whyHi": "हर बार 5 जोड़ा जाता है; अगली संख्या 218 है।",
           "whyEn": "Add 5 each time; the next number is 218.",
           "subject": "General Intelligence & Reasoning",
-          "topic": "Number Series"
+          "topic": "Number Series",
+          "provenance": {
+            "kind": "original_practice",
+            "sourceTitle": "ExamSathi authored bilingual practice question"
+          }
         },
         {
           "hi": "लोकसभा का सामान्य कार्यकाल कितने वर्ष है?",
@@ -2209,7 +2601,11 @@
           "whyHi": "लोकसभा का सामान्य कार्यकाल पाँच वर्ष है।",
           "whyEn": "The Lok Sabha normally lasts five years.",
           "subject": "General Awareness",
-          "topic": "Polity"
+          "topic": "Polity",
+          "provenance": {
+            "kind": "original_practice",
+            "sourceTitle": "ExamSathi authored bilingual practice question"
+          }
         },
         {
           "hi": "'inevitable' का सबसे उपयुक्त समानार्थी शब्द चुनें।",
@@ -2230,7 +2626,11 @@
           "whyHi": "inevitable का अर्थ अपरिहार्य है।",
           "whyEn": "inevitable means unavoidable.",
           "subject": "English Language",
-          "topic": "Vocabulary"
+          "topic": "Vocabulary",
+          "provenance": {
+            "kind": "original_practice",
+            "sourceTitle": "ExamSathi authored bilingual practice question"
+          }
         }
       ]
     },
@@ -2262,7 +2662,11 @@
           "whyHi": "600 × 13/100 = 78।",
           "whyEn": "600 × 13/100 = 78।",
           "subject": "Quantitative Aptitude",
-          "topic": "Percentage"
+          "topic": "Percentage",
+          "provenance": {
+            "kind": "original_practice",
+            "sourceTitle": "ExamSathi authored bilingual practice question"
+          }
         },
         {
           "hi": "₹5100 पर 10% वार्षिक दर से 2 वर्ष का साधारण ब्याज कितना होगा?",
@@ -2283,7 +2687,11 @@
           "whyHi": "साधारण ब्याज = मूलधन × दर × समय / 100 = ₹1020।",
           "whyEn": "साधारण ब्याज = मूलधन × दर × समय / 100 = ₹1020।",
           "subject": "Quantitative Aptitude",
-          "topic": "Simple Interest"
+          "topic": "Simple Interest",
+          "provenance": {
+            "kind": "original_practice",
+            "sourceTitle": "ExamSathi authored bilingual practice question"
+          }
         },
         {
           "hi": "104 और 114 का औसत कितना है?",
@@ -2304,7 +2712,11 @@
           "whyHi": "औसत = (104 + 114) / 2 = 109।",
           "whyEn": "औसत = (104 + 114) / 2 = 109।",
           "subject": "Quantitative Aptitude",
-          "topic": "Average"
+          "topic": "Average",
+          "provenance": {
+            "kind": "original_practice",
+            "sourceTitle": "ExamSathi authored bilingual practice question"
+          }
         },
         {
           "hi": "दो राशियों का अनुपात 3:6 है। पहली राशि 36 है। दूसरी राशि कितनी है?",
@@ -2325,7 +2737,11 @@
           "whyHi": "एक भाग = 36/3 = 12; दूसरी राशि = 6 × 12 = 72।",
           "whyEn": "एक भाग = 36/3 = 12; दूसरी राशि = 6 × 12 = 72।",
           "subject": "Quantitative Aptitude",
-          "topic": "Ratio"
+          "topic": "Ratio",
+          "provenance": {
+            "kind": "original_practice",
+            "sourceTitle": "ExamSathi authored bilingual practice question"
+          }
         },
         {
           "hi": "संख्या श्रृंखला 203, 209, 215, 221, ? में अगली संख्या क्या है?",
@@ -2346,7 +2762,11 @@
           "whyHi": "हर बार 6 जोड़ा जाता है; अगली संख्या 227 है।",
           "whyEn": "Add 6 each time; the next number is 227.",
           "subject": "General Intelligence & Reasoning",
-          "topic": "Number Series"
+          "topic": "Number Series",
+          "provenance": {
+            "kind": "original_practice",
+            "sourceTitle": "ExamSathi authored bilingual practice question"
+          }
         },
         {
           "hi": "संख्या श्रृंखला 208, 215, 222, 229, ? में अगली संख्या क्या है?",
@@ -2367,7 +2787,11 @@
           "whyHi": "हर बार 7 जोड़ा जाता है; अगली संख्या 236 है।",
           "whyEn": "Add 7 each time; the next number is 236.",
           "subject": "General Intelligence & Reasoning",
-          "topic": "Number Series"
+          "topic": "Number Series",
+          "provenance": {
+            "kind": "original_practice",
+            "sourceTitle": "ExamSathi authored bilingual practice question"
+          }
         },
         {
           "hi": "संख्या श्रृंखला 213, 221, 229, 237, ? में अगली संख्या क्या है?",
@@ -2388,7 +2812,11 @@
           "whyHi": "हर बार 8 जोड़ा जाता है; अगली संख्या 245 है।",
           "whyEn": "Add 8 each time; the next number is 245.",
           "subject": "General Intelligence & Reasoning",
-          "topic": "Number Series"
+          "topic": "Number Series",
+          "provenance": {
+            "kind": "original_practice",
+            "sourceTitle": "ExamSathi authored bilingual practice question"
+          }
         },
         {
           "hi": "संख्या श्रृंखला 218, 227, 236, 245, ? में अगली संख्या क्या है?",
@@ -2409,7 +2837,11 @@
           "whyHi": "हर बार 9 जोड़ा जाता है; अगली संख्या 254 है।",
           "whyEn": "Add 9 each time; the next number is 254.",
           "subject": "General Intelligence & Reasoning",
-          "topic": "Number Series"
+          "topic": "Number Series",
+          "provenance": {
+            "kind": "original_practice",
+            "sourceTitle": "ExamSathi authored bilingual practice question"
+          }
         },
         {
           "hi": "CAG की नियुक्ति कौन करता है?",
@@ -2430,7 +2862,11 @@
           "whyHi": "भारत के CAG की नियुक्ति राष्ट्रपति करते हैं।",
           "whyEn": "The President appoints the CAG of India.",
           "subject": "General Awareness",
-          "topic": "Polity"
+          "topic": "Polity",
+          "provenance": {
+            "kind": "original_practice",
+            "sourceTitle": "ExamSathi authored bilingual practice question"
+          }
         },
         {
           "hi": "'liberty' का सबसे उपयुक्त समानार्थी शब्द चुनें।",
@@ -2451,7 +2887,11 @@
           "whyHi": "liberty का अर्थ स्वतंत्रता है।",
           "whyEn": "liberty means freedom.",
           "subject": "English Language",
-          "topic": "Vocabulary"
+          "topic": "Vocabulary",
+          "provenance": {
+            "kind": "original_practice",
+            "sourceTitle": "ExamSathi authored bilingual practice question"
+          }
         }
       ]
     },
@@ -2483,7 +2923,11 @@
           "whyHi": "640 × 17/100 = 108.8।",
           "whyEn": "640 × 17/100 = 108.8।",
           "subject": "Quantitative Aptitude",
-          "topic": "Percentage"
+          "topic": "Percentage",
+          "provenance": {
+            "kind": "original_practice",
+            "sourceTitle": "ExamSathi authored bilingual practice question"
+          }
         },
         {
           "hi": "₹5500 पर 8% वार्षिक दर से 2 वर्ष का साधारण ब्याज कितना होगा?",
@@ -2504,7 +2948,11 @@
           "whyHi": "साधारण ब्याज = मूलधन × दर × समय / 100 = ₹880।",
           "whyEn": "साधारण ब्याज = मूलधन × दर × समय / 100 = ₹880।",
           "subject": "Quantitative Aptitude",
-          "topic": "Simple Interest"
+          "topic": "Simple Interest",
+          "provenance": {
+            "kind": "original_practice",
+            "sourceTitle": "ExamSathi authored bilingual practice question"
+          }
         },
         {
           "hi": "112 और 130 का औसत कितना है?",
@@ -2525,7 +2973,11 @@
           "whyHi": "औसत = (112 + 130) / 2 = 121।",
           "whyEn": "औसत = (112 + 130) / 2 = 121।",
           "subject": "Quantitative Aptitude",
-          "topic": "Average"
+          "topic": "Average",
+          "provenance": {
+            "kind": "original_practice",
+            "sourceTitle": "ExamSathi authored bilingual practice question"
+          }
         },
         {
           "hi": "दो राशियों का अनुपात 7:5 है। पहली राशि 49 है। दूसरी राशि कितनी है?",
@@ -2546,7 +2998,11 @@
           "whyHi": "एक भाग = 49/7 = 7; दूसरी राशि = 5 × 7 = 35।",
           "whyEn": "एक भाग = 49/7 = 7; दूसरी राशि = 5 × 7 = 35।",
           "subject": "Quantitative Aptitude",
-          "topic": "Ratio"
+          "topic": "Ratio",
+          "provenance": {
+            "kind": "original_practice",
+            "sourceTitle": "ExamSathi authored bilingual practice question"
+          }
         },
         {
           "hi": "संख्या श्रृंखला 223, 233, 243, 253, ? में अगली संख्या क्या है?",
@@ -2567,7 +3023,11 @@
           "whyHi": "हर बार 10 जोड़ा जाता है; अगली संख्या 263 है।",
           "whyEn": "Add 10 each time; the next number is 263.",
           "subject": "General Intelligence & Reasoning",
-          "topic": "Number Series"
+          "topic": "Number Series",
+          "provenance": {
+            "kind": "original_practice",
+            "sourceTitle": "ExamSathi authored bilingual practice question"
+          }
         },
         {
           "hi": "संख्या श्रृंखला 228, 230, 232, 234, ? में अगली संख्या क्या है?",
@@ -2588,7 +3048,11 @@
           "whyHi": "हर बार 2 जोड़ा जाता है; अगली संख्या 236 है।",
           "whyEn": "Add 2 each time; the next number is 236.",
           "subject": "General Intelligence & Reasoning",
-          "topic": "Number Series"
+          "topic": "Number Series",
+          "provenance": {
+            "kind": "original_practice",
+            "sourceTitle": "ExamSathi authored bilingual practice question"
+          }
         },
         {
           "hi": "संख्या श्रृंखला 233, 236, 239, 242, ? में अगली संख्या क्या है?",
@@ -2609,7 +3073,11 @@
           "whyHi": "हर बार 3 जोड़ा जाता है; अगली संख्या 245 है।",
           "whyEn": "Add 3 each time; the next number is 245.",
           "subject": "General Intelligence & Reasoning",
-          "topic": "Number Series"
+          "topic": "Number Series",
+          "provenance": {
+            "kind": "original_practice",
+            "sourceTitle": "ExamSathi authored bilingual practice question"
+          }
         },
         {
           "hi": "संख्या श्रृंखला 238, 242, 246, 250, ? में अगली संख्या क्या है?",
@@ -2630,7 +3098,11 @@
           "whyHi": "हर बार 4 जोड़ा जाता है; अगली संख्या 254 है।",
           "whyEn": "Add 4 each time; the next number is 254.",
           "subject": "General Intelligence & Reasoning",
-          "topic": "Number Series"
+          "topic": "Number Series",
+          "provenance": {
+            "kind": "original_practice",
+            "sourceTitle": "ExamSathi authored bilingual practice question"
+          }
         },
         {
           "hi": "कर्क रेखा भारत के कितने राज्यों से गुजरती है?",
@@ -2651,7 +3123,11 @@
           "whyHi": "कर्क रेखा भारत के आठ राज्यों से गुजरती है।",
           "whyEn": "The Tropic of Cancer passes through eight Indian states.",
           "subject": "General Awareness",
-          "topic": "Geography"
+          "topic": "Geography",
+          "provenance": {
+            "kind": "original_practice",
+            "sourceTitle": "ExamSathi authored bilingual practice question"
+          }
         },
         {
           "hi": "'meticulous' का सबसे उपयुक्त समानार्थी शब्द चुनें।",
@@ -2672,7 +3148,11 @@
           "whyHi": "meticulous का अर्थ सूक्ष्मता से सावधान है।",
           "whyEn": "meticulous means careful.",
           "subject": "English Language",
-          "topic": "Vocabulary"
+          "topic": "Vocabulary",
+          "provenance": {
+            "kind": "original_practice",
+            "sourceTitle": "ExamSathi authored bilingual practice question"
+          }
         }
       ]
     },
@@ -2704,7 +3184,11 @@
           "whyHi": "680 × 5/100 = 34।",
           "whyEn": "680 × 5/100 = 34।",
           "subject": "Quantitative Aptitude",
-          "topic": "Percentage"
+          "topic": "Percentage",
+          "provenance": {
+            "kind": "original_practice",
+            "sourceTitle": "ExamSathi authored bilingual practice question"
+          }
         },
         {
           "hi": "₹5900 पर 6% वार्षिक दर से 2 वर्ष का साधारण ब्याज कितना होगा?",
@@ -2725,7 +3209,11 @@
           "whyHi": "साधारण ब्याज = मूलधन × दर × समय / 100 = ₹708।",
           "whyEn": "साधारण ब्याज = मूलधन × दर × समय / 100 = ₹708।",
           "subject": "Quantitative Aptitude",
-          "topic": "Simple Interest"
+          "topic": "Simple Interest",
+          "provenance": {
+            "kind": "original_practice",
+            "sourceTitle": "ExamSathi authored bilingual practice question"
+          }
         },
         {
           "hi": "120 और 132 का औसत कितना है?",
@@ -2746,7 +3234,11 @@
           "whyHi": "औसत = (120 + 132) / 2 = 126।",
           "whyEn": "औसत = (120 + 132) / 2 = 126।",
           "subject": "Quantitative Aptitude",
-          "topic": "Average"
+          "topic": "Average",
+          "provenance": {
+            "kind": "original_practice",
+            "sourceTitle": "ExamSathi authored bilingual practice question"
+          }
         },
         {
           "hi": "दो राशियों का अनुपात 4:4 है। पहली राशि 44 है। दूसरी राशि कितनी है?",
@@ -2767,7 +3259,11 @@
           "whyHi": "एक भाग = 44/4 = 11; दूसरी राशि = 4 × 11 = 44।",
           "whyEn": "एक भाग = 44/4 = 11; दूसरी राशि = 4 × 11 = 44।",
           "subject": "Quantitative Aptitude",
-          "topic": "Ratio"
+          "topic": "Ratio",
+          "provenance": {
+            "kind": "original_practice",
+            "sourceTitle": "ExamSathi authored bilingual practice question"
+          }
         },
         {
           "hi": "संख्या श्रृंखला 243, 248, 253, 258, ? में अगली संख्या क्या है?",
@@ -2788,7 +3284,11 @@
           "whyHi": "हर बार 5 जोड़ा जाता है; अगली संख्या 263 है।",
           "whyEn": "Add 5 each time; the next number is 263.",
           "subject": "General Intelligence & Reasoning",
-          "topic": "Number Series"
+          "topic": "Number Series",
+          "provenance": {
+            "kind": "original_practice",
+            "sourceTitle": "ExamSathi authored bilingual practice question"
+          }
         },
         {
           "hi": "संख्या श्रृंखला 248, 254, 260, 266, ? में अगली संख्या क्या है?",
@@ -2809,7 +3309,11 @@
           "whyHi": "हर बार 6 जोड़ा जाता है; अगली संख्या 272 है।",
           "whyEn": "Add 6 each time; the next number is 272.",
           "subject": "General Intelligence & Reasoning",
-          "topic": "Number Series"
+          "topic": "Number Series",
+          "provenance": {
+            "kind": "original_practice",
+            "sourceTitle": "ExamSathi authored bilingual practice question"
+          }
         },
         {
           "hi": "संख्या श्रृंखला 253, 260, 267, 274, ? में अगली संख्या क्या है?",
@@ -2830,7 +3334,11 @@
           "whyHi": "हर बार 7 जोड़ा जाता है; अगली संख्या 281 है।",
           "whyEn": "Add 7 each time; the next number is 281.",
           "subject": "General Intelligence & Reasoning",
-          "topic": "Number Series"
+          "topic": "Number Series",
+          "provenance": {
+            "kind": "original_practice",
+            "sourceTitle": "ExamSathi authored bilingual practice question"
+          }
         },
         {
           "hi": "संख्या श्रृंखला 258, 266, 274, 282, ? में अगली संख्या क्या है?",
@@ -2851,7 +3359,11 @@
           "whyHi": "हर बार 8 जोड़ा जाता है; अगली संख्या 290 है।",
           "whyEn": "Add 8 each time; the next number is 290.",
           "subject": "General Intelligence & Reasoning",
-          "topic": "Number Series"
+          "topic": "Number Series",
+          "provenance": {
+            "kind": "original_practice",
+            "sourceTitle": "ExamSathi authored bilingual practice question"
+          }
         },
         {
           "hi": "भारत छोड़ो आंदोलन किस वर्ष शुरू हुआ?",
@@ -2872,7 +3384,11 @@
           "whyHi": "भारत छोड़ो आंदोलन अगस्त 1942 में शुरू हुआ।",
           "whyEn": "The Quit India Movement began in August 1942.",
           "subject": "General Awareness",
-          "topic": "History"
+          "topic": "History",
+          "provenance": {
+            "kind": "original_practice",
+            "sourceTitle": "ExamSathi authored bilingual practice question"
+          }
         },
         {
           "hi": "'obsolete' का सबसे उपयुक्त समानार्थी शब्द चुनें।",
@@ -2893,7 +3409,11 @@
           "whyHi": "obsolete का अर्थ अप्रचलित है।",
           "whyEn": "obsolete means outdated.",
           "subject": "English Language",
-          "topic": "Vocabulary"
+          "topic": "Vocabulary",
+          "provenance": {
+            "kind": "original_practice",
+            "sourceTitle": "ExamSathi authored bilingual practice question"
+          }
         }
       ]
     },
@@ -2925,7 +3445,11 @@
           "whyHi": "720 × 9/100 = 64.8।",
           "whyEn": "720 × 9/100 = 64.8।",
           "subject": "Quantitative Aptitude",
-          "topic": "Percentage"
+          "topic": "Percentage",
+          "provenance": {
+            "kind": "original_practice",
+            "sourceTitle": "ExamSathi authored bilingual practice question"
+          }
         },
         {
           "hi": "₹6300 पर 10% वार्षिक दर से 2 वर्ष का साधारण ब्याज कितना होगा?",
@@ -2946,7 +3470,11 @@
           "whyHi": "साधारण ब्याज = मूलधन × दर × समय / 100 = ₹1260।",
           "whyEn": "साधारण ब्याज = मूलधन × दर × समय / 100 = ₹1260।",
           "subject": "Quantitative Aptitude",
-          "topic": "Simple Interest"
+          "topic": "Simple Interest",
+          "provenance": {
+            "kind": "original_practice",
+            "sourceTitle": "ExamSathi authored bilingual practice question"
+          }
         },
         {
           "hi": "128 और 148 का औसत कितना है?",
@@ -2967,7 +3495,11 @@
           "whyHi": "औसत = (128 + 148) / 2 = 138।",
           "whyEn": "औसत = (128 + 148) / 2 = 138।",
           "subject": "Quantitative Aptitude",
-          "topic": "Average"
+          "topic": "Average",
+          "provenance": {
+            "kind": "original_practice",
+            "sourceTitle": "ExamSathi authored bilingual practice question"
+          }
         },
         {
           "hi": "दो राशियों का अनुपात 8:3 है। पहली राशि 48 है। दूसरी राशि कितनी है?",
@@ -2988,7 +3520,11 @@
           "whyHi": "एक भाग = 48/8 = 6; दूसरी राशि = 3 × 6 = 18।",
           "whyEn": "एक भाग = 48/8 = 6; दूसरी राशि = 3 × 6 = 18।",
           "subject": "Quantitative Aptitude",
-          "topic": "Ratio"
+          "topic": "Ratio",
+          "provenance": {
+            "kind": "original_practice",
+            "sourceTitle": "ExamSathi authored bilingual practice question"
+          }
         },
         {
           "hi": "संख्या श्रृंखला 263, 272, 281, 290, ? में अगली संख्या क्या है?",
@@ -3009,7 +3545,11 @@
           "whyHi": "हर बार 9 जोड़ा जाता है; अगली संख्या 299 है।",
           "whyEn": "Add 9 each time; the next number is 299.",
           "subject": "General Intelligence & Reasoning",
-          "topic": "Number Series"
+          "topic": "Number Series",
+          "provenance": {
+            "kind": "original_practice",
+            "sourceTitle": "ExamSathi authored bilingual practice question"
+          }
         },
         {
           "hi": "संख्या श्रृंखला 268, 278, 288, 298, ? में अगली संख्या क्या है?",
@@ -3030,7 +3570,11 @@
           "whyHi": "हर बार 10 जोड़ा जाता है; अगली संख्या 308 है।",
           "whyEn": "Add 10 each time; the next number is 308.",
           "subject": "General Intelligence & Reasoning",
-          "topic": "Number Series"
+          "topic": "Number Series",
+          "provenance": {
+            "kind": "original_practice",
+            "sourceTitle": "ExamSathi authored bilingual practice question"
+          }
         },
         {
           "hi": "संख्या श्रृंखला 273, 275, 277, 279, ? में अगली संख्या क्या है?",
@@ -3051,7 +3595,11 @@
           "whyHi": "हर बार 2 जोड़ा जाता है; अगली संख्या 281 है।",
           "whyEn": "Add 2 each time; the next number is 281.",
           "subject": "General Intelligence & Reasoning",
-          "topic": "Number Series"
+          "topic": "Number Series",
+          "provenance": {
+            "kind": "original_practice",
+            "sourceTitle": "ExamSathi authored bilingual practice question"
+          }
         },
         {
           "hi": "संख्या श्रृंखला 278, 281, 284, 287, ? में अगली संख्या क्या है?",
@@ -3072,7 +3620,11 @@
           "whyHi": "हर बार 3 जोड़ा जाता है; अगली संख्या 290 है।",
           "whyEn": "Add 3 each time; the next number is 290.",
           "subject": "General Intelligence & Reasoning",
-          "topic": "Number Series"
+          "topic": "Number Series",
+          "provenance": {
+            "kind": "original_practice",
+            "sourceTitle": "ExamSathi authored bilingual practice question"
+          }
         },
         {
           "hi": "दांडी मार्च किससे संबंधित था?",
@@ -3093,7 +3645,11 @@
           "whyHi": "दांडी मार्च 1930 के नमक सत्याग्रह का हिस्सा था।",
           "whyEn": "The Dandi March was part of the 1930 Salt Satyagraha.",
           "subject": "General Awareness",
-          "topic": "History"
+          "topic": "History",
+          "provenance": {
+            "kind": "original_practice",
+            "sourceTitle": "ExamSathi authored bilingual practice question"
+          }
         },
         {
           "hi": "'optimistic' का सबसे उपयुक्त समानार्थी शब्द चुनें।",
@@ -3114,7 +3670,11 @@
           "whyHi": "optimistic का अर्थ आशावादी है।",
           "whyEn": "optimistic means hopeful.",
           "subject": "English Language",
-          "topic": "Vocabulary"
+          "topic": "Vocabulary",
+          "provenance": {
+            "kind": "original_practice",
+            "sourceTitle": "ExamSathi authored bilingual practice question"
+          }
         }
       ]
     },
@@ -3146,7 +3706,11 @@
           "whyHi": "760 × 13/100 = 98.8।",
           "whyEn": "760 × 13/100 = 98.8।",
           "subject": "Quantitative Aptitude",
-          "topic": "Percentage"
+          "topic": "Percentage",
+          "provenance": {
+            "kind": "original_practice",
+            "sourceTitle": "ExamSathi authored bilingual practice question"
+          }
         },
         {
           "hi": "₹6700 पर 8% वार्षिक दर से 2 वर्ष का साधारण ब्याज कितना होगा?",
@@ -3167,7 +3731,11 @@
           "whyHi": "साधारण ब्याज = मूलधन × दर × समय / 100 = ₹1072।",
           "whyEn": "साधारण ब्याज = मूलधन × दर × समय / 100 = ₹1072।",
           "subject": "Quantitative Aptitude",
-          "topic": "Simple Interest"
+          "topic": "Simple Interest",
+          "provenance": {
+            "kind": "original_practice",
+            "sourceTitle": "ExamSathi authored bilingual practice question"
+          }
         },
         {
           "hi": "136 और 150 का औसत कितना है?",
@@ -3188,7 +3756,11 @@
           "whyHi": "औसत = (136 + 150) / 2 = 143।",
           "whyEn": "औसत = (136 + 150) / 2 = 143।",
           "subject": "Quantitative Aptitude",
-          "topic": "Average"
+          "topic": "Average",
+          "provenance": {
+            "kind": "original_practice",
+            "sourceTitle": "ExamSathi authored bilingual practice question"
+          }
         },
         {
           "hi": "दो राशियों का अनुपात 5:7 है। पहली राशि 50 है। दूसरी राशि कितनी है?",
@@ -3209,7 +3781,11 @@
           "whyHi": "एक भाग = 50/5 = 10; दूसरी राशि = 7 × 10 = 70।",
           "whyEn": "एक भाग = 50/5 = 10; दूसरी राशि = 7 × 10 = 70।",
           "subject": "Quantitative Aptitude",
-          "topic": "Ratio"
+          "topic": "Ratio",
+          "provenance": {
+            "kind": "original_practice",
+            "sourceTitle": "ExamSathi authored bilingual practice question"
+          }
         },
         {
           "hi": "संख्या श्रृंखला 283, 287, 291, 295, ? में अगली संख्या क्या है?",
@@ -3230,7 +3806,11 @@
           "whyHi": "हर बार 4 जोड़ा जाता है; अगली संख्या 299 है।",
           "whyEn": "Add 4 each time; the next number is 299.",
           "subject": "General Intelligence & Reasoning",
-          "topic": "Number Series"
+          "topic": "Number Series",
+          "provenance": {
+            "kind": "original_practice",
+            "sourceTitle": "ExamSathi authored bilingual practice question"
+          }
         },
         {
           "hi": "संख्या श्रृंखला 288, 293, 298, 303, ? में अगली संख्या क्या है?",
@@ -3251,7 +3831,11 @@
           "whyHi": "हर बार 5 जोड़ा जाता है; अगली संख्या 308 है।",
           "whyEn": "Add 5 each time; the next number is 308.",
           "subject": "General Intelligence & Reasoning",
-          "topic": "Number Series"
+          "topic": "Number Series",
+          "provenance": {
+            "kind": "original_practice",
+            "sourceTitle": "ExamSathi authored bilingual practice question"
+          }
         },
         {
           "hi": "संख्या श्रृंखला 293, 299, 305, 311, ? में अगली संख्या क्या है?",
@@ -3272,7 +3856,11 @@
           "whyHi": "हर बार 6 जोड़ा जाता है; अगली संख्या 317 है।",
           "whyEn": "Add 6 each time; the next number is 317.",
           "subject": "General Intelligence & Reasoning",
-          "topic": "Number Series"
+          "topic": "Number Series",
+          "provenance": {
+            "kind": "original_practice",
+            "sourceTitle": "ExamSathi authored bilingual practice question"
+          }
         },
         {
           "hi": "संख्या श्रृंखला 298, 305, 312, 319, ? में अगली संख्या क्या है?",
@@ -3293,7 +3881,11 @@
           "whyHi": "हर बार 7 जोड़ा जाता है; अगली संख्या 326 है।",
           "whyEn": "Add 7 each time; the next number is 326.",
           "subject": "General Intelligence & Reasoning",
-          "topic": "Number Series"
+          "topic": "Number Series",
+          "provenance": {
+            "kind": "original_practice",
+            "sourceTitle": "ExamSathi authored bilingual practice question"
+          }
         },
         {
           "hi": "संसद के दो सदन कौन-से हैं?",
@@ -3314,7 +3906,11 @@
           "whyHi": "संसद के दो सदन लोकसभा और राज्यसभा हैं।",
           "whyEn": "The two Houses are the Lok Sabha and Rajya Sabha.",
           "subject": "General Awareness",
-          "topic": "Polity"
+          "topic": "Polity",
+          "provenance": {
+            "kind": "original_practice",
+            "sourceTitle": "ExamSathi authored bilingual practice question"
+          }
         },
         {
           "hi": "'pious' का सबसे उपयुक्त समानार्थी शब्द चुनें।",
@@ -3335,7 +3931,11 @@
           "whyHi": "pious का अर्थ धार्मिक है।",
           "whyEn": "pious means devout.",
           "subject": "English Language",
-          "topic": "Vocabulary"
+          "topic": "Vocabulary",
+          "provenance": {
+            "kind": "original_practice",
+            "sourceTitle": "ExamSathi authored bilingual practice question"
+          }
         }
       ]
     },
@@ -3367,7 +3967,11 @@
           "whyHi": "800 × 17/100 = 136।",
           "whyEn": "800 × 17/100 = 136।",
           "subject": "Quantitative Aptitude",
-          "topic": "Percentage"
+          "topic": "Percentage",
+          "provenance": {
+            "kind": "original_practice",
+            "sourceTitle": "ExamSathi authored bilingual practice question"
+          }
         },
         {
           "hi": "₹7100 पर 6% वार्षिक दर से 2 वर्ष का साधारण ब्याज कितना होगा?",
@@ -3388,7 +3992,11 @@
           "whyHi": "साधारण ब्याज = मूलधन × दर × समय / 100 = ₹852।",
           "whyEn": "साधारण ब्याज = मूलधन × दर × समय / 100 = ₹852।",
           "subject": "Quantitative Aptitude",
-          "topic": "Simple Interest"
+          "topic": "Simple Interest",
+          "provenance": {
+            "kind": "original_practice",
+            "sourceTitle": "ExamSathi authored bilingual practice question"
+          }
         },
         {
           "hi": "144 और 166 का औसत कितना है?",
@@ -3409,7 +4017,11 @@
           "whyHi": "औसत = (144 + 166) / 2 = 155।",
           "whyEn": "औसत = (144 + 166) / 2 = 155।",
           "subject": "Quantitative Aptitude",
-          "topic": "Average"
+          "topic": "Average",
+          "provenance": {
+            "kind": "original_practice",
+            "sourceTitle": "ExamSathi authored bilingual practice question"
+          }
         },
         {
           "hi": "दो राशियों का अनुपात 2:6 है। पहली राशि 10 है। दूसरी राशि कितनी है?",
@@ -3430,7 +4042,11 @@
           "whyHi": "एक भाग = 10/2 = 5; दूसरी राशि = 6 × 5 = 30।",
           "whyEn": "एक भाग = 10/2 = 5; दूसरी राशि = 6 × 5 = 30।",
           "subject": "Quantitative Aptitude",
-          "topic": "Ratio"
+          "topic": "Ratio",
+          "provenance": {
+            "kind": "original_practice",
+            "sourceTitle": "ExamSathi authored bilingual practice question"
+          }
         },
         {
           "hi": "संख्या श्रृंखला 303, 311, 319, 327, ? में अगली संख्या क्या है?",
@@ -3451,7 +4067,11 @@
           "whyHi": "हर बार 8 जोड़ा जाता है; अगली संख्या 335 है।",
           "whyEn": "Add 8 each time; the next number is 335.",
           "subject": "General Intelligence & Reasoning",
-          "topic": "Number Series"
+          "topic": "Number Series",
+          "provenance": {
+            "kind": "original_practice",
+            "sourceTitle": "ExamSathi authored bilingual practice question"
+          }
         },
         {
           "hi": "संख्या श्रृंखला 308, 317, 326, 335, ? में अगली संख्या क्या है?",
@@ -3472,7 +4092,11 @@
           "whyHi": "हर बार 9 जोड़ा जाता है; अगली संख्या 344 है।",
           "whyEn": "Add 9 each time; the next number is 344.",
           "subject": "General Intelligence & Reasoning",
-          "topic": "Number Series"
+          "topic": "Number Series",
+          "provenance": {
+            "kind": "original_practice",
+            "sourceTitle": "ExamSathi authored bilingual practice question"
+          }
         },
         {
           "hi": "संख्या श्रृंखला 313, 323, 333, 343, ? में अगली संख्या क्या है?",
@@ -3493,7 +4117,11 @@
           "whyHi": "हर बार 10 जोड़ा जाता है; अगली संख्या 353 है।",
           "whyEn": "Add 10 each time; the next number is 353.",
           "subject": "General Intelligence & Reasoning",
-          "topic": "Number Series"
+          "topic": "Number Series",
+          "provenance": {
+            "kind": "original_practice",
+            "sourceTitle": "ExamSathi authored bilingual practice question"
+          }
         },
         {
           "hi": "संख्या श्रृंखला 318, 320, 322, 324, ? में अगली संख्या क्या है?",
@@ -3514,7 +4142,11 @@
           "whyHi": "हर बार 2 जोड़ा जाता है; अगली संख्या 326 है।",
           "whyEn": "Add 2 each time; the next number is 326.",
           "subject": "General Intelligence & Reasoning",
-          "topic": "Number Series"
+          "topic": "Number Series",
+          "provenance": {
+            "kind": "original_practice",
+            "sourceTitle": "ExamSathi authored bilingual practice question"
+          }
         },
         {
           "hi": "भारत का राष्ट्रीय पशु कौन है?",
@@ -3535,7 +4167,11 @@
           "whyHi": "बाघ भारत का राष्ट्रीय पशु है।",
           "whyEn": "The tiger is India’s national animal.",
           "subject": "General Awareness",
-          "topic": "General Awareness"
+          "topic": "General Awareness",
+          "provenance": {
+            "kind": "original_practice",
+            "sourceTitle": "ExamSathi authored bilingual practice question"
+          }
         },
         {
           "hi": "'rapid' का सबसे उपयुक्त समानार्थी शब्द चुनें।",
@@ -3556,7 +4192,11 @@
           "whyHi": "rapid का अर्थ तेज़ है।",
           "whyEn": "rapid means swift.",
           "subject": "English Language",
-          "topic": "Vocabulary"
+          "topic": "Vocabulary",
+          "provenance": {
+            "kind": "original_practice",
+            "sourceTitle": "ExamSathi authored bilingual practice question"
+          }
         }
       ]
     },
@@ -3588,7 +4228,11 @@
           "whyHi": "840 × 5/100 = 42।",
           "whyEn": "840 × 5/100 = 42।",
           "subject": "Quantitative Aptitude",
-          "topic": "Percentage"
+          "topic": "Percentage",
+          "provenance": {
+            "kind": "original_practice",
+            "sourceTitle": "ExamSathi authored bilingual practice question"
+          }
         },
         {
           "hi": "₹7500 पर 10% वार्षिक दर से 2 वर्ष का साधारण ब्याज कितना होगा?",
@@ -3609,7 +4253,11 @@
           "whyHi": "साधारण ब्याज = मूलधन × दर × समय / 100 = ₹1500।",
           "whyEn": "साधारण ब्याज = मूलधन × दर × समय / 100 = ₹1500।",
           "subject": "Quantitative Aptitude",
-          "topic": "Simple Interest"
+          "topic": "Simple Interest",
+          "provenance": {
+            "kind": "original_practice",
+            "sourceTitle": "ExamSathi authored bilingual practice question"
+          }
         },
         {
           "hi": "152 और 168 का औसत कितना है?",
@@ -3630,7 +4278,11 @@
           "whyHi": "औसत = (152 + 168) / 2 = 160।",
           "whyEn": "औसत = (152 + 168) / 2 = 160।",
           "subject": "Quantitative Aptitude",
-          "topic": "Average"
+          "topic": "Average",
+          "provenance": {
+            "kind": "original_practice",
+            "sourceTitle": "ExamSathi authored bilingual practice question"
+          }
         },
         {
           "hi": "दो राशियों का अनुपात 6:5 है। पहली राशि 54 है। दूसरी राशि कितनी है?",
@@ -3651,7 +4303,11 @@
           "whyHi": "एक भाग = 54/6 = 9; दूसरी राशि = 5 × 9 = 45।",
           "whyEn": "एक भाग = 54/6 = 9; दूसरी राशि = 5 × 9 = 45।",
           "subject": "Quantitative Aptitude",
-          "topic": "Ratio"
+          "topic": "Ratio",
+          "provenance": {
+            "kind": "original_practice",
+            "sourceTitle": "ExamSathi authored bilingual practice question"
+          }
         },
         {
           "hi": "संख्या श्रृंखला 323, 326, 329, 332, ? में अगली संख्या क्या है?",
@@ -3672,7 +4328,11 @@
           "whyHi": "हर बार 3 जोड़ा जाता है; अगली संख्या 335 है।",
           "whyEn": "Add 3 each time; the next number is 335.",
           "subject": "General Intelligence & Reasoning",
-          "topic": "Number Series"
+          "topic": "Number Series",
+          "provenance": {
+            "kind": "original_practice",
+            "sourceTitle": "ExamSathi authored bilingual practice question"
+          }
         },
         {
           "hi": "संख्या श्रृंखला 328, 332, 336, 340, ? में अगली संख्या क्या है?",
@@ -3693,7 +4353,11 @@
           "whyHi": "हर बार 4 जोड़ा जाता है; अगली संख्या 344 है।",
           "whyEn": "Add 4 each time; the next number is 344.",
           "subject": "General Intelligence & Reasoning",
-          "topic": "Number Series"
+          "topic": "Number Series",
+          "provenance": {
+            "kind": "original_practice",
+            "sourceTitle": "ExamSathi authored bilingual practice question"
+          }
         },
         {
           "hi": "संख्या श्रृंखला 333, 338, 343, 348, ? में अगली संख्या क्या है?",
@@ -3714,7 +4378,11 @@
           "whyHi": "हर बार 5 जोड़ा जाता है; अगली संख्या 353 है।",
           "whyEn": "Add 5 each time; the next number is 353.",
           "subject": "General Intelligence & Reasoning",
-          "topic": "Number Series"
+          "topic": "Number Series",
+          "provenance": {
+            "kind": "original_practice",
+            "sourceTitle": "ExamSathi authored bilingual practice question"
+          }
         },
         {
           "hi": "संख्या श्रृंखला 338, 344, 350, 356, ? में अगली संख्या क्या है?",
@@ -3735,7 +4403,11 @@
           "whyHi": "हर बार 6 जोड़ा जाता है; अगली संख्या 362 है।",
           "whyEn": "Add 6 each time; the next number is 362.",
           "subject": "General Intelligence & Reasoning",
-          "topic": "Number Series"
+          "topic": "Number Series",
+          "provenance": {
+            "kind": "original_practice",
+            "sourceTitle": "ExamSathi authored bilingual practice question"
+          }
         },
         {
           "hi": "विटामिन C की कमी से कौन-सा रोग होता है?",
@@ -3756,7 +4428,11 @@
           "whyHi": "विटामिन C की कमी से स्कर्वी होता है।",
           "whyEn": "Vitamin C deficiency causes scurvy.",
           "subject": "General Awareness",
-          "topic": "Science"
+          "topic": "Science",
+          "provenance": {
+            "kind": "original_practice",
+            "sourceTitle": "ExamSathi authored bilingual practice question"
+          }
         },
         {
           "hi": "'scarce' का सबसे उपयुक्त समानार्थी शब्द चुनें।",
@@ -3777,7 +4453,11 @@
           "whyHi": "scarce का अर्थ दुर्लभ है।",
           "whyEn": "scarce means rare.",
           "subject": "English Language",
-          "topic": "Vocabulary"
+          "topic": "Vocabulary",
+          "provenance": {
+            "kind": "original_practice",
+            "sourceTitle": "ExamSathi authored bilingual practice question"
+          }
         }
       ]
     },
@@ -3809,7 +4489,11 @@
           "whyHi": "880 × 9/100 = 79.2।",
           "whyEn": "880 × 9/100 = 79.2।",
           "subject": "Quantitative Aptitude",
-          "topic": "Percentage"
+          "topic": "Percentage",
+          "provenance": {
+            "kind": "original_practice",
+            "sourceTitle": "ExamSathi authored bilingual practice question"
+          }
         },
         {
           "hi": "₹7900 पर 8% वार्षिक दर से 2 वर्ष का साधारण ब्याज कितना होगा?",
@@ -3830,7 +4514,11 @@
           "whyHi": "साधारण ब्याज = मूलधन × दर × समय / 100 = ₹1264।",
           "whyEn": "साधारण ब्याज = मूलधन × दर × समय / 100 = ₹1264।",
           "subject": "Quantitative Aptitude",
-          "topic": "Simple Interest"
+          "topic": "Simple Interest",
+          "provenance": {
+            "kind": "original_practice",
+            "sourceTitle": "ExamSathi authored bilingual practice question"
+          }
         },
         {
           "hi": "160 और 170 का औसत कितना है?",
@@ -3851,7 +4539,11 @@
           "whyHi": "औसत = (160 + 170) / 2 = 165।",
           "whyEn": "औसत = (160 + 170) / 2 = 165।",
           "subject": "Quantitative Aptitude",
-          "topic": "Average"
+          "topic": "Average",
+          "provenance": {
+            "kind": "original_practice",
+            "sourceTitle": "ExamSathi authored bilingual practice question"
+          }
         },
         {
           "hi": "दो राशियों का अनुपात 3:4 है। पहली राशि 39 है। दूसरी राशि कितनी है?",
@@ -3872,7 +4564,11 @@
           "whyHi": "एक भाग = 39/3 = 13; दूसरी राशि = 4 × 13 = 52।",
           "whyEn": "एक भाग = 39/3 = 13; दूसरी राशि = 4 × 13 = 52।",
           "subject": "Quantitative Aptitude",
-          "topic": "Ratio"
+          "topic": "Ratio",
+          "provenance": {
+            "kind": "original_practice",
+            "sourceTitle": "ExamSathi authored bilingual practice question"
+          }
         },
         {
           "hi": "संख्या श्रृंखला 343, 350, 357, 364, ? में अगली संख्या क्या है?",
@@ -3893,7 +4589,11 @@
           "whyHi": "हर बार 7 जोड़ा जाता है; अगली संख्या 371 है।",
           "whyEn": "Add 7 each time; the next number is 371.",
           "subject": "General Intelligence & Reasoning",
-          "topic": "Number Series"
+          "topic": "Number Series",
+          "provenance": {
+            "kind": "original_practice",
+            "sourceTitle": "ExamSathi authored bilingual practice question"
+          }
         },
         {
           "hi": "संख्या श्रृंखला 348, 356, 364, 372, ? में अगली संख्या क्या है?",
@@ -3914,7 +4614,11 @@
           "whyHi": "हर बार 8 जोड़ा जाता है; अगली संख्या 380 है।",
           "whyEn": "Add 8 each time; the next number is 380.",
           "subject": "General Intelligence & Reasoning",
-          "topic": "Number Series"
+          "topic": "Number Series",
+          "provenance": {
+            "kind": "original_practice",
+            "sourceTitle": "ExamSathi authored bilingual practice question"
+          }
         },
         {
           "hi": "संख्या श्रृंखला 353, 362, 371, 380, ? में अगली संख्या क्या है?",
@@ -3935,7 +4639,11 @@
           "whyHi": "हर बार 9 जोड़ा जाता है; अगली संख्या 389 है।",
           "whyEn": "Add 9 each time; the next number is 389.",
           "subject": "General Intelligence & Reasoning",
-          "topic": "Number Series"
+          "topic": "Number Series",
+          "provenance": {
+            "kind": "original_practice",
+            "sourceTitle": "ExamSathi authored bilingual practice question"
+          }
         },
         {
           "hi": "संख्या श्रृंखला 358, 368, 378, 388, ? में अगली संख्या क्या है?",
@@ -3956,7 +4664,11 @@
           "whyHi": "हर बार 10 जोड़ा जाता है; अगली संख्या 398 है।",
           "whyEn": "Add 10 each time; the next number is 398.",
           "subject": "General Intelligence & Reasoning",
-          "topic": "Number Series"
+          "topic": "Number Series",
+          "provenance": {
+            "kind": "original_practice",
+            "sourceTitle": "ExamSathi authored bilingual practice question"
+          }
         },
         {
           "hi": "ओजोन परत मुख्यतः किस परत में है?",
@@ -3977,7 +4689,11 @@
           "whyHi": "ओजोन परत मुख्यतः समतापमंडल में स्थित है।",
           "whyEn": "The ozone layer is mainly in the stratosphere.",
           "subject": "General Awareness",
-          "topic": "Geography"
+          "topic": "Geography",
+          "provenance": {
+            "kind": "original_practice",
+            "sourceTitle": "ExamSathi authored bilingual practice question"
+          }
         },
         {
           "hi": "'tranquil' का सबसे उपयुक्त समानार्थी शब्द चुनें।",
@@ -3998,7 +4714,11 @@
           "whyHi": "tranquil का अर्थ शांत है।",
           "whyEn": "tranquil means calm.",
           "subject": "English Language",
-          "topic": "Vocabulary"
+          "topic": "Vocabulary",
+          "provenance": {
+            "kind": "original_practice",
+            "sourceTitle": "ExamSathi authored bilingual practice question"
+          }
         }
       ]
     },
@@ -4030,7 +4750,11 @@
           "whyHi": "920 × 13/100 = 119.6।",
           "whyEn": "920 × 13/100 = 119.6।",
           "subject": "Quantitative Aptitude",
-          "topic": "Percentage"
+          "topic": "Percentage",
+          "provenance": {
+            "kind": "original_practice",
+            "sourceTitle": "ExamSathi authored bilingual practice question"
+          }
         },
         {
           "hi": "₹8300 पर 6% वार्षिक दर से 2 वर्ष का साधारण ब्याज कितना होगा?",
@@ -4051,7 +4775,11 @@
           "whyHi": "साधारण ब्याज = मूलधन × दर × समय / 100 = ₹996।",
           "whyEn": "साधारण ब्याज = मूलधन × दर × समय / 100 = ₹996।",
           "subject": "Quantitative Aptitude",
-          "topic": "Simple Interest"
+          "topic": "Simple Interest",
+          "provenance": {
+            "kind": "original_practice",
+            "sourceTitle": "ExamSathi authored bilingual practice question"
+          }
         },
         {
           "hi": "168 और 186 का औसत कितना है?",
@@ -4072,7 +4800,11 @@
           "whyHi": "औसत = (168 + 186) / 2 = 177।",
           "whyEn": "औसत = (168 + 186) / 2 = 177।",
           "subject": "Quantitative Aptitude",
-          "topic": "Average"
+          "topic": "Average",
+          "provenance": {
+            "kind": "original_practice",
+            "sourceTitle": "ExamSathi authored bilingual practice question"
+          }
         },
         {
           "hi": "दो राशियों का अनुपात 7:3 है। पहली राशि 56 है। दूसरी राशि कितनी है?",
@@ -4093,7 +4825,11 @@
           "whyHi": "एक भाग = 56/7 = 8; दूसरी राशि = 3 × 8 = 24।",
           "whyEn": "एक भाग = 56/7 = 8; दूसरी राशि = 3 × 8 = 24।",
           "subject": "Quantitative Aptitude",
-          "topic": "Ratio"
+          "topic": "Ratio",
+          "provenance": {
+            "kind": "original_practice",
+            "sourceTitle": "ExamSathi authored bilingual practice question"
+          }
         },
         {
           "hi": "संख्या श्रृंखला 363, 365, 367, 369, ? में अगली संख्या क्या है?",
@@ -4114,7 +4850,11 @@
           "whyHi": "हर बार 2 जोड़ा जाता है; अगली संख्या 371 है।",
           "whyEn": "Add 2 each time; the next number is 371.",
           "subject": "General Intelligence & Reasoning",
-          "topic": "Number Series"
+          "topic": "Number Series",
+          "provenance": {
+            "kind": "original_practice",
+            "sourceTitle": "ExamSathi authored bilingual practice question"
+          }
         },
         {
           "hi": "संख्या श्रृंखला 368, 371, 374, 377, ? में अगली संख्या क्या है?",
@@ -4135,7 +4875,11 @@
           "whyHi": "हर बार 3 जोड़ा जाता है; अगली संख्या 380 है।",
           "whyEn": "Add 3 each time; the next number is 380.",
           "subject": "General Intelligence & Reasoning",
-          "topic": "Number Series"
+          "topic": "Number Series",
+          "provenance": {
+            "kind": "original_practice",
+            "sourceTitle": "ExamSathi authored bilingual practice question"
+          }
         },
         {
           "hi": "संख्या श्रृंखला 373, 377, 381, 385, ? में अगली संख्या क्या है?",
@@ -4156,7 +4900,11 @@
           "whyHi": "हर बार 4 जोड़ा जाता है; अगली संख्या 389 है।",
           "whyEn": "Add 4 each time; the next number is 389.",
           "subject": "General Intelligence & Reasoning",
-          "topic": "Number Series"
+          "topic": "Number Series",
+          "provenance": {
+            "kind": "original_practice",
+            "sourceTitle": "ExamSathi authored bilingual practice question"
+          }
         },
         {
           "hi": "संख्या श्रृंखला 378, 383, 388, 393, ? में अगली संख्या क्या है?",
@@ -4177,7 +4925,11 @@
           "whyHi": "हर बार 5 जोड़ा जाता है; अगली संख्या 398 है।",
           "whyEn": "Add 5 each time; the next number is 398.",
           "subject": "General Intelligence & Reasoning",
-          "topic": "Number Series"
+          "topic": "Number Series",
+          "provenance": {
+            "kind": "original_practice",
+            "sourceTitle": "ExamSathi authored bilingual practice question"
+          }
         },
         {
           "hi": "भारतीय राष्ट्रीय कांग्रेस की स्थापना कब हुई?",
@@ -4198,7 +4950,11 @@
           "whyHi": "भारतीय राष्ट्रीय कांग्रेस की स्थापना 1885 में हुई।",
           "whyEn": "The Indian National Congress was founded in 1885.",
           "subject": "General Awareness",
-          "topic": "History"
+          "topic": "History",
+          "provenance": {
+            "kind": "original_practice",
+            "sourceTitle": "ExamSathi authored bilingual practice question"
+          }
         },
         {
           "hi": "'vital' का सबसे उपयुक्त समानार्थी शब्द चुनें।",
@@ -4219,7 +4975,11 @@
           "whyHi": "vital का अर्थ महत्वपूर्ण है।",
           "whyEn": "vital means essential.",
           "subject": "English Language",
-          "topic": "Vocabulary"
+          "topic": "Vocabulary",
+          "provenance": {
+            "kind": "original_practice",
+            "sourceTitle": "ExamSathi authored bilingual practice question"
+          }
         }
       ]
     },
@@ -4251,7 +5011,11 @@
           "whyHi": "960 × 17/100 = 163.2।",
           "whyEn": "960 × 17/100 = 163.2।",
           "subject": "Quantitative Aptitude",
-          "topic": "Percentage"
+          "topic": "Percentage",
+          "provenance": {
+            "kind": "original_practice",
+            "sourceTitle": "ExamSathi authored bilingual practice question"
+          }
         },
         {
           "hi": "₹8700 पर 10% वार्षिक दर से 2 वर्ष का साधारण ब्याज कितना होगा?",
@@ -4272,7 +5036,11 @@
           "whyHi": "साधारण ब्याज = मूलधन × दर × समय / 100 = ₹1740।",
           "whyEn": "साधारण ब्याज = मूलधन × दर × समय / 100 = ₹1740।",
           "subject": "Quantitative Aptitude",
-          "topic": "Simple Interest"
+          "topic": "Simple Interest",
+          "provenance": {
+            "kind": "original_practice",
+            "sourceTitle": "ExamSathi authored bilingual practice question"
+          }
         },
         {
           "hi": "176 और 188 का औसत कितना है?",
@@ -4293,7 +5061,11 @@
           "whyHi": "औसत = (176 + 188) / 2 = 182।",
           "whyEn": "औसत = (176 + 188) / 2 = 182।",
           "subject": "Quantitative Aptitude",
-          "topic": "Average"
+          "topic": "Average",
+          "provenance": {
+            "kind": "original_practice",
+            "sourceTitle": "ExamSathi authored bilingual practice question"
+          }
         },
         {
           "hi": "दो राशियों का अनुपात 4:7 है। पहली राशि 48 है। दूसरी राशि कितनी है?",
@@ -4314,7 +5086,11 @@
           "whyHi": "एक भाग = 48/4 = 12; दूसरी राशि = 7 × 12 = 84।",
           "whyEn": "एक भाग = 48/4 = 12; दूसरी राशि = 7 × 12 = 84।",
           "subject": "Quantitative Aptitude",
-          "topic": "Ratio"
+          "topic": "Ratio",
+          "provenance": {
+            "kind": "original_practice",
+            "sourceTitle": "ExamSathi authored bilingual practice question"
+          }
         },
         {
           "hi": "संख्या श्रृंखला 383, 389, 395, 401, ? में अगली संख्या क्या है?",
@@ -4335,7 +5111,11 @@
           "whyHi": "हर बार 6 जोड़ा जाता है; अगली संख्या 407 है।",
           "whyEn": "Add 6 each time; the next number is 407.",
           "subject": "General Intelligence & Reasoning",
-          "topic": "Number Series"
+          "topic": "Number Series",
+          "provenance": {
+            "kind": "original_practice",
+            "sourceTitle": "ExamSathi authored bilingual practice question"
+          }
         },
         {
           "hi": "संख्या श्रृंखला 388, 395, 402, 409, ? में अगली संख्या क्या है?",
@@ -4356,7 +5136,11 @@
           "whyHi": "हर बार 7 जोड़ा जाता है; अगली संख्या 416 है।",
           "whyEn": "Add 7 each time; the next number is 416.",
           "subject": "General Intelligence & Reasoning",
-          "topic": "Number Series"
+          "topic": "Number Series",
+          "provenance": {
+            "kind": "original_practice",
+            "sourceTitle": "ExamSathi authored bilingual practice question"
+          }
         },
         {
           "hi": "संख्या श्रृंखला 393, 401, 409, 417, ? में अगली संख्या क्या है?",
@@ -4377,7 +5161,11 @@
           "whyHi": "हर बार 8 जोड़ा जाता है; अगली संख्या 425 है।",
           "whyEn": "Add 8 each time; the next number is 425.",
           "subject": "General Intelligence & Reasoning",
-          "topic": "Number Series"
+          "topic": "Number Series",
+          "provenance": {
+            "kind": "original_practice",
+            "sourceTitle": "ExamSathi authored bilingual practice question"
+          }
         },
         {
           "hi": "संख्या श्रृंखला 398, 407, 416, 425, ? में अगली संख्या क्या है?",
@@ -4398,7 +5186,11 @@
           "whyHi": "हर बार 9 जोड़ा जाता है; अगली संख्या 434 है।",
           "whyEn": "Add 9 each time; the next number is 434.",
           "subject": "General Intelligence & Reasoning",
-          "topic": "Number Series"
+          "topic": "Number Series",
+          "provenance": {
+            "kind": "original_practice",
+            "sourceTitle": "ExamSathi authored bilingual practice question"
+          }
         },
         {
           "hi": "मौलिक अधिकार किस भाग में हैं?",
@@ -4419,7 +5211,11 @@
           "whyHi": "मौलिक अधिकार संविधान के भाग III में हैं।",
           "whyEn": "Fundamental Rights are in Part III.",
           "subject": "General Awareness",
-          "topic": "Polity"
+          "topic": "Polity",
+          "provenance": {
+            "kind": "original_practice",
+            "sourceTitle": "ExamSathi authored bilingual practice question"
+          }
         },
         {
           "hi": "'weary' का सबसे उपयुक्त समानार्थी शब्द चुनें।",
@@ -4440,7 +5236,11 @@
           "whyHi": "weary का अर्थ थका हुआ है।",
           "whyEn": "weary means tired.",
           "subject": "English Language",
-          "topic": "Vocabulary"
+          "topic": "Vocabulary",
+          "provenance": {
+            "kind": "original_practice",
+            "sourceTitle": "ExamSathi authored bilingual practice question"
+          }
         }
       ]
     }
