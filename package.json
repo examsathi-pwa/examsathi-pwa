@@ -1,0 +1,10 @@
+{
+  "name": "examsathi-pwa",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "validate": "node scripts/validate-app-data.mjs && node scripts/validate-question-banks.mjs",
+    "check": "npm run validate && node --check app.js && node --check question-bank.js && node --check exam-catalog.js && node --check firebase-config.js && node --check sw.js"
+  }
+}
