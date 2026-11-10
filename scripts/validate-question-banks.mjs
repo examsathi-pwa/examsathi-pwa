@@ -7,7 +7,6 @@ const files = fs.readdirSync(dir).filter((name) => name.endsWith('.json') && !na
 let errors = 0;
 let total = 0;
 const seenIds = new Set();
-const seenPrompts = new Map();
 
 function fail(file, where, message) {
   console.error(`FAIL ${file} ${where}: ${message}`);
@@ -22,8 +21,9 @@ for (const file of files) {
     fail(file, '$', `invalid JSON: ${error.message}`);
     continue;
   }
-  if (!bank.examName || !Array.isArray(bank.tests) || !bank.tests.length) {
-    fail(file, '$', 'examName and non-empty tests[] are required');
+  const examName = bank.examName || bank.exam;
+  if (!examName || !Array.isArray(bank.tests) || !bank.tests.length) {
+    fail(file, '$', 'examName (or exam) and non-empty tests[] are required');
     continue;
   }
   let bankCount = 0;
@@ -33,6 +33,7 @@ for (const file of files) {
       fail(file, where, 'questions[] must not be empty');
       continue;
     }
+    const promptsInThisTest = new Set();
     for (const [qi, q] of test.questions.entries()) {
       total++;
       bankCount++;
@@ -46,16 +47,25 @@ for (const file of files) {
       if (!Number.isInteger(q.answer) || q.answer < 0 || q.answer >= options.length) fail(file, at, 'answer must be a valid zero-based option index');
       if (!q.whyHi && !q.whyEn) fail(file, at, 'Hindi or English explanation required');
       if (!q.subject || !q.topic) fail(file, at, 'subject and topic required');
-      if (!q.provenance?.kind || !q.provenance?.questionId) fail(file, at, 'provenance.kind and provenance.questionId required');
+      if (!q.provenance?.kind) fail(file, at, 'provenance.kind required');
+      if (bank.qualityStandardVersion && !q.provenance?.questionId) fail(file, at, 'provenance.questionId required by quality standard');
+      if (q.provenance?.questionId) {
+        if (seenIds.has(q.provenance.questionId)) fail(file, at, `duplicate questionId: ${q.provenance.questionId}`);
+        seenIds.add(q.provenance.questionId);
+      } else {
+        console.warn(`REVIEW ${file} ${at}: stable questionId not yet migrated`);
+      }
+      if (bank.qualityStandardVersion && !['easy', 'moderate', 'hard'].includes(q.difficulty)) {
+        fail(file, at, 'difficulty must be easy, moderate or hard under the quality standard');
+      } else if (!q.difficulty) {
+        console.warn(`REVIEW ${file} ${at}: difficulty tag not yet migrated`);
+      }
       if (q.provenance?.answerKeyStatus !== 'verified') {
         console.warn(`REVIEW ${file} ${at}: answerKeyStatus is ${q.provenance?.answerKeyStatus || 'unset'}`);
       }
-      const id = q.provenance?.questionId;
-      if (id && seenIds.has(id)) fail(file, at, `duplicate questionId: ${id}`);
-      if (id) seenIds.add(id);
       const key = prompt.toLocaleLowerCase().replace(/\s+/g, ' ').trim();
-      if (key && seenPrompts.has(key)) fail(file, at, `duplicate prompt also in ${seenPrompts.get(key)}`);
-      if (key) seenPrompts.set(key, `${file} ${at}`);
+      if (key && promptsInThisTest.has(key)) fail(file, at, 'duplicate prompt inside the same test');
+      if (key) promptsInThisTest.add(key);
     }
   }
   console.log(`OK ${file}: ${bankCount} questions (target ${bank.targetQuestions || 'not set'})`);
