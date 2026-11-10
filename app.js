@@ -43,13 +43,37 @@ async function refreshSelectedQuestionBank(){
    if($('examSelect').value!==ex)return;
    loadedBankExam=ex;
    loadedBankTests=bank.tests.map((t,i)=>({...t,id:t.id||`${file}-${i+1}`,category,paid:false,minutes:t.minutes||Math.max(1,t.questions.length),sourceKind:t.sourceKind||'practice'}));
-   $('catalogNote').textContent=tr(`${ex}: ${bank.questionCount} प्रश्न लोड हुए। स्रोत: ${bank.sourceLabel||'प्रश्न बैंक'}।`,`${ex}: ${bank.questionCount} questions loaded. Source: ${bank.sourceLabel||'question bank'}.`);
+   const uniqueCount=uniqueQuestionPool(loadedBankTests).length;
+   $('catalogNote').textContent=ex==='SSC CGL'
+     ?tr(`${ex}: ${uniqueCount} अलग-अलग प्रश्न उपलब्ध हैं (कुल ${bank.questionCount} रिकॉर्ड)। 100 प्रश्नों के 20 अभ्यास सेट तैयार हैं; अलग-अलग सेटों में प्रश्न दोहर सकते हैं।`,`${ex}: ${uniqueCount} unique questions available (${bank.questionCount} total records). 20 practice sets of 100 are ready; questions may repeat across different sets.`)
+     :tr(`${ex}: ${bank.questionCount} प्रश्न लोड हुए। स्रोत: ${bank.sourceLabel||'प्रश्न बैंक'}।`,`${ex}: ${bank.questionCount} questions loaded. Source: ${bank.sourceLabel||'question bank'}.`);
  }catch(error){
    $('catalogNote').textContent=tr(`${ex} का प्रश्न बैंक लोड नहीं हुआ। कारण: ${error?.message||'नेटवर्क समस्या'}। पेज रीफ्रेश करके पुनः प्रयास करें।`,`Could not load the ${ex} question bank: ${error?.message||'network error'}. Refresh and retry.`);
  }
  render();
 }
-function allQuestions(){return getExamTests().flatMap(t=>t.questions.map((q,i)=>({...q,category:t.category,subject:q.subject||t.subject||defaultSubject(t.category),year:q.year||t.year||null,sourceTest:t.hi})));}
+function uniqueQuestionPool(tests){
+ const seen=new Set(),pool=[];
+ for(const t of tests)for(const q of t.questions){
+   const key=String(q.hi||q.en||'').normalize('NFKC').replace(/\\s+/g,' ').trim().toLocaleLowerCase();
+   if(!key||seen.has(key))continue;
+   seen.add(key);
+   pool.push({...q,category:t.category,subject:q.subject||t.subject||defaultSubject(t.category),year:q.year||t.year||null,sourceTest:t.hi});
+ }
+ return pool;
+}
+function allQuestions(){return uniqueQuestionPool(getExamTests());}
+function buildSscCgl100Sets(tests){
+ const pool=uniqueQuestionPool(tests);
+ if(pool.length<100)return [];
+ const size=100,step=Math.max(1,Math.floor(pool.length/20));
+ return Array.from({length:20},(_,i)=>({
+   id:'ssc-cgl-100-set-'+(i+1),category:'SSC',paid:false,minutes:100,
+   hi:'SSC CGL 100 प्रश्न अभ्यास सेट '+String(i+1).padStart(2,'0'),
+   en:'SSC CGL 100-Question Practice Set '+String(i+1).padStart(2,'0'),
+   questions:Array.from({length:size},(_,j)=>pool[(i*step+j)%pool.length])
+ }));
+}
 function defaultSubject(category){return ({'UP TGT':'Science','SSC':'General Awareness','Railway':'Mathematics','UP Police':'General Knowledge','CTET':'Child Development & Pedagogy','Banking':'Banking Awareness'})[category]||'General';}
 function updateLang(){$('language').textContent=lang==='hi'?'EN':'हिंदी';$('tag').textContent=tr('हर परीक्षा में आपका साथी','Your partner in every exam');$('welcome').textContent=tr('सरकारी परीक्षाओं की तैयारी','Prepare for Government Exams');$('intro').textContent=tr('परीक्षा चुनें, टाइम्ड मॉक टेस्ट दें और अपनी प्रगति देखें।','Choose an exam, take timed mock tests, and track your progress.');$('testTitle').textContent=tr('मॉक टेस्ट और प्रश्न बैंक','Mock Tests & Question Bank');$('historyTitle').textContent=tr('मेरे परिणाम और प्रगति','My Results & Progress');$('filterNote').textContent=tr('नोट: 10/50/100 प्रश्नों के टेस्ट के लिए चुनी गई परीक्षा/विषय में उतने अलग प्रश्न उपलब्ध होने चाहिए। वास्तविक वर्षवार पेपर तभी दिखेंगे जब सत्यापित पेपर डेटा जोड़ा जाएगा।','Note: 10/50/100-question tests require that many unique questions in the selected exam/subject. Verified year-wise papers appear after their data is added.');render();}
 const teacherSubjectCatalog={
@@ -76,18 +100,24 @@ function render(){
    wrap.append(empty);
  }
  const query=($('testSearch')?.value||'').trim().toLocaleLowerCase();
- // A 100-question mock combines two consecutive sets from this exam.
- // Existing questions are reused as-is; no new or duplicate questions are generated.
+ // SSC CGL has a 1,000-row source bank with repeated entries.
+ // Build 20 rotating 100-question sets from the deduplicated pool. Each set
+ // contains 100 unique questions; sets may overlap because the pool has fewer
+ // than 2,000 unique questions. Other exams retain the original pair-merge rule.
  let displayTests=bankTests;
  if(selectedLength===100){
-   displayTests=[];
-   for(let i=0;i<bankTests.length;){
-     const first=bankTests[i],second=bankTests[i+1];
-     if(first.questions.length>=100){displayTests.push(first);i++}
-     else if(second){
-       displayTests.push({...first,id:`${first.id}-plus-${second.id}`,hi:`${first.hi} + ${second.hi}`,en:`${first.en} + ${second.en}`,questions:[...first.questions,...second.questions]});
-       i+=2;
-     }else{displayTests.push(first);i++}
+   if($('examSelect').value==='SSC CGL'){
+     displayTests=buildSscCgl100Sets(bankTests);
+   }else{
+     displayTests=[];
+     for(let i=0;i<bankTests.length;){
+       const first=bankTests[i],second=bankTests[i+1];
+       if(first.questions.length>=100){displayTests.push(first);i++}
+       else if(second){
+         displayTests.push({...first,id:first.id+'-plus-'+second.id,hi:first.hi+' + '+second.hi,en:first.en+' + '+second.en,questions:[...first.questions,...second.questions]});
+         i+=2;
+       }else{displayTests.push(first);i++}
+     }
    }
  }
  const filtered=displayTests.filter(t=>!query||[t.hi,t.en,t.category].some(v=>String(v||'').toLocaleLowerCase().includes(query)));
