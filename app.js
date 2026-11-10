@@ -234,52 +234,96 @@ async function initFirebase(){
 const stateLogoDomains={
  'Andhra Pradesh':'ap.gov.in','Arunachal Pradesh':'arunachalpradesh.gov.in','Assam':'assam.gov.in','Bihar':'state.bihar.gov.in','Chhattisgarh':'cgstate.gov.in','Goa':'goa.gov.in','Gujarat':'gujaratindia.gov.in','Haryana':'haryana.gov.in','Himachal Pradesh':'himachal.nic.in','Jharkhand':'jharkhand.gov.in','Karnataka':'karnataka.gov.in','Kerala':'kerala.gov.in','Madhya Pradesh':'mp.gov.in','Maharashtra':'maharashtra.gov.in','Manipur':'manipur.gov.in','Meghalaya':'meghalaya.gov.in','Mizoram':'mizoram.gov.in','Nagaland':'nagaland.gov.in','Odisha':'odisha.gov.in','Punjab':'punjab.gov.in','Rajasthan':'rajasthan.gov.in','Sikkim':'sikkim.gov.in','Tamil Nadu':'tn.gov.in','Telangana':'telangana.gov.in','Tripura':'tripura.gov.in','Uttar Pradesh':'up.gov.in','Uttarakhand':'uk.gov.in','West Bengal':'wb.gov.in','Andaman and Nicobar Islands':'andaman.gov.in','Chandigarh':'chandigarh.gov.in','Dadra and Nagar Haveli and Daman and Diu':'ddd.gov.in','Delhi':'delhi.gov.in','Jammu and Kashmir':'jk.gov.in','Ladakh':'ladakh.nic.in','Lakshadweep':'lakshadweep.gov.in','Puducherry':'py.gov.in'
 };
-const examLogoDomains=[
- [/ssc|staff selection/,'ssc.gov.in'],[/upsc/,'upsc.gov.in'],[/railway|rrb|ntpc|group d|alp|technician/,'rrbcdg.gov.in'],[/ctet|kvs|nvs/,'cbse.gov.in'],[/ugc net|csir/,'ugcnet.nta.ac.in'],[/nda|cds|afcat|army|navy|coast guard|capf/,'upsc.gov.in'],[/ibps/,'ibps.in'],[/sbi/,'sbi.co.in'],[/rbi/,'rbi.org.in'],[/nabard/,'nabard.org'],[/lic/,'licindia.in'],[/sebi/,'sebi.gov.in'],[/sidbi/,'sidbi.in'],[/niacl/,'newindia.co.in'],[/uiic/,'uiic.co.in'],[/gic/,'gicre.in'],[/pnb|punjab national/,'pnbindia.in'],[/bank of baroda|\bbob\b/,'bankofbaroda.in'],[/jee|neet|cuet|nata|gate|cat|xat|cmat|nift|bitsat|viteee|wbjee|mht cet|kcet|eapcet|keam|oj ee|bcece/,'exams.nta.ac.in']
-];
-function faviconUrl(domain){return domain?'https://www.google.com/s2/favicons?domain='+encodeURIComponent(domain)+'&sz=128':''}
 function domainForExam(name,section,state){
  const n=String(name||'').toLowerCase();
- for(const [re,domain] of examLogoDomains)if(re.test(n))return domain;
+ // Resolve by the selected exam section first. Never use loose substring matches:
+ // e.g. "police" must never match the banking abbreviation "LIC".
  if(section==='state'){
-  const stateSpecific={
-   'UPPSC':'uppsc.up.nic.in','UPSSSC':'upsssc.gov.in','UP Police':'uppbpb.gov.in','BPSC':'bpsc.bih.nic.in','Bihar Police':'police.bihar.gov.in',
-   'MPPSC':'mppsc.mp.gov.in','MPESB':'esb.mp.gov.in','RPSC':'rpsc.rajasthan.gov.in','RSSB':'rssb.rajasthan.gov.in',
-   'HPSC':'hpsc.gov.in','HSSC':'hssc.gov.in','JPSC':'jpsc.gov.in','JSSC':'jssc.nic.in','OPSC':'opsc.gov.in',
-   'TNPSC':'tnpsc.gov.in','MPSC':'mpsc.gov.in','GPSC':'gpsc.gujarat.gov.in','WBPSC':'psc.wb.gov.in','JKPSC':'jkpsc.nic.in',
-   'DSSSB':'dsssb.delhi.gov.in','UKPSC':'psc.uk.gov.in','CGPSC':'psc.cg.gov.in','APPSC':'psc.ap.gov.in'
-  };
-  for(const [key,domain] of Object.entries(stateSpecific))if(n.includes(key.toLowerCase()))return domain;
+  const stateAuthorityRules=[
+   [/\\buppsc\\b/,'uppsc.up.nic.in'],[/\\bupsssc\\b/,'upsssc.gov.in'],[/\\bup police\\b|\\buppbpb\\b/,'uppbpb.gov.in'],
+   [/\\bbpsc\\b/,'bpsc.bih.nic.in'],[/\\bbihar police\\b/,'police.bihar.gov.in'],
+   [/\\bmppsc\\b/,'mppsc.mp.gov.in'],[/\\bmpesb\\b/,'esb.mp.gov.in'],[/\\brpsc\\b/,'rpsc.rajasthan.gov.in'],[/\\brssb\\b/,'rssb.rajasthan.gov.in'],
+   [/\\bhpsc\\b/,'hpsc.gov.in'],[/\\bhssc\\b/,'hssc.gov.in'],[/\\bjpsc\\b/,'jpsc.gov.in'],[/\\bjssc\\b/,'jssc.nic.in'],[/\\bopsc\\b/,'opsc.gov.in'],
+   [/\\btnpsc\\b/,'tnpsc.gov.in'],[/\\bmpsc\\b/,'mpsc.gov.in'],[/\\bgpsc\\b/,'gpsc.gujarat.gov.in'],[/\\bwbpsc\\b/,'psc.wb.gov.in'],[/\\bjkpsc\\b/,'jkpsc.nic.in'],
+   [/\\bdsssb\\b/,'dsssb.delhi.gov.in'],[/\\bukpsc\\b/,'psc.uk.gov.in'],[/\\bcgpsc\\b/,'psc.cg.gov.in'],[/\\bappsc\\b/,'psc.ap.gov.in']
+  ];
+  for(const [re,domain] of stateAuthorityRules)if(re.test(n))return domain;
   return stateLogoDomains[state]||'india.gov.in';
  }
- if(section==='central')return 'india.gov.in';
- if(section==='banking')return 'rbi.org.in';
- return 'exams.nta.ac.in';
+ if(section==='central'){
+  if(/\\bssc\\b|staff selection/.test(n))return 'ssc.gov.in';
+  if(/\\bupsc\\b/.test(n))return 'upsc.gov.in';
+  if(/\\brrb\\b|railway|\\bntpc\\b|group d|\\balp\\b|technician/.test(n))return 'rrbcdg.gov.in';
+  if(/\\bctet\\b|\\bkvs\\b|\\bnvs\\b/.test(n))return 'cbse.gov.in';
+  if(/ugc.?net|csir/.test(n))return 'ugcnet.nta.ac.in';
+  if(/\\bnda\\b|\\bcds\\b|\\bafcat\\b|agniveer|indian army|indian navy|coast guard|\\bcapf\\b/.test(n))return 'upsc.gov.in';
+  if(/\\bepfo\\b/.test(n))return 'epfindia.gov.in';
+  if(/\\besic\\b/.test(n))return 'esic.gov.in';
+  return 'india.gov.in';
+ }
+ if(section==='banking'){
+  if(/\\bibps\\b/.test(n))return 'ibps.in';
+  if(/\\bsbi\\b/.test(n))return 'sbi.co.in';
+  if(/\\brbi\\b/.test(n))return 'rbi.org.in';
+  if(/\\bnabard\\b/.test(n))return 'nabard.org';
+  if(/\\blic\\b/.test(n))return 'licindia.in';
+  if(/\\bsebi\\b/.test(n))return 'sebi.gov.in';
+  if(/\\bsidbi\\b/.test(n))return 'sidbi.in';
+  if(/\\bniacl\\b/.test(n))return 'newindia.co.in';
+  if(/\\buiic\\b/.test(n))return 'uiic.co.in';
+  if(/\\bgic\\b/.test(n))return 'gicre.in';
+  if(/\\bpnb\\b|punjab national/.test(n))return 'pnbindia.in';
+  if(/bank of baroda|\\bbob\\b/.test(n))return 'bankofbaroda.in';
+  return 'rbi.org.in';
+ }
+ if(section==='entrance'){
+  if(/\\bjee\\b|\\bneet\\b|\\bcuet\\b/.test(n))return 'exams.nta.ac.in';
+  if(/\\bgate\\b/.test(n))return 'gate2026.iitg.ac.in';
+  if(/\\bcat\\b/.test(n))return 'iimcat.ac.in';
+  if(/\\bnift\\b/.test(n))return 'exams.nta.ac.in';
+  return 'exams.nta.ac.in';
+ }
+ return 'india.gov.in';
+}
+function faviconUrl(domain){return domain?'https://www.google.com/s2/favicons?domain='+encodeURIComponent(domain)+'&sz=128':''}
+function examFilterGroup(name,section){
+ const n=String(name||'').toLowerCase();
+ if(section==='banking')return /\\blic\\b/.test(n)?'LIC':/\\bsbi\\b/.test(n)?'SBI':/\\brbi\\b/.test(n)?'RBI':/\\bibps\\b/.test(n)?'IBPS':'अन्य बैंक';
+ if(section==='state')return /police/.test(n)?'Police':/teacher|tgt|pgt|tet|ctet|kvs|nvs/.test(n)?'Teaching':/psc|civil services|pcs/.test(n)?'PSC':/staff selection|group c|group d|pet|lekhpal/.test(n)?'Staff selection':'अन्य राज्य परीक्षा';
+ if(/\\bssc\\b/.test(n))return 'SSC';
+ if(/\\bupsc\\b/.test(n))return 'UPSC';
+ if(/\\brrb\\b|railway/.test(n))return 'Railway';
+ if(/\\bctet\\b|\\bkvs\\b|\\bnvs\\b/.test(n))return 'Teaching';
+ if(/\\bnda\\b|\\bcds\\b|\\bafcat\\b|agniveer|army|navy|coast guard|capf/.test(n))return 'Defence';
+ if(/ugc.?net|csir/.test(n))return 'NET';
+ return 'अन्य केंद्रीय परीक्षा';
 }
 function renderExamLogoList(){
- const list=$('examLogoList'),search=$('examLogoSearch');if(!list)return;
- const section=$('examSection').value,state=$('stateSelect').value,query=String(search?.value||'').trim().toLowerCase(),selected=$('examSelect').value;
- list.replaceChildren();
+ const list=$('examLogoList'),search=$('examLogoSearch'),filter=$('examLogoFilter');if(!list)return;
+ const section=$('examSection').value,state=$('stateSelect').value,query=String(search?.value||'').trim().toLowerCase(),filterValue=filter?.value||'all',selected=$('examSelect').value;
+ list.replaceChildren();let shown=0;
  for(const option of [...$('examSelect').options]){
-  const name=option.value;if(query&&!name.toLowerCase().includes(query))continue;
+  const name=option.value,group=examFilterGroup(name,section);
+  if(query&&!name.toLowerCase().includes(query))continue;
+  if(filterValue!=='all'&&group!==filterValue)continue;
   const domain=domainForExam(name,section,state);
-  const fallback=section==='state'?stateLogoDomains[state]||'india.gov.in':(section==='central'?'india.gov.in':section==='banking'?'rbi.org.in':'exams.nta.ac.in');
   const item=document.createElement('button');item.type='button';item.className='exam-logo-option'+(name===selected?' selected':'');item.setAttribute('role','option');item.setAttribute('aria-selected',String(name===selected));
-  const logo=document.createElement('span');logo.className='exam-logo-mark';logo.textContent=section==='state'?examInitials(state):examInitials(name);
-  const img=document.createElement('img');img.className='exam-logo-image';img.alt='';img.loading='lazy';img.referrerPolicy='strict-origin-when-cross-origin';img.onerror=()=>{img.hidden=true};img.src='https://'+domain+'/favicon.ico';
+  const logo=document.createElement('span');logo.className='exam-logo-mark';logo.textContent=section==='state'?examInitials(state):section==='banking'?bankingMark(name):examInitials(name);
+  const img=document.createElement('img');img.className='exam-logo-image';img.alt='';img.loading='lazy';img.referrerPolicy='no-referrer';img.onerror=()=>{img.hidden=true};img.src=faviconUrl(domain);
   const logoBox=document.createElement('span');logoBox.className='exam-logo-box';logoBox.append(logo,img);
   const label=document.createElement('span');label.className='exam-logo-name';label.textContent=name;
-  const tag=document.createElement('small');tag.className='exam-logo-source';tag.textContent=section==='state'?state+' • राज्य पहचान-चिह्न':section==='banking'?'संबंधित बैंक/वित्तीय संस्था':section==='central'?'संबंधित परीक्षा प्राधिकरण':'प्रवेश परीक्षा प्राधिकरण';
+  const tag=document.createElement('small');tag.className='exam-logo-source';tag.textContent=group+' • '+domain;
   item.append(logoBox,label,tag);item.onclick=()=>{ $('examSelect').value=name;$('examSelect').dispatchEvent(new Event('change')); };
-  list.append(item);
+  list.append(item);shown++;
  }
- if(!list.children.length){const empty=document.createElement('p');empty.className='muted';empty.textContent='कोई परीक्षा नहीं मिली। / No exam found.';list.append(empty)}
+ const count=$('examLogoCount');if(count)count.textContent=shown+' / '+$('examSelect').options.length+' परीक्षाएँ';
+ if(!shown){const empty=document.createElement('p');empty.className='muted';empty.textContent='कोई परीक्षा नहीं मिली। / No exam found.';list.append(empty)}
 }
 
 function examInitials(name){const n=String(name||'').trim();const aliases={'Uttar Pradesh':'UP','Madhya Pradesh':'MP','Himachal Pradesh':'HP','Andhra Pradesh':'AP','Arunachal Pradesh':'AR','West Bengal':'WB','Jammu and Kashmir':'JK','Haryana':'HR','Rajasthan':'RJ','Uttarakhand':'UK','Tamil Nadu':'TN','Telangana':'TG','Maharashtra':'MH','Karnataka':'KA','Kerala':'KL','Punjab':'PB','Bihar':'BR','Odisha':'OD','Assam':'AS','Gujarat':'GJ','Jharkhand':'JH','Chhattisgarh':'CG','Goa':'GA','Manipur':'MN','Meghalaya':'ML','Mizoram':'MZ','Nagaland':'NL','Sikkim':'SK','Tripura':'TR'};if(aliases[n])return aliases[n];const words=n.replace(/[^A-Za-z ]/g,' ').split(/\s+/).filter(Boolean);return words.length>1?words.map(w=>w[0]).join('').slice(0,3).toUpperCase():n.slice(0,3).toUpperCase()}
 function bankingMark(name){const n=String(name||'').toUpperCase();for(const key of ['IBPS','SBI','RBI','NABARD','LIC','SEBI','SIDBI','NIACL','UIIC','GIC','PNB','BOB'])if(n.includes(key))return key;if(n.includes('BANK OF BARODA'))return 'BOB';if(n.includes('PUNJAB NATIONAL'))return 'PNB';return examInitials(name)}
 function updateExamIdentity(){const section=$('examSection').value,state=$('stateSelect').value,exam=$('examSelect').value;const box=$('examIdentity');if(!box)return;let mark='EX',kind='EXAM',title='परीक्षा पहचान',subtitle=exam,style='identity-central';if(section==='state'){mark=examInitials(state);kind='STATE GOVERNMENT';title=state+' राज्य परीक्षा';subtitle=exam+' • राज्य स्तरीय भर्ती';style='identity-state'}else if(section==='central'){mark='भारत';kind='GOVERNMENT OF INDIA';title='केंद्रीय सरकारी परीक्षा';subtitle=exam+' • राष्ट्रीय स्तर की भर्ती';style='identity-central'}else if(section==='banking'){mark=bankingMark(exam);kind='BANKING / FINANCIAL INSTITUTION';title='बैंकिंग परीक्षा';subtitle=exam+' • बैंकिंग एवं वित्तीय भर्ती';style='identity-banking'}else{mark='🎓';kind='ENTRANCE EXAM';title='प्रवेश परीक्षा';subtitle=exam;style='identity-entrance'}const logo=box.querySelector('.exam-identity-logo');logo.className='exam-identity-logo '+style;logo.textContent=mark;box.querySelector('.exam-identity-kind').textContent=kind;box.querySelector('.exam-identity-title').textContent=title;box.querySelector('.exam-identity-subtitle').textContent=subtitle}
-function initExamCatalog(){const section=$('examSection'),state=$('stateSelect'),exam=$('examSelect');for(const name of Object.keys(stateExams)){state.add(new Option(name,name))}state.value='Uttar Pradesh';function fill(){cat='All';const group=section.value;$('stateLabel').hidden=group!=='state';const arr=group==='state'?(stateExams[state.value]||[]):group==='central'?centralExams:group==='banking'?bankingExams:entranceExams;exam.replaceChildren();for(const name of arr)exam.add(new Option(name,name));renderExamLogoList();if(group==='state'&&state.value==='Uttar Pradesh')exam.value='UP TGT';if(group==='central')exam.value='SSC CGL';if(group==='banking')exam.value='IBPS PO';updateExamIdentity();render()}section.onchange=()=>{ $('subjectSelect').value='All'; $('yearSelect').value='All'; fill();refreshSelectedQuestionBank() };state.onchange=()=>{ $('subjectSelect').value='All'; $('yearSelect').value='All'; fill();refreshSelectedQuestionBank() };exam.onchange=()=>{cat='All';$('subjectSelect').value='All';$('yearSelect').value='All';updateExamIdentity();refreshSelectedQuestionBank();render()};$('subjectSelect').onchange=()=>{if($('yearSelect').value!=='All'&&!allQuestions().some(q=>q.subject===$('subjectSelect').value&&String(q.year)===$('yearSelect').value))$('yearSelect').value='All';render()};$('yearSelect').onchange=render;$('questionCount').onchange=()=>{selectedLength=Number($('questionCount').value)||100;render()};$('timeMinutes').onchange=render;fill();refreshSelectedQuestionBank()}
+function initExamCatalog(){const section=$('examSection'),state=$('stateSelect'),exam=$('examSelect');for(const name of Object.keys(stateExams)){state.add(new Option(name,name))}state.value='Uttar Pradesh';function fill(){cat='All';const group=section.value;$('stateLabel').hidden=group!=='state';const arr=group==='state'?(stateExams[state.value]||[]):group==='central'?centralExams:group==='banking'?bankingExams:entranceExams;exam.replaceChildren();for(const name of arr)exam.add(new Option(name,name));const filter=$('examLogoFilter');if(filter){const old=filter.value;const groups=[...new Set(arr.map(name=>examFilterGroup(name,group)))].sort();filter.replaceChildren(new Option('सभी परीक्षाएँ / All','all'));groups.forEach(g=>filter.add(new Option(g,g)));filter.value=groups.includes(old)?old:'all'}if($('examLogoSearch'))$('examLogoSearch').value='';renderExamLogoList();if(group==='state'&&state.value==='Uttar Pradesh')exam.value='UP TGT';if(group==='central')exam.value='SSC CGL';if(group==='banking')exam.value='IBPS PO';updateExamIdentity();render()}section.onchange=()=>{ $('subjectSelect').value='All'; $('yearSelect').value='All'; fill();refreshSelectedQuestionBank() };state.onchange=()=>{ $('subjectSelect').value='All'; $('yearSelect').value='All'; fill();refreshSelectedQuestionBank() };exam.onchange=()=>{cat='All';$('subjectSelect').value='All';$('yearSelect').value='All';updateExamIdentity();refreshSelectedQuestionBank();render()};$('subjectSelect').onchange=()=>{if($('yearSelect').value!=='All'&&!allQuestions().some(q=>q.subject===$('subjectSelect').value&&String(q.year)===$('yearSelect').value))$('yearSelect').value='All';render()};$('yearSelect').onchange=render;$('questionCount').onchange=()=>{selectedLength=Number($('questionCount').value)||100;render()};$('timeMinutes').onchange=render;fill();refreshSelectedQuestionBank()}
 document.querySelectorAll('[data-exam]').forEach(button=>button.addEventListener('click',()=>{const section=$('examSection');section.value=button.dataset.section;section.dispatchEvent(new Event('change'));const target=button.dataset.exam;const option=[...$('examSelect').options].find(o=>o.value===target)||[...$('examSelect').options].find(o=>o.textContent.toLowerCase().includes(target.toLowerCase().split(' ')[0]));if(option){$('examSelect').value=option.value;$('examSelect').dispatchEvent(new Event('change'));} $('chooseExam').scrollIntoView({behavior:'smooth'});}));
-$('examLogoSearch')?.addEventListener('input',renderExamLogoList);$('testSearch').addEventListener('input',render);$('searchBtn').addEventListener('click',()=>{$('catalog').scrollIntoView({behavior:'smooth'});render()});
+$('examLogoSearch')?.addEventListener('input',renderExamLogoList);$('examLogoFilter')?.addEventListener('change',renderExamLogoList);$('testSearch').addEventListener('input',render);$('searchBtn').addEventListener('click',()=>{$('catalog').scrollIntoView({behavior:'smooth'});render()});
 initExamCatalog();updateLang();initFirebase();if('serviceWorker'in navigator)navigator.serviceWorker.register('./sw.js').catch(()=>{});
