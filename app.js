@@ -79,7 +79,9 @@ function buildExamPracticeSets(tests,size,examName){
  const subject=$('subjectSelect')?.value||'All',year=$('yearSelect')?.value||'All';
  const pool=uniqueQuestionPool(tests).filter(q=>(subject==='All'||q.subject===subject)&&(year==='All'||String(q.year)===year));
  if(pool.length<size)return [];
- const stride=Math.max(1,Math.floor(pool.length/20));
+ const gcd=(a,b)=>b?gcd(b,a%b):a;
+ let stride=Math.max(1,Math.floor(pool.length/3));
+ while(pool.length>1&&gcd(stride,pool.length)!==1)stride++;
  const slug=String(examName||'exam').toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-+|-+$/g,'');
  return Array.from({length:20},(_,i)=>({
    id:slug+'-'+size+'-practice-set-'+(i+1),category:tests[0]?.category||'SSC',paid:false,minutes:size,
