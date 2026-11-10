@@ -137,18 +137,20 @@
       </label>
     </div>
 
+    <div class="set-length-panel">
+      <h3>टेस्ट की लंबाई चुनें</h3>
+      <p class="muted">पहले 10, 50 या 100 प्रश्न चुनें, फिर नीचे उसी लंबाई के 20 सेट क्रम से दिखेंगे।</p>
+      <div id="setLengthOptions" class="set-length-options" role="group" aria-label="प्रश्नों की संख्या"></div>
+    </div>
+
     <p id="catalogNote" class="muted">परीक्षा सूची में कुछ सामान्य श्रेणियाँ हैं; यह सक्रिय भर्ती की पुष्टि नहीं है।</p>
 
     <div class="test-filters">
-      <label>प्रश्न / Questions
-        <select id="questionCount">
-          <option value="0" selected>उपलब्ध प्रश्न (डेमो)</option>
-          <option value="10">10 प्रश्न (यदि उपलब्ध हों)</option>
-          <option value="50">50 प्रश्न (यदि उपलब्ध हों)</option>
-          <option value="100">100 प्रश्न (यदि उपलब्ध हों)</option>
+      <label hidden>
+        <select id="questionCount" aria-hidden="true" tabindex="-1">
+          <option value="10">10</option><option value="50">50</option><option value="100" selected>100</option>
         </select>
       </label>
-
       <label>समय / Time
         <select id="timeMinutes">
           <option value="0" selected>प्रश्न के अनुसार (1 मिनट/प्रश्न) / Auto (1 min/question)</option>
