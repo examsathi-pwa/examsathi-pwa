@@ -1,0 +1,4448 @@
+{
+  "exam": "SSC CGL",
+  "jurisdiction": "Central Government",
+  "mode": "combined",
+  "sourceLabel": "ExamSathi original bilingual practice questions",
+  "releaseStatus": "published_partial",
+  "setTarget": 20,
+  "questionTargetPerSet": 100,
+  "availableQuestionSizes": [
+    10
+  ],
+  "notes": "20 starter sets with 10 unique questions each (200 total). Original practice questions, not official PYQs. Extend each set to 50 and 100 only after more unique questions are authored and reviewed.",
+  "papers": [
+    {
+      "id": "tier-1",
+      "name": "Tier I",
+      "mode": "combined",
+      "subjects": [
+        "Quantitative Aptitude",
+        "General Intelligence & Reasoning",
+        "General Awareness",
+        "English Language"
+      ]
+    }
+  ],
+  "tests": [
+    {
+      "id": "ssc-cgl-combined-01",
+      "hi": "SSC CGL संयुक्त मॉक सेट 1",
+      "en": "SSC CGL Combined Mock Set 1",
+      "minutes": 10,
+      "subject": "Combined",
+      "paper": "Tier I",
+      "sourceKind": "original_practice",
+      "questions": [
+        {
+          "hi": "200 का 5% कितना है?",
+          "en": "What is 5% of 200?",
+          "optionsHi": [
+            "5",
+            "10",
+            "15",
+            "20"
+          ],
+          "optionsEn": [
+            "5",
+            "10",
+            "15",
+            "20"
+          ],
+          "answer": 1,
+          "whyHi": "200 × 5/100 = 10।",
+          "whyEn": "200 × 5/100 = 10।",
+          "subject": "Quantitative Aptitude",
+          "topic": "Percentage"
+        },
+        {
+          "hi": "₹1100 पर 6% वार्षिक दर से 2 वर्ष का साधारण ब्याज कितना होगा?",
+          "en": "Find simple interest on ₹1100 at 6% per annum for 2 years.",
+          "optionsHi": [
+            "32",
+            "132",
+            "182",
+            "232"
+          ],
+          "optionsEn": [
+            "32",
+            "132",
+            "182",
+            "232"
+          ],
+          "answer": 1,
+          "whyHi": "साधारण ब्याज = मूलधन × दर × समय / 100 = ₹132।",
+          "whyEn": "साधारण ब्याज = मूलधन × दर × समय / 100 = ₹132।",
+          "subject": "Quantitative Aptitude",
+          "topic": "Simple Interest"
+        },
+        {
+          "hi": "24 और 38 का औसत कितना है?",
+          "en": "What is the average of 24 and 38?",
+          "optionsHi": [
+            "29",
+            "31",
+            "33",
+            "35"
+          ],
+          "optionsEn": [
+            "29",
+            "31",
+            "33",
+            "35"
+          ],
+          "answer": 1,
+          "whyHi": "औसत = (24 + 38) / 2 = 31।",
+          "whyEn": "औसत = (24 + 38) / 2 = 31।",
+          "subject": "Quantitative Aptitude",
+          "topic": "Average"
+        },
+        {
+          "hi": "दो राशियों का अनुपात 5:6 है। पहली राशि 40 है। दूसरी राशि कितनी है?",
+          "en": "Two amounts are in the ratio 5:6. The first is 40. Find the second.",
+          "optionsHi": [
+            "40",
+            "48",
+            "56",
+            "64"
+          ],
+          "optionsEn": [
+            "40",
+            "48",
+            "56",
+            "64"
+          ],
+          "answer": 1,
+          "whyHi": "एक भाग = 40/5 = 8; दूसरी राशि = 6 × 8 = 48।",
+          "whyEn": "एक भाग = 40/5 = 8; दूसरी राशि = 6 × 8 = 48।",
+          "subject": "Quantitative Aptitude",
+          "topic": "Ratio"
+        },
+        {
+          "hi": "संख्या श्रृंखला 3, 5, 7, 9, ? में अगली संख्या क्या है?",
+          "en": "Find the next number: 3, 5, 7, 9, ?",
+          "optionsHi": [
+            "13",
+            "9",
+            "11",
+            "15"
+          ],
+          "optionsEn": [
+            "13",
+            "9",
+            "11",
+            "15"
+          ],
+          "answer": 2,
+          "whyHi": "हर बार 2 जोड़ा जाता है; अगली संख्या 11 है।",
+          "whyEn": "Add 2 each time; the next number is 11.",
+          "subject": "General Intelligence & Reasoning",
+          "topic": "Number Series"
+        },
+        {
+          "hi": "संख्या श्रृंखला 8, 11, 14, 17, ? में अगली संख्या क्या है?",
+          "en": "Find the next number: 8, 11, 14, 17, ?",
+          "optionsHi": [
+            "23",
+            "17",
+            "20",
+            "26"
+          ],
+          "optionsEn": [
+            "23",
+            "17",
+            "20",
+            "26"
+          ],
+          "answer": 2,
+          "whyHi": "हर बार 3 जोड़ा जाता है; अगली संख्या 20 है।",
+          "whyEn": "Add 3 each time; the next number is 20.",
+          "subject": "General Intelligence & Reasoning",
+          "topic": "Number Series"
+        },
+        {
+          "hi": "संख्या श्रृंखला 13, 17, 21, 25, ? में अगली संख्या क्या है?",
+          "en": "Find the next number: 13, 17, 21, 25, ?",
+          "optionsHi": [
+            "33",
+            "25",
+            "29",
+            "37"
+          ],
+          "optionsEn": [
+            "33",
+            "25",
+            "29",
+            "37"
+          ],
+          "answer": 2,
+          "whyHi": "हर बार 4 जोड़ा जाता है; अगली संख्या 29 है।",
+          "whyEn": "Add 4 each time; the next number is 29.",
+          "subject": "General Intelligence & Reasoning",
+          "topic": "Number Series"
+        },
+        {
+          "hi": "संख्या श्रृंखला 18, 23, 28, 33, ? में अगली संख्या क्या है?",
+          "en": "Find the next number: 18, 23, 28, 33, ?",
+          "optionsHi": [
+            "43",
+            "33",
+            "38",
+            "48"
+          ],
+          "optionsEn": [
+            "43",
+            "33",
+            "38",
+            "48"
+          ],
+          "answer": 2,
+          "whyHi": "हर बार 5 जोड़ा जाता है; अगली संख्या 38 है।",
+          "whyEn": "Add 5 each time; the next number is 38.",
+          "subject": "General Intelligence & Reasoning",
+          "topic": "Number Series"
+        },
+        {
+          "hi": "भारत का संविधान कब लागू हुआ?",
+          "en": "When did the Constitution of India come into effect?",
+          "optionsHi": [
+            "15 अगस्त 1947",
+            "26 जनवरी 1950",
+            "26 नवंबर 1949",
+            "2 अक्टूबर 1950"
+          ],
+          "optionsEn": [
+            "15 August 1947",
+            "26 January 1950",
+            "26 November 1949",
+            "2 October 1950"
+          ],
+          "answer": 1,
+          "whyHi": "संविधान 26 जनवरी 1950 को लागू हुआ।",
+          "whyEn": "The Constitution came into effect on 26 January 1950.",
+          "subject": "General Awareness",
+          "topic": "Polity"
+        },
+        {
+          "hi": "'abundant' का सबसे उपयुक्त समानार्थी शब्द चुनें।",
+          "en": "Choose the closest synonym of 'abundant'.",
+          "optionsHi": [
+            "plentiful",
+            "scarce",
+            "empty",
+            "weak"
+          ],
+          "optionsEn": [
+            "plentiful",
+            "scarce",
+            "empty",
+            "weak"
+          ],
+          "answer": 0,
+          "whyHi": "abundant का अर्थ प्रचुर है।",
+          "whyEn": "abundant means plentiful.",
+          "subject": "English Language",
+          "topic": "Vocabulary"
+        }
+      ]
+    },
+    {
+      "id": "ssc-cgl-combined-02",
+      "hi": "SSC CGL संयुक्त मॉक सेट 2",
+      "en": "SSC CGL Combined Mock Set 2",
+      "minutes": 10,
+      "subject": "Combined",
+      "paper": "Tier I",
+      "sourceKind": "original_practice",
+      "questions": [
+        {
+          "hi": "240 का 9% कितना है?",
+          "en": "What is 9% of 240?",
+          "optionsHi": [
+            "16.6",
+            "21.6",
+            "26.6",
+            "31.6"
+          ],
+          "optionsEn": [
+            "16.6",
+            "21.6",
+            "26.6",
+            "31.6"
+          ],
+          "answer": 1,
+          "whyHi": "240 × 9/100 = 21.6।",
+          "whyEn": "240 × 9/100 = 21.6।",
+          "subject": "Quantitative Aptitude",
+          "topic": "Percentage"
+        },
+        {
+          "hi": "₹1500 पर 10% वार्षिक दर से 2 वर्ष का साधारण ब्याज कितना होगा?",
+          "en": "Find simple interest on ₹1500 at 10% per annum for 2 years.",
+          "optionsHi": [
+            "200",
+            "300",
+            "350",
+            "400"
+          ],
+          "optionsEn": [
+            "200",
+            "300",
+            "350",
+            "400"
+          ],
+          "answer": 1,
+          "whyHi": "साधारण ब्याज = मूलधन × दर × समय / 100 = ₹300।",
+          "whyEn": "साधारण ब्याज = मूलधन × दर × समय / 100 = ₹300।",
+          "subject": "Quantitative Aptitude",
+          "topic": "Simple Interest"
+        },
+        {
+          "hi": "32 और 54 का औसत कितना है?",
+          "en": "What is the average of 32 and 54?",
+          "optionsHi": [
+            "41",
+            "43",
+            "45",
+            "47"
+          ],
+          "optionsEn": [
+            "41",
+            "43",
+            "45",
+            "47"
+          ],
+          "answer": 1,
+          "whyHi": "औसत = (32 + 54) / 2 = 43।",
+          "whyEn": "औसत = (32 + 54) / 2 = 43।",
+          "subject": "Quantitative Aptitude",
+          "topic": "Average"
+        },
+        {
+          "hi": "दो राशियों का अनुपात 2:5 है। पहली राशि 24 है। दूसरी राशि कितनी है?",
+          "en": "Two amounts are in the ratio 2:5. The first is 24. Find the second.",
+          "optionsHi": [
+            "48",
+            "60",
+            "72",
+            "84"
+          ],
+          "optionsEn": [
+            "48",
+            "60",
+            "72",
+            "84"
+          ],
+          "answer": 1,
+          "whyHi": "एक भाग = 24/2 = 12; दूसरी राशि = 5 × 12 = 60।",
+          "whyEn": "एक भाग = 24/2 = 12; दूसरी राशि = 5 × 12 = 60।",
+          "subject": "Quantitative Aptitude",
+          "topic": "Ratio"
+        },
+        {
+          "hi": "संख्या श्रृंखला 23, 29, 35, 41, ? में अगली संख्या क्या है?",
+          "en": "Find the next number: 23, 29, 35, 41, ?",
+          "optionsHi": [
+            "53",
+            "41",
+            "47",
+            "59"
+          ],
+          "optionsEn": [
+            "53",
+            "41",
+            "47",
+            "59"
+          ],
+          "answer": 2,
+          "whyHi": "हर बार 6 जोड़ा जाता है; अगली संख्या 47 है।",
+          "whyEn": "Add 6 each time; the next number is 47.",
+          "subject": "General Intelligence & Reasoning",
+          "topic": "Number Series"
+        },
+        {
+          "hi": "संख्या श्रृंखला 28, 35, 42, 49, ? में अगली संख्या क्या है?",
+          "en": "Find the next number: 28, 35, 42, 49, ?",
+          "optionsHi": [
+            "63",
+            "49",
+            "56",
+            "70"
+          ],
+          "optionsEn": [
+            "63",
+            "49",
+            "56",
+            "70"
+          ],
+          "answer": 2,
+          "whyHi": "हर बार 7 जोड़ा जाता है; अगली संख्या 56 है।",
+          "whyEn": "Add 7 each time; the next number is 56.",
+          "subject": "General Intelligence & Reasoning",
+          "topic": "Number Series"
+        },
+        {
+          "hi": "संख्या श्रृंखला 33, 41, 49, 57, ? में अगली संख्या क्या है?",
+          "en": "Find the next number: 33, 41, 49, 57, ?",
+          "optionsHi": [
+            "73",
+            "57",
+            "65",
+            "81"
+          ],
+          "optionsEn": [
+            "73",
+            "57",
+            "65",
+            "81"
+          ],
+          "answer": 2,
+          "whyHi": "हर बार 8 जोड़ा जाता है; अगली संख्या 65 है।",
+          "whyEn": "Add 8 each time; the next number is 65.",
+          "subject": "General Intelligence & Reasoning",
+          "topic": "Number Series"
+        },
+        {
+          "hi": "संख्या श्रृंखला 38, 47, 56, 65, ? में अगली संख्या क्या है?",
+          "en": "Find the next number: 38, 47, 56, 65, ?",
+          "optionsHi": [
+            "83",
+            "65",
+            "74",
+            "92"
+          ],
+          "optionsEn": [
+            "83",
+            "65",
+            "74",
+            "92"
+          ],
+          "answer": 2,
+          "whyHi": "हर बार 9 जोड़ा जाता है; अगली संख्या 74 है।",
+          "whyEn": "Add 9 each time; the next number is 74.",
+          "subject": "General Intelligence & Reasoning",
+          "topic": "Number Series"
+        },
+        {
+          "hi": "प्रारूप समिति के अध्यक्ष कौन थे?",
+          "en": "Who chaired the Drafting Committee?",
+          "optionsHi": [
+            "जवाहरलाल नेहरू",
+            "डॉ. बी. आर. आंबेडकर",
+            "राजेंद्र प्रसाद",
+            "सरदार पटेल"
+          ],
+          "optionsEn": [
+            "Jawaharlal Nehru",
+            "Dr B. R. Ambedkar",
+            "Rajendra Prasad",
+            "Sardar Patel"
+          ],
+          "answer": 1,
+          "whyHi": "डॉ. बी. आर. आंबेडकर प्रारूप समिति के अध्यक्ष थे।",
+          "whyEn": "Dr B. R. Ambedkar chaired the Drafting Committee.",
+          "subject": "General Awareness",
+          "topic": "Polity"
+        },
+        {
+          "hi": "'ancient' का सबसे उपयुक्त समानार्थी शब्द चुनें।",
+          "en": "Choose the closest synonym of 'ancient'.",
+          "optionsHi": [
+            "old",
+            "modern",
+            "recent",
+            "future"
+          ],
+          "optionsEn": [
+            "old",
+            "modern",
+            "recent",
+            "future"
+          ],
+          "answer": 0,
+          "whyHi": "ancient का अर्थ प्राचीन है।",
+          "whyEn": "ancient means old.",
+          "subject": "English Language",
+          "topic": "Vocabulary"
+        }
+      ]
+    },
+    {
+      "id": "ssc-cgl-combined-03",
+      "hi": "SSC CGL संयुक्त मॉक सेट 3",
+      "en": "SSC CGL Combined Mock Set 3",
+      "minutes": 10,
+      "subject": "Combined",
+      "paper": "Tier I",
+      "sourceKind": "original_practice",
+      "questions": [
+        {
+          "hi": "280 का 13% कितना है?",
+          "en": "What is 13% of 280?",
+          "optionsHi": [
+            "31.4",
+            "36.4",
+            "41.4",
+            "46.4"
+          ],
+          "optionsEn": [
+            "31.4",
+            "36.4",
+            "41.4",
+            "46.4"
+          ],
+          "answer": 1,
+          "whyHi": "280 × 13/100 = 36.4।",
+          "whyEn": "280 × 13/100 = 36.4।",
+          "subject": "Quantitative Aptitude",
+          "topic": "Percentage"
+        },
+        {
+          "hi": "₹1900 पर 8% वार्षिक दर से 2 वर्ष का साधारण ब्याज कितना होगा?",
+          "en": "Find simple interest on ₹1900 at 8% per annum for 2 years.",
+          "optionsHi": [
+            "204",
+            "304",
+            "354",
+            "404"
+          ],
+          "optionsEn": [
+            "204",
+            "304",
+            "354",
+            "404"
+          ],
+          "answer": 1,
+          "whyHi": "साधारण ब्याज = मूलधन × दर × समय / 100 = ₹304।",
+          "whyEn": "साधारण ब्याज = मूलधन × दर × समय / 100 = ₹304।",
+          "subject": "Quantitative Aptitude",
+          "topic": "Simple Interest"
+        },
+        {
+          "hi": "40 और 56 का औसत कितना है?",
+          "en": "What is the average of 40 and 56?",
+          "optionsHi": [
+            "46",
+            "48",
+            "50",
+            "52"
+          ],
+          "optionsEn": [
+            "46",
+            "48",
+            "50",
+            "52"
+          ],
+          "answer": 1,
+          "whyHi": "औसत = (40 + 56) / 2 = 48।",
+          "whyEn": "औसत = (40 + 56) / 2 = 48।",
+          "subject": "Quantitative Aptitude",
+          "topic": "Average"
+        },
+        {
+          "hi": "दो राशियों का अनुपात 6:4 है। पहली राशि 42 है। दूसरी राशि कितनी है?",
+          "en": "Two amounts are in the ratio 6:4. The first is 42. Find the second.",
+          "optionsHi": [
+            "21",
+            "28",
+            "35",
+            "42"
+          ],
+          "optionsEn": [
+            "21",
+            "28",
+            "35",
+            "42"
+          ],
+          "answer": 1,
+          "whyHi": "एक भाग = 42/6 = 7; दूसरी राशि = 4 × 7 = 28।",
+          "whyEn": "एक भाग = 42/6 = 7; दूसरी राशि = 4 × 7 = 28।",
+          "subject": "Quantitative Aptitude",
+          "topic": "Ratio"
+        },
+        {
+          "hi": "संख्या श्रृंखला 43, 53, 63, 73, ? में अगली संख्या क्या है?",
+          "en": "Find the next number: 43, 53, 63, 73, ?",
+          "optionsHi": [
+            "93",
+            "73",
+            "83",
+            "103"
+          ],
+          "optionsEn": [
+            "93",
+            "73",
+            "83",
+            "103"
+          ],
+          "answer": 2,
+          "whyHi": "हर बार 10 जोड़ा जाता है; अगली संख्या 83 है।",
+          "whyEn": "Add 10 each time; the next number is 83.",
+          "subject": "General Intelligence & Reasoning",
+          "topic": "Number Series"
+        },
+        {
+          "hi": "संख्या श्रृंखला 48, 50, 52, 54, ? में अगली संख्या क्या है?",
+          "en": "Find the next number: 48, 50, 52, 54, ?",
+          "optionsHi": [
+            "58",
+            "54",
+            "56",
+            "60"
+          ],
+          "optionsEn": [
+            "58",
+            "54",
+            "56",
+            "60"
+          ],
+          "answer": 2,
+          "whyHi": "हर बार 2 जोड़ा जाता है; अगली संख्या 56 है।",
+          "whyEn": "Add 2 each time; the next number is 56.",
+          "subject": "General Intelligence & Reasoning",
+          "topic": "Number Series"
+        },
+        {
+          "hi": "संख्या श्रृंखला 53, 56, 59, 62, ? में अगली संख्या क्या है?",
+          "en": "Find the next number: 53, 56, 59, 62, ?",
+          "optionsHi": [
+            "68",
+            "62",
+            "65",
+            "71"
+          ],
+          "optionsEn": [
+            "68",
+            "62",
+            "65",
+            "71"
+          ],
+          "answer": 2,
+          "whyHi": "हर बार 3 जोड़ा जाता है; अगली संख्या 65 है।",
+          "whyEn": "Add 3 each time; the next number is 65.",
+          "subject": "General Intelligence & Reasoning",
+          "topic": "Number Series"
+        },
+        {
+          "hi": "संख्या श्रृंखला 58, 62, 66, 70, ? में अगली संख्या क्या है?",
+          "en": "Find the next number: 58, 62, 66, 70, ?",
+          "optionsHi": [
+            "78",
+            "70",
+            "74",
+            "82"
+          ],
+          "optionsEn": [
+            "78",
+            "70",
+            "74",
+            "82"
+          ],
+          "answer": 2,
+          "whyHi": "हर बार 4 जोड़ा जाता है; अगली संख्या 74 है।",
+          "whyEn": "Add 4 each time; the next number is 74.",
+          "subject": "General Intelligence & Reasoning",
+          "topic": "Number Series"
+        },
+        {
+          "hi": "भारत का राष्ट्रीय जलीय जीव कौन है?",
+          "en": "What is India’s national aquatic animal?",
+          "optionsHi": [
+            "गंगा डॉल्फिन",
+            "मगरमच्छ",
+            "कछुआ",
+            "नीली व्हेल"
+          ],
+          "optionsEn": [
+            "Ganges river dolphin",
+            "Crocodile",
+            "Turtle",
+            "Blue whale"
+          ],
+          "answer": 0,
+          "whyHi": "गंगा नदी डॉल्फिन भारत का राष्ट्रीय जलीय जीव है।",
+          "whyEn": "The Ganges river dolphin is India’s national aquatic animal.",
+          "subject": "General Awareness",
+          "topic": "General Awareness"
+        },
+        {
+          "hi": "'brief' का सबसे उपयुक्त समानार्थी शब्द चुनें।",
+          "en": "Choose the closest synonym of 'brief'.",
+          "optionsHi": [
+            "short",
+            "lengthy",
+            "broad",
+            "late"
+          ],
+          "optionsEn": [
+            "short",
+            "lengthy",
+            "broad",
+            "late"
+          ],
+          "answer": 0,
+          "whyHi": "brief का अर्थ संक्षिप्त है।",
+          "whyEn": "brief means short.",
+          "subject": "English Language",
+          "topic": "Vocabulary"
+        }
+      ]
+    },
+    {
+      "id": "ssc-cgl-combined-04",
+      "hi": "SSC CGL संयुक्त मॉक सेट 4",
+      "en": "SSC CGL Combined Mock Set 4",
+      "minutes": 10,
+      "subject": "Combined",
+      "paper": "Tier I",
+      "sourceKind": "original_practice",
+      "questions": [
+        {
+          "hi": "320 का 17% कितना है?",
+          "en": "What is 17% of 320?",
+          "optionsHi": [
+            "49.4",
+            "54.4",
+            "59.4",
+            "64.4"
+          ],
+          "optionsEn": [
+            "49.4",
+            "54.4",
+            "59.4",
+            "64.4"
+          ],
+          "answer": 1,
+          "whyHi": "320 × 17/100 = 54.4।",
+          "whyEn": "320 × 17/100 = 54.4।",
+          "subject": "Quantitative Aptitude",
+          "topic": "Percentage"
+        },
+        {
+          "hi": "₹2300 पर 6% वार्षिक दर से 2 वर्ष का साधारण ब्याज कितना होगा?",
+          "en": "Find simple interest on ₹2300 at 6% per annum for 2 years.",
+          "optionsHi": [
+            "176",
+            "276",
+            "326",
+            "376"
+          ],
+          "optionsEn": [
+            "176",
+            "276",
+            "326",
+            "376"
+          ],
+          "answer": 1,
+          "whyHi": "साधारण ब्याज = मूलधन × दर × समय / 100 = ₹276।",
+          "whyEn": "साधारण ब्याज = मूलधन × दर × समय / 100 = ₹276।",
+          "subject": "Quantitative Aptitude",
+          "topic": "Simple Interest"
+        },
+        {
+          "hi": "48 और 58 का औसत कितना है?",
+          "en": "What is the average of 48 and 58?",
+          "optionsHi": [
+            "51",
+            "53",
+            "55",
+            "57"
+          ],
+          "optionsEn": [
+            "51",
+            "53",
+            "55",
+            "57"
+          ],
+          "answer": 1,
+          "whyHi": "औसत = (48 + 58) / 2 = 53।",
+          "whyEn": "औसत = (48 + 58) / 2 = 53।",
+          "subject": "Quantitative Aptitude",
+          "topic": "Average"
+        },
+        {
+          "hi": "दो राशियों का अनुपात 3:3 है। पहली राशि 33 है। दूसरी राशि कितनी है?",
+          "en": "Two amounts are in the ratio 3:3. The first is 33. Find the second.",
+          "optionsHi": [
+            "22",
+            "33",
+            "44",
+            "55"
+          ],
+          "optionsEn": [
+            "22",
+            "33",
+            "44",
+            "55"
+          ],
+          "answer": 1,
+          "whyHi": "एक भाग = 33/3 = 11; दूसरी राशि = 3 × 11 = 33।",
+          "whyEn": "एक भाग = 33/3 = 11; दूसरी राशि = 3 × 11 = 33।",
+          "subject": "Quantitative Aptitude",
+          "topic": "Ratio"
+        },
+        {
+          "hi": "संख्या श्रृंखला 63, 68, 73, 78, ? में अगली संख्या क्या है?",
+          "en": "Find the next number: 63, 68, 73, 78, ?",
+          "optionsHi": [
+            "88",
+            "78",
+            "83",
+            "93"
+          ],
+          "optionsEn": [
+            "88",
+            "78",
+            "83",
+            "93"
+          ],
+          "answer": 2,
+          "whyHi": "हर बार 5 जोड़ा जाता है; अगली संख्या 83 है।",
+          "whyEn": "Add 5 each time; the next number is 83.",
+          "subject": "General Intelligence & Reasoning",
+          "topic": "Number Series"
+        },
+        {
+          "hi": "संख्या श्रृंखला 68, 74, 80, 86, ? में अगली संख्या क्या है?",
+          "en": "Find the next number: 68, 74, 80, 86, ?",
+          "optionsHi": [
+            "98",
+            "86",
+            "92",
+            "104"
+          ],
+          "optionsEn": [
+            "98",
+            "86",
+            "92",
+            "104"
+          ],
+          "answer": 2,
+          "whyHi": "हर बार 6 जोड़ा जाता है; अगली संख्या 92 है।",
+          "whyEn": "Add 6 each time; the next number is 92.",
+          "subject": "General Intelligence & Reasoning",
+          "topic": "Number Series"
+        },
+        {
+          "hi": "संख्या श्रृंखला 73, 80, 87, 94, ? में अगली संख्या क्या है?",
+          "en": "Find the next number: 73, 80, 87, 94, ?",
+          "optionsHi": [
+            "108",
+            "94",
+            "101",
+            "115"
+          ],
+          "optionsEn": [
+            "108",
+            "94",
+            "101",
+            "115"
+          ],
+          "answer": 2,
+          "whyHi": "हर बार 7 जोड़ा जाता है; अगली संख्या 101 है।",
+          "whyEn": "Add 7 each time; the next number is 101.",
+          "subject": "General Intelligence & Reasoning",
+          "topic": "Number Series"
+        },
+        {
+          "hi": "संख्या श्रृंखला 78, 86, 94, 102, ? में अगली संख्या क्या है?",
+          "en": "Find the next number: 78, 86, 94, 102, ?",
+          "optionsHi": [
+            "118",
+            "102",
+            "110",
+            "126"
+          ],
+          "optionsEn": [
+            "118",
+            "102",
+            "110",
+            "126"
+          ],
+          "answer": 2,
+          "whyHi": "हर बार 8 जोड़ा जाता है; अगली संख्या 110 है।",
+          "whyEn": "Add 8 each time; the next number is 110.",
+          "subject": "General Intelligence & Reasoning",
+          "topic": "Number Series"
+        },
+        {
+          "hi": "क्षेत्रफल के आधार पर भारत का सबसे बड़ा राज्य कौन-सा है?",
+          "en": "Which is India’s largest state by area?",
+          "optionsHi": [
+            "मध्य प्रदेश",
+            "महाराष्ट्र",
+            "राजस्थान",
+            "उत्तर प्रदेश"
+          ],
+          "optionsEn": [
+            "Madhya Pradesh",
+            "Maharashtra",
+            "Rajasthan",
+            "Uttar Pradesh"
+          ],
+          "answer": 2,
+          "whyHi": "राजस्थान क्षेत्रफल के आधार पर सबसे बड़ा राज्य है।",
+          "whyEn": "Rajasthan is India’s largest state by area.",
+          "subject": "General Awareness",
+          "topic": "Geography"
+        },
+        {
+          "hi": "'candid' का सबसे उपयुक्त समानार्थी शब्द चुनें।",
+          "en": "Choose the closest synonym of 'candid'.",
+          "optionsHi": [
+            "frank",
+            "secretive",
+            "unclear",
+            "timid"
+          ],
+          "optionsEn": [
+            "frank",
+            "secretive",
+            "unclear",
+            "timid"
+          ],
+          "answer": 0,
+          "whyHi": "candid का अर्थ स्पष्टवादी है।",
+          "whyEn": "candid means frank.",
+          "subject": "English Language",
+          "topic": "Vocabulary"
+        }
+      ]
+    },
+    {
+      "id": "ssc-cgl-combined-05",
+      "hi": "SSC CGL संयुक्त मॉक सेट 5",
+      "en": "SSC CGL Combined Mock Set 5",
+      "minutes": 10,
+      "subject": "Combined",
+      "paper": "Tier I",
+      "sourceKind": "original_practice",
+      "questions": [
+        {
+          "hi": "360 का 5% कितना है?",
+          "en": "What is 5% of 360?",
+          "optionsHi": [
+            "13",
+            "18",
+            "23",
+            "28"
+          ],
+          "optionsEn": [
+            "13",
+            "18",
+            "23",
+            "28"
+          ],
+          "answer": 1,
+          "whyHi": "360 × 5/100 = 18।",
+          "whyEn": "360 × 5/100 = 18।",
+          "subject": "Quantitative Aptitude",
+          "topic": "Percentage"
+        },
+        {
+          "hi": "₹2700 पर 10% वार्षिक दर से 2 वर्ष का साधारण ब्याज कितना होगा?",
+          "en": "Find simple interest on ₹2700 at 10% per annum for 2 years.",
+          "optionsHi": [
+            "440",
+            "540",
+            "590",
+            "640"
+          ],
+          "optionsEn": [
+            "440",
+            "540",
+            "590",
+            "640"
+          ],
+          "answer": 1,
+          "whyHi": "साधारण ब्याज = मूलधन × दर × समय / 100 = ₹540।",
+          "whyEn": "साधारण ब्याज = मूलधन × दर × समय / 100 = ₹540।",
+          "subject": "Quantitative Aptitude",
+          "topic": "Simple Interest"
+        },
+        {
+          "hi": "56 और 74 का औसत कितना है?",
+          "en": "What is the average of 56 and 74?",
+          "optionsHi": [
+            "63",
+            "65",
+            "67",
+            "69"
+          ],
+          "optionsEn": [
+            "63",
+            "65",
+            "67",
+            "69"
+          ],
+          "answer": 1,
+          "whyHi": "औसत = (56 + 74) / 2 = 65।",
+          "whyEn": "औसत = (56 + 74) / 2 = 65।",
+          "subject": "Quantitative Aptitude",
+          "topic": "Average"
+        },
+        {
+          "hi": "दो राशियों का अनुपात 7:7 है। पहली राशि 42 है। दूसरी राशि कितनी है?",
+          "en": "Two amounts are in the ratio 7:7. The first is 42. Find the second.",
+          "optionsHi": [
+            "36",
+            "42",
+            "48",
+            "54"
+          ],
+          "optionsEn": [
+            "36",
+            "42",
+            "48",
+            "54"
+          ],
+          "answer": 1,
+          "whyHi": "एक भाग = 42/7 = 6; दूसरी राशि = 7 × 6 = 42।",
+          "whyEn": "एक भाग = 42/7 = 6; दूसरी राशि = 7 × 6 = 42।",
+          "subject": "Quantitative Aptitude",
+          "topic": "Ratio"
+        },
+        {
+          "hi": "संख्या श्रृंखला 83, 92, 101, 110, ? में अगली संख्या क्या है?",
+          "en": "Find the next number: 83, 92, 101, 110, ?",
+          "optionsHi": [
+            "128",
+            "110",
+            "119",
+            "137"
+          ],
+          "optionsEn": [
+            "128",
+            "110",
+            "119",
+            "137"
+          ],
+          "answer": 2,
+          "whyHi": "हर बार 9 जोड़ा जाता है; अगली संख्या 119 है।",
+          "whyEn": "Add 9 each time; the next number is 119.",
+          "subject": "General Intelligence & Reasoning",
+          "topic": "Number Series"
+        },
+        {
+          "hi": "संख्या श्रृंखला 88, 98, 108, 118, ? में अगली संख्या क्या है?",
+          "en": "Find the next number: 88, 98, 108, 118, ?",
+          "optionsHi": [
+            "138",
+            "118",
+            "128",
+            "148"
+          ],
+          "optionsEn": [
+            "138",
+            "118",
+            "128",
+            "148"
+          ],
+          "answer": 2,
+          "whyHi": "हर बार 10 जोड़ा जाता है; अगली संख्या 128 है।",
+          "whyEn": "Add 10 each time; the next number is 128.",
+          "subject": "General Intelligence & Reasoning",
+          "topic": "Number Series"
+        },
+        {
+          "hi": "संख्या श्रृंखला 93, 95, 97, 99, ? में अगली संख्या क्या है?",
+          "en": "Find the next number: 93, 95, 97, 99, ?",
+          "optionsHi": [
+            "103",
+            "99",
+            "101",
+            "105"
+          ],
+          "optionsEn": [
+            "103",
+            "99",
+            "101",
+            "105"
+          ],
+          "answer": 2,
+          "whyHi": "हर बार 2 जोड़ा जाता है; अगली संख्या 101 है।",
+          "whyEn": "Add 2 each time; the next number is 101.",
+          "subject": "General Intelligence & Reasoning",
+          "topic": "Number Series"
+        },
+        {
+          "hi": "संख्या श्रृंखला 98, 101, 104, 107, ? में अगली संख्या क्या है?",
+          "en": "Find the next number: 98, 101, 104, 107, ?",
+          "optionsHi": [
+            "113",
+            "107",
+            "110",
+            "116"
+          ],
+          "optionsEn": [
+            "113",
+            "107",
+            "110",
+            "116"
+          ],
+          "answer": 2,
+          "whyHi": "हर बार 3 जोड़ा जाता है; अगली संख्या 110 है।",
+          "whyEn": "Add 3 each time; the next number is 110.",
+          "subject": "General Intelligence & Reasoning",
+          "topic": "Number Series"
+        },
+        {
+          "hi": "RBI ने कार्य कब शुरू किया?",
+          "en": "When did the RBI commence operations?",
+          "optionsHi": [
+            "1930",
+            "1 अप्रैल 1935",
+            "1947",
+            "1950"
+          ],
+          "optionsEn": [
+            "1930",
+            "1 April 1935",
+            "1947",
+            "1950"
+          ],
+          "answer": 1,
+          "whyHi": "RBI ने 1 अप्रैल 1935 को कार्य शुरू किया।",
+          "whyEn": "The RBI commenced operations on 1 April 1935.",
+          "subject": "General Awareness",
+          "topic": "Economy"
+        },
+        {
+          "hi": "'diligent' का सबसे उपयुक्त समानार्थी शब्द चुनें।",
+          "en": "Choose the closest synonym of 'diligent'.",
+          "optionsHi": [
+            "hardworking",
+            "lazy",
+            "careless",
+            "idle"
+          ],
+          "optionsEn": [
+            "hardworking",
+            "lazy",
+            "careless",
+            "idle"
+          ],
+          "answer": 0,
+          "whyHi": "diligent का अर्थ परिश्रमी है।",
+          "whyEn": "diligent means hardworking.",
+          "subject": "English Language",
+          "topic": "Vocabulary"
+        }
+      ]
+    },
+    {
+      "id": "ssc-cgl-combined-06",
+      "hi": "SSC CGL संयुक्त मॉक सेट 6",
+      "en": "SSC CGL Combined Mock Set 6",
+      "minutes": 10,
+      "subject": "Combined",
+      "paper": "Tier I",
+      "sourceKind": "original_practice",
+      "questions": [
+        {
+          "hi": "400 का 9% कितना है?",
+          "en": "What is 9% of 400?",
+          "optionsHi": [
+            "31",
+            "36",
+            "41",
+            "46"
+          ],
+          "optionsEn": [
+            "31",
+            "36",
+            "41",
+            "46"
+          ],
+          "answer": 1,
+          "whyHi": "400 × 9/100 = 36।",
+          "whyEn": "400 × 9/100 = 36।",
+          "subject": "Quantitative Aptitude",
+          "topic": "Percentage"
+        },
+        {
+          "hi": "₹3100 पर 8% वार्षिक दर से 2 वर्ष का साधारण ब्याज कितना होगा?",
+          "en": "Find simple interest on ₹3100 at 8% per annum for 2 years.",
+          "optionsHi": [
+            "396",
+            "496",
+            "546",
+            "596"
+          ],
+          "optionsEn": [
+            "396",
+            "496",
+            "546",
+            "596"
+          ],
+          "answer": 1,
+          "whyHi": "साधारण ब्याज = मूलधन × दर × समय / 100 = ₹496।",
+          "whyEn": "साधारण ब्याज = मूलधन × दर × समय / 100 = ₹496।",
+          "subject": "Quantitative Aptitude",
+          "topic": "Simple Interest"
+        },
+        {
+          "hi": "64 और 76 का औसत कितना है?",
+          "en": "What is the average of 64 and 76?",
+          "optionsHi": [
+            "68",
+            "70",
+            "72",
+            "74"
+          ],
+          "optionsEn": [
+            "68",
+            "70",
+            "72",
+            "74"
+          ],
+          "answer": 1,
+          "whyHi": "औसत = (64 + 76) / 2 = 70।",
+          "whyEn": "औसत = (64 + 76) / 2 = 70।",
+          "subject": "Quantitative Aptitude",
+          "topic": "Average"
+        },
+        {
+          "hi": "दो राशियों का अनुपात 4:6 है। पहली राशि 40 है। दूसरी राशि कितनी है?",
+          "en": "Two amounts are in the ratio 4:6. The first is 40. Find the second.",
+          "optionsHi": [
+            "50",
+            "60",
+            "70",
+            "80"
+          ],
+          "optionsEn": [
+            "50",
+            "60",
+            "70",
+            "80"
+          ],
+          "answer": 1,
+          "whyHi": "एक भाग = 40/4 = 10; दूसरी राशि = 6 × 10 = 60।",
+          "whyEn": "एक भाग = 40/4 = 10; दूसरी राशि = 6 × 10 = 60।",
+          "subject": "Quantitative Aptitude",
+          "topic": "Ratio"
+        },
+        {
+          "hi": "संख्या श्रृंखला 103, 107, 111, 115, ? में अगली संख्या क्या है?",
+          "en": "Find the next number: 103, 107, 111, 115, ?",
+          "optionsHi": [
+            "123",
+            "115",
+            "119",
+            "127"
+          ],
+          "optionsEn": [
+            "123",
+            "115",
+            "119",
+            "127"
+          ],
+          "answer": 2,
+          "whyHi": "हर बार 4 जोड़ा जाता है; अगली संख्या 119 है।",
+          "whyEn": "Add 4 each time; the next number is 119.",
+          "subject": "General Intelligence & Reasoning",
+          "topic": "Number Series"
+        },
+        {
+          "hi": "संख्या श्रृंखला 108, 113, 118, 123, ? में अगली संख्या क्या है?",
+          "en": "Find the next number: 108, 113, 118, 123, ?",
+          "optionsHi": [
+            "133",
+            "123",
+            "128",
+            "138"
+          ],
+          "optionsEn": [
+            "133",
+            "123",
+            "128",
+            "138"
+          ],
+          "answer": 2,
+          "whyHi": "हर बार 5 जोड़ा जाता है; अगली संख्या 128 है।",
+          "whyEn": "Add 5 each time; the next number is 128.",
+          "subject": "General Intelligence & Reasoning",
+          "topic": "Number Series"
+        },
+        {
+          "hi": "संख्या श्रृंखला 113, 119, 125, 131, ? में अगली संख्या क्या है?",
+          "en": "Find the next number: 113, 119, 125, 131, ?",
+          "optionsHi": [
+            "143",
+            "131",
+            "137",
+            "149"
+          ],
+          "optionsEn": [
+            "143",
+            "131",
+            "137",
+            "149"
+          ],
+          "answer": 2,
+          "whyHi": "हर बार 6 जोड़ा जाता है; अगली संख्या 137 है।",
+          "whyEn": "Add 6 each time; the next number is 137.",
+          "subject": "General Intelligence & Reasoning",
+          "topic": "Number Series"
+        },
+        {
+          "hi": "संख्या श्रृंखला 118, 125, 132, 139, ? में अगली संख्या क्या है?",
+          "en": "Find the next number: 118, 125, 132, 139, ?",
+          "optionsHi": [
+            "153",
+            "139",
+            "146",
+            "160"
+          ],
+          "optionsEn": [
+            "153",
+            "139",
+            "146",
+            "160"
+          ],
+          "answer": 2,
+          "whyHi": "हर बार 7 जोड़ा जाता है; अगली संख्या 146 है।",
+          "whyEn": "Add 7 each time; the next number is 146.",
+          "subject": "General Intelligence & Reasoning",
+          "topic": "Number Series"
+        },
+        {
+          "hi": "पंचायती राज को संवैधानिक दर्जा किस संशोधन से मिला?",
+          "en": "Which amendment gave constitutional status to Panchayati Raj?",
+          "optionsHi": [
+            "42वाँ",
+            "44वाँ",
+            "73वाँ",
+            "74वाँ"
+          ],
+          "optionsEn": [
+            "42nd",
+            "44th",
+            "73rd",
+            "74th"
+          ],
+          "answer": 2,
+          "whyHi": "73वें संशोधन ने पंचायती राज संस्थाओं को संवैधानिक दर्जा दिया।",
+          "whyEn": "The 73rd Amendment gave constitutional status to Panchayati Raj.",
+          "subject": "General Awareness",
+          "topic": "Polity"
+        },
+        {
+          "hi": "'enormous' का सबसे उपयुक्त समानार्थी शब्द चुनें।",
+          "en": "Choose the closest synonym of 'enormous'.",
+          "optionsHi": [
+            "huge",
+            "tiny",
+            "narrow",
+            "weak"
+          ],
+          "optionsEn": [
+            "huge",
+            "tiny",
+            "narrow",
+            "weak"
+          ],
+          "answer": 0,
+          "whyHi": "enormous का अर्थ विशाल है।",
+          "whyEn": "enormous means huge.",
+          "subject": "English Language",
+          "topic": "Vocabulary"
+        }
+      ]
+    },
+    {
+      "id": "ssc-cgl-combined-07",
+      "hi": "SSC CGL संयुक्त मॉक सेट 7",
+      "en": "SSC CGL Combined Mock Set 7",
+      "minutes": 10,
+      "subject": "Combined",
+      "paper": "Tier I",
+      "sourceKind": "original_practice",
+      "questions": [
+        {
+          "hi": "440 का 13% कितना है?",
+          "en": "What is 13% of 440?",
+          "optionsHi": [
+            "52.2",
+            "57.2",
+            "62.2",
+            "67.2"
+          ],
+          "optionsEn": [
+            "52.2",
+            "57.2",
+            "62.2",
+            "67.2"
+          ],
+          "answer": 1,
+          "whyHi": "440 × 13/100 = 57.2।",
+          "whyEn": "440 × 13/100 = 57.2।",
+          "subject": "Quantitative Aptitude",
+          "topic": "Percentage"
+        },
+        {
+          "hi": "₹3500 पर 6% वार्षिक दर से 2 वर्ष का साधारण ब्याज कितना होगा?",
+          "en": "Find simple interest on ₹3500 at 6% per annum for 2 years.",
+          "optionsHi": [
+            "320",
+            "420",
+            "470",
+            "520"
+          ],
+          "optionsEn": [
+            "320",
+            "420",
+            "470",
+            "520"
+          ],
+          "answer": 1,
+          "whyHi": "साधारण ब्याज = मूलधन × दर × समय / 100 = ₹420।",
+          "whyEn": "साधारण ब्याज = मूलधन × दर × समय / 100 = ₹420।",
+          "subject": "Quantitative Aptitude",
+          "topic": "Simple Interest"
+        },
+        {
+          "hi": "72 और 92 का औसत कितना है?",
+          "en": "What is the average of 72 and 92?",
+          "optionsHi": [
+            "80",
+            "82",
+            "84",
+            "86"
+          ],
+          "optionsEn": [
+            "80",
+            "82",
+            "84",
+            "86"
+          ],
+          "answer": 1,
+          "whyHi": "औसत = (72 + 92) / 2 = 82।",
+          "whyEn": "औसत = (72 + 92) / 2 = 82।",
+          "subject": "Quantitative Aptitude",
+          "topic": "Average"
+        },
+        {
+          "hi": "दो राशियों का अनुपात 8:5 है। पहली राशि 40 है। दूसरी राशि कितनी है?",
+          "en": "Two amounts are in the ratio 8:5. The first is 40. Find the second.",
+          "optionsHi": [
+            "20",
+            "25",
+            "30",
+            "35"
+          ],
+          "optionsEn": [
+            "20",
+            "25",
+            "30",
+            "35"
+          ],
+          "answer": 1,
+          "whyHi": "एक भाग = 40/8 = 5; दूसरी राशि = 5 × 5 = 25।",
+          "whyEn": "एक भाग = 40/8 = 5; दूसरी राशि = 5 × 5 = 25।",
+          "subject": "Quantitative Aptitude",
+          "topic": "Ratio"
+        },
+        {
+          "hi": "संख्या श्रृंखला 123, 131, 139, 147, ? में अगली संख्या क्या है?",
+          "en": "Find the next number: 123, 131, 139, 147, ?",
+          "optionsHi": [
+            "163",
+            "147",
+            "155",
+            "171"
+          ],
+          "optionsEn": [
+            "163",
+            "147",
+            "155",
+            "171"
+          ],
+          "answer": 2,
+          "whyHi": "हर बार 8 जोड़ा जाता है; अगली संख्या 155 है।",
+          "whyEn": "Add 8 each time; the next number is 155.",
+          "subject": "General Intelligence & Reasoning",
+          "topic": "Number Series"
+        },
+        {
+          "hi": "संख्या श्रृंखला 128, 137, 146, 155, ? में अगली संख्या क्या है?",
+          "en": "Find the next number: 128, 137, 146, 155, ?",
+          "optionsHi": [
+            "173",
+            "155",
+            "164",
+            "182"
+          ],
+          "optionsEn": [
+            "173",
+            "155",
+            "164",
+            "182"
+          ],
+          "answer": 2,
+          "whyHi": "हर बार 9 जोड़ा जाता है; अगली संख्या 164 है।",
+          "whyEn": "Add 9 each time; the next number is 164.",
+          "subject": "General Intelligence & Reasoning",
+          "topic": "Number Series"
+        },
+        {
+          "hi": "संख्या श्रृंखला 133, 143, 153, 163, ? में अगली संख्या क्या है?",
+          "en": "Find the next number: 133, 143, 153, 163, ?",
+          "optionsHi": [
+            "183",
+            "163",
+            "173",
+            "193"
+          ],
+          "optionsEn": [
+            "183",
+            "163",
+            "173",
+            "193"
+          ],
+          "answer": 2,
+          "whyHi": "हर बार 10 जोड़ा जाता है; अगली संख्या 173 है।",
+          "whyEn": "Add 10 each time; the next number is 173.",
+          "subject": "General Intelligence & Reasoning",
+          "topic": "Number Series"
+        },
+        {
+          "hi": "संख्या श्रृंखला 138, 140, 142, 144, ? में अगली संख्या क्या है?",
+          "en": "Find the next number: 138, 140, 142, 144, ?",
+          "optionsHi": [
+            "148",
+            "144",
+            "146",
+            "150"
+          ],
+          "optionsEn": [
+            "148",
+            "144",
+            "146",
+            "150"
+          ],
+          "answer": 2,
+          "whyHi": "हर बार 2 जोड़ा जाता है; अगली संख्या 146 है।",
+          "whyEn": "Add 2 each time; the next number is 146.",
+          "subject": "General Intelligence & Reasoning",
+          "topic": "Number Series"
+        },
+        {
+          "hi": "भारत का पहला उपग्रह कौन-सा था?",
+          "en": "What was India’s first satellite?",
+          "optionsHi": [
+            "भास्कर",
+            "आर्यभट्ट",
+            "रोहिणी",
+            "इनसैट-1A"
+          ],
+          "optionsEn": [
+            "Bhaskara",
+            "Aryabhata",
+            "Rohini",
+            "INSAT-1A"
+          ],
+          "answer": 1,
+          "whyHi": "आर्यभट्ट भारत का पहला उपग्रह था, जिसे 1975 में प्रक्षेपित किया गया।",
+          "whyEn": "Aryabhata was India’s first satellite, launched in 1975.",
+          "subject": "General Awareness",
+          "topic": "Science"
+        },
+        {
+          "hi": "'fragile' का सबसे उपयुक्त समानार्थी शब्द चुनें।",
+          "en": "Choose the closest synonym of 'fragile'.",
+          "optionsHi": [
+            "delicate",
+            "strong",
+            "solid",
+            "durable"
+          ],
+          "optionsEn": [
+            "delicate",
+            "strong",
+            "solid",
+            "durable"
+          ],
+          "answer": 0,
+          "whyHi": "fragile का अर्थ नाजुक है।",
+          "whyEn": "fragile means delicate.",
+          "subject": "English Language",
+          "topic": "Vocabulary"
+        }
+      ]
+    },
+    {
+      "id": "ssc-cgl-combined-08",
+      "hi": "SSC CGL संयुक्त मॉक सेट 8",
+      "en": "SSC CGL Combined Mock Set 8",
+      "minutes": 10,
+      "subject": "Combined",
+      "paper": "Tier I",
+      "sourceKind": "original_practice",
+      "questions": [
+        {
+          "hi": "480 का 17% कितना है?",
+          "en": "What is 17% of 480?",
+          "optionsHi": [
+            "76.6",
+            "81.6",
+            "86.6",
+            "91.6"
+          ],
+          "optionsEn": [
+            "76.6",
+            "81.6",
+            "86.6",
+            "91.6"
+          ],
+          "answer": 1,
+          "whyHi": "480 × 17/100 = 81.6।",
+          "whyEn": "480 × 17/100 = 81.6।",
+          "subject": "Quantitative Aptitude",
+          "topic": "Percentage"
+        },
+        {
+          "hi": "₹3900 पर 10% वार्षिक दर से 2 वर्ष का साधारण ब्याज कितना होगा?",
+          "en": "Find simple interest on ₹3900 at 10% per annum for 2 years.",
+          "optionsHi": [
+            "680",
+            "780",
+            "830",
+            "880"
+          ],
+          "optionsEn": [
+            "680",
+            "780",
+            "830",
+            "880"
+          ],
+          "answer": 1,
+          "whyHi": "साधारण ब्याज = मूलधन × दर × समय / 100 = ₹780।",
+          "whyEn": "साधारण ब्याज = मूलधन × दर × समय / 100 = ₹780।",
+          "subject": "Quantitative Aptitude",
+          "topic": "Simple Interest"
+        },
+        {
+          "hi": "80 और 94 का औसत कितना है?",
+          "en": "What is the average of 80 and 94?",
+          "optionsHi": [
+            "85",
+            "87",
+            "89",
+            "91"
+          ],
+          "optionsEn": [
+            "85",
+            "87",
+            "89",
+            "91"
+          ],
+          "answer": 1,
+          "whyHi": "औसत = (80 + 94) / 2 = 87।",
+          "whyEn": "औसत = (80 + 94) / 2 = 87।",
+          "subject": "Quantitative Aptitude",
+          "topic": "Average"
+        },
+        {
+          "hi": "दो राशियों का अनुपात 5:4 है। पहली राशि 45 है। दूसरी राशि कितनी है?",
+          "en": "Two amounts are in the ratio 5:4. The first is 45. Find the second.",
+          "optionsHi": [
+            "27",
+            "36",
+            "45",
+            "54"
+          ],
+          "optionsEn": [
+            "27",
+            "36",
+            "45",
+            "54"
+          ],
+          "answer": 1,
+          "whyHi": "एक भाग = 45/5 = 9; दूसरी राशि = 4 × 9 = 36।",
+          "whyEn": "एक भाग = 45/5 = 9; दूसरी राशि = 4 × 9 = 36।",
+          "subject": "Quantitative Aptitude",
+          "topic": "Ratio"
+        },
+        {
+          "hi": "संख्या श्रृंखला 143, 146, 149, 152, ? में अगली संख्या क्या है?",
+          "en": "Find the next number: 143, 146, 149, 152, ?",
+          "optionsHi": [
+            "158",
+            "152",
+            "155",
+            "161"
+          ],
+          "optionsEn": [
+            "158",
+            "152",
+            "155",
+            "161"
+          ],
+          "answer": 2,
+          "whyHi": "हर बार 3 जोड़ा जाता है; अगली संख्या 155 है।",
+          "whyEn": "Add 3 each time; the next number is 155.",
+          "subject": "General Intelligence & Reasoning",
+          "topic": "Number Series"
+        },
+        {
+          "hi": "संख्या श्रृंखला 148, 152, 156, 160, ? में अगली संख्या क्या है?",
+          "en": "Find the next number: 148, 152, 156, 160, ?",
+          "optionsHi": [
+            "168",
+            "160",
+            "164",
+            "172"
+          ],
+          "optionsEn": [
+            "168",
+            "160",
+            "164",
+            "172"
+          ],
+          "answer": 2,
+          "whyHi": "हर बार 4 जोड़ा जाता है; अगली संख्या 164 है।",
+          "whyEn": "Add 4 each time; the next number is 164.",
+          "subject": "General Intelligence & Reasoning",
+          "topic": "Number Series"
+        },
+        {
+          "hi": "संख्या श्रृंखला 153, 158, 163, 168, ? में अगली संख्या क्या है?",
+          "en": "Find the next number: 153, 158, 163, 168, ?",
+          "optionsHi": [
+            "178",
+            "168",
+            "173",
+            "183"
+          ],
+          "optionsEn": [
+            "178",
+            "168",
+            "173",
+            "183"
+          ],
+          "answer": 2,
+          "whyHi": "हर बार 5 जोड़ा जाता है; अगली संख्या 173 है।",
+          "whyEn": "Add 5 each time; the next number is 173.",
+          "subject": "General Intelligence & Reasoning",
+          "topic": "Number Series"
+        },
+        {
+          "hi": "संख्या श्रृंखला 158, 164, 170, 176, ? में अगली संख्या क्या है?",
+          "en": "Find the next number: 158, 164, 170, 176, ?",
+          "optionsHi": [
+            "188",
+            "176",
+            "182",
+            "194"
+          ],
+          "optionsEn": [
+            "188",
+            "176",
+            "182",
+            "194"
+          ],
+          "answer": 2,
+          "whyHi": "हर बार 6 जोड़ा जाता है; अगली संख्या 182 है।",
+          "whyEn": "Add 6 each time; the next number is 182.",
+          "subject": "General Intelligence & Reasoning",
+          "topic": "Number Series"
+        },
+        {
+          "hi": "प्रकाश संश्लेषण में पौधे कौन-सी गैस ग्रहण करते हैं?",
+          "en": "Which gas do plants absorb during photosynthesis?",
+          "optionsHi": [
+            "ऑक्सीजन",
+            "नाइट्रोजन",
+            "कार्बन डाइऑक्साइड",
+            "हाइड्रोजन"
+          ],
+          "optionsEn": [
+            "Oxygen",
+            "Nitrogen",
+            "Carbon dioxide",
+            "Hydrogen"
+          ],
+          "answer": 2,
+          "whyHi": "प्रकाश संश्लेषण में पौधे कार्बन डाइऑक्साइड ग्रहण करते हैं।",
+          "whyEn": "Plants absorb carbon dioxide during photosynthesis.",
+          "subject": "General Awareness",
+          "topic": "Science"
+        },
+        {
+          "hi": "'genuine' का सबसे उपयुक्त समानार्थी शब्द चुनें।",
+          "en": "Choose the closest synonym of 'genuine'.",
+          "optionsHi": [
+            "authentic",
+            "fake",
+            "false",
+            "imitation"
+          ],
+          "optionsEn": [
+            "authentic",
+            "fake",
+            "false",
+            "imitation"
+          ],
+          "answer": 0,
+          "whyHi": "genuine का अर्थ असली है।",
+          "whyEn": "genuine means authentic.",
+          "subject": "English Language",
+          "topic": "Vocabulary"
+        }
+      ]
+    },
+    {
+      "id": "ssc-cgl-combined-09",
+      "hi": "SSC CGL संयुक्त मॉक सेट 9",
+      "en": "SSC CGL Combined Mock Set 9",
+      "minutes": 10,
+      "subject": "Combined",
+      "paper": "Tier I",
+      "sourceKind": "original_practice",
+      "questions": [
+        {
+          "hi": "520 का 5% कितना है?",
+          "en": "What is 5% of 520?",
+          "optionsHi": [
+            "21",
+            "26",
+            "31",
+            "36"
+          ],
+          "optionsEn": [
+            "21",
+            "26",
+            "31",
+            "36"
+          ],
+          "answer": 1,
+          "whyHi": "520 × 5/100 = 26।",
+          "whyEn": "520 × 5/100 = 26।",
+          "subject": "Quantitative Aptitude",
+          "topic": "Percentage"
+        },
+        {
+          "hi": "₹4300 पर 8% वार्षिक दर से 2 वर्ष का साधारण ब्याज कितना होगा?",
+          "en": "Find simple interest on ₹4300 at 8% per annum for 2 years.",
+          "optionsHi": [
+            "588",
+            "688",
+            "738",
+            "788"
+          ],
+          "optionsEn": [
+            "588",
+            "688",
+            "738",
+            "788"
+          ],
+          "answer": 1,
+          "whyHi": "साधारण ब्याज = मूलधन × दर × समय / 100 = ₹688।",
+          "whyEn": "साधारण ब्याज = मूलधन × दर × समय / 100 = ₹688।",
+          "subject": "Quantitative Aptitude",
+          "topic": "Simple Interest"
+        },
+        {
+          "hi": "88 और 110 का औसत कितना है?",
+          "en": "What is the average of 88 and 110?",
+          "optionsHi": [
+            "97",
+            "99",
+            "101",
+            "103"
+          ],
+          "optionsEn": [
+            "97",
+            "99",
+            "101",
+            "103"
+          ],
+          "answer": 1,
+          "whyHi": "औसत = (88 + 110) / 2 = 99।",
+          "whyEn": "औसत = (88 + 110) / 2 = 99।",
+          "subject": "Quantitative Aptitude",
+          "topic": "Average"
+        },
+        {
+          "hi": "दो राशियों का अनुपात 2:3 है। पहली राशि 26 है। दूसरी राशि कितनी है?",
+          "en": "Two amounts are in the ratio 2:3. The first is 26. Find the second.",
+          "optionsHi": [
+            "26",
+            "39",
+            "52",
+            "65"
+          ],
+          "optionsEn": [
+            "26",
+            "39",
+            "52",
+            "65"
+          ],
+          "answer": 1,
+          "whyHi": "एक भाग = 26/2 = 13; दूसरी राशि = 3 × 13 = 39।",
+          "whyEn": "एक भाग = 26/2 = 13; दूसरी राशि = 3 × 13 = 39।",
+          "subject": "Quantitative Aptitude",
+          "topic": "Ratio"
+        },
+        {
+          "hi": "संख्या श्रृंखला 163, 170, 177, 184, ? में अगली संख्या क्या है?",
+          "en": "Find the next number: 163, 170, 177, 184, ?",
+          "optionsHi": [
+            "198",
+            "184",
+            "191",
+            "205"
+          ],
+          "optionsEn": [
+            "198",
+            "184",
+            "191",
+            "205"
+          ],
+          "answer": 2,
+          "whyHi": "हर बार 7 जोड़ा जाता है; अगली संख्या 191 है।",
+          "whyEn": "Add 7 each time; the next number is 191.",
+          "subject": "General Intelligence & Reasoning",
+          "topic": "Number Series"
+        },
+        {
+          "hi": "संख्या श्रृंखला 168, 176, 184, 192, ? में अगली संख्या क्या है?",
+          "en": "Find the next number: 168, 176, 184, 192, ?",
+          "optionsHi": [
+            "208",
+            "192",
+            "200",
+            "216"
+          ],
+          "optionsEn": [
+            "208",
+            "192",
+            "200",
+            "216"
+          ],
+          "answer": 2,
+          "whyHi": "हर बार 8 जोड़ा जाता है; अगली संख्या 200 है।",
+          "whyEn": "Add 8 each time; the next number is 200.",
+          "subject": "General Intelligence & Reasoning",
+          "topic": "Number Series"
+        },
+        {
+          "hi": "संख्या श्रृंखला 173, 182, 191, 200, ? में अगली संख्या क्या है?",
+          "en": "Find the next number: 173, 182, 191, 200, ?",
+          "optionsHi": [
+            "218",
+            "200",
+            "209",
+            "227"
+          ],
+          "optionsEn": [
+            "218",
+            "200",
+            "209",
+            "227"
+          ],
+          "answer": 2,
+          "whyHi": "हर बार 9 जोड़ा जाता है; अगली संख्या 209 है।",
+          "whyEn": "Add 9 each time; the next number is 209.",
+          "subject": "General Intelligence & Reasoning",
+          "topic": "Number Series"
+        },
+        {
+          "hi": "संख्या श्रृंखला 178, 188, 198, 208, ? में अगली संख्या क्या है?",
+          "en": "Find the next number: 178, 188, 198, 208, ?",
+          "optionsHi": [
+            "228",
+            "208",
+            "218",
+            "238"
+          ],
+          "optionsEn": [
+            "228",
+            "208",
+            "218",
+            "238"
+          ],
+          "answer": 2,
+          "whyHi": "हर बार 10 जोड़ा जाता है; अगली संख्या 218 है।",
+          "whyEn": "Add 10 each time; the next number is 218.",
+          "subject": "General Intelligence & Reasoning",
+          "topic": "Number Series"
+        },
+        {
+          "hi": "रक्त का लाल रंग किसके कारण होता है?",
+          "en": "What gives blood its red colour?",
+          "optionsHi": [
+            "प्लाज्मा",
+            "हीमोग्लोबिन",
+            "प्लेटलेट्स",
+            "इंसुलिन"
+          ],
+          "optionsEn": [
+            "Plasma",
+            "Haemoglobin",
+            "Platelets",
+            "Insulin"
+          ],
+          "answer": 1,
+          "whyHi": "हीमोग्लोबिन में हीम समूह रक्त को लाल रंग देता है।",
+          "whyEn": "Haem in haemoglobin gives blood its red colour.",
+          "subject": "General Awareness",
+          "topic": "Science"
+        },
+        {
+          "hi": "'hostile' का सबसे उपयुक्त समानार्थी शब्द चुनें।",
+          "en": "Choose the closest synonym of 'hostile'.",
+          "optionsHi": [
+            "unfriendly",
+            "kind",
+            "helpful",
+            "cordial"
+          ],
+          "optionsEn": [
+            "unfriendly",
+            "kind",
+            "helpful",
+            "cordial"
+          ],
+          "answer": 0,
+          "whyHi": "hostile का अर्थ शत्रुतापूर्ण है।",
+          "whyEn": "hostile means unfriendly.",
+          "subject": "English Language",
+          "topic": "Vocabulary"
+        }
+      ]
+    },
+    {
+      "id": "ssc-cgl-combined-10",
+      "hi": "SSC CGL संयुक्त मॉक सेट 10",
+      "en": "SSC CGL Combined Mock Set 10",
+      "minutes": 10,
+      "subject": "Combined",
+      "paper": "Tier I",
+      "sourceKind": "original_practice",
+      "questions": [
+        {
+          "hi": "560 का 9% कितना है?",
+          "en": "What is 9% of 560?",
+          "optionsHi": [
+            "45.4",
+            "50.4",
+            "55.4",
+            "60.4"
+          ],
+          "optionsEn": [
+            "45.4",
+            "50.4",
+            "55.4",
+            "60.4"
+          ],
+          "answer": 1,
+          "whyHi": "560 × 9/100 = 50.4।",
+          "whyEn": "560 × 9/100 = 50.4।",
+          "subject": "Quantitative Aptitude",
+          "topic": "Percentage"
+        },
+        {
+          "hi": "₹4700 पर 6% वार्षिक दर से 2 वर्ष का साधारण ब्याज कितना होगा?",
+          "en": "Find simple interest on ₹4700 at 6% per annum for 2 years.",
+          "optionsHi": [
+            "464",
+            "564",
+            "614",
+            "664"
+          ],
+          "optionsEn": [
+            "464",
+            "564",
+            "614",
+            "664"
+          ],
+          "answer": 1,
+          "whyHi": "साधारण ब्याज = मूलधन × दर × समय / 100 = ₹564।",
+          "whyEn": "साधारण ब्याज = मूलधन × दर × समय / 100 = ₹564।",
+          "subject": "Quantitative Aptitude",
+          "topic": "Simple Interest"
+        },
+        {
+          "hi": "96 और 112 का औसत कितना है?",
+          "en": "What is the average of 96 and 112?",
+          "optionsHi": [
+            "102",
+            "104",
+            "106",
+            "108"
+          ],
+          "optionsEn": [
+            "102",
+            "104",
+            "106",
+            "108"
+          ],
+          "answer": 1,
+          "whyHi": "औसत = (96 + 112) / 2 = 104।",
+          "whyEn": "औसत = (96 + 112) / 2 = 104।",
+          "subject": "Quantitative Aptitude",
+          "topic": "Average"
+        },
+        {
+          "hi": "दो राशियों का अनुपात 6:7 है। पहली राशि 48 है। दूसरी राशि कितनी है?",
+          "en": "Two amounts are in the ratio 6:7. The first is 48. Find the second.",
+          "optionsHi": [
+            "48",
+            "56",
+            "64",
+            "72"
+          ],
+          "optionsEn": [
+            "48",
+            "56",
+            "64",
+            "72"
+          ],
+          "answer": 1,
+          "whyHi": "एक भाग = 48/6 = 8; दूसरी राशि = 7 × 8 = 56।",
+          "whyEn": "एक भाग = 48/6 = 8; दूसरी राशि = 7 × 8 = 56।",
+          "subject": "Quantitative Aptitude",
+          "topic": "Ratio"
+        },
+        {
+          "hi": "संख्या श्रृंखला 183, 185, 187, 189, ? में अगली संख्या क्या है?",
+          "en": "Find the next number: 183, 185, 187, 189, ?",
+          "optionsHi": [
+            "193",
+            "189",
+            "191",
+            "195"
+          ],
+          "optionsEn": [
+            "193",
+            "189",
+            "191",
+            "195"
+          ],
+          "answer": 2,
+          "whyHi": "हर बार 2 जोड़ा जाता है; अगली संख्या 191 है।",
+          "whyEn": "Add 2 each time; the next number is 191.",
+          "subject": "General Intelligence & Reasoning",
+          "topic": "Number Series"
+        },
+        {
+          "hi": "संख्या श्रृंखला 188, 191, 194, 197, ? में अगली संख्या क्या है?",
+          "en": "Find the next number: 188, 191, 194, 197, ?",
+          "optionsHi": [
+            "203",
+            "197",
+            "200",
+            "206"
+          ],
+          "optionsEn": [
+            "203",
+            "197",
+            "200",
+            "206"
+          ],
+          "answer": 2,
+          "whyHi": "हर बार 3 जोड़ा जाता है; अगली संख्या 200 है।",
+          "whyEn": "Add 3 each time; the next number is 200.",
+          "subject": "General Intelligence & Reasoning",
+          "topic": "Number Series"
+        },
+        {
+          "hi": "संख्या श्रृंखला 193, 197, 201, 205, ? में अगली संख्या क्या है?",
+          "en": "Find the next number: 193, 197, 201, 205, ?",
+          "optionsHi": [
+            "213",
+            "205",
+            "209",
+            "217"
+          ],
+          "optionsEn": [
+            "213",
+            "205",
+            "209",
+            "217"
+          ],
+          "answer": 2,
+          "whyHi": "हर बार 4 जोड़ा जाता है; अगली संख्या 209 है।",
+          "whyEn": "Add 4 each time; the next number is 209.",
+          "subject": "General Intelligence & Reasoning",
+          "topic": "Number Series"
+        },
+        {
+          "hi": "संख्या श्रृंखला 198, 203, 208, 213, ? में अगली संख्या क्या है?",
+          "en": "Find the next number: 198, 203, 208, 213, ?",
+          "optionsHi": [
+            "223",
+            "213",
+            "218",
+            "228"
+          ],
+          "optionsEn": [
+            "223",
+            "213",
+            "218",
+            "228"
+          ],
+          "answer": 2,
+          "whyHi": "हर बार 5 जोड़ा जाता है; अगली संख्या 218 है।",
+          "whyEn": "Add 5 each time; the next number is 218.",
+          "subject": "General Intelligence & Reasoning",
+          "topic": "Number Series"
+        },
+        {
+          "hi": "लोकसभा का सामान्य कार्यकाल कितने वर्ष है?",
+          "en": "What is the normal term of the Lok Sabha?",
+          "optionsHi": [
+            "4 वर्ष",
+            "5 वर्ष",
+            "6 वर्ष",
+            "7 वर्ष"
+          ],
+          "optionsEn": [
+            "4 years",
+            "5 years",
+            "6 years",
+            "7 years"
+          ],
+          "answer": 1,
+          "whyHi": "लोकसभा का सामान्य कार्यकाल पाँच वर्ष है।",
+          "whyEn": "The Lok Sabha normally lasts five years.",
+          "subject": "General Awareness",
+          "topic": "Polity"
+        },
+        {
+          "hi": "'inevitable' का सबसे उपयुक्त समानार्थी शब्द चुनें।",
+          "en": "Choose the closest synonym of 'inevitable'.",
+          "optionsHi": [
+            "unavoidable",
+            "doubtful",
+            "optional",
+            "preventable"
+          ],
+          "optionsEn": [
+            "unavoidable",
+            "doubtful",
+            "optional",
+            "preventable"
+          ],
+          "answer": 0,
+          "whyHi": "inevitable का अर्थ अपरिहार्य है।",
+          "whyEn": "inevitable means unavoidable.",
+          "subject": "English Language",
+          "topic": "Vocabulary"
+        }
+      ]
+    },
+    {
+      "id": "ssc-cgl-combined-11",
+      "hi": "SSC CGL संयुक्त मॉक सेट 11",
+      "en": "SSC CGL Combined Mock Set 11",
+      "minutes": 10,
+      "subject": "Combined",
+      "paper": "Tier I",
+      "sourceKind": "original_practice",
+      "questions": [
+        {
+          "hi": "600 का 13% कितना है?",
+          "en": "What is 13% of 600?",
+          "optionsHi": [
+            "73",
+            "78",
+            "83",
+            "88"
+          ],
+          "optionsEn": [
+            "73",
+            "78",
+            "83",
+            "88"
+          ],
+          "answer": 1,
+          "whyHi": "600 × 13/100 = 78।",
+          "whyEn": "600 × 13/100 = 78।",
+          "subject": "Quantitative Aptitude",
+          "topic": "Percentage"
+        },
+        {
+          "hi": "₹5100 पर 10% वार्षिक दर से 2 वर्ष का साधारण ब्याज कितना होगा?",
+          "en": "Find simple interest on ₹5100 at 10% per annum for 2 years.",
+          "optionsHi": [
+            "920",
+            "1020",
+            "1070",
+            "1120"
+          ],
+          "optionsEn": [
+            "920",
+            "1020",
+            "1070",
+            "1120"
+          ],
+          "answer": 1,
+          "whyHi": "साधारण ब्याज = मूलधन × दर × समय / 100 = ₹1020।",
+          "whyEn": "साधारण ब्याज = मूलधन × दर × समय / 100 = ₹1020।",
+          "subject": "Quantitative Aptitude",
+          "topic": "Simple Interest"
+        },
+        {
+          "hi": "104 और 114 का औसत कितना है?",
+          "en": "What is the average of 104 and 114?",
+          "optionsHi": [
+            "107",
+            "109",
+            "111",
+            "113"
+          ],
+          "optionsEn": [
+            "107",
+            "109",
+            "111",
+            "113"
+          ],
+          "answer": 1,
+          "whyHi": "औसत = (104 + 114) / 2 = 109।",
+          "whyEn": "औसत = (104 + 114) / 2 = 109।",
+          "subject": "Quantitative Aptitude",
+          "topic": "Average"
+        },
+        {
+          "hi": "दो राशियों का अनुपात 3:6 है। पहली राशि 36 है। दूसरी राशि कितनी है?",
+          "en": "Two amounts are in the ratio 3:6. The first is 36. Find the second.",
+          "optionsHi": [
+            "60",
+            "72",
+            "84",
+            "96"
+          ],
+          "optionsEn": [
+            "60",
+            "72",
+            "84",
+            "96"
+          ],
+          "answer": 1,
+          "whyHi": "एक भाग = 36/3 = 12; दूसरी राशि = 6 × 12 = 72।",
+          "whyEn": "एक भाग = 36/3 = 12; दूसरी राशि = 6 × 12 = 72।",
+          "subject": "Quantitative Aptitude",
+          "topic": "Ratio"
+        },
+        {
+          "hi": "संख्या श्रृंखला 203, 209, 215, 221, ? में अगली संख्या क्या है?",
+          "en": "Find the next number: 203, 209, 215, 221, ?",
+          "optionsHi": [
+            "233",
+            "221",
+            "227",
+            "239"
+          ],
+          "optionsEn": [
+            "233",
+            "221",
+            "227",
+            "239"
+          ],
+          "answer": 2,
+          "whyHi": "हर बार 6 जोड़ा जाता है; अगली संख्या 227 है।",
+          "whyEn": "Add 6 each time; the next number is 227.",
+          "subject": "General Intelligence & Reasoning",
+          "topic": "Number Series"
+        },
+        {
+          "hi": "संख्या श्रृंखला 208, 215, 222, 229, ? में अगली संख्या क्या है?",
+          "en": "Find the next number: 208, 215, 222, 229, ?",
+          "optionsHi": [
+            "243",
+            "229",
+            "236",
+            "250"
+          ],
+          "optionsEn": [
+            "243",
+            "229",
+            "236",
+            "250"
+          ],
+          "answer": 2,
+          "whyHi": "हर बार 7 जोड़ा जाता है; अगली संख्या 236 है।",
+          "whyEn": "Add 7 each time; the next number is 236.",
+          "subject": "General Intelligence & Reasoning",
+          "topic": "Number Series"
+        },
+        {
+          "hi": "संख्या श्रृंखला 213, 221, 229, 237, ? में अगली संख्या क्या है?",
+          "en": "Find the next number: 213, 221, 229, 237, ?",
+          "optionsHi": [
+            "253",
+            "237",
+            "245",
+            "261"
+          ],
+          "optionsEn": [
+            "253",
+            "237",
+            "245",
+            "261"
+          ],
+          "answer": 2,
+          "whyHi": "हर बार 8 जोड़ा जाता है; अगली संख्या 245 है।",
+          "whyEn": "Add 8 each time; the next number is 245.",
+          "subject": "General Intelligence & Reasoning",
+          "topic": "Number Series"
+        },
+        {
+          "hi": "संख्या श्रृंखला 218, 227, 236, 245, ? में अगली संख्या क्या है?",
+          "en": "Find the next number: 218, 227, 236, 245, ?",
+          "optionsHi": [
+            "263",
+            "245",
+            "254",
+            "272"
+          ],
+          "optionsEn": [
+            "263",
+            "245",
+            "254",
+            "272"
+          ],
+          "answer": 2,
+          "whyHi": "हर बार 9 जोड़ा जाता है; अगली संख्या 254 है।",
+          "whyEn": "Add 9 each time; the next number is 254.",
+          "subject": "General Intelligence & Reasoning",
+          "topic": "Number Series"
+        },
+        {
+          "hi": "CAG की नियुक्ति कौन करता है?",
+          "en": "Who appoints the CAG of India?",
+          "optionsHi": [
+            "प्रधानमंत्री",
+            "राष्ट्रपति",
+            "मुख्य न्यायाधीश",
+            "लोकसभा अध्यक्ष"
+          ],
+          "optionsEn": [
+            "Prime Minister",
+            "President",
+            "Chief Justice",
+            "Speaker of Lok Sabha"
+          ],
+          "answer": 1,
+          "whyHi": "भारत के CAG की नियुक्ति राष्ट्रपति करते हैं।",
+          "whyEn": "The President appoints the CAG of India.",
+          "subject": "General Awareness",
+          "topic": "Polity"
+        },
+        {
+          "hi": "'liberty' का सबसे उपयुक्त समानार्थी शब्द चुनें।",
+          "en": "Choose the closest synonym of 'liberty'.",
+          "optionsHi": [
+            "freedom",
+            "captivity",
+            "control",
+            "restriction"
+          ],
+          "optionsEn": [
+            "freedom",
+            "captivity",
+            "control",
+            "restriction"
+          ],
+          "answer": 0,
+          "whyHi": "liberty का अर्थ स्वतंत्रता है।",
+          "whyEn": "liberty means freedom.",
+          "subject": "English Language",
+          "topic": "Vocabulary"
+        }
+      ]
+    },
+    {
+      "id": "ssc-cgl-combined-12",
+      "hi": "SSC CGL संयुक्त मॉक सेट 12",
+      "en": "SSC CGL Combined Mock Set 12",
+      "minutes": 10,
+      "subject": "Combined",
+      "paper": "Tier I",
+      "sourceKind": "original_practice",
+      "questions": [
+        {
+          "hi": "640 का 17% कितना है?",
+          "en": "What is 17% of 640?",
+          "optionsHi": [
+            "103.8",
+            "108.8",
+            "113.8",
+            "118.8"
+          ],
+          "optionsEn": [
+            "103.8",
+            "108.8",
+            "113.8",
+            "118.8"
+          ],
+          "answer": 1,
+          "whyHi": "640 × 17/100 = 108.8।",
+          "whyEn": "640 × 17/100 = 108.8।",
+          "subject": "Quantitative Aptitude",
+          "topic": "Percentage"
+        },
+        {
+          "hi": "₹5500 पर 8% वार्षिक दर से 2 वर्ष का साधारण ब्याज कितना होगा?",
+          "en": "Find simple interest on ₹5500 at 8% per annum for 2 years.",
+          "optionsHi": [
+            "780",
+            "880",
+            "930",
+            "980"
+          ],
+          "optionsEn": [
+            "780",
+            "880",
+            "930",
+            "980"
+          ],
+          "answer": 1,
+          "whyHi": "साधारण ब्याज = मूलधन × दर × समय / 100 = ₹880।",
+          "whyEn": "साधारण ब्याज = मूलधन × दर × समय / 100 = ₹880।",
+          "subject": "Quantitative Aptitude",
+          "topic": "Simple Interest"
+        },
+        {
+          "hi": "112 और 130 का औसत कितना है?",
+          "en": "What is the average of 112 and 130?",
+          "optionsHi": [
+            "119",
+            "121",
+            "123",
+            "125"
+          ],
+          "optionsEn": [
+            "119",
+            "121",
+            "123",
+            "125"
+          ],
+          "answer": 1,
+          "whyHi": "औसत = (112 + 130) / 2 = 121।",
+          "whyEn": "औसत = (112 + 130) / 2 = 121।",
+          "subject": "Quantitative Aptitude",
+          "topic": "Average"
+        },
+        {
+          "hi": "दो राशियों का अनुपात 7:5 है। पहली राशि 49 है। दूसरी राशि कितनी है?",
+          "en": "Two amounts are in the ratio 7:5. The first is 49. Find the second.",
+          "optionsHi": [
+            "28",
+            "35",
+            "42",
+            "49"
+          ],
+          "optionsEn": [
+            "28",
+            "35",
+            "42",
+            "49"
+          ],
+          "answer": 1,
+          "whyHi": "एक भाग = 49/7 = 7; दूसरी राशि = 5 × 7 = 35।",
+          "whyEn": "एक भाग = 49/7 = 7; दूसरी राशि = 5 × 7 = 35।",
+          "subject": "Quantitative Aptitude",
+          "topic": "Ratio"
+        },
+        {
+          "hi": "संख्या श्रृंखला 223, 233, 243, 253, ? में अगली संख्या क्या है?",
+          "en": "Find the next number: 223, 233, 243, 253, ?",
+          "optionsHi": [
+            "273",
+            "253",
+            "263",
+            "283"
+          ],
+          "optionsEn": [
+            "273",
+            "253",
+            "263",
+            "283"
+          ],
+          "answer": 2,
+          "whyHi": "हर बार 10 जोड़ा जाता है; अगली संख्या 263 है।",
+          "whyEn": "Add 10 each time; the next number is 263.",
+          "subject": "General Intelligence & Reasoning",
+          "topic": "Number Series"
+        },
+        {
+          "hi": "संख्या श्रृंखला 228, 230, 232, 234, ? में अगली संख्या क्या है?",
+          "en": "Find the next number: 228, 230, 232, 234, ?",
+          "optionsHi": [
+            "238",
+            "234",
+            "236",
+            "240"
+          ],
+          "optionsEn": [
+            "238",
+            "234",
+            "236",
+            "240"
+          ],
+          "answer": 2,
+          "whyHi": "हर बार 2 जोड़ा जाता है; अगली संख्या 236 है।",
+          "whyEn": "Add 2 each time; the next number is 236.",
+          "subject": "General Intelligence & Reasoning",
+          "topic": "Number Series"
+        },
+        {
+          "hi": "संख्या श्रृंखला 233, 236, 239, 242, ? में अगली संख्या क्या है?",
+          "en": "Find the next number: 233, 236, 239, 242, ?",
+          "optionsHi": [
+            "248",
+            "242",
+            "245",
+            "251"
+          ],
+          "optionsEn": [
+            "248",
+            "242",
+            "245",
+            "251"
+          ],
+          "answer": 2,
+          "whyHi": "हर बार 3 जोड़ा जाता है; अगली संख्या 245 है।",
+          "whyEn": "Add 3 each time; the next number is 245.",
+          "subject": "General Intelligence & Reasoning",
+          "topic": "Number Series"
+        },
+        {
+          "hi": "संख्या श्रृंखला 238, 242, 246, 250, ? में अगली संख्या क्या है?",
+          "en": "Find the next number: 238, 242, 246, 250, ?",
+          "optionsHi": [
+            "258",
+            "250",
+            "254",
+            "262"
+          ],
+          "optionsEn": [
+            "258",
+            "250",
+            "254",
+            "262"
+          ],
+          "answer": 2,
+          "whyHi": "हर बार 4 जोड़ा जाता है; अगली संख्या 254 है।",
+          "whyEn": "Add 4 each time; the next number is 254.",
+          "subject": "General Intelligence & Reasoning",
+          "topic": "Number Series"
+        },
+        {
+          "hi": "कर्क रेखा भारत के कितने राज्यों से गुजरती है?",
+          "en": "Through how many Indian states does the Tropic of Cancer pass?",
+          "optionsHi": [
+            "6",
+            "7",
+            "8",
+            "9"
+          ],
+          "optionsEn": [
+            "6",
+            "7",
+            "8",
+            "9"
+          ],
+          "answer": 2,
+          "whyHi": "कर्क रेखा भारत के आठ राज्यों से गुजरती है।",
+          "whyEn": "The Tropic of Cancer passes through eight Indian states.",
+          "subject": "General Awareness",
+          "topic": "Geography"
+        },
+        {
+          "hi": "'meticulous' का सबसे उपयुक्त समानार्थी शब्द चुनें।",
+          "en": "Choose the closest synonym of 'meticulous'.",
+          "optionsHi": [
+            "careful",
+            "careless",
+            "hasty",
+            "rough"
+          ],
+          "optionsEn": [
+            "careful",
+            "careless",
+            "hasty",
+            "rough"
+          ],
+          "answer": 0,
+          "whyHi": "meticulous का अर्थ सूक्ष्मता से सावधान है।",
+          "whyEn": "meticulous means careful.",
+          "subject": "English Language",
+          "topic": "Vocabulary"
+        }
+      ]
+    },
+    {
+      "id": "ssc-cgl-combined-13",
+      "hi": "SSC CGL संयुक्त मॉक सेट 13",
+      "en": "SSC CGL Combined Mock Set 13",
+      "minutes": 10,
+      "subject": "Combined",
+      "paper": "Tier I",
+      "sourceKind": "original_practice",
+      "questions": [
+        {
+          "hi": "680 का 5% कितना है?",
+          "en": "What is 5% of 680?",
+          "optionsHi": [
+            "29",
+            "34",
+            "39",
+            "44"
+          ],
+          "optionsEn": [
+            "29",
+            "34",
+            "39",
+            "44"
+          ],
+          "answer": 1,
+          "whyHi": "680 × 5/100 = 34।",
+          "whyEn": "680 × 5/100 = 34।",
+          "subject": "Quantitative Aptitude",
+          "topic": "Percentage"
+        },
+        {
+          "hi": "₹5900 पर 6% वार्षिक दर से 2 वर्ष का साधारण ब्याज कितना होगा?",
+          "en": "Find simple interest on ₹5900 at 6% per annum for 2 years.",
+          "optionsHi": [
+            "608",
+            "708",
+            "758",
+            "808"
+          ],
+          "optionsEn": [
+            "608",
+            "708",
+            "758",
+            "808"
+          ],
+          "answer": 1,
+          "whyHi": "साधारण ब्याज = मूलधन × दर × समय / 100 = ₹708।",
+          "whyEn": "साधारण ब्याज = मूलधन × दर × समय / 100 = ₹708।",
+          "subject": "Quantitative Aptitude",
+          "topic": "Simple Interest"
+        },
+        {
+          "hi": "120 और 132 का औसत कितना है?",
+          "en": "What is the average of 120 and 132?",
+          "optionsHi": [
+            "124",
+            "126",
+            "128",
+            "130"
+          ],
+          "optionsEn": [
+            "124",
+            "126",
+            "128",
+            "130"
+          ],
+          "answer": 1,
+          "whyHi": "औसत = (120 + 132) / 2 = 126।",
+          "whyEn": "औसत = (120 + 132) / 2 = 126।",
+          "subject": "Quantitative Aptitude",
+          "topic": "Average"
+        },
+        {
+          "hi": "दो राशियों का अनुपात 4:4 है। पहली राशि 44 है। दूसरी राशि कितनी है?",
+          "en": "Two amounts are in the ratio 4:4. The first is 44. Find the second.",
+          "optionsHi": [
+            "33",
+            "44",
+            "55",
+            "66"
+          ],
+          "optionsEn": [
+            "33",
+            "44",
+            "55",
+            "66"
+          ],
+          "answer": 1,
+          "whyHi": "एक भाग = 44/4 = 11; दूसरी राशि = 4 × 11 = 44।",
+          "whyEn": "एक भाग = 44/4 = 11; दूसरी राशि = 4 × 11 = 44।",
+          "subject": "Quantitative Aptitude",
+          "topic": "Ratio"
+        },
+        {
+          "hi": "संख्या श्रृंखला 243, 248, 253, 258, ? में अगली संख्या क्या है?",
+          "en": "Find the next number: 243, 248, 253, 258, ?",
+          "optionsHi": [
+            "268",
+            "258",
+            "263",
+            "273"
+          ],
+          "optionsEn": [
+            "268",
+            "258",
+            "263",
+            "273"
+          ],
+          "answer": 2,
+          "whyHi": "हर बार 5 जोड़ा जाता है; अगली संख्या 263 है।",
+          "whyEn": "Add 5 each time; the next number is 263.",
+          "subject": "General Intelligence & Reasoning",
+          "topic": "Number Series"
+        },
+        {
+          "hi": "संख्या श्रृंखला 248, 254, 260, 266, ? में अगली संख्या क्या है?",
+          "en": "Find the next number: 248, 254, 260, 266, ?",
+          "optionsHi": [
+            "278",
+            "266",
+            "272",
+            "284"
+          ],
+          "optionsEn": [
+            "278",
+            "266",
+            "272",
+            "284"
+          ],
+          "answer": 2,
+          "whyHi": "हर बार 6 जोड़ा जाता है; अगली संख्या 272 है।",
+          "whyEn": "Add 6 each time; the next number is 272.",
+          "subject": "General Intelligence & Reasoning",
+          "topic": "Number Series"
+        },
+        {
+          "hi": "संख्या श्रृंखला 253, 260, 267, 274, ? में अगली संख्या क्या है?",
+          "en": "Find the next number: 253, 260, 267, 274, ?",
+          "optionsHi": [
+            "288",
+            "274",
+            "281",
+            "295"
+          ],
+          "optionsEn": [
+            "288",
+            "274",
+            "281",
+            "295"
+          ],
+          "answer": 2,
+          "whyHi": "हर बार 7 जोड़ा जाता है; अगली संख्या 281 है।",
+          "whyEn": "Add 7 each time; the next number is 281.",
+          "subject": "General Intelligence & Reasoning",
+          "topic": "Number Series"
+        },
+        {
+          "hi": "संख्या श्रृंखला 258, 266, 274, 282, ? में अगली संख्या क्या है?",
+          "en": "Find the next number: 258, 266, 274, 282, ?",
+          "optionsHi": [
+            "298",
+            "282",
+            "290",
+            "306"
+          ],
+          "optionsEn": [
+            "298",
+            "282",
+            "290",
+            "306"
+          ],
+          "answer": 2,
+          "whyHi": "हर बार 8 जोड़ा जाता है; अगली संख्या 290 है।",
+          "whyEn": "Add 8 each time; the next number is 290.",
+          "subject": "General Intelligence & Reasoning",
+          "topic": "Number Series"
+        },
+        {
+          "hi": "भारत छोड़ो आंदोलन किस वर्ष शुरू हुआ?",
+          "en": "In which year did the Quit India Movement begin?",
+          "optionsHi": [
+            "1930",
+            "1942",
+            "1946",
+            "1919"
+          ],
+          "optionsEn": [
+            "1930",
+            "1942",
+            "1946",
+            "1919"
+          ],
+          "answer": 1,
+          "whyHi": "भारत छोड़ो आंदोलन अगस्त 1942 में शुरू हुआ।",
+          "whyEn": "The Quit India Movement began in August 1942.",
+          "subject": "General Awareness",
+          "topic": "History"
+        },
+        {
+          "hi": "'obsolete' का सबसे उपयुक्त समानार्थी शब्द चुनें।",
+          "en": "Choose the closest synonym of 'obsolete'.",
+          "optionsHi": [
+            "outdated",
+            "current",
+            "modern",
+            "useful"
+          ],
+          "optionsEn": [
+            "outdated",
+            "current",
+            "modern",
+            "useful"
+          ],
+          "answer": 0,
+          "whyHi": "obsolete का अर्थ अप्रचलित है।",
+          "whyEn": "obsolete means outdated.",
+          "subject": "English Language",
+          "topic": "Vocabulary"
+        }
+      ]
+    },
+    {
+      "id": "ssc-cgl-combined-14",
+      "hi": "SSC CGL संयुक्त मॉक सेट 14",
+      "en": "SSC CGL Combined Mock Set 14",
+      "minutes": 10,
+      "subject": "Combined",
+      "paper": "Tier I",
+      "sourceKind": "original_practice",
+      "questions": [
+        {
+          "hi": "720 का 9% कितना है?",
+          "en": "What is 9% of 720?",
+          "optionsHi": [
+            "59.8",
+            "64.8",
+            "69.8",
+            "74.8"
+          ],
+          "optionsEn": [
+            "59.8",
+            "64.8",
+            "69.8",
+            "74.8"
+          ],
+          "answer": 1,
+          "whyHi": "720 × 9/100 = 64.8।",
+          "whyEn": "720 × 9/100 = 64.8।",
+          "subject": "Quantitative Aptitude",
+          "topic": "Percentage"
+        },
+        {
+          "hi": "₹6300 पर 10% वार्षिक दर से 2 वर्ष का साधारण ब्याज कितना होगा?",
+          "en": "Find simple interest on ₹6300 at 10% per annum for 2 years.",
+          "optionsHi": [
+            "1160",
+            "1260",
+            "1310",
+            "1360"
+          ],
+          "optionsEn": [
+            "1160",
+            "1260",
+            "1310",
+            "1360"
+          ],
+          "answer": 1,
+          "whyHi": "साधारण ब्याज = मूलधन × दर × समय / 100 = ₹1260।",
+          "whyEn": "साधारण ब्याज = मूलधन × दर × समय / 100 = ₹1260।",
+          "subject": "Quantitative Aptitude",
+          "topic": "Simple Interest"
+        },
+        {
+          "hi": "128 और 148 का औसत कितना है?",
+          "en": "What is the average of 128 and 148?",
+          "optionsHi": [
+            "136",
+            "138",
+            "140",
+            "142"
+          ],
+          "optionsEn": [
+            "136",
+            "138",
+            "140",
+            "142"
+          ],
+          "answer": 1,
+          "whyHi": "औसत = (128 + 148) / 2 = 138।",
+          "whyEn": "औसत = (128 + 148) / 2 = 138।",
+          "subject": "Quantitative Aptitude",
+          "topic": "Average"
+        },
+        {
+          "hi": "दो राशियों का अनुपात 8:3 है। पहली राशि 48 है। दूसरी राशि कितनी है?",
+          "en": "Two amounts are in the ratio 8:3. The first is 48. Find the second.",
+          "optionsHi": [
+            "12",
+            "18",
+            "24",
+            "30"
+          ],
+          "optionsEn": [
+            "12",
+            "18",
+            "24",
+            "30"
+          ],
+          "answer": 1,
+          "whyHi": "एक भाग = 48/8 = 6; दूसरी राशि = 3 × 6 = 18।",
+          "whyEn": "एक भाग = 48/8 = 6; दूसरी राशि = 3 × 6 = 18।",
+          "subject": "Quantitative Aptitude",
+          "topic": "Ratio"
+        },
+        {
+          "hi": "संख्या श्रृंखला 263, 272, 281, 290, ? में अगली संख्या क्या है?",
+          "en": "Find the next number: 263, 272, 281, 290, ?",
+          "optionsHi": [
+            "308",
+            "290",
+            "299",
+            "317"
+          ],
+          "optionsEn": [
+            "308",
+            "290",
+            "299",
+            "317"
+          ],
+          "answer": 2,
+          "whyHi": "हर बार 9 जोड़ा जाता है; अगली संख्या 299 है।",
+          "whyEn": "Add 9 each time; the next number is 299.",
+          "subject": "General Intelligence & Reasoning",
+          "topic": "Number Series"
+        },
+        {
+          "hi": "संख्या श्रृंखला 268, 278, 288, 298, ? में अगली संख्या क्या है?",
+          "en": "Find the next number: 268, 278, 288, 298, ?",
+          "optionsHi": [
+            "318",
+            "298",
+            "308",
+            "328"
+          ],
+          "optionsEn": [
+            "318",
+            "298",
+            "308",
+            "328"
+          ],
+          "answer": 2,
+          "whyHi": "हर बार 10 जोड़ा जाता है; अगली संख्या 308 है।",
+          "whyEn": "Add 10 each time; the next number is 308.",
+          "subject": "General Intelligence & Reasoning",
+          "topic": "Number Series"
+        },
+        {
+          "hi": "संख्या श्रृंखला 273, 275, 277, 279, ? में अगली संख्या क्या है?",
+          "en": "Find the next number: 273, 275, 277, 279, ?",
+          "optionsHi": [
+            "283",
+            "279",
+            "281",
+            "285"
+          ],
+          "optionsEn": [
+            "283",
+            "279",
+            "281",
+            "285"
+          ],
+          "answer": 2,
+          "whyHi": "हर बार 2 जोड़ा जाता है; अगली संख्या 281 है।",
+          "whyEn": "Add 2 each time; the next number is 281.",
+          "subject": "General Intelligence & Reasoning",
+          "topic": "Number Series"
+        },
+        {
+          "hi": "संख्या श्रृंखला 278, 281, 284, 287, ? में अगली संख्या क्या है?",
+          "en": "Find the next number: 278, 281, 284, 287, ?",
+          "optionsHi": [
+            "293",
+            "287",
+            "290",
+            "296"
+          ],
+          "optionsEn": [
+            "293",
+            "287",
+            "290",
+            "296"
+          ],
+          "answer": 2,
+          "whyHi": "हर बार 3 जोड़ा जाता है; अगली संख्या 290 है।",
+          "whyEn": "Add 3 each time; the next number is 290.",
+          "subject": "General Intelligence & Reasoning",
+          "topic": "Number Series"
+        },
+        {
+          "hi": "दांडी मार्च किससे संबंधित था?",
+          "en": "The Dandi March was associated with which movement?",
+          "optionsHi": [
+            "असहयोग",
+            "नमक सत्याग्रह",
+            "भारत छोड़ो",
+            "स्वदेशी"
+          ],
+          "optionsEn": [
+            "Non-Cooperation",
+            "Salt Satyagraha",
+            "Quit India",
+            "Swadeshi"
+          ],
+          "answer": 1,
+          "whyHi": "दांडी मार्च 1930 के नमक सत्याग्रह का हिस्सा था।",
+          "whyEn": "The Dandi March was part of the 1930 Salt Satyagraha.",
+          "subject": "General Awareness",
+          "topic": "History"
+        },
+        {
+          "hi": "'optimistic' का सबसे उपयुक्त समानार्थी शब्द चुनें।",
+          "en": "Choose the closest synonym of 'optimistic'.",
+          "optionsHi": [
+            "hopeful",
+            "pessimistic",
+            "doubtful",
+            "gloomy"
+          ],
+          "optionsEn": [
+            "hopeful",
+            "pessimistic",
+            "doubtful",
+            "gloomy"
+          ],
+          "answer": 0,
+          "whyHi": "optimistic का अर्थ आशावादी है।",
+          "whyEn": "optimistic means hopeful.",
+          "subject": "English Language",
+          "topic": "Vocabulary"
+        }
+      ]
+    },
+    {
+      "id": "ssc-cgl-combined-15",
+      "hi": "SSC CGL संयुक्त मॉक सेट 15",
+      "en": "SSC CGL Combined Mock Set 15",
+      "minutes": 10,
+      "subject": "Combined",
+      "paper": "Tier I",
+      "sourceKind": "original_practice",
+      "questions": [
+        {
+          "hi": "760 का 13% कितना है?",
+          "en": "What is 13% of 760?",
+          "optionsHi": [
+            "93.8",
+            "98.8",
+            "103.8",
+            "108.8"
+          ],
+          "optionsEn": [
+            "93.8",
+            "98.8",
+            "103.8",
+            "108.8"
+          ],
+          "answer": 1,
+          "whyHi": "760 × 13/100 = 98.8।",
+          "whyEn": "760 × 13/100 = 98.8।",
+          "subject": "Quantitative Aptitude",
+          "topic": "Percentage"
+        },
+        {
+          "hi": "₹6700 पर 8% वार्षिक दर से 2 वर्ष का साधारण ब्याज कितना होगा?",
+          "en": "Find simple interest on ₹6700 at 8% per annum for 2 years.",
+          "optionsHi": [
+            "972",
+            "1072",
+            "1122",
+            "1172"
+          ],
+          "optionsEn": [
+            "972",
+            "1072",
+            "1122",
+            "1172"
+          ],
+          "answer": 1,
+          "whyHi": "साधारण ब्याज = मूलधन × दर × समय / 100 = ₹1072।",
+          "whyEn": "साधारण ब्याज = मूलधन × दर × समय / 100 = ₹1072।",
+          "subject": "Quantitative Aptitude",
+          "topic": "Simple Interest"
+        },
+        {
+          "hi": "136 और 150 का औसत कितना है?",
+          "en": "What is the average of 136 and 150?",
+          "optionsHi": [
+            "141",
+            "143",
+            "145",
+            "147"
+          ],
+          "optionsEn": [
+            "141",
+            "143",
+            "145",
+            "147"
+          ],
+          "answer": 1,
+          "whyHi": "औसत = (136 + 150) / 2 = 143।",
+          "whyEn": "औसत = (136 + 150) / 2 = 143।",
+          "subject": "Quantitative Aptitude",
+          "topic": "Average"
+        },
+        {
+          "hi": "दो राशियों का अनुपात 5:7 है। पहली राशि 50 है। दूसरी राशि कितनी है?",
+          "en": "Two amounts are in the ratio 5:7. The first is 50. Find the second.",
+          "optionsHi": [
+            "60",
+            "70",
+            "80",
+            "90"
+          ],
+          "optionsEn": [
+            "60",
+            "70",
+            "80",
+            "90"
+          ],
+          "answer": 1,
+          "whyHi": "एक भाग = 50/5 = 10; दूसरी राशि = 7 × 10 = 70।",
+          "whyEn": "एक भाग = 50/5 = 10; दूसरी राशि = 7 × 10 = 70।",
+          "subject": "Quantitative Aptitude",
+          "topic": "Ratio"
+        },
+        {
+          "hi": "संख्या श्रृंखला 283, 287, 291, 295, ? में अगली संख्या क्या है?",
+          "en": "Find the next number: 283, 287, 291, 295, ?",
+          "optionsHi": [
+            "303",
+            "295",
+            "299",
+            "307"
+          ],
+          "optionsEn": [
+            "303",
+            "295",
+            "299",
+            "307"
+          ],
+          "answer": 2,
+          "whyHi": "हर बार 4 जोड़ा जाता है; अगली संख्या 299 है।",
+          "whyEn": "Add 4 each time; the next number is 299.",
+          "subject": "General Intelligence & Reasoning",
+          "topic": "Number Series"
+        },
+        {
+          "hi": "संख्या श्रृंखला 288, 293, 298, 303, ? में अगली संख्या क्या है?",
+          "en": "Find the next number: 288, 293, 298, 303, ?",
+          "optionsHi": [
+            "313",
+            "303",
+            "308",
+            "318"
+          ],
+          "optionsEn": [
+            "313",
+            "303",
+            "308",
+            "318"
+          ],
+          "answer": 2,
+          "whyHi": "हर बार 5 जोड़ा जाता है; अगली संख्या 308 है।",
+          "whyEn": "Add 5 each time; the next number is 308.",
+          "subject": "General Intelligence & Reasoning",
+          "topic": "Number Series"
+        },
+        {
+          "hi": "संख्या श्रृंखला 293, 299, 305, 311, ? में अगली संख्या क्या है?",
+          "en": "Find the next number: 293, 299, 305, 311, ?",
+          "optionsHi": [
+            "323",
+            "311",
+            "317",
+            "329"
+          ],
+          "optionsEn": [
+            "323",
+            "311",
+            "317",
+            "329"
+          ],
+          "answer": 2,
+          "whyHi": "हर बार 6 जोड़ा जाता है; अगली संख्या 317 है।",
+          "whyEn": "Add 6 each time; the next number is 317.",
+          "subject": "General Intelligence & Reasoning",
+          "topic": "Number Series"
+        },
+        {
+          "hi": "संख्या श्रृंखला 298, 305, 312, 319, ? में अगली संख्या क्या है?",
+          "en": "Find the next number: 298, 305, 312, 319, ?",
+          "optionsHi": [
+            "333",
+            "319",
+            "326",
+            "340"
+          ],
+          "optionsEn": [
+            "333",
+            "319",
+            "326",
+            "340"
+          ],
+          "answer": 2,
+          "whyHi": "हर बार 7 जोड़ा जाता है; अगली संख्या 326 है।",
+          "whyEn": "Add 7 each time; the next number is 326.",
+          "subject": "General Intelligence & Reasoning",
+          "topic": "Number Series"
+        },
+        {
+          "hi": "संसद के दो सदन कौन-से हैं?",
+          "en": "What are the two Houses of Parliament?",
+          "optionsHi": [
+            "विधानसभा और परिषद",
+            "लोकसभा और राज्यसभा",
+            "लोकसभा और विधानसभा",
+            "राज्यसभा और पंचायत"
+          ],
+          "optionsEn": [
+            "Assembly and Council",
+            "Lok Sabha and Rajya Sabha",
+            "Lok Sabha and Assembly",
+            "Rajya Sabha and Panchayat"
+          ],
+          "answer": 1,
+          "whyHi": "संसद के दो सदन लोकसभा और राज्यसभा हैं।",
+          "whyEn": "The two Houses are the Lok Sabha and Rajya Sabha.",
+          "subject": "General Awareness",
+          "topic": "Polity"
+        },
+        {
+          "hi": "'pious' का सबसे उपयुक्त समानार्थी शब्द चुनें।",
+          "en": "Choose the closest synonym of 'pious'.",
+          "optionsHi": [
+            "devout",
+            "irreligious",
+            "wicked",
+            "careless"
+          ],
+          "optionsEn": [
+            "devout",
+            "irreligious",
+            "wicked",
+            "careless"
+          ],
+          "answer": 0,
+          "whyHi": "pious का अर्थ धार्मिक है।",
+          "whyEn": "pious means devout.",
+          "subject": "English Language",
+          "topic": "Vocabulary"
+        }
+      ]
+    },
+    {
+      "id": "ssc-cgl-combined-16",
+      "hi": "SSC CGL संयुक्त मॉक सेट 16",
+      "en": "SSC CGL Combined Mock Set 16",
+      "minutes": 10,
+      "subject": "Combined",
+      "paper": "Tier I",
+      "sourceKind": "original_practice",
+      "questions": [
+        {
+          "hi": "800 का 17% कितना है?",
+          "en": "What is 17% of 800?",
+          "optionsHi": [
+            "131",
+            "136",
+            "141",
+            "146"
+          ],
+          "optionsEn": [
+            "131",
+            "136",
+            "141",
+            "146"
+          ],
+          "answer": 1,
+          "whyHi": "800 × 17/100 = 136।",
+          "whyEn": "800 × 17/100 = 136।",
+          "subject": "Quantitative Aptitude",
+          "topic": "Percentage"
+        },
+        {
+          "hi": "₹7100 पर 6% वार्षिक दर से 2 वर्ष का साधारण ब्याज कितना होगा?",
+          "en": "Find simple interest on ₹7100 at 6% per annum for 2 years.",
+          "optionsHi": [
+            "752",
+            "852",
+            "902",
+            "952"
+          ],
+          "optionsEn": [
+            "752",
+            "852",
+            "902",
+            "952"
+          ],
+          "answer": 1,
+          "whyHi": "साधारण ब्याज = मूलधन × दर × समय / 100 = ₹852।",
+          "whyEn": "साधारण ब्याज = मूलधन × दर × समय / 100 = ₹852।",
+          "subject": "Quantitative Aptitude",
+          "topic": "Simple Interest"
+        },
+        {
+          "hi": "144 और 166 का औसत कितना है?",
+          "en": "What is the average of 144 and 166?",
+          "optionsHi": [
+            "153",
+            "155",
+            "157",
+            "159"
+          ],
+          "optionsEn": [
+            "153",
+            "155",
+            "157",
+            "159"
+          ],
+          "answer": 1,
+          "whyHi": "औसत = (144 + 166) / 2 = 155।",
+          "whyEn": "औसत = (144 + 166) / 2 = 155।",
+          "subject": "Quantitative Aptitude",
+          "topic": "Average"
+        },
+        {
+          "hi": "दो राशियों का अनुपात 2:6 है। पहली राशि 10 है। दूसरी राशि कितनी है?",
+          "en": "Two amounts are in the ratio 2:6. The first is 10. Find the second.",
+          "optionsHi": [
+            "25",
+            "30",
+            "35",
+            "40"
+          ],
+          "optionsEn": [
+            "25",
+            "30",
+            "35",
+            "40"
+          ],
+          "answer": 1,
+          "whyHi": "एक भाग = 10/2 = 5; दूसरी राशि = 6 × 5 = 30।",
+          "whyEn": "एक भाग = 10/2 = 5; दूसरी राशि = 6 × 5 = 30।",
+          "subject": "Quantitative Aptitude",
+          "topic": "Ratio"
+        },
+        {
+          "hi": "संख्या श्रृंखला 303, 311, 319, 327, ? में अगली संख्या क्या है?",
+          "en": "Find the next number: 303, 311, 319, 327, ?",
+          "optionsHi": [
+            "343",
+            "327",
+            "335",
+            "351"
+          ],
+          "optionsEn": [
+            "343",
+            "327",
+            "335",
+            "351"
+          ],
+          "answer": 2,
+          "whyHi": "हर बार 8 जोड़ा जाता है; अगली संख्या 335 है।",
+          "whyEn": "Add 8 each time; the next number is 335.",
+          "subject": "General Intelligence & Reasoning",
+          "topic": "Number Series"
+        },
+        {
+          "hi": "संख्या श्रृंखला 308, 317, 326, 335, ? में अगली संख्या क्या है?",
+          "en": "Find the next number: 308, 317, 326, 335, ?",
+          "optionsHi": [
+            "353",
+            "335",
+            "344",
+            "362"
+          ],
+          "optionsEn": [
+            "353",
+            "335",
+            "344",
+            "362"
+          ],
+          "answer": 2,
+          "whyHi": "हर बार 9 जोड़ा जाता है; अगली संख्या 344 है।",
+          "whyEn": "Add 9 each time; the next number is 344.",
+          "subject": "General Intelligence & Reasoning",
+          "topic": "Number Series"
+        },
+        {
+          "hi": "संख्या श्रृंखला 313, 323, 333, 343, ? में अगली संख्या क्या है?",
+          "en": "Find the next number: 313, 323, 333, 343, ?",
+          "optionsHi": [
+            "363",
+            "343",
+            "353",
+            "373"
+          ],
+          "optionsEn": [
+            "363",
+            "343",
+            "353",
+            "373"
+          ],
+          "answer": 2,
+          "whyHi": "हर बार 10 जोड़ा जाता है; अगली संख्या 353 है।",
+          "whyEn": "Add 10 each time; the next number is 353.",
+          "subject": "General Intelligence & Reasoning",
+          "topic": "Number Series"
+        },
+        {
+          "hi": "संख्या श्रृंखला 318, 320, 322, 324, ? में अगली संख्या क्या है?",
+          "en": "Find the next number: 318, 320, 322, 324, ?",
+          "optionsHi": [
+            "328",
+            "324",
+            "326",
+            "330"
+          ],
+          "optionsEn": [
+            "328",
+            "324",
+            "326",
+            "330"
+          ],
+          "answer": 2,
+          "whyHi": "हर बार 2 जोड़ा जाता है; अगली संख्या 326 है।",
+          "whyEn": "Add 2 each time; the next number is 326.",
+          "subject": "General Intelligence & Reasoning",
+          "topic": "Number Series"
+        },
+        {
+          "hi": "भारत का राष्ट्रीय पशु कौन है?",
+          "en": "What is India’s national animal?",
+          "optionsHi": [
+            "एशियाई सिंह",
+            "बंगाल टाइगर",
+            "हाथी",
+            "हिम तेंदुआ"
+          ],
+          "optionsEn": [
+            "Asiatic lion",
+            "Bengal tiger",
+            "Elephant",
+            "Snow leopard"
+          ],
+          "answer": 1,
+          "whyHi": "बाघ भारत का राष्ट्रीय पशु है।",
+          "whyEn": "The tiger is India’s national animal.",
+          "subject": "General Awareness",
+          "topic": "General Awareness"
+        },
+        {
+          "hi": "'rapid' का सबसे उपयुक्त समानार्थी शब्द चुनें।",
+          "en": "Choose the closest synonym of 'rapid'.",
+          "optionsHi": [
+            "swift",
+            "slow",
+            "delayed",
+            "gradual"
+          ],
+          "optionsEn": [
+            "swift",
+            "slow",
+            "delayed",
+            "gradual"
+          ],
+          "answer": 0,
+          "whyHi": "rapid का अर्थ तेज़ है।",
+          "whyEn": "rapid means swift.",
+          "subject": "English Language",
+          "topic": "Vocabulary"
+        }
+      ]
+    },
+    {
+      "id": "ssc-cgl-combined-17",
+      "hi": "SSC CGL संयुक्त मॉक सेट 17",
+      "en": "SSC CGL Combined Mock Set 17",
+      "minutes": 10,
+      "subject": "Combined",
+      "paper": "Tier I",
+      "sourceKind": "original_practice",
+      "questions": [
+        {
+          "hi": "840 का 5% कितना है?",
+          "en": "What is 5% of 840?",
+          "optionsHi": [
+            "37",
+            "42",
+            "47",
+            "52"
+          ],
+          "optionsEn": [
+            "37",
+            "42",
+            "47",
+            "52"
+          ],
+          "answer": 1,
+          "whyHi": "840 × 5/100 = 42।",
+          "whyEn": "840 × 5/100 = 42।",
+          "subject": "Quantitative Aptitude",
+          "topic": "Percentage"
+        },
+        {
+          "hi": "₹7500 पर 10% वार्षिक दर से 2 वर्ष का साधारण ब्याज कितना होगा?",
+          "en": "Find simple interest on ₹7500 at 10% per annum for 2 years.",
+          "optionsHi": [
+            "1400",
+            "1500",
+            "1550",
+            "1600"
+          ],
+          "optionsEn": [
+            "1400",
+            "1500",
+            "1550",
+            "1600"
+          ],
+          "answer": 1,
+          "whyHi": "साधारण ब्याज = मूलधन × दर × समय / 100 = ₹1500।",
+          "whyEn": "साधारण ब्याज = मूलधन × दर × समय / 100 = ₹1500।",
+          "subject": "Quantitative Aptitude",
+          "topic": "Simple Interest"
+        },
+        {
+          "hi": "152 और 168 का औसत कितना है?",
+          "en": "What is the average of 152 and 168?",
+          "optionsHi": [
+            "158",
+            "160",
+            "162",
+            "164"
+          ],
+          "optionsEn": [
+            "158",
+            "160",
+            "162",
+            "164"
+          ],
+          "answer": 1,
+          "whyHi": "औसत = (152 + 168) / 2 = 160।",
+          "whyEn": "औसत = (152 + 168) / 2 = 160।",
+          "subject": "Quantitative Aptitude",
+          "topic": "Average"
+        },
+        {
+          "hi": "दो राशियों का अनुपात 6:5 है। पहली राशि 54 है। दूसरी राशि कितनी है?",
+          "en": "Two amounts are in the ratio 6:5. The first is 54. Find the second.",
+          "optionsHi": [
+            "36",
+            "45",
+            "54",
+            "63"
+          ],
+          "optionsEn": [
+            "36",
+            "45",
+            "54",
+            "63"
+          ],
+          "answer": 1,
+          "whyHi": "एक भाग = 54/6 = 9; दूसरी राशि = 5 × 9 = 45।",
+          "whyEn": "एक भाग = 54/6 = 9; दूसरी राशि = 5 × 9 = 45।",
+          "subject": "Quantitative Aptitude",
+          "topic": "Ratio"
+        },
+        {
+          "hi": "संख्या श्रृंखला 323, 326, 329, 332, ? में अगली संख्या क्या है?",
+          "en": "Find the next number: 323, 326, 329, 332, ?",
+          "optionsHi": [
+            "338",
+            "332",
+            "335",
+            "341"
+          ],
+          "optionsEn": [
+            "338",
+            "332",
+            "335",
+            "341"
+          ],
+          "answer": 2,
+          "whyHi": "हर बार 3 जोड़ा जाता है; अगली संख्या 335 है।",
+          "whyEn": "Add 3 each time; the next number is 335.",
+          "subject": "General Intelligence & Reasoning",
+          "topic": "Number Series"
+        },
+        {
+          "hi": "संख्या श्रृंखला 328, 332, 336, 340, ? में अगली संख्या क्या है?",
+          "en": "Find the next number: 328, 332, 336, 340, ?",
+          "optionsHi": [
+            "348",
+            "340",
+            "344",
+            "352"
+          ],
+          "optionsEn": [
+            "348",
+            "340",
+            "344",
+            "352"
+          ],
+          "answer": 2,
+          "whyHi": "हर बार 4 जोड़ा जाता है; अगली संख्या 344 है।",
+          "whyEn": "Add 4 each time; the next number is 344.",
+          "subject": "General Intelligence & Reasoning",
+          "topic": "Number Series"
+        },
+        {
+          "hi": "संख्या श्रृंखला 333, 338, 343, 348, ? में अगली संख्या क्या है?",
+          "en": "Find the next number: 333, 338, 343, 348, ?",
+          "optionsHi": [
+            "358",
+            "348",
+            "353",
+            "363"
+          ],
+          "optionsEn": [
+            "358",
+            "348",
+            "353",
+            "363"
+          ],
+          "answer": 2,
+          "whyHi": "हर बार 5 जोड़ा जाता है; अगली संख्या 353 है।",
+          "whyEn": "Add 5 each time; the next number is 353.",
+          "subject": "General Intelligence & Reasoning",
+          "topic": "Number Series"
+        },
+        {
+          "hi": "संख्या श्रृंखला 338, 344, 350, 356, ? में अगली संख्या क्या है?",
+          "en": "Find the next number: 338, 344, 350, 356, ?",
+          "optionsHi": [
+            "368",
+            "356",
+            "362",
+            "374"
+          ],
+          "optionsEn": [
+            "368",
+            "356",
+            "362",
+            "374"
+          ],
+          "answer": 2,
+          "whyHi": "हर बार 6 जोड़ा जाता है; अगली संख्या 362 है।",
+          "whyEn": "Add 6 each time; the next number is 362.",
+          "subject": "General Intelligence & Reasoning",
+          "topic": "Number Series"
+        },
+        {
+          "hi": "विटामिन C की कमी से कौन-सा रोग होता है?",
+          "en": "Vitamin C deficiency causes which disease?",
+          "optionsHi": [
+            "रिकेट्स",
+            "स्कर्वी",
+            "रतौंधी",
+            "बेरी-बेरी"
+          ],
+          "optionsEn": [
+            "Rickets",
+            "Scurvy",
+            "Night blindness",
+            "Beriberi"
+          ],
+          "answer": 1,
+          "whyHi": "विटामिन C की कमी से स्कर्वी होता है।",
+          "whyEn": "Vitamin C deficiency causes scurvy.",
+          "subject": "General Awareness",
+          "topic": "Science"
+        },
+        {
+          "hi": "'scarce' का सबसे उपयुक्त समानार्थी शब्द चुनें।",
+          "en": "Choose the closest synonym of 'scarce'.",
+          "optionsHi": [
+            "rare",
+            "plentiful",
+            "common",
+            "abundant"
+          ],
+          "optionsEn": [
+            "rare",
+            "plentiful",
+            "common",
+            "abundant"
+          ],
+          "answer": 0,
+          "whyHi": "scarce का अर्थ दुर्लभ है।",
+          "whyEn": "scarce means rare.",
+          "subject": "English Language",
+          "topic": "Vocabulary"
+        }
+      ]
+    },
+    {
+      "id": "ssc-cgl-combined-18",
+      "hi": "SSC CGL संयुक्त मॉक सेट 18",
+      "en": "SSC CGL Combined Mock Set 18",
+      "minutes": 10,
+      "subject": "Combined",
+      "paper": "Tier I",
+      "sourceKind": "original_practice",
+      "questions": [
+        {
+          "hi": "880 का 9% कितना है?",
+          "en": "What is 9% of 880?",
+          "optionsHi": [
+            "74.2",
+            "79.2",
+            "84.2",
+            "89.2"
+          ],
+          "optionsEn": [
+            "74.2",
+            "79.2",
+            "84.2",
+            "89.2"
+          ],
+          "answer": 1,
+          "whyHi": "880 × 9/100 = 79.2।",
+          "whyEn": "880 × 9/100 = 79.2।",
+          "subject": "Quantitative Aptitude",
+          "topic": "Percentage"
+        },
+        {
+          "hi": "₹7900 पर 8% वार्षिक दर से 2 वर्ष का साधारण ब्याज कितना होगा?",
+          "en": "Find simple interest on ₹7900 at 8% per annum for 2 years.",
+          "optionsHi": [
+            "1164",
+            "1264",
+            "1314",
+            "1364"
+          ],
+          "optionsEn": [
+            "1164",
+            "1264",
+            "1314",
+            "1364"
+          ],
+          "answer": 1,
+          "whyHi": "साधारण ब्याज = मूलधन × दर × समय / 100 = ₹1264।",
+          "whyEn": "साधारण ब्याज = मूलधन × दर × समय / 100 = ₹1264।",
+          "subject": "Quantitative Aptitude",
+          "topic": "Simple Interest"
+        },
+        {
+          "hi": "160 और 170 का औसत कितना है?",
+          "en": "What is the average of 160 and 170?",
+          "optionsHi": [
+            "163",
+            "165",
+            "167",
+            "169"
+          ],
+          "optionsEn": [
+            "163",
+            "165",
+            "167",
+            "169"
+          ],
+          "answer": 1,
+          "whyHi": "औसत = (160 + 170) / 2 = 165।",
+          "whyEn": "औसत = (160 + 170) / 2 = 165।",
+          "subject": "Quantitative Aptitude",
+          "topic": "Average"
+        },
+        {
+          "hi": "दो राशियों का अनुपात 3:4 है। पहली राशि 39 है। दूसरी राशि कितनी है?",
+          "en": "Two amounts are in the ratio 3:4. The first is 39. Find the second.",
+          "optionsHi": [
+            "39",
+            "52",
+            "65",
+            "78"
+          ],
+          "optionsEn": [
+            "39",
+            "52",
+            "65",
+            "78"
+          ],
+          "answer": 1,
+          "whyHi": "एक भाग = 39/3 = 13; दूसरी राशि = 4 × 13 = 52।",
+          "whyEn": "एक भाग = 39/3 = 13; दूसरी राशि = 4 × 13 = 52।",
+          "subject": "Quantitative Aptitude",
+          "topic": "Ratio"
+        },
+        {
+          "hi": "संख्या श्रृंखला 343, 350, 357, 364, ? में अगली संख्या क्या है?",
+          "en": "Find the next number: 343, 350, 357, 364, ?",
+          "optionsHi": [
+            "378",
+            "364",
+            "371",
+            "385"
+          ],
+          "optionsEn": [
+            "378",
+            "364",
+            "371",
+            "385"
+          ],
+          "answer": 2,
+          "whyHi": "हर बार 7 जोड़ा जाता है; अगली संख्या 371 है।",
+          "whyEn": "Add 7 each time; the next number is 371.",
+          "subject": "General Intelligence & Reasoning",
+          "topic": "Number Series"
+        },
+        {
+          "hi": "संख्या श्रृंखला 348, 356, 364, 372, ? में अगली संख्या क्या है?",
+          "en": "Find the next number: 348, 356, 364, 372, ?",
+          "optionsHi": [
+            "388",
+            "372",
+            "380",
+            "396"
+          ],
+          "optionsEn": [
+            "388",
+            "372",
+            "380",
+            "396"
+          ],
+          "answer": 2,
+          "whyHi": "हर बार 8 जोड़ा जाता है; अगली संख्या 380 है।",
+          "whyEn": "Add 8 each time; the next number is 380.",
+          "subject": "General Intelligence & Reasoning",
+          "topic": "Number Series"
+        },
+        {
+          "hi": "संख्या श्रृंखला 353, 362, 371, 380, ? में अगली संख्या क्या है?",
+          "en": "Find the next number: 353, 362, 371, 380, ?",
+          "optionsHi": [
+            "398",
+            "380",
+            "389",
+            "407"
+          ],
+          "optionsEn": [
+            "398",
+            "380",
+            "389",
+            "407"
+          ],
+          "answer": 2,
+          "whyHi": "हर बार 9 जोड़ा जाता है; अगली संख्या 389 है।",
+          "whyEn": "Add 9 each time; the next number is 389.",
+          "subject": "General Intelligence & Reasoning",
+          "topic": "Number Series"
+        },
+        {
+          "hi": "संख्या श्रृंखला 358, 368, 378, 388, ? में अगली संख्या क्या है?",
+          "en": "Find the next number: 358, 368, 378, 388, ?",
+          "optionsHi": [
+            "408",
+            "388",
+            "398",
+            "418"
+          ],
+          "optionsEn": [
+            "408",
+            "388",
+            "398",
+            "418"
+          ],
+          "answer": 2,
+          "whyHi": "हर बार 10 जोड़ा जाता है; अगली संख्या 398 है।",
+          "whyEn": "Add 10 each time; the next number is 398.",
+          "subject": "General Intelligence & Reasoning",
+          "topic": "Number Series"
+        },
+        {
+          "hi": "ओजोन परत मुख्यतः किस परत में है?",
+          "en": "In which atmospheric layer is the ozone layer mainly found?",
+          "optionsHi": [
+            "क्षोभमंडल",
+            "समतापमंडल",
+            "मध्यमंडल",
+            "तापमंडल"
+          ],
+          "optionsEn": [
+            "Troposphere",
+            "Stratosphere",
+            "Mesosphere",
+            "Thermosphere"
+          ],
+          "answer": 1,
+          "whyHi": "ओजोन परत मुख्यतः समतापमंडल में स्थित है।",
+          "whyEn": "The ozone layer is mainly in the stratosphere.",
+          "subject": "General Awareness",
+          "topic": "Geography"
+        },
+        {
+          "hi": "'tranquil' का सबसे उपयुक्त समानार्थी शब्द चुनें।",
+          "en": "Choose the closest synonym of 'tranquil'.",
+          "optionsHi": [
+            "calm",
+            "noisy",
+            "violent",
+            "restless"
+          ],
+          "optionsEn": [
+            "calm",
+            "noisy",
+            "violent",
+            "restless"
+          ],
+          "answer": 0,
+          "whyHi": "tranquil का अर्थ शांत है।",
+          "whyEn": "tranquil means calm.",
+          "subject": "English Language",
+          "topic": "Vocabulary"
+        }
+      ]
+    },
+    {
+      "id": "ssc-cgl-combined-19",
+      "hi": "SSC CGL संयुक्त मॉक सेट 19",
+      "en": "SSC CGL Combined Mock Set 19",
+      "minutes": 10,
+      "subject": "Combined",
+      "paper": "Tier I",
+      "sourceKind": "original_practice",
+      "questions": [
+        {
+          "hi": "920 का 13% कितना है?",
+          "en": "What is 13% of 920?",
+          "optionsHi": [
+            "114.6",
+            "119.6",
+            "124.6",
+            "129.6"
+          ],
+          "optionsEn": [
+            "114.6",
+            "119.6",
+            "124.6",
+            "129.6"
+          ],
+          "answer": 1,
+          "whyHi": "920 × 13/100 = 119.6।",
+          "whyEn": "920 × 13/100 = 119.6।",
+          "subject": "Quantitative Aptitude",
+          "topic": "Percentage"
+        },
+        {
+          "hi": "₹8300 पर 6% वार्षिक दर से 2 वर्ष का साधारण ब्याज कितना होगा?",
+          "en": "Find simple interest on ₹8300 at 6% per annum for 2 years.",
+          "optionsHi": [
+            "896",
+            "996",
+            "1046",
+            "1096"
+          ],
+          "optionsEn": [
+            "896",
+            "996",
+            "1046",
+            "1096"
+          ],
+          "answer": 1,
+          "whyHi": "साधारण ब्याज = मूलधन × दर × समय / 100 = ₹996।",
+          "whyEn": "साधारण ब्याज = मूलधन × दर × समय / 100 = ₹996।",
+          "subject": "Quantitative Aptitude",
+          "topic": "Simple Interest"
+        },
+        {
+          "hi": "168 और 186 का औसत कितना है?",
+          "en": "What is the average of 168 and 186?",
+          "optionsHi": [
+            "175",
+            "177",
+            "179",
+            "181"
+          ],
+          "optionsEn": [
+            "175",
+            "177",
+            "179",
+            "181"
+          ],
+          "answer": 1,
+          "whyHi": "औसत = (168 + 186) / 2 = 177।",
+          "whyEn": "औसत = (168 + 186) / 2 = 177।",
+          "subject": "Quantitative Aptitude",
+          "topic": "Average"
+        },
+        {
+          "hi": "दो राशियों का अनुपात 7:3 है। पहली राशि 56 है। दूसरी राशि कितनी है?",
+          "en": "Two amounts are in the ratio 7:3. The first is 56. Find the second.",
+          "optionsHi": [
+            "16",
+            "24",
+            "32",
+            "40"
+          ],
+          "optionsEn": [
+            "16",
+            "24",
+            "32",
+            "40"
+          ],
+          "answer": 1,
+          "whyHi": "एक भाग = 56/7 = 8; दूसरी राशि = 3 × 8 = 24।",
+          "whyEn": "एक भाग = 56/7 = 8; दूसरी राशि = 3 × 8 = 24।",
+          "subject": "Quantitative Aptitude",
+          "topic": "Ratio"
+        },
+        {
+          "hi": "संख्या श्रृंखला 363, 365, 367, 369, ? में अगली संख्या क्या है?",
+          "en": "Find the next number: 363, 365, 367, 369, ?",
+          "optionsHi": [
+            "373",
+            "369",
+            "371",
+            "375"
+          ],
+          "optionsEn": [
+            "373",
+            "369",
+            "371",
+            "375"
+          ],
+          "answer": 2,
+          "whyHi": "हर बार 2 जोड़ा जाता है; अगली संख्या 371 है।",
+          "whyEn": "Add 2 each time; the next number is 371.",
+          "subject": "General Intelligence & Reasoning",
+          "topic": "Number Series"
+        },
+        {
+          "hi": "संख्या श्रृंखला 368, 371, 374, 377, ? में अगली संख्या क्या है?",
+          "en": "Find the next number: 368, 371, 374, 377, ?",
+          "optionsHi": [
+            "383",
+            "377",
+            "380",
+            "386"
+          ],
+          "optionsEn": [
+            "383",
+            "377",
+            "380",
+            "386"
+          ],
+          "answer": 2,
+          "whyHi": "हर बार 3 जोड़ा जाता है; अगली संख्या 380 है।",
+          "whyEn": "Add 3 each time; the next number is 380.",
+          "subject": "General Intelligence & Reasoning",
+          "topic": "Number Series"
+        },
+        {
+          "hi": "संख्या श्रृंखला 373, 377, 381, 385, ? में अगली संख्या क्या है?",
+          "en": "Find the next number: 373, 377, 381, 385, ?",
+          "optionsHi": [
+            "393",
+            "385",
+            "389",
+            "397"
+          ],
+          "optionsEn": [
+            "393",
+            "385",
+            "389",
+            "397"
+          ],
+          "answer": 2,
+          "whyHi": "हर बार 4 जोड़ा जाता है; अगली संख्या 389 है।",
+          "whyEn": "Add 4 each time; the next number is 389.",
+          "subject": "General Intelligence & Reasoning",
+          "topic": "Number Series"
+        },
+        {
+          "hi": "संख्या श्रृंखला 378, 383, 388, 393, ? में अगली संख्या क्या है?",
+          "en": "Find the next number: 378, 383, 388, 393, ?",
+          "optionsHi": [
+            "403",
+            "393",
+            "398",
+            "408"
+          ],
+          "optionsEn": [
+            "403",
+            "393",
+            "398",
+            "408"
+          ],
+          "answer": 2,
+          "whyHi": "हर बार 5 जोड़ा जाता है; अगली संख्या 398 है।",
+          "whyEn": "Add 5 each time; the next number is 398.",
+          "subject": "General Intelligence & Reasoning",
+          "topic": "Number Series"
+        },
+        {
+          "hi": "भारतीय राष्ट्रीय कांग्रेस की स्थापना कब हुई?",
+          "en": "When was the Indian National Congress founded?",
+          "optionsHi": [
+            "1885",
+            "1905",
+            "1919",
+            "1942"
+          ],
+          "optionsEn": [
+            "1885",
+            "1905",
+            "1919",
+            "1942"
+          ],
+          "answer": 0,
+          "whyHi": "भारतीय राष्ट्रीय कांग्रेस की स्थापना 1885 में हुई।",
+          "whyEn": "The Indian National Congress was founded in 1885.",
+          "subject": "General Awareness",
+          "topic": "History"
+        },
+        {
+          "hi": "'vital' का सबसे उपयुक्त समानार्थी शब्द चुनें।",
+          "en": "Choose the closest synonym of 'vital'.",
+          "optionsHi": [
+            "essential",
+            "trivial",
+            "minor",
+            "optional"
+          ],
+          "optionsEn": [
+            "essential",
+            "trivial",
+            "minor",
+            "optional"
+          ],
+          "answer": 0,
+          "whyHi": "vital का अर्थ महत्वपूर्ण है।",
+          "whyEn": "vital means essential.",
+          "subject": "English Language",
+          "topic": "Vocabulary"
+        }
+      ]
+    },
+    {
+      "id": "ssc-cgl-combined-20",
+      "hi": "SSC CGL संयुक्त मॉक सेट 20",
+      "en": "SSC CGL Combined Mock Set 20",
+      "minutes": 10,
+      "subject": "Combined",
+      "paper": "Tier I",
+      "sourceKind": "original_practice",
+      "questions": [
+        {
+          "hi": "960 का 17% कितना है?",
+          "en": "What is 17% of 960?",
+          "optionsHi": [
+            "158.2",
+            "163.2",
+            "168.2",
+            "173.2"
+          ],
+          "optionsEn": [
+            "158.2",
+            "163.2",
+            "168.2",
+            "173.2"
+          ],
+          "answer": 1,
+          "whyHi": "960 × 17/100 = 163.2।",
+          "whyEn": "960 × 17/100 = 163.2।",
+          "subject": "Quantitative Aptitude",
+          "topic": "Percentage"
+        },
+        {
+          "hi": "₹8700 पर 10% वार्षिक दर से 2 वर्ष का साधारण ब्याज कितना होगा?",
+          "en": "Find simple interest on ₹8700 at 10% per annum for 2 years.",
+          "optionsHi": [
+            "1640",
+            "1740",
+            "1790",
+            "1840"
+          ],
+          "optionsEn": [
+            "1640",
+            "1740",
+            "1790",
+            "1840"
+          ],
+          "answer": 1,
+          "whyHi": "साधारण ब्याज = मूलधन × दर × समय / 100 = ₹1740।",
+          "whyEn": "साधारण ब्याज = मूलधन × दर × समय / 100 = ₹1740।",
+          "subject": "Quantitative Aptitude",
+          "topic": "Simple Interest"
+        },
+        {
+          "hi": "176 और 188 का औसत कितना है?",
+          "en": "What is the average of 176 and 188?",
+          "optionsHi": [
+            "180",
+            "182",
+            "184",
+            "186"
+          ],
+          "optionsEn": [
+            "180",
+            "182",
+            "184",
+            "186"
+          ],
+          "answer": 1,
+          "whyHi": "औसत = (176 + 188) / 2 = 182।",
+          "whyEn": "औसत = (176 + 188) / 2 = 182।",
+          "subject": "Quantitative Aptitude",
+          "topic": "Average"
+        },
+        {
+          "hi": "दो राशियों का अनुपात 4:7 है। पहली राशि 48 है। दूसरी राशि कितनी है?",
+          "en": "Two amounts are in the ratio 4:7. The first is 48. Find the second.",
+          "optionsHi": [
+            "72",
+            "84",
+            "96",
+            "108"
+          ],
+          "optionsEn": [
+            "72",
+            "84",
+            "96",
+            "108"
+          ],
+          "answer": 1,
+          "whyHi": "एक भाग = 48/4 = 12; दूसरी राशि = 7 × 12 = 84।",
+          "whyEn": "एक भाग = 48/4 = 12; दूसरी राशि = 7 × 12 = 84।",
+          "subject": "Quantitative Aptitude",
+          "topic": "Ratio"
+        },
+        {
+          "hi": "संख्या श्रृंखला 383, 389, 395, 401, ? में अगली संख्या क्या है?",
+          "en": "Find the next number: 383, 389, 395, 401, ?",
+          "optionsHi": [
+            "413",
+            "401",
+            "407",
+            "419"
+          ],
+          "optionsEn": [
+            "413",
+            "401",
+            "407",
+            "419"
+          ],
+          "answer": 2,
+          "whyHi": "हर बार 6 जोड़ा जाता है; अगली संख्या 407 है।",
+          "whyEn": "Add 6 each time; the next number is 407.",
+          "subject": "General Intelligence & Reasoning",
+          "topic": "Number Series"
+        },
+        {
+          "hi": "संख्या श्रृंखला 388, 395, 402, 409, ? में अगली संख्या क्या है?",
+          "en": "Find the next number: 388, 395, 402, 409, ?",
+          "optionsHi": [
+            "423",
+            "409",
+            "416",
+            "430"
+          ],
+          "optionsEn": [
+            "423",
+            "409",
+            "416",
+            "430"
+          ],
+          "answer": 2,
+          "whyHi": "हर बार 7 जोड़ा जाता है; अगली संख्या 416 है।",
+          "whyEn": "Add 7 each time; the next number is 416.",
+          "subject": "General Intelligence & Reasoning",
+          "topic": "Number Series"
+        },
+        {
+          "hi": "संख्या श्रृंखला 393, 401, 409, 417, ? में अगली संख्या क्या है?",
+          "en": "Find the next number: 393, 401, 409, 417, ?",
+          "optionsHi": [
+            "433",
+            "417",
+            "425",
+            "441"
+          ],
+          "optionsEn": [
+            "433",
+            "417",
+            "425",
+            "441"
+          ],
+          "answer": 2,
+          "whyHi": "हर बार 8 जोड़ा जाता है; अगली संख्या 425 है।",
+          "whyEn": "Add 8 each time; the next number is 425.",
+          "subject": "General Intelligence & Reasoning",
+          "topic": "Number Series"
+        },
+        {
+          "hi": "संख्या श्रृंखला 398, 407, 416, 425, ? में अगली संख्या क्या है?",
+          "en": "Find the next number: 398, 407, 416, 425, ?",
+          "optionsHi": [
+            "443",
+            "425",
+            "434",
+            "452"
+          ],
+          "optionsEn": [
+            "443",
+            "425",
+            "434",
+            "452"
+          ],
+          "answer": 2,
+          "whyHi": "हर बार 9 जोड़ा जाता है; अगली संख्या 434 है।",
+          "whyEn": "Add 9 each time; the next number is 434.",
+          "subject": "General Intelligence & Reasoning",
+          "topic": "Number Series"
+        },
+        {
+          "hi": "मौलिक अधिकार किस भाग में हैं?",
+          "en": "In which Part are Fundamental Rights placed?",
+          "optionsHi": [
+            "भाग II",
+            "भाग III",
+            "भाग IV",
+            "भाग IVA"
+          ],
+          "optionsEn": [
+            "Part II",
+            "Part III",
+            "Part IV",
+            "Part IVA"
+          ],
+          "answer": 1,
+          "whyHi": "मौलिक अधिकार संविधान के भाग III में हैं।",
+          "whyEn": "Fundamental Rights are in Part III.",
+          "subject": "General Awareness",
+          "topic": "Polity"
+        },
+        {
+          "hi": "'weary' का सबसे उपयुक्त समानार्थी शब्द चुनें।",
+          "en": "Choose the closest synonym of 'weary'.",
+          "optionsHi": [
+            "tired",
+            "energetic",
+            "fresh",
+            "active"
+          ],
+          "optionsEn": [
+            "tired",
+            "energetic",
+            "fresh",
+            "active"
+          ],
+          "answer": 0,
+          "whyHi": "weary का अर्थ थका हुआ है।",
+          "whyEn": "weary means tired.",
+          "subject": "English Language",
+          "topic": "Vocabulary"
+        }
+      ]
+    }
+  ]
+}
