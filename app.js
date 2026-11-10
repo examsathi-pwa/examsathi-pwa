@@ -47,10 +47,10 @@ async function refreshSelectedQuestionBank(){
    if($('examSelect').value!==ex)return;
    loadedBankExam=ex;
    const examTests=bank.tests.filter(t=>!t.examName||t.examName===ex);
-   loadedBankTests=examTests.map((t,i)=>({...t,id:t.id||`${file}-${i+1}`,category,paid:false,minutes:t.minutes||Math.max(1,t.questions.length),sourceKind:t.sourceKind||'practice'}));
+   loadedBankTests=examTests.map((t,i)=>({...t,questions:[...t.questions,...(bank.sharedFoundationPool?.questions||[])],id:t.id||`${file}-${i+1}`,category,paid:false,minutes:t.minutes||Math.max(1,t.questions.length),sourceKind:t.sourceKind||'practice'}));
    const uniqueCount=uniqueQuestionPool(loadedBankTests).length;
    $('catalogNote').textContent=tr(
-     `${ex}: ${uniqueCount} अलग-अलग प्रश्न उपलब्ध हैं। 10/50/100 प्रश्नों के 20 सेट पर्याप्त प्रश्न होने पर सक्रिय होंगे। एक सेट के भीतर प्रश्न नहीं दोहरेंगे; अलग-अलग सेटों में सीमित दोहराव हो सकता है। स्रोत: ${bank.sourceLabel||'प्रश्न बैंक'}।`,
+     `${ex}: ${uniqueCount} अलग-अलग प्रश्न उपलब्ध हैं। 10, 50 और 100 प्रश्नों के सेट तैयार किए जा सकते हैं। एक सेट के भीतर प्रश्न नहीं दोहरेंगे। यह सामान्य केंद्रीय आधार अभ्यास बैंक है; विशेषज्ञ परीक्षाओं के पूरे विषयवार पाठ्यक्रम का विकल्प नहीं। स्रोत: ${bank.sourceLabel||'प्रश्न बैंक'}।`,
      `${ex}: ${uniqueCount} unique questions available. Twenty 10/50/100-question sets unlock when enough distinct questions exist. No repeats within a set; limited overlap across sets may occur. Source: ${bank.sourceLabel||'question bank'}.`
    );
  }catch(error){
