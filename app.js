@@ -42,7 +42,8 @@ async function refreshSelectedQuestionBank(){
    const bank=await loadQuestionBank(file);
    if($('examSelect').value!==ex)return;
    loadedBankExam=ex;
-   loadedBankTests=bank.tests.map((t,i)=>({...t,id:t.id||`${file}-${i+1}`,category,paid:false,minutes:t.minutes||Math.max(1,t.questions.length),sourceKind:t.sourceKind||'practice'}));
+   const examTests=bank.tests.filter(t=>!t.examName||t.examName===ex);
+   loadedBankTests=examTests.map((t,i)=>({...t,id:t.id||`${file}-${i+1}`,category,paid:false,minutes:t.minutes||Math.max(1,t.questions.length),sourceKind:t.sourceKind||'practice'}));
    const uniqueCount=uniqueQuestionPool(loadedBankTests).length;
    $('catalogNote').textContent=tr(
      `${ex}: ${uniqueCount} अलग-अलग प्रश्न उपलब्ध हैं। 10/50/100 प्रश्नों के 20 सेट पर्याप्त प्रश्न होने पर सक्रिय होंगे। एक सेट के भीतर प्रश्न नहीं दोहरेंगे; अलग-अलग सेटों में सीमित दोहराव हो सकता है। स्रोत: ${bank.sourceLabel||'प्रश्न बैंक'}।`,
@@ -259,11 +260,12 @@ function renderExamLogoList(){
   const domain=domainForExam(name,section,state);
   const fallback=section==='state'?stateLogoDomains[state]||'india.gov.in':(section==='central'?'india.gov.in':section==='banking'?'rbi.org.in':'exams.nta.ac.in');
   const item=document.createElement('button');item.type='button';item.className='exam-logo-option'+(name===selected?' selected':'');item.setAttribute('role','option');item.setAttribute('aria-selected',String(name===selected));
-  const img=document.createElement('img');img.className='exam-logo-image';img.alt='';img.loading='lazy';img.referrerPolicy='no-referrer';img.src=faviconUrl(domain);img.dataset.fallback=faviconUrl(fallback);img.dataset.initials=examInitials(name);
-  img.onerror=()=>{if(img.dataset.fallback&&img.src!==img.dataset.fallback){img.src=img.dataset.fallback;img.dataset.fallback=''}else{img.hidden=true;const mark=document.createElement('span');mark.className='exam-logo-fallback';mark.textContent=img.dataset.initials;item.insertBefore(mark,item.firstChild)}};
+  const logo=document.createElement('span');logo.className='exam-logo-mark';logo.textContent=section==='state'?examInitials(state):examInitials(name);
+  const img=document.createElement('img');img.className='exam-logo-image';img.alt='';img.loading='lazy';img.referrerPolicy='strict-origin-when-cross-origin';img.onerror=()=>{img.hidden=true};img.src='https://'+domain+'/favicon.ico';
+  const logoBox=document.createElement('span');logoBox.className='exam-logo-box';logoBox.append(logo,img);
   const label=document.createElement('span');label.className='exam-logo-name';label.textContent=name;
-  const tag=document.createElement('small');tag.className='exam-logo-source';tag.textContent=section==='state'?state+' • official portal icon fallback':section==='banking'?'Bank / regulator portal icon':section==='central'?'Exam authority / central portal icon':'Entrance authority portal icon';
-  item.append(img,label,tag);item.onclick=()=>{ $('examSelect').value=name;$('examSelect').dispatchEvent(new Event('change')); };
+  const tag=document.createElement('small');tag.className='exam-logo-source';tag.textContent=section==='state'?state+' • राज्य पहचान-चिह्न':section==='banking'?'संबंधित बैंक/वित्तीय संस्था':section==='central'?'संबंधित परीक्षा प्राधिकरण':'प्रवेश परीक्षा प्राधिकरण';
+  item.append(logoBox,label,tag);item.onclick=()=>{ $('examSelect').value=name;$('examSelect').dispatchEvent(new Event('change')); };
   list.append(item);
  }
  if(!list.children.length){const empty=document.createElement('p');empty.className='muted';empty.textContent='कोई परीक्षा नहीं मिली। / No exam found.';list.append(empty)}
