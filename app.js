@@ -14,7 +14,11 @@ function stop(){if(timer){clearInterval(timer);timer=null;}}
 function show(section){for(const id of ['catalog','quiz','result','auth'])$(id).hidden=id!==section;}
 function categoryForExam(ex,section){
  const n=String(ex||'').toLowerCase();
- if(/ctet/.test(n))return 'CTET';
+ if(/ctet|kvs|nvs/.test(n))return 'CTET';
+ if(/ugc.?net|csir/.test(n))return 'UGC NET';
+ if(/nda|cds|afcat|agniveer|indian navy|coast guard|capf/.test(n))return 'Defence';
+ if(/upsc|forest service|engineering services|epfo|esic/.test(n))return 'UPSC';
+ if(/medical|paramedical/.test(n))return 'Medical';
  if(section==='entrance')return 'Entrance';
  if(section==='banking'||/bank|ibps|sbi|rbi|nabard|lic|sebi|sidbi|niacl|uiic|gic/.test(n))return 'Banking';
  if(/railway|rrb|ntpc|group\s*d|alp|technician|paramedical/.test(n))return 'Railway';
@@ -84,7 +88,8 @@ function buildExamPracticeSets(tests,size,examName){
  let stride=Math.max(1,Math.floor(pool.length/3));
  while(pool.length>1&&gcd(stride,pool.length)!==1)stride++;
  const slug=String(examName||'exam').toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-+|-+$/g,'');
- return Array.from({length:20},(_,i)=>({
+ const setCount=Math.min(20,Math.floor(pool.length/size));
+ return Array.from({length:setCount},(_,i)=>({
    id:slug+'-'+size+'-practice-set-'+(i+1),category:tests[0]?.category||'SSC',paid:false,minutes:size,
    hi:String(examName||'परीक्षा')+' '+size+' प्रश्न अभ्यास सेट '+String(i+1).padStart(2,'0'),
    en:String(examName||'Exam')+' '+size+'-Question Practice Set '+String(i+1).padStart(2,'0'),
