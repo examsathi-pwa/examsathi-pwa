@@ -132,9 +132,15 @@
         <select id="stateSelect"></select>
       </label>
 
-      <label>परीक्षा / Exam
-        <select id="examSelect"></select>
+      <label class="native-exam-select">परीक्षा / Exam
+        <select id="examSelect" aria-hidden="true" tabindex="-1"></select>
       </label>
+    </div>
+
+    <div class="exam-logo-browser" id="examLogoBrowser">
+      <label for="examLogoSearch">परीक्षा खोजें / Search exams</label>
+      <input id="examLogoSearch" type="search" placeholder="परीक्षा का नाम लिखें..." autocomplete="off">
+      <div id="examLogoList" class="exam-logo-list" role="listbox" aria-label="परीक्षा सूची"></div>
     </div>
 
     <div class="exam-identity" id="examIdentity" aria-live="polite">
