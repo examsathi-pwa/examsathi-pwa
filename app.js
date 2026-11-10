@@ -74,6 +74,19 @@ function buildSscCgl100Sets(tests){
    questions:Array.from({length:size},(_,j)=>pool[(i*step+j)%pool.length])
  }));
 }
+function buildExamPracticeSets(tests,size,examName){
+ const subject=$('subjectSelect')?.value||'All',year=$('yearSelect')?.value||'All';
+ const pool=uniqueQuestionPool(tests).filter(q=>(subject==='All'||q.subject===subject)&&(year==='All'||String(q.year)===year));
+ if(pool.length<size)return [];
+ const stride=Math.max(1,Math.floor(pool.length/20));
+ const slug=String(examName||'exam').toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-+|-+$/g,'');
+ return Array.from({length:20},(_,i)=>({
+   id:slug+'-'+size+'-practice-set-'+(i+1),category:tests[0]?.category||'SSC',paid:false,minutes:size,
+   hi:String(examName||'परीक्षा')+' '+size+' प्रश्न अभ्यास सेट '+String(i+1).padStart(2,'0'),
+   en:String(examName||'Exam')+' '+size+'-Question Practice Set '+String(i+1).padStart(2,'0'),
+   questions:Array.from({length:size},(_,j)=>pool[(i*stride+j)%pool.length])
+ }));
+}
 function defaultSubject(category){return ({'UP TGT':'Science','SSC':'General Awareness','Railway':'Mathematics','UP Police':'General Knowledge','CTET':'Child Development & Pedagogy','Banking':'Banking Awareness'})[category]||'General';}
 function updateLang(){$('language').textContent=lang==='hi'?'EN':'हिंदी';$('tag').textContent=tr('हर परीक्षा में आपका साथी','Your partner in every exam');$('welcome').textContent=tr('सरकारी परीक्षाओं की तैयारी','Prepare for Government Exams');$('intro').textContent=tr('परीक्षा चुनें, टाइम्ड मॉक टेस्ट दें और अपनी प्रगति देखें।','Choose an exam, take timed mock tests, and track your progress.');$('testTitle').textContent=tr('मॉक टेस्ट और प्रश्न बैंक','Mock Tests & Question Bank');$('historyTitle').textContent=tr('मेरे परिणाम और प्रगति','My Results & Progress');$('filterNote').textContent=tr('नोट: 10/50/100 प्रश्नों के टेस्ट के लिए चुनी गई परीक्षा/विषय में उतने अलग प्रश्न उपलब्ध होने चाहिए। वास्तविक वर्षवार पेपर तभी दिखेंगे जब सत्यापित पेपर डेटा जोड़ा जाएगा।','Note: 10/50/100-question tests require that many unique questions in the selected exam/subject. Verified year-wise papers appear after their data is added.');render();}
 const teacherSubjectCatalog={
@@ -100,27 +113,17 @@ function render(){
    wrap.append(empty);
  }
  const query=($('testSearch')?.value||'').trim().toLocaleLowerCase();
- // SSC CGL has a 1,000-row source bank with repeated entries.
- // Build 20 rotating 100-question sets from the deduplicated pool. Each set
- // contains 100 unique questions; sets may overlap because the pool has fewer
- // than 2,000 unique questions. Other exams retain the original pair-merge rule.
+ // Keep the SSC CGL 100-question generator stable. For every other
+ // dedicated exam bank, generate exactly 20 rotating sets for the selected
+ // length, using only that exam's own distinct questions and active filters.
  let displayTests=bankTests;
- if(selectedLength===100){
-   const selectedExamText=String($('examSelect').value||'')+' '+String($('examSelect').selectedOptions?.[0]?.textContent||'');
-   const isSscCgl=/ssc[\\s_-]*cgl/i.test(selectedExamText);
-   if(isSscCgl){
-     displayTests=buildSscCgl100Sets(loadedBankExam===$('examSelect').value?loadedBankTests:bankTests);
-   }else{
-     displayTests=[];
-     for(let i=0;i<bankTests.length;){
-       const first=bankTests[i],second=bankTests[i+1];
-       if(first.questions.length>=100){displayTests.push(first);i++}
-       else if(second){
-         displayTests.push({...first,id:first.id+'-plus-'+second.id,hi:first.hi+' + '+second.hi,en:first.en+' + '+second.en,questions:[...first.questions,...second.questions]});
-         i+=2;
-       }else{displayTests.push(first);i++}
-     }
-   }
+ const selectedExamText=String($('examSelect').value||'')+' '+String($('examSelect').selectedOptions?.[0]?.textContent||'');
+ const examKey=selectedExamText.toLowerCase().replace(/[^a-z0-9]/g,'');
+ const isSscCgl=examKey.includes('ssccgl');
+ if(isSscCgl&&selectedLength===100){
+   displayTests=buildSscCgl100Sets(loadedBankExam===$('examSelect').value?loadedBankTests:bankTests);
+ }else if(!isSscCgl){
+   displayTests=buildExamPracticeSets(bankTests,selectedLength,selectedExamText.trim());
  }
  const filtered=displayTests.filter(t=>!query||[t.hi,t.en,t.category].some(v=>String(v||'').toLocaleLowerCase().includes(query)));
  for(let i=0;i<20;i++){const t=filtered[i]||null,card=document.createElement('article');card.className='card set-card';const title=document.createElement('h3');title.textContent=tr(`सेट ${String(i+1).padStart(2,'0')}`,`Set ${String(i+1).padStart(2,'0')}`);const info=document.createElement('p');info.className='muted';
