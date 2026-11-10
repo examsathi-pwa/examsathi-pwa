@@ -60,185 +60,30 @@
       "sourceKind": "authored_practice",
       "questions": [
         {
-          "hi": "यदि किसी संख्या का 40% = 168 है, तो उसी संख्या का 25% कितना होगा?",
-          "en": "If 40% of a number is 168, what is 25% of the number?",
+          "hi": "Choose the grammatically correct sentence.",
+          "en": "Choose the grammatically correct sentence.",
           "optionsHi": [
-            "95",
-            "100",
-            "105",
-            "110"
+            "Neither of the boys are present.",
+            "Neither of the boys is present.",
+            "Neither boys is present.",
+            "Neither of boys are present."
           ],
           "optionsEn": [
-            "95",
-            "100",
-            "105",
-            "110"
-          ],
-          "answer": 2,
-          "whyHi": "संख्या = 168×100/40 = 420; उसका 25% = 105।",
-          "whyEn": "Number = 168×100/40 = 420; 25% of it is 105.",
-          "subject": "Quantitative Aptitude",
-          "topic": "Percentage",
-          "difficulty": "moderate",
-          "year": null,
-          "provenance": {
-            "kind": "authored_practice",
-            "questionId": "ssc-chsl-001",
-            "sourceUrl": null,
-            "sourceTitle": "Original ExamSathi practice item; not a previous-year question",
-            "answerKeyStatus": "reviewed",
-            "reuseStatus": "original"
-          }
-        },
-        {
-          "hi": "एक वस्तु का अंकित मूल्य ₹2,400 है। 15% छूट के बाद 10% GST लगे, तो अंतिम मूल्य क्या होगा?",
-          "en": "An item is marked at ₹2,400. After a 15% discount, 10% GST is added. Find the final price.",
-          "optionsHi": [
-            "₹2,244",
-            "₹2,304",
-            "₹2,340",
-            "₹2,440"
-          ],
-          "optionsEn": [
-            "₹2,244",
-            "₹2,304",
-            "₹2,340",
-            "₹2,440"
-          ],
-          "answer": 0,
-          "whyHi": "छूट के बाद मूल्य 2400×0.85=2040; GST सहित 2040×1.10=₹2,244।",
-          "whyEn": "Discounted price = 2400×0.85=2040; after 10% GST = ₹2,244.",
-          "subject": "Quantitative Aptitude",
-          "topic": "Discount and tax",
-          "difficulty": "hard",
-          "year": null,
-          "provenance": {
-            "kind": "authored_practice",
-            "questionId": "ssc-chsl-002",
-            "sourceUrl": null,
-            "sourceTitle": "Original ExamSathi practice item; not a previous-year question",
-            "answerKeyStatus": "reviewed",
-            "reuseStatus": "original"
-          }
-        },
-        {
-          "hi": "A और B किसी काम को क्रमशः 12 और 18 दिनों में करते हैं। दोनों 4 दिन साथ काम करें, तो कितना काम शेष रहेगा?",
-          "en": "A and B can complete a job in 12 and 18 days respectively. What fraction remains after they work together for 4 days?",
-          "optionsHi": [
-            "1/3",
-            "4/9",
-            "5/9",
-            "2/3"
-          ],
-          "optionsEn": [
-            "1/3",
-            "4/9",
-            "5/9",
-            "2/3"
+            "Neither of the boys are present.",
+            "Neither of the boys is present.",
+            "Neither boys is present.",
+            "Neither of boys are present."
           ],
           "answer": 1,
-          "whyHi": "संयुक्त दर = 1/12+1/18=5/36; 4 दिन का काम=5/9; शेष=4/9।",
-          "whyEn": "Combined rate = 1/12+1/18=5/36; work done in 4 days=5/9; remaining=4/9.",
-          "subject": "Quantitative Aptitude",
-          "topic": "Time and work",
-          "difficulty": "hard",
-          "year": null,
-          "provenance": {
-            "kind": "authored_practice",
-            "questionId": "ssc-chsl-003",
-            "sourceUrl": null,
-            "sourceTitle": "Original ExamSathi practice item; not a previous-year question",
-            "answerKeyStatus": "reviewed",
-            "reuseStatus": "original"
-          }
-        },
-        {
-          "hi": "एक ट्रेन 72 km/h की चाल से 250 m लंबे प्लेटफॉर्म को 25 सेकंड में पार करती है। ट्रेन की लंबाई कितनी है?",
-          "en": "A train moving at 72 km/h crosses a 250 m platform in 25 seconds. Find the train's length.",
-          "optionsHi": [
-            "200 m",
-            "225 m",
-            "250 m",
-            "300 m"
-          ],
-          "optionsEn": [
-            "200 m",
-            "225 m",
-            "250 m",
-            "300 m"
-          ],
-          "answer": 2,
-          "whyHi": "72 km/h = 20 m/s; कुल दूरी=20×25=500 m; ट्रेन की लंबाई=500−250=250 m।",
-          "whyEn": "72 km/h = 20 m/s; total distance=500 m; train length=500−250=250 m.",
-          "subject": "Quantitative Aptitude",
-          "topic": "Speed distance time",
+          "whyHi": "Neither को यहाँ singular माना जाता है; इसलिए singular verb 'is' आएगा।",
+          "whyEn": "Neither is singular here and takes the singular verb 'is'.",
+          "subject": "English Language",
+          "topic": "Subject verb agreement",
           "difficulty": "moderate",
           "year": null,
           "provenance": {
             "kind": "authored_practice",
-            "questionId": "ssc-chsl-004",
-            "sourceUrl": null,
-            "sourceTitle": "Original ExamSathi practice item; not a previous-year question",
-            "answerKeyStatus": "reviewed",
-            "reuseStatus": "original"
-          }
-        },
-        {
-          "hi": "दो संख्याओं का अनुपात 7:9 है और उनका अंतर 46 है। छोटी संख्या क्या है?",
-          "en": "Two numbers are in the ratio 7:9 and differ by 46. Find the smaller number.",
-          "optionsHi": [
-            "138",
-            "161",
-            "184",
-            "207"
-          ],
-          "optionsEn": [
-            "138",
-            "161",
-            "184",
-            "207"
-          ],
-          "answer": 1,
-          "whyHi": "2 भाग=46, इसलिए 1 भाग=23; छोटी संख्या=7×23=161।",
-          "whyEn": "Two parts=46, so one part=23; smaller number=7×23=161.",
-          "subject": "Quantitative Aptitude",
-          "topic": "Ratio",
-          "difficulty": "moderate",
-          "year": null,
-          "provenance": {
-            "kind": "authored_practice",
-            "questionId": "ssc-chsl-005",
-            "sourceUrl": null,
-            "sourceTitle": "Original ExamSathi practice item; not a previous-year question",
-            "answerKeyStatus": "reviewed",
-            "reuseStatus": "original"
-          }
-        },
-        {
-          "hi": "₹8,000 पर 2 वर्ष के लिए 7.5% वार्षिक दर से साधारण ब्याज कितना होगा?",
-          "en": "Find the simple interest on ₹8,000 for 2 years at 7.5% per annum.",
-          "optionsHi": [
-            "₹1,000",
-            "₹1,100",
-            "₹1,200",
-            "₹1,250"
-          ],
-          "optionsEn": [
-            "₹1,000",
-            "₹1,100",
-            "₹1,200",
-            "₹1,250"
-          ],
-          "answer": 2,
-          "whyHi": "SI = PRT/100 = 8000×7.5×2/100 = ₹1,200।",
-          "whyEn": "SI = PRT/100 = 8000×7.5×2/100 = ₹1,200.",
-          "subject": "Quantitative Aptitude",
-          "topic": "Simple interest",
-          "difficulty": "moderate",
-          "year": null,
-          "provenance": {
-            "kind": "authored_practice",
-            "questionId": "ssc-chsl-006",
+            "questionId": "ssc-chsl-013",
             "sourceUrl": null,
             "sourceTitle": "Original ExamSathi practice item; not a previous-year question",
             "answerKeyStatus": "reviewed",
@@ -277,123 +122,30 @@
           }
         },
         {
-          "hi": "यदि किसी कूट में TABLE को UBCMF लिखा जाता है, तो CHAIR को कैसे लिखा जाएगा?",
-          "en": "If TABLE is coded as UBCMF, how will CHAIR be coded?",
+          "hi": "यदि किसी संख्या का 40% = 168 है, तो उसी संख्या का 25% कितना होगा?",
+          "en": "If 40% of a number is 168, what is 25% of the number?",
           "optionsHi": [
-            "DIBJS",
-            "DIBIR",
-            "DHBJS",
-            "DIBJT"
+            "95",
+            "100",
+            "105",
+            "110"
           ],
           "optionsEn": [
-            "DIBJS",
-            "DIBIR",
-            "DHBJS",
-            "DIBJT"
-          ],
-          "answer": 0,
-          "whyHi": "प्रत्येक अक्षर को अंग्रेज़ी वर्णमाला में एक स्थान आगे किया गया है।",
-          "whyEn": "Each letter is shifted one position forward in the alphabet.",
-          "subject": "General Intelligence",
-          "topic": "Coding decoding",
-          "difficulty": "easy",
-          "year": null,
-          "provenance": {
-            "kind": "authored_practice",
-            "questionId": "ssc-chsl-008",
-            "sourceUrl": null,
-            "sourceTitle": "Original ExamSathi practice item; not a previous-year question",
-            "answerKeyStatus": "reviewed",
-            "reuseStatus": "original"
-          }
-        },
-        {
-          "hi": "एक व्यक्ति 8 km उत्तर, फिर 6 km पूर्व और फिर 8 km दक्षिण चलता है। प्रारंभिक बिंदु से वह कहाँ है?",
-          "en": "A person walks 8 km north, then 6 km east, and then 8 km south. Where is the person from the starting point?",
-          "optionsHi": [
-            "6 km पूर्व",
-            "6 km पश्चिम",
-            "8 km दक्षिण",
-            "14 km पूर्व"
-          ],
-          "optionsEn": [
-            "6 km east",
-            "6 km west",
-            "8 km south",
-            "14 km east"
-          ],
-          "answer": 0,
-          "whyHi": "उत्तर और दक्षिण की चाल कट जाती है; व्यक्ति 6 km पूर्व में है।",
-          "whyEn": "North and south movements cancel; the person is 6 km east.",
-          "subject": "General Intelligence",
-          "topic": "Direction sense",
-          "difficulty": "easy",
-          "year": null,
-          "provenance": {
-            "kind": "authored_practice",
-            "questionId": "ssc-chsl-009",
-            "sourceUrl": null,
-            "sourceTitle": "Original ExamSathi practice item; not a previous-year question",
-            "answerKeyStatus": "reviewed",
-            "reuseStatus": "original"
-          }
-        },
-        {
-          "hi": "कथन: सभी पेन स्टेशनरी हैं। कुछ स्टेशनरी महँगी हैं। निष्कर्ष: (I) कुछ पेन महँगे हैं। (II) सभी पेन स्टेशनरी हैं।",
-          "en": "Statements: All pens are stationery. Some stationery items are expensive. Conclusions: (I) Some pens are expensive. (II) All pens are stationery.",
-          "optionsHi": [
-            "केवल I",
-            "केवल II",
-            "दोनों",
-            "कोई नहीं"
-          ],
-          "optionsEn": [
-            "Only I",
-            "Only II",
-            "Both",
-            "Neither"
-          ],
-          "answer": 1,
-          "whyHi": "निष्कर्ष I आवश्यक नहीं है; निष्कर्ष II कथन का सीधा पुनर्कथन है।",
-          "whyEn": "Conclusion I does not necessarily follow; conclusion II directly restates a statement.",
-          "subject": "General Intelligence",
-          "topic": "Syllogism",
-          "difficulty": "moderate",
-          "year": null,
-          "provenance": {
-            "kind": "authored_practice",
-            "questionId": "ssc-chsl-010",
-            "sourceUrl": null,
-            "sourceTitle": "Original ExamSathi practice item; not a previous-year question",
-            "answerKeyStatus": "reviewed",
-            "reuseStatus": "original"
-          }
-        },
-        {
-          "hi": "यदि 1 जनवरी 2024 सोमवार था, तो 1 जनवरी 2025 कौन-सा दिन था?",
-          "en": "If 1 January 2024 was Monday, what day was 1 January 2025?",
-          "optionsHi": [
-            "सोमवार",
-            "मंगलवार",
-            "बुधवार",
-            "गुरुवार"
-          ],
-          "optionsEn": [
-            "Monday",
-            "Tuesday",
-            "Wednesday",
-            "Thursday"
+            "95",
+            "100",
+            "105",
+            "110"
           ],
           "answer": 2,
-          "whyHi": "2024 लीप वर्ष है, इसलिए 366 दिन = 52 सप्ताह + 2 दिन; सोमवार से दो दिन आगे बुधवार।",
-          "whyEn": "2024 was a leap year: 366 days shift the weekday by 2; Monday becomes Wednesday.",
-          "subject": "General Intelligence",
-          "topic": "Calendar",
+          "whyHi": "संख्या = 168×100/40 = 420; उसका 25% = 105।",
+          "whyEn": "Number = 168×100/40 = 420; 25% of it is 105.",
+          "subject": "Quantitative Aptitude",
+          "topic": "Percentage",
           "difficulty": "moderate",
           "year": null,
           "provenance": {
             "kind": "authored_practice",
-            "questionId": "ssc-chsl-011",
+            "questionId": "ssc-chsl-001",
             "sourceUrl": null,
             "sourceTitle": "Original ExamSathi practice item; not a previous-year question",
             "answerKeyStatus": "reviewed",
@@ -401,61 +153,30 @@
           }
         },
         {
-          "hi": "छह व्यक्ति एक पंक्ति में बैठे हैं। P, Q के बाएँ है; R, Q के दाएँ है; S, P के बाएँ है। इनमें सबसे बाएँ कौन निश्चित है?",
-          "en": "Six people sit in a row. P is left of Q; R is right of Q; S is left of P. Who is certainly the leftmost among these four?",
+          "hi": "भारतीय संविधान कब अंगीकृत किया गया था?",
+          "en": "When was the Constitution of India adopted?",
           "optionsHi": [
-            "P",
-            "Q",
-            "R",
-            "S"
+            "15 अगस्त 1947",
+            "26 नवम्बर 1949",
+            "26 जनवरी 1950",
+            "2 अक्टूबर 1950"
           ],
           "optionsEn": [
-            "P",
-            "Q",
-            "R",
-            "S"
-          ],
-          "answer": 3,
-          "whyHi": "S, P के बाएँ और P, Q के बाएँ है; R, Q के दाएँ है। इसलिए S सबसे बाएँ है।",
-          "whyEn": "S is left of P, P is left of Q, and R is right of Q; hence S is leftmost.",
-          "subject": "General Intelligence",
-          "topic": "Ordering",
-          "difficulty": "moderate",
-          "year": null,
-          "provenance": {
-            "kind": "authored_practice",
-            "questionId": "ssc-chsl-012",
-            "sourceUrl": null,
-            "sourceTitle": "Original ExamSathi practice item; not a previous-year question",
-            "answerKeyStatus": "reviewed",
-            "reuseStatus": "original"
-          }
-        },
-        {
-          "hi": "Choose the grammatically correct sentence.",
-          "en": "Choose the grammatically correct sentence.",
-          "optionsHi": [
-            "Neither of the boys are present.",
-            "Neither of the boys is present.",
-            "Neither boys is present.",
-            "Neither of boys are present."
-          ],
-          "optionsEn": [
-            "Neither of the boys are present.",
-            "Neither of the boys is present.",
-            "Neither boys is present.",
-            "Neither of boys are present."
+            "15 August 1947",
+            "26 November 1949",
+            "26 January 1950",
+            "2 October 1950"
           ],
           "answer": 1,
-          "whyHi": "Neither को यहाँ singular माना जाता है; इसलिए singular verb 'is' आएगा।",
-          "whyEn": "Neither is singular here and takes the singular verb 'is'.",
-          "subject": "English Language",
-          "topic": "Subject verb agreement",
-          "difficulty": "moderate",
+          "whyHi": "संविधान सभा ने 26 नवम्बर 1949 को संविधान अंगीकृत किया; यह 26 जनवरी 1950 को लागू हुआ।",
+          "whyEn": "The Constituent Assembly adopted the Constitution on 26 November 1949; it came into force on 26 January 1950.",
+          "subject": "General Awareness",
+          "topic": "Polity",
+          "difficulty": "easy",
           "year": null,
           "provenance": {
             "kind": "authored_practice",
-            "questionId": "ssc-chsl-013",
+            "questionId": "ssc-chsl-021",
             "sourceUrl": null,
             "sourceTitle": "Original ExamSathi practice item; not a previous-year question",
             "answerKeyStatus": "reviewed",
@@ -494,6 +215,99 @@
           }
         },
         {
+          "hi": "यदि किसी कूट में TABLE को UBCMF लिखा जाता है, तो CHAIR को कैसे लिखा जाएगा?",
+          "en": "If TABLE is coded as UBCMF, how will CHAIR be coded?",
+          "optionsHi": [
+            "DIBJS",
+            "DIBIR",
+            "DHBJS",
+            "DIBJT"
+          ],
+          "optionsEn": [
+            "DIBJS",
+            "DIBIR",
+            "DHBJS",
+            "DIBJT"
+          ],
+          "answer": 0,
+          "whyHi": "प्रत्येक अक्षर को अंग्रेज़ी वर्णमाला में एक स्थान आगे किया गया है।",
+          "whyEn": "Each letter is shifted one position forward in the alphabet.",
+          "subject": "General Intelligence",
+          "topic": "Coding decoding",
+          "difficulty": "easy",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "ssc-chsl-008",
+            "sourceUrl": null,
+            "sourceTitle": "Original ExamSathi practice item; not a previous-year question",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "एक वस्तु का अंकित मूल्य ₹2,400 है। 15% छूट के बाद 10% GST लगे, तो अंतिम मूल्य क्या होगा?",
+          "en": "An item is marked at ₹2,400. After a 15% discount, 10% GST is added. Find the final price.",
+          "optionsHi": [
+            "₹2,244",
+            "₹2,304",
+            "₹2,340",
+            "₹2,440"
+          ],
+          "optionsEn": [
+            "₹2,244",
+            "₹2,304",
+            "₹2,340",
+            "₹2,440"
+          ],
+          "answer": 0,
+          "whyHi": "छूट के बाद मूल्य 2400×0.85=2040; GST सहित 2040×1.10=₹2,244।",
+          "whyEn": "Discounted price = 2400×0.85=2040; after 10% GST = ₹2,244.",
+          "subject": "Quantitative Aptitude",
+          "topic": "Discount and tax",
+          "difficulty": "hard",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "ssc-chsl-002",
+            "sourceUrl": null,
+            "sourceTitle": "Original ExamSathi practice item; not a previous-year question",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "कर्क रेखा भारत के कितने राज्यों से होकर गुजरती है?",
+          "en": "Through how many Indian states does the Tropic of Cancer pass?",
+          "optionsHi": [
+            "6",
+            "7",
+            "8",
+            "9"
+          ],
+          "optionsEn": [
+            "6",
+            "7",
+            "8",
+            "9"
+          ],
+          "answer": 2,
+          "whyHi": "कर्क रेखा भारत के आठ राज्यों से होकर गुजरती है।",
+          "whyEn": "The Tropic of Cancer passes through eight Indian states.",
+          "subject": "General Awareness",
+          "topic": "Geography",
+          "difficulty": "moderate",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "ssc-chsl-022",
+            "sourceUrl": null,
+            "sourceTitle": "Original ExamSathi practice item; not a previous-year question",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
           "hi": "Fill in the blank: The committee ______ submitted its report.",
           "en": "Fill in the blank: The committee ______ submitted its report.",
           "optionsHi": [
@@ -523,6 +337,378 @@
             "answerKeyStatus": "reviewed",
             "reuseStatus": "original"
           }
+        },
+        {
+          "hi": "एक व्यक्ति 8 km उत्तर, फिर 6 km पूर्व और फिर 8 km दक्षिण चलता है। प्रारंभिक बिंदु से वह कहाँ है?",
+          "en": "A person walks 8 km north, then 6 km east, and then 8 km south. Where is the person from the starting point?",
+          "optionsHi": [
+            "6 km पूर्व",
+            "6 km पश्चिम",
+            "8 km दक्षिण",
+            "14 km पूर्व"
+          ],
+          "optionsEn": [
+            "6 km east",
+            "6 km west",
+            "8 km south",
+            "14 km east"
+          ],
+          "answer": 0,
+          "whyHi": "उत्तर और दक्षिण की चाल कट जाती है; व्यक्ति 6 km पूर्व में है।",
+          "whyEn": "North and south movements cancel; the person is 6 km east.",
+          "subject": "General Intelligence",
+          "topic": "Direction sense",
+          "difficulty": "easy",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "ssc-chsl-009",
+            "sourceUrl": null,
+            "sourceTitle": "Original ExamSathi practice item; not a previous-year question",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "A और B किसी काम को क्रमशः 12 और 18 दिनों में करते हैं। दोनों 4 दिन साथ काम करें, तो कितना काम शेष रहेगा?",
+          "en": "A and B can complete a job in 12 and 18 days respectively. What fraction remains after they work together for 4 days?",
+          "optionsHi": [
+            "1/3",
+            "4/9",
+            "5/9",
+            "2/3"
+          ],
+          "optionsEn": [
+            "1/3",
+            "4/9",
+            "5/9",
+            "2/3"
+          ],
+          "answer": 1,
+          "whyHi": "संयुक्त दर = 1/12+1/18=5/36; 4 दिन का काम=5/9; शेष=4/9।",
+          "whyEn": "Combined rate = 1/12+1/18=5/36; work done in 4 days=5/9; remaining=4/9.",
+          "subject": "Quantitative Aptitude",
+          "topic": "Time and work",
+          "difficulty": "hard",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "ssc-chsl-003",
+            "sourceUrl": null,
+            "sourceTitle": "Original ExamSathi practice item; not a previous-year question",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "भारतीय रिज़र्व बैंक की स्थापना किस वर्ष हुई थी?",
+          "en": "In which year was the Reserve Bank of India established?",
+          "optionsHi": [
+            "1930",
+            "1935",
+            "1947",
+            "1949"
+          ],
+          "optionsEn": [
+            "1930",
+            "1935",
+            "1947",
+            "1949"
+          ],
+          "answer": 1,
+          "whyHi": "RBI की स्थापना 1 अप्रैल 1935 को RBI Act, 1934 के अंतर्गत हुई।",
+          "whyEn": "The RBI was established on 1 April 1935 under the RBI Act, 1934.",
+          "subject": "General Awareness",
+          "topic": "Economy",
+          "difficulty": "easy",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "ssc-chsl-023",
+            "sourceUrl": null,
+            "sourceTitle": "Original ExamSathi practice item; not a previous-year question",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "कथन: सभी पेन स्टेशनरी हैं। कुछ स्टेशनरी महँगी हैं। निष्कर्ष: (I) कुछ पेन महँगे हैं। (II) सभी पेन स्टेशनरी हैं।",
+          "en": "Statements: All pens are stationery. Some stationery items are expensive. Conclusions: (I) Some pens are expensive. (II) All pens are stationery.",
+          "optionsHi": [
+            "केवल I",
+            "केवल II",
+            "दोनों",
+            "कोई नहीं"
+          ],
+          "optionsEn": [
+            "Only I",
+            "Only II",
+            "Both",
+            "Neither"
+          ],
+          "answer": 1,
+          "whyHi": "निष्कर्ष I आवश्यक नहीं है; निष्कर्ष II कथन का सीधा पुनर्कथन है।",
+          "whyEn": "Conclusion I does not necessarily follow; conclusion II directly restates a statement.",
+          "subject": "General Intelligence",
+          "topic": "Syllogism",
+          "difficulty": "moderate",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "ssc-chsl-010",
+            "sourceUrl": null,
+            "sourceTitle": "Original ExamSathi practice item; not a previous-year question",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "एक ट्रेन 72 km/h की चाल से 250 m लंबे प्लेटफॉर्म को 25 सेकंड में पार करती है। ट्रेन की लंबाई कितनी है?",
+          "en": "A train moving at 72 km/h crosses a 250 m platform in 25 seconds. Find the train's length.",
+          "optionsHi": [
+            "200 m",
+            "225 m",
+            "250 m",
+            "300 m"
+          ],
+          "optionsEn": [
+            "200 m",
+            "225 m",
+            "250 m",
+            "300 m"
+          ],
+          "answer": 2,
+          "whyHi": "72 km/h = 20 m/s; कुल दूरी=20×25=500 m; ट्रेन की लंबाई=500−250=250 m।",
+          "whyEn": "72 km/h = 20 m/s; total distance=500 m; train length=500−250=250 m.",
+          "subject": "Quantitative Aptitude",
+          "topic": "Speed distance time",
+          "difficulty": "moderate",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "ssc-chsl-004",
+            "sourceUrl": null,
+            "sourceTitle": "Original ExamSathi practice item; not a previous-year question",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "प्रकाश संश्लेषण में पौधे मुख्यतः कौन-सी गैस ग्रहण करते हैं?",
+          "en": "Which gas do plants primarily absorb during photosynthesis?",
+          "optionsHi": [
+            "ऑक्सीजन",
+            "नाइट्रोजन",
+            "कार्बन डाइऑक्साइड",
+            "हाइड्रोजन"
+          ],
+          "optionsEn": [
+            "Oxygen",
+            "Nitrogen",
+            "Carbon dioxide",
+            "Hydrogen"
+          ],
+          "answer": 2,
+          "whyHi": "प्रकाश संश्लेषण में पौधे CO₂ और जल से कार्बोहाइड्रेट बनाते हैं तथा ऑक्सीजन छोड़ते हैं।",
+          "whyEn": "In photosynthesis, plants use CO₂ and water to make carbohydrates and release oxygen.",
+          "subject": "General Awareness",
+          "topic": "General science",
+          "difficulty": "easy",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "ssc-chsl-024",
+            "sourceUrl": null,
+            "sourceTitle": "Original ExamSathi practice item; not a previous-year question",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "यदि 1 जनवरी 2024 सोमवार था, तो 1 जनवरी 2025 कौन-सा दिन था?",
+          "en": "If 1 January 2024 was Monday, what day was 1 January 2025?",
+          "optionsHi": [
+            "सोमवार",
+            "मंगलवार",
+            "बुधवार",
+            "गुरुवार"
+          ],
+          "optionsEn": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday"
+          ],
+          "answer": 2,
+          "whyHi": "2024 लीप वर्ष है, इसलिए 366 दिन = 52 सप्ताह + 2 दिन; सोमवार से दो दिन आगे बुधवार।",
+          "whyEn": "2024 was a leap year: 366 days shift the weekday by 2; Monday becomes Wednesday.",
+          "subject": "General Intelligence",
+          "topic": "Calendar",
+          "difficulty": "moderate",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "ssc-chsl-011",
+            "sourceUrl": null,
+            "sourceTitle": "Original ExamSathi practice item; not a previous-year question",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "दो संख्याओं का अनुपात 7:9 है और उनका अंतर 46 है। छोटी संख्या क्या है?",
+          "en": "Two numbers are in the ratio 7:9 and differ by 46. Find the smaller number.",
+          "optionsHi": [
+            "138",
+            "161",
+            "184",
+            "207"
+          ],
+          "optionsEn": [
+            "138",
+            "161",
+            "184",
+            "207"
+          ],
+          "answer": 1,
+          "whyHi": "2 भाग=46, इसलिए 1 भाग=23; छोटी संख्या=7×23=161।",
+          "whyEn": "Two parts=46, so one part=23; smaller number=7×23=161.",
+          "subject": "Quantitative Aptitude",
+          "topic": "Ratio",
+          "difficulty": "moderate",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "ssc-chsl-005",
+            "sourceUrl": null,
+            "sourceTitle": "Original ExamSathi practice item; not a previous-year question",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "विटामिन B12 में कौन-सा धातु तत्व पाया जाता है?",
+          "en": "Which metallic element is present in vitamin B12?",
+          "optionsHi": [
+            "लोहा",
+            "कोबाल्ट",
+            "जस्ता",
+            "मैग्नीशियम"
+          ],
+          "optionsEn": [
+            "Iron",
+            "Cobalt",
+            "Zinc",
+            "Magnesium"
+          ],
+          "answer": 1,
+          "whyHi": "विटामिन B12 (कोबालामिन) के केंद्र में कोबाल्ट आयन होता है।",
+          "whyEn": "Vitamin B12 (cobalamin) contains a cobalt ion at its centre.",
+          "subject": "General Awareness",
+          "topic": "Biology",
+          "difficulty": "hard",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "ssc-chsl-025",
+            "sourceUrl": null,
+            "sourceTitle": "Original ExamSathi practice item; not a previous-year question",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "छह व्यक्ति एक पंक्ति में बैठे हैं। P, Q के बाएँ है; R, Q के दाएँ है; S, P के बाएँ है। इनमें सबसे बाएँ कौन निश्चित है?",
+          "en": "Six people sit in a row. P is left of Q; R is right of Q; S is left of P. Who is certainly the leftmost among these four?",
+          "optionsHi": [
+            "P",
+            "Q",
+            "R",
+            "S"
+          ],
+          "optionsEn": [
+            "P",
+            "Q",
+            "R",
+            "S"
+          ],
+          "answer": 3,
+          "whyHi": "S, P के बाएँ और P, Q के बाएँ है; R, Q के दाएँ है। इसलिए S सबसे बाएँ है।",
+          "whyEn": "S is left of P, P is left of Q, and R is right of Q; hence S is leftmost.",
+          "subject": "General Intelligence",
+          "topic": "Ordering",
+          "difficulty": "moderate",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "ssc-chsl-012",
+            "sourceUrl": null,
+            "sourceTitle": "Original ExamSathi practice item; not a previous-year question",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "₹8,000 पर 2 वर्ष के लिए 7.5% वार्षिक दर से साधारण ब्याज कितना होगा?",
+          "en": "Find the simple interest on ₹8,000 for 2 years at 7.5% per annum.",
+          "optionsHi": [
+            "₹1,000",
+            "₹1,100",
+            "₹1,200",
+            "₹1,250"
+          ],
+          "optionsEn": [
+            "₹1,000",
+            "₹1,100",
+            "₹1,200",
+            "₹1,250"
+          ],
+          "answer": 2,
+          "whyHi": "SI = PRT/100 = 8000×7.5×2/100 = ₹1,200।",
+          "whyEn": "SI = PRT/100 = 8000×7.5×2/100 = ₹1,200.",
+          "subject": "Quantitative Aptitude",
+          "topic": "Simple interest",
+          "difficulty": "moderate",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "ssc-chsl-006",
+            "sourceUrl": null,
+            "sourceTitle": "Original ExamSathi practice item; not a previous-year question",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "'दीन-ए-इलाही' की शुरुआत किस मुगल शासक ने की?",
+          "en": "Which Mughal ruler introduced Din-i Ilahi?",
+          "optionsHi": [
+            "बाबर",
+            "हुमायूँ",
+            "अकबर",
+            "जहाँगीर"
+          ],
+          "optionsEn": [
+            "Babur",
+            "Humayun",
+            "Akbar",
+            "Jahangir"
+          ],
+          "answer": 2,
+          "whyHi": "अकबर ने 1582 के आसपास दीन-ए-इलाही की शुरुआत की।",
+          "whyEn": "Akbar introduced Din-i Ilahi around 1582.",
+          "topic": "History",
+          "difficulty": "easy",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "ssc-chsl-026",
+            "sourceUrl": null,
+            "sourceTitle": "Original ExamSathi practice item; not a previous-year question",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          },
+          "subject": "General Awareness"
         },
         {
           "hi": "Identify the part containing an error: 'Each of the applicants / have received / an acknowledgement / from the office.'",
@@ -678,192 +864,6 @@
             "answerKeyStatus": "reviewed",
             "reuseStatus": "original"
           }
-        },
-        {
-          "hi": "भारतीय संविधान कब अंगीकृत किया गया था?",
-          "en": "When was the Constitution of India adopted?",
-          "optionsHi": [
-            "15 अगस्त 1947",
-            "26 नवम्बर 1949",
-            "26 जनवरी 1950",
-            "2 अक्टूबर 1950"
-          ],
-          "optionsEn": [
-            "15 August 1947",
-            "26 November 1949",
-            "26 January 1950",
-            "2 October 1950"
-          ],
-          "answer": 1,
-          "whyHi": "संविधान सभा ने 26 नवम्बर 1949 को संविधान अंगीकृत किया; यह 26 जनवरी 1950 को लागू हुआ।",
-          "whyEn": "The Constituent Assembly adopted the Constitution on 26 November 1949; it came into force on 26 January 1950.",
-          "subject": "General Awareness",
-          "topic": "Polity",
-          "difficulty": "easy",
-          "year": null,
-          "provenance": {
-            "kind": "authored_practice",
-            "questionId": "ssc-chsl-021",
-            "sourceUrl": null,
-            "sourceTitle": "Original ExamSathi practice item; not a previous-year question",
-            "answerKeyStatus": "reviewed",
-            "reuseStatus": "original"
-          }
-        },
-        {
-          "hi": "कर्क रेखा भारत के कितने राज्यों से होकर गुजरती है?",
-          "en": "Through how many Indian states does the Tropic of Cancer pass?",
-          "optionsHi": [
-            "6",
-            "7",
-            "8",
-            "9"
-          ],
-          "optionsEn": [
-            "6",
-            "7",
-            "8",
-            "9"
-          ],
-          "answer": 2,
-          "whyHi": "कर्क रेखा भारत के आठ राज्यों से होकर गुजरती है।",
-          "whyEn": "The Tropic of Cancer passes through eight Indian states.",
-          "subject": "General Awareness",
-          "topic": "Geography",
-          "difficulty": "moderate",
-          "year": null,
-          "provenance": {
-            "kind": "authored_practice",
-            "questionId": "ssc-chsl-022",
-            "sourceUrl": null,
-            "sourceTitle": "Original ExamSathi practice item; not a previous-year question",
-            "answerKeyStatus": "reviewed",
-            "reuseStatus": "original"
-          }
-        },
-        {
-          "hi": "भारतीय रिज़र्व बैंक की स्थापना किस वर्ष हुई थी?",
-          "en": "In which year was the Reserve Bank of India established?",
-          "optionsHi": [
-            "1930",
-            "1935",
-            "1947",
-            "1949"
-          ],
-          "optionsEn": [
-            "1930",
-            "1935",
-            "1947",
-            "1949"
-          ],
-          "answer": 1,
-          "whyHi": "RBI की स्थापना 1 अप्रैल 1935 को RBI Act, 1934 के अंतर्गत हुई।",
-          "whyEn": "The RBI was established on 1 April 1935 under the RBI Act, 1934.",
-          "subject": "General Awareness",
-          "topic": "Economy",
-          "difficulty": "easy",
-          "year": null,
-          "provenance": {
-            "kind": "authored_practice",
-            "questionId": "ssc-chsl-023",
-            "sourceUrl": null,
-            "sourceTitle": "Original ExamSathi practice item; not a previous-year question",
-            "answerKeyStatus": "reviewed",
-            "reuseStatus": "original"
-          }
-        },
-        {
-          "hi": "प्रकाश संश्लेषण में पौधे मुख्यतः कौन-सी गैस ग्रहण करते हैं?",
-          "en": "Which gas do plants primarily absorb during photosynthesis?",
-          "optionsHi": [
-            "ऑक्सीजन",
-            "नाइट्रोजन",
-            "कार्बन डाइऑक्साइड",
-            "हाइड्रोजन"
-          ],
-          "optionsEn": [
-            "Oxygen",
-            "Nitrogen",
-            "Carbon dioxide",
-            "Hydrogen"
-          ],
-          "answer": 2,
-          "whyHi": "प्रकाश संश्लेषण में पौधे CO₂ और जल से कार्बोहाइड्रेट बनाते हैं तथा ऑक्सीजन छोड़ते हैं।",
-          "whyEn": "In photosynthesis, plants use CO₂ and water to make carbohydrates and release oxygen.",
-          "subject": "General Awareness",
-          "topic": "General science",
-          "difficulty": "easy",
-          "year": null,
-          "provenance": {
-            "kind": "authored_practice",
-            "questionId": "ssc-chsl-024",
-            "sourceUrl": null,
-            "sourceTitle": "Original ExamSathi practice item; not a previous-year question",
-            "answerKeyStatus": "reviewed",
-            "reuseStatus": "original"
-          }
-        },
-        {
-          "hi": "विटामिन B12 में कौन-सा धातु तत्व पाया जाता है?",
-          "en": "Which metallic element is present in vitamin B12?",
-          "optionsHi": [
-            "लोहा",
-            "कोबाल्ट",
-            "जस्ता",
-            "मैग्नीशियम"
-          ],
-          "optionsEn": [
-            "Iron",
-            "Cobalt",
-            "Zinc",
-            "Magnesium"
-          ],
-          "answer": 1,
-          "whyHi": "विटामिन B12 (कोबालामिन) के केंद्र में कोबाल्ट आयन होता है।",
-          "whyEn": "Vitamin B12 (cobalamin) contains a cobalt ion at its centre.",
-          "subject": "General Awareness",
-          "topic": "Biology",
-          "difficulty": "hard",
-          "year": null,
-          "provenance": {
-            "kind": "authored_practice",
-            "questionId": "ssc-chsl-025",
-            "sourceUrl": null,
-            "sourceTitle": "Original ExamSathi practice item; not a previous-year question",
-            "answerKeyStatus": "reviewed",
-            "reuseStatus": "original"
-          }
-        },
-        {
-          "hi": "'दीन-ए-इलाही' की शुरुआत किस मुगल शासक ने की?",
-          "en": "Which Mughal ruler introduced Din-i Ilahi?",
-          "optionsHi": [
-            "बाबर",
-            "हुमायूँ",
-            "अकबर",
-            "जहाँगीर"
-          ],
-          "optionsEn": [
-            "Babur",
-            "Humayun",
-            "Akbar",
-            "Jahangir"
-          ],
-          "answer": 2,
-          "whyHi": "अकबर ने 1582 के आसपास दीन-ए-इलाही की शुरुआत की।",
-          "whyEn": "Akbar introduced Din-i Ilahi around 1582.",
-          "topic": "History",
-          "difficulty": "easy",
-          "year": null,
-          "provenance": {
-            "kind": "authored_practice",
-            "questionId": "ssc-chsl-026",
-            "sourceUrl": null,
-            "sourceTitle": "Original ExamSathi practice item; not a previous-year question",
-            "answerKeyStatus": "reviewed",
-            "reuseStatus": "original"
-          },
-          "subject": "General Awareness"
         }
       ]
     }
