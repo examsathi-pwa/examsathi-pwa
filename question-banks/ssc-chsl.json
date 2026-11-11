@@ -1128,9 +1128,9 @@
             "on",
             "for"
           ],
-          "answer": 1,
-          "whyHi": "The correct collocation is good at.",
-          "whyEn": "The correct collocation is good at.",
+          "answer": 0,
+          "whyHi": "उत्तर से दाएँ मुड़ने पर पूर्व और फिर बाएँ मुड़ने पर उत्तर दिशा होती है।",
+          "whyEn": "From north, a right turn faces east; a left turn from there faces north.",
           "subject": "English Language",
           "topic": "Preposition",
           "difficulty": "easy",
