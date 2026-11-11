@@ -33,16 +33,16 @@
           "hi": "बाल विकास के संदर्भ में ‘विकास’ का सबसे उपयुक्त अर्थ क्या है?",
           "en": "In child development, what is the most appropriate meaning of development?",
           "optionsHi": [
-            "केवल शारीरिक वृद्धि / Physical growth only",
-            "जीवनभर होने वाले गुणात्मक और मात्रात्मक परिवर्तन / Qualitative and quantitative changes across life",
-            "केवल आयु बढ़ना / Increase in age only",
-            "केवल विद्यालयी उपलब्धि / School achievement only"
+            "केवल शारीरिक वृद्धि",
+            "जीवनभर होने वाले गुणात्मक और मात्रात्मक परिवर्तन",
+            "केवल आयु बढ़ना",
+            "केवल विद्यालयी उपलब्धि"
           ],
           "optionsEn": [
-            "केवल शारीरिक वृद्धि / Physical growth only",
-            "जीवनभर होने वाले गुणात्मक और मात्रात्मक परिवर्तन / Qualitative and quantitative changes across life",
-            "केवल आयु बढ़ना / Increase in age only",
-            "केवल विद्यालयी उपलब्धि / School achievement only"
+            "Physical growth only",
+            "Qualitative and quantitative changes across life",
+            "Increase in age only",
+            "School achievement only"
           ],
           "answer": 1,
           "whyHi": "विकास में शारीरिक, संज्ञानात्मक, सामाजिक और भावनात्मक सभी पक्षों में परिवर्तन शामिल हैं।",
@@ -64,16 +64,16 @@
           "hi": "वृद्धि और विकास में मुख्य अंतर क्या है?",
           "en": "What is the main difference between growth and development?",
           "optionsHi": [
-            "वृद्धि गुणात्मक है, विकास केवल मात्रात्मक / Growth is qualitative, development only quantitative",
-            "दोनों समानार्थी हैं / They are synonyms",
-            "वृद्धि मुख्यतः मात्रात्मक, विकास व्यापक और गुणात्मक-मात्रात्मक दोनों / Growth is mainly quantitative; development is broader",
-            "विकास केवल बचपन में होता है / Development occurs only in childhood"
+            "वृद्धि गुणात्मक है, विकास केवल मात्रात्मक",
+            "दोनों समानार्थी हैं",
+            "वृद्धि मुख्यतः मात्रात्मक, विकास व्यापक और गुणात्मक-मात्रात्मक दोनों",
+            "विकास केवल बचपन में होता है"
           ],
           "optionsEn": [
-            "वृद्धि गुणात्मक है, विकास केवल मात्रात्मक / Growth is qualitative, development only quantitative",
-            "दोनों समानार्थी हैं / They are synonyms",
-            "वृद्धि मुख्यतः मात्रात्मक, विकास व्यापक और गुणात्मक-मात्रात्मक दोनों / Growth is mainly quantitative; development is broader",
-            "विकास केवल बचपन में होता है / Development occurs only in childhood"
+            "Growth is qualitative, development only quantitative",
+            "They are synonyms",
+            "Growth is mainly quantitative; development is broader",
+            "Development occurs only in childhood"
           ],
           "answer": 2,
           "whyHi": "वृद्धि सामान्यतः आकार/मात्रा में बदलाव है, जबकि विकास व्यापक कार्यात्मक और गुणात्मक बदलाव भी समेटता है।",
@@ -95,16 +95,16 @@
           "hi": "सिर से पैर की ओर विकास की प्रवृत्ति को क्या कहते हैं?",
           "en": "What is the head-to-toe pattern of development called?",
           "optionsHi": [
-            "निकट-दूर प्रवृत्ति / Proximodistal",
-            "मस्तकाधोमुखी प्रवृत्ति / Cephalocaudal",
-            "सामान्य-विशिष्ट प्रवृत्ति / General-to-specific",
-            "अनियमित प्रवृत्ति / Random pattern"
+            "निकट-दूर प्रवृत्ति",
+            "मस्तकाधोमुखी प्रवृत्ति",
+            "सामान्य-विशिष्ट प्रवृत्ति",
+            "अनियमित प्रवृत्ति"
           ],
           "optionsEn": [
-            "निकट-दूर प्रवृत्ति / Proximodistal",
-            "मस्तकाधोमुखी प्रवृत्ति / Cephalocaudal",
-            "सामान्य-विशिष्ट प्रवृत्ति / General-to-specific",
-            "अनियमित प्रवृत्ति / Random pattern"
+            "Proximodistal",
+            "Cephalocaudal",
+            "General-to-specific",
+            "Random pattern"
           ],
           "answer": 1,
           "whyHi": "Cephalocaudal प्रवृत्ति में नियंत्रण सिर से नीचे के अंगों की ओर विकसित होता है।",
@@ -126,16 +126,16 @@
           "hi": "शरीर के केंद्र से बाहरी अंगों की ओर विकास किस सिद्धांत का उदाहरण है?",
           "en": "Development from the centre of the body towards the extremities illustrates which principle?",
           "optionsHi": [
-            "मस्तकाधोमुखी / Cephalocaudal",
-            "निकट-दूर / Proximodistal",
-            "निरंतरता / Continuity",
-            "परिपक्वता / Maturation"
+            "मस्तकाधोमुखी",
+            "निकट-दूर",
+            "निरंतरता",
+            "परिपक्वता"
           ],
           "optionsEn": [
-            "मस्तकाधोमुखी / Cephalocaudal",
-            "निकट-दूर / Proximodistal",
-            "निरंतरता / Continuity",
-            "परिपक्वता / Maturation"
+            "Cephalocaudal",
+            "Proximodistal",
+            "Continuity",
+            "Maturation"
           ],
           "answer": 1,
           "whyHi": "Proximodistal सिद्धांत के अनुसार नियंत्रण धड़ से हाथों और उँगलियों की ओर बढ़ता है।",
@@ -157,16 +157,16 @@
           "hi": "बाल विकास को सबसे अधिक उपयुक्त रूप से कैसे समझा जाता है?",
           "en": "How is child development best understood?",
           "optionsHi": [
-            "एक ही गति से होने वाली प्रक्रिया / A process at one fixed rate",
-            "केवल आनुवंशिक प्रक्रिया / A purely genetic process",
-            "निरंतर, क्रमबद्ध लेकिन व्यक्तिगत गति में भिन्न प्रक्रिया / Continuous, sequential, but individually variable",
-            "केवल वातावरण से निर्धारित / Determined only by environment"
+            "एक ही गति से होने वाली प्रक्रिया",
+            "केवल आनुवंशिक प्रक्रिया",
+            "निरंतर, क्रमबद्ध लेकिन व्यक्तिगत गति में भिन्न प्रक्रिया",
+            "केवल वातावरण से निर्धारित"
           ],
           "optionsEn": [
-            "एक ही गति से होने वाली प्रक्रिया / A process at one fixed rate",
-            "केवल आनुवंशिक प्रक्रिया / A purely genetic process",
-            "निरंतर, क्रमबद्ध लेकिन व्यक्तिगत गति में भिन्न प्रक्रिया / Continuous, sequential, but individually variable",
-            "केवल वातावरण से निर्धारित / Determined only by environment"
+            "A process at one fixed rate",
+            "A purely genetic process",
+            "Continuous, sequential, but individually variable",
+            "Determined only by environment"
           ],
           "answer": 2,
           "whyHi": "विकास क्रमबद्ध होता है, पर प्रत्येक बच्चे की गति और उपलब्धि अलग हो सकती है।",
@@ -188,16 +188,16 @@
           "hi": "पियाजे के अनुसार ठोस संक्रियात्मक अवस्था सामान्यतः किस आयु में होती है?",
           "en": "According to Piaget, the concrete operational stage generally occurs at what age?",
           "optionsHi": [
-            "0–2 वर्ष / 0–2 years",
-            "2–7 वर्ष / 2–7 years",
-            "7–11 वर्ष / 7–11 years",
-            "12 वर्ष के बाद / After 12 years"
+            "0–2 वर्ष",
+            "2–7 वर्ष",
+            "7–11 वर्ष",
+            "12 वर्ष के बाद"
           ],
           "optionsEn": [
-            "0–2 वर्ष / 0–2 years",
-            "2–7 वर्ष / 2–7 years",
-            "7–11 वर्ष / 7–11 years",
-            "12 वर्ष के बाद / After 12 years"
+            "0–2 years",
+            "2–7 years",
+            "7–11 years",
+            "After 12 years"
           ],
           "answer": 2,
           "whyHi": "ठोस संक्रियात्मक अवस्था लगभग 7 से 11 वर्ष में होती है; बच्चा ठोस वस्तुओं पर तार्किक सोच सकता है।",
@@ -219,16 +219,16 @@
           "hi": "पियाजे की संवेदी-गामक अवस्था की प्रमुख उपलब्धि क्या है?",
           "en": "What is a major achievement of Piaget's sensorimotor stage?",
           "optionsHi": [
-            "संरक्षण की समझ / Conservation",
-            "वस्तु स्थायित्व / Object permanence",
-            "अमूर्त चिंतन / Abstract reasoning",
-            "नैतिक सिद्धांत निर्माण / Formulating moral principles"
+            "संरक्षण की समझ",
+            "वस्तु स्थायित्व",
+            "अमूर्त चिंतन",
+            "नैतिक सिद्धांत निर्माण"
           ],
           "optionsEn": [
-            "संरक्षण की समझ / Conservation",
-            "वस्तु स्थायित्व / Object permanence",
-            "अमूर्त चिंतन / Abstract reasoning",
-            "नैतिक सिद्धांत निर्माण / Formulating moral principles"
+            "Conservation",
+            "Object permanence",
+            "Abstract reasoning",
+            "Formulating moral principles"
           ],
           "answer": 1,
           "whyHi": "वस्तु स्थायित्व का अर्थ है कि वस्तु दिखाई न देने पर भी उसका अस्तित्व बना रहता है।",
@@ -250,16 +250,16 @@
           "hi": "पियाजे के अनुसार ‘आत्मसातीकरण’ (Assimilation) क्या है?",
           "en": "According to Piaget, what is assimilation?",
           "optionsHi": [
-            "नई सूचना के लिए पुरानी योजना बदलना / Changing a schema for new information",
-            "नई सूचना को मौजूदा मानसिक योजना में समझना / Interpreting new information through an existing schema",
-            "सीखना रोक देना / Stopping learning",
-            "केवल नकल करना / Mere imitation"
+            "नई सूचना के लिए पुरानी योजना बदलना",
+            "नई सूचना को मौजूदा मानसिक योजना में समझना",
+            "सीखना रोक देना",
+            "केवल नकल करना"
           ],
           "optionsEn": [
-            "नई सूचना के लिए पुरानी योजना बदलना / Changing a schema for new information",
-            "नई सूचना को मौजूदा मानसिक योजना में समझना / Interpreting new information through an existing schema",
-            "सीखना रोक देना / Stopping learning",
-            "केवल नकल करना / Mere imitation"
+            "Changing a schema for new information",
+            "Interpreting new information through an existing schema",
+            "Stopping learning",
+            "Mere imitation"
           ],
           "answer": 1,
           "whyHi": "आत्मसातीकरण में बच्चा नई जानकारी को पहले से मौजूद schema के माध्यम से समझता है।",
@@ -281,16 +281,16 @@
           "hi": "‘समायोजन’ (Accommodation) का सही उदाहरण कौन-सा है?",
           "en": "Which is a correct example of accommodation?",
           "optionsHi": [
-            "हर चार-पैर वाले जानवर को कुत्ता कहना जारी रखना / Continuing to call every four-legged animal a dog",
-            "नई जानकारी के आधार पर अपनी मानसिक श्रेणी बदलना / Revising a mental category in light of new information",
-            "उत्तर याद कर लेना / Memorising an answer",
-            "दूसरे बच्चे की नकल करना / Copying another child"
+            "हर चार-पैर वाले जानवर को कुत्ता कहना जारी रखना",
+            "नई जानकारी के आधार पर अपनी मानसिक श्रेणी बदलना",
+            "उत्तर याद कर लेना",
+            "दूसरे बच्चे की नकल करना"
           ],
           "optionsEn": [
-            "हर चार-पैर वाले जानवर को कुत्ता कहना जारी रखना / Continuing to call every four-legged animal a dog",
-            "नई जानकारी के आधार पर अपनी मानसिक श्रेणी बदलना / Revising a mental category in light of new information",
-            "उत्तर याद कर लेना / Memorising an answer",
-            "दूसरे बच्चे की नकल करना / Copying another child"
+            "Continuing to call every four-legged animal a dog",
+            "Revising a mental category in light of new information",
+            "Memorising an answer",
+            "Copying another child"
           ],
           "answer": 1,
           "whyHi": "समायोजन में नई परिस्थिति के अनुसार पुरानी मानसिक योजना में बदलाव किया जाता है।",
@@ -312,16 +312,16 @@
           "hi": "वाइगोत्स्की के ‘निकटस्थ विकास क्षेत्र’ (ZPD) का अर्थ क्या है?",
           "en": "What does Vygotsky's Zone of Proximal Development mean?",
           "optionsHi": [
-            "जो बच्चा अकेले कर सकता है / What a child can do alone",
-            "जो बच्चा कभी नहीं कर सकता / What a child can never do",
-            "जो बच्चा सहायता से कर सकता है, पर अभी अकेले नहीं / What a child can do with guidance but not yet independently",
-            "केवल परीक्षा का स्तर / Only the examination level"
+            "जो बच्चा अकेले कर सकता है",
+            "जो बच्चा कभी नहीं कर सकता",
+            "जो बच्चा सहायता से कर सकता है, पर अभी अकेले नहीं",
+            "केवल परीक्षा का स्तर"
           ],
           "optionsEn": [
-            "जो बच्चा अकेले कर सकता है / What a child can do alone",
-            "जो बच्चा कभी नहीं कर सकता / What a child can never do",
-            "जो बच्चा सहायता से कर सकता है, पर अभी अकेले नहीं / What a child can do with guidance but not yet independently",
-            "केवल परीक्षा का स्तर / Only the examination level"
+            "What a child can do alone",
+            "What a child can never do",
+            "What a child can do with guidance but not yet independently",
+            "Only the examination level"
           ],
           "answer": 2,
           "whyHi": "ZPD स्वतंत्र प्रदर्शन और सक्षम व्यक्ति की सहायता से संभावित प्रदर्शन के बीच का अंतर है।",
@@ -343,16 +343,16 @@
           "hi": "शिक्षण में ‘स्कैफोल्डिंग’ का सर्वोत्तम उदाहरण क्या है?",
           "en": "What is the best example of scaffolding in teaching?",
           "optionsHi": [
-            "हर उत्तर शिक्षक स्वयं बता दे / Teacher gives every answer",
-            "सीखने वाले को अस्थायी संकेत और सहायता देकर धीरे-धीरे सहायता हटाना / Providing temporary prompts and gradually withdrawing support",
-            "बच्चे को बिना सहायता छोड़ देना / Leaving the child unsupported",
-            "केवल अंक देना / Only assigning marks"
+            "हर उत्तर शिक्षक स्वयं बता दे",
+            "सीखने वाले को अस्थायी संकेत और सहायता देकर धीरे-धीरे सहायता हटाना",
+            "बच्चे को बिना सहायता छोड़ देना",
+            "केवल अंक देना"
           ],
           "optionsEn": [
-            "हर उत्तर शिक्षक स्वयं बता दे / Teacher gives every answer",
-            "सीखने वाले को अस्थायी संकेत और सहायता देकर धीरे-धीरे सहायता हटाना / Providing temporary prompts and gradually withdrawing support",
-            "बच्चे को बिना सहायता छोड़ देना / Leaving the child unsupported",
-            "केवल अंक देना / Only assigning marks"
+            "Teacher gives every answer",
+            "Providing temporary prompts and gradually withdrawing support",
+            "Leaving the child unsupported",
+            "Only assigning marks"
           ],
           "answer": 1,
           "whyHi": "स्कैफोल्डिंग अस्थायी सहारा है, जिसे दक्षता बढ़ने पर धीरे-धीरे कम किया जाता है।",
@@ -374,16 +374,16 @@
           "hi": "वाइगोत्स्की के सिद्धांत में भाषा की मुख्य भूमिका क्या है?",
           "en": "What is the major role of language in Vygotsky's theory?",
           "optionsHi": [
-            "यह सोच से असंबंधित है / It is unrelated to thinking",
-            "यह सामाजिक संवाद और आत्म-नियमन के विकास में मदद करती है / It supports social interaction and self-regulation",
-            "यह केवल उच्चारण सिखाती है / It teaches pronunciation only",
-            "यह विकास को रोकती है / It hinders development"
+            "यह सोच से असंबंधित है",
+            "यह सामाजिक संवाद और आत्म-नियमन के विकास में मदद करती है",
+            "यह केवल उच्चारण सिखाती है",
+            "यह विकास को रोकती है"
           ],
           "optionsEn": [
-            "यह सोच से असंबंधित है / It is unrelated to thinking",
-            "यह सामाजिक संवाद और आत्म-नियमन के विकास में मदद करती है / It supports social interaction and self-regulation",
-            "यह केवल उच्चारण सिखाती है / It teaches pronunciation only",
-            "यह विकास को रोकती है / It hinders development"
+            "It is unrelated to thinking",
+            "It supports social interaction and self-regulation",
+            "It teaches pronunciation only",
+            "It hinders development"
           ],
           "answer": 1,
           "whyHi": "वाइगोत्स्की भाषा को सामाजिक संवाद और विचारों के आंतरिकीकरण का महत्वपूर्ण साधन मानते हैं।",
@@ -405,16 +405,16 @@
           "hi": "कोहलबर्ग का सिद्धांत मुख्यतः किस विकास से संबंधित है?",
           "en": "Kohlberg's theory is primarily related to which aspect of development?",
           "optionsHi": [
-            "भाषा विकास / Language development",
-            "नैतिक तर्क / Moral reasoning",
-            "शारीरिक विकास / Physical development",
-            "सृजनात्मकता / Creativity"
+            "भाषा विकास",
+            "नैतिक तर्क",
+            "शारीरिक विकास",
+            "सृजनात्मकता"
           ],
           "optionsEn": [
-            "भाषा विकास / Language development",
-            "नैतिक तर्क / Moral reasoning",
-            "शारीरिक विकास / Physical development",
-            "सृजनात्मकता / Creativity"
+            "Language development",
+            "Moral reasoning",
+            "Physical development",
+            "Creativity"
           ],
           "answer": 1,
           "whyHi": "कोहलबर्ग ने नैतिक निर्णय और तर्क के विकास के स्तरों का वर्णन किया।",
@@ -436,16 +436,16 @@
           "hi": "कोहलबर्ग के पूर्व-परंपरागत स्तर पर बच्चा प्रायः किस आधार पर निर्णय लेता है?",
           "en": "At Kohlberg's pre-conventional level, a child often makes decisions based on what?",
           "optionsHi": [
-            "सार्वभौमिक नैतिक सिद्धांत / Universal ethical principles",
-            "दंड से बचना और पुरस्कार पाना / Avoiding punishment and obtaining rewards",
-            "सामाजिक अनुबंध / Social contract",
-            "कानून की आलोचनात्मक समीक्षा / Critical review of laws"
+            "सार्वभौमिक नैतिक सिद्धांत",
+            "दंड से बचना और पुरस्कार पाना",
+            "सामाजिक अनुबंध",
+            "कानून की आलोचनात्मक समीक्षा"
           ],
           "optionsEn": [
-            "सार्वभौमिक नैतिक सिद्धांत / Universal ethical principles",
-            "दंड से बचना और पुरस्कार पाना / Avoiding punishment and obtaining rewards",
-            "सामाजिक अनुबंध / Social contract",
-            "कानून की आलोचनात्मक समीक्षा / Critical review of laws"
+            "Universal ethical principles",
+            "Avoiding punishment and obtaining rewards",
+            "Social contract",
+            "Critical review of laws"
           ],
           "answer": 1,
           "whyHi": "इस स्तर पर निर्णय का आधार दंड, पुरस्कार और व्यक्तिगत परिणाम होते हैं।",
@@ -467,16 +467,16 @@
           "hi": "बहु-बुद्धि सिद्धांत किस मनोवैज्ञानिक ने प्रस्तावित किया?",
           "en": "Who proposed the theory of multiple intelligences?",
           "optionsHi": [
-            "जीन पियाजे / Jean Piaget",
-            "हॉवर्ड गार्डनर / Howard Gardner",
-            "बी. एफ. स्किनर / B. F. Skinner",
-            "लॉरेंस कोहलबर्ग / Lawrence Kohlberg"
+            "जीन पियाजे",
+            "हॉवर्ड गार्डनर",
+            "बी. एफ. स्किनर",
+            "लॉरेंस कोहलबर्ग"
           ],
           "optionsEn": [
-            "जीन पियाजे / Jean Piaget",
-            "हॉवर्ड गार्डनर / Howard Gardner",
-            "बी. एफ. स्किनर / B. F. Skinner",
-            "लॉरेंस कोहलबर्ग / Lawrence Kohlberg"
+            "Jean Piaget",
+            "Howard Gardner",
+            "B. F. Skinner",
+            "Lawrence Kohlberg"
           ],
           "answer": 1,
           "whyHi": "हॉवर्ड गार्डनर ने बुद्धि के अनेक अपेक्षाकृत स्वतंत्र रूपों का प्रस्ताव किया।",
@@ -498,16 +498,16 @@
           "hi": "यदि विद्यार्थी संगीत, लय और ध्वनि के प्रति विशेष संवेदनशील है, तो गार्डनर के अनुसार कौन-सी बुद्धि प्रमुख हो सकती है?",
           "en": "A learner is especially sensitive to music, rhythm and sound. Which intelligence may be prominent according to Gardner?",
           "optionsHi": [
-            "स्थानिक / Spatial",
-            "संगीतात्मक / Musical",
-            "अंतरवैयक्तिक / Interpersonal",
-            "प्राकृतिक / Naturalistic"
+            "स्थानिक",
+            "संगीतात्मक",
+            "अंतरवैयक्तिक",
+            "प्राकृतिक"
           ],
           "optionsEn": [
-            "स्थानिक / Spatial",
-            "संगीतात्मक / Musical",
-            "अंतरवैयक्तिक / Interpersonal",
-            "प्राकृतिक / Naturalistic"
+            "Spatial",
+            "Musical",
+            "Interpersonal",
+            "Naturalistic"
           ],
           "answer": 1,
           "whyHi": "लय, स्वर और ध्वनि के प्रति संवेदनशीलता संगीतात्मक बुद्धि से जुड़ी है।",
@@ -529,16 +529,16 @@
           "hi": "समावेशी शिक्षा का मूल सिद्धांत क्या है?",
           "en": "What is the core principle of inclusive education?",
           "optionsHi": [
-            "विशेष आवश्यकता वाले बच्चों को अलग रखना / Separating children with special needs",
-            "सभी बच्चों को आवश्यक सहयोग के साथ साथ सीखने का अवसर देना / Enabling all children to learn together with appropriate support",
-            "केवल तेज विद्यार्थियों को पढ़ाना / Teaching only high achievers",
-            "सभी के लिए एक जैसी विधि अनिवार्य करना / Mandating one identical method for all"
+            "विशेष आवश्यकता वाले बच्चों को अलग रखना",
+            "सभी बच्चों को आवश्यक सहयोग के साथ साथ सीखने का अवसर देना",
+            "केवल तेज विद्यार्थियों को पढ़ाना",
+            "सभी के लिए एक जैसी विधि अनिवार्य करना"
           ],
           "optionsEn": [
-            "विशेष आवश्यकता वाले बच्चों को अलग रखना / Separating children with special needs",
-            "सभी बच्चों को आवश्यक सहयोग के साथ साथ सीखने का अवसर देना / Enabling all children to learn together with appropriate support",
-            "केवल तेज विद्यार्थियों को पढ़ाना / Teaching only high achievers",
-            "सभी के लिए एक जैसी विधि अनिवार्य करना / Mandating one identical method for all"
+            "Separating children with special needs",
+            "Enabling all children to learn together with appropriate support",
+            "Teaching only high achievers",
+            "Mandating one identical method for all"
           ],
           "answer": 1,
           "whyHi": "समावेशी शिक्षा विविध आवश्यकताओं को स्वीकार कर बाधाएँ कम करती है और सहभागिता सुनिश्चित करती है।",
@@ -560,16 +560,16 @@
           "hi": "‘व्यक्तिगत भिन्नता’ को ध्यान में रखते हुए शिक्षक को क्या करना चाहिए?",
           "en": "What should a teacher do while considering individual differences?",
           "optionsHi": [
-            "सभी से समान गति की अपेक्षा / Expect the same pace from everyone",
-            "केवल औसत विद्यार्थी पर ध्यान / Focus only on the average learner",
-            "विविध गतिविधियाँ और लचीले तरीके अपनाना / Use varied activities and flexible approaches",
-            "कम उपलब्धि वाले बच्चों को अनदेखा करना / Ignore low achievers"
+            "सभी से समान गति की अपेक्षा",
+            "केवल औसत विद्यार्थी पर ध्यान",
+            "विविध गतिविधियाँ और लचीले तरीके अपनाना",
+            "कम उपलब्धि वाले बच्चों को अनदेखा करना"
           ],
           "optionsEn": [
-            "सभी से समान गति की अपेक्षा / Expect the same pace from everyone",
-            "केवल औसत विद्यार्थी पर ध्यान / Focus only on the average learner",
-            "विविध गतिविधियाँ और लचीले तरीके अपनाना / Use varied activities and flexible approaches",
-            "कम उपलब्धि वाले बच्चों को अनदेखा करना / Ignore low achievers"
+            "Expect the same pace from everyone",
+            "Focus only on the average learner",
+            "Use varied activities and flexible approaches",
+            "Ignore low achievers"
           ],
           "answer": 2,
           "whyHi": "लचीली शिक्षण रणनीतियाँ अलग-अलग गति, रुचि और सीखने की जरूरतों को पूरा करती हैं।",
@@ -591,16 +591,16 @@
           "hi": "डिस्लेक्सिया मुख्यतः किस कठिनाई से संबंधित है?",
           "en": "Dyslexia is primarily associated with difficulty in which area?",
           "optionsHi": [
-            "पढ़ने और शब्द पहचानने / Reading and word recognition",
-            "चलने / Walking",
-            "सुनने / Hearing",
-            "रंग पहचानने / Colour recognition"
+            "पढ़ने और शब्द पहचानने",
+            "चलने",
+            "सुनने",
+            "रंग पहचानने"
           ],
           "optionsEn": [
-            "पढ़ने और शब्द पहचानने / Reading and word recognition",
-            "चलने / Walking",
-            "सुनने / Hearing",
-            "रंग पहचानने / Colour recognition"
+            "Reading and word recognition",
+            "Walking",
+            "Hearing",
+            "Colour recognition"
           ],
           "answer": 0,
           "whyHi": "डिस्लेक्सिया एक विशिष्ट अधिगम कठिनाई है जो मुख्यतः पढ़ने की दक्षता को प्रभावित करती है।",
@@ -622,16 +622,16 @@
           "hi": "डिस्कैल्कुलिया किस क्षेत्र में कठिनाई से संबंधित है?",
           "en": "Dyscalculia is associated with difficulty in which area?",
           "optionsHi": [
-            "लेखन / Writing",
-            "गणितीय अवधारणाएँ और संख्यात्मक कौशल / Mathematical concepts and number skills",
-            "सामाजिक संवाद / Social interaction",
-            "श्रवण स्मृति / Auditory memory"
+            "लेखन",
+            "गणितीय अवधारणाएँ और संख्यात्मक कौशल",
+            "सामाजिक संवाद",
+            "श्रवण स्मृति"
           ],
           "optionsEn": [
-            "लेखन / Writing",
-            "गणितीय अवधारणाएँ और संख्यात्मक कौशल / Mathematical concepts and number skills",
-            "सामाजिक संवाद / Social interaction",
-            "श्रवण स्मृति / Auditory memory"
+            "Writing",
+            "Mathematical concepts and number skills",
+            "Social interaction",
+            "Auditory memory"
           ],
           "answer": 1,
           "whyHi": "डिस्कैल्कुलिया में संख्या-बोध और गणितीय प्रक्रियाओं में कठिनाई हो सकती है।",
@@ -653,16 +653,16 @@
           "hi": "ADHD वाले विद्यार्थी के लिए कौन-सी कक्षा रणनीति उपयोगी हो सकती है?",
           "en": "Which classroom strategy may help a learner with ADHD?",
           "optionsHi": [
-            "लंबे और अस्पष्ट निर्देश / Long and vague instructions",
-            "छोटे स्पष्ट निर्देश, संरचित दिनचर्या और छोटे कार्य / Short clear instructions, structured routines and manageable tasks",
-            "दंड को मुख्य उपाय बनाना / Rely mainly on punishment",
-            "उसे गतिविधियों से बाहर रखना / Exclude the learner from activities"
+            "लंबे और अस्पष्ट निर्देश",
+            "छोटे स्पष्ट निर्देश, संरचित दिनचर्या और छोटे कार्य",
+            "दंड को मुख्य उपाय बनाना",
+            "उसे गतिविधियों से बाहर रखना"
           ],
           "optionsEn": [
-            "लंबे और अस्पष्ट निर्देश / Long and vague instructions",
-            "छोटे स्पष्ट निर्देश, संरचित दिनचर्या और छोटे कार्य / Short clear instructions, structured routines and manageable tasks",
-            "दंड को मुख्य उपाय बनाना / Rely mainly on punishment",
-            "उसे गतिविधियों से बाहर रखना / Exclude the learner from activities"
+            "Long and vague instructions",
+            "Short clear instructions, structured routines and manageable tasks",
+            "Rely mainly on punishment",
+            "Exclude the learner from activities"
           ],
           "answer": 1,
           "whyHi": "स्पष्ट छोटे चरण, नियमितता और सकारात्मक प्रतिक्रिया ध्यान एवं कार्य-नियोजन में मदद कर सकते हैं।",
@@ -684,16 +684,16 @@
           "hi": "प्रतिभाशाली विद्यार्थी के लिए उपयुक्त शैक्षिक व्यवस्था क्या है?",
           "en": "What is an appropriate educational provision for a gifted learner?",
           "optionsHi": [
-            "उसे बार-बार वही सरल कार्य देना / Repeating the same easy tasks",
-            "समृद्ध, चुनौतीपूर्ण और गहन अधिगम अवसर देना / Providing enriched, challenging and deeper learning opportunities",
-            "उसे सहपाठियों से अलग कर देना / Isolating the learner",
-            "उसकी जिज्ञासा रोकना / Discouraging curiosity"
+            "उसे बार-बार वही सरल कार्य देना",
+            "समृद्ध, चुनौतीपूर्ण और गहन अधिगम अवसर देना",
+            "उसे सहपाठियों से अलग कर देना",
+            "उसकी जिज्ञासा रोकना"
           ],
           "optionsEn": [
-            "उसे बार-बार वही सरल कार्य देना / Repeating the same easy tasks",
-            "समृद्ध, चुनौतीपूर्ण और गहन अधिगम अवसर देना / Providing enriched, challenging and deeper learning opportunities",
-            "उसे सहपाठियों से अलग कर देना / Isolating the learner",
-            "उसकी जिज्ञासा रोकना / Discouraging curiosity"
+            "Repeating the same easy tasks",
+            "Providing enriched, challenging and deeper learning opportunities",
+            "Isolating the learner",
+            "Discouraging curiosity"
           ],
           "answer": 1,
           "whyHi": "समृद्धिकरण और चुनौतीपूर्ण कार्य प्रतिभाशाली विद्यार्थियों की उच्च क्षमता और जिज्ञासा को विकसित करते हैं।",
@@ -715,16 +715,16 @@
           "hi": "लिंग (Gender) को सामाजिक निर्माण मानने का क्या आशय है?",
           "en": "What does it mean to regard gender as a social construct?",
           "optionsHi": [
-            "जैविक अंतर ही सभी भूमिकाएँ तय करते हैं / Biology alone determines all roles",
-            "समाज कई भूमिकाएँ और अपेक्षाएँ निर्मित करता है / Society shapes many roles and expectations",
-            "लिंग का शिक्षा से कोई संबंध नहीं / Gender has no relation to education",
-            "सभी संस्कृतियों में भूमिकाएँ समान हैं / Roles are identical in all cultures"
+            "जैविक अंतर ही सभी भूमिकाएँ तय करते हैं",
+            "समाज कई भूमिकाएँ और अपेक्षाएँ निर्मित करता है",
+            "लिंग का शिक्षा से कोई संबंध नहीं",
+            "सभी संस्कृतियों में भूमिकाएँ समान हैं"
           ],
           "optionsEn": [
-            "जैविक अंतर ही सभी भूमिकाएँ तय करते हैं / Biology alone determines all roles",
-            "समाज कई भूमिकाएँ और अपेक्षाएँ निर्मित करता है / Society shapes many roles and expectations",
-            "लिंग का शिक्षा से कोई संबंध नहीं / Gender has no relation to education",
-            "सभी संस्कृतियों में भूमिकाएँ समान हैं / Roles are identical in all cultures"
+            "Biology alone determines all roles",
+            "Society shapes many roles and expectations",
+            "Gender has no relation to education",
+            "Roles are identical in all cultures"
           ],
           "answer": 1,
           "whyHi": "लैंगिक भूमिकाएँ और अपेक्षाएँ सामाजिक-सांस्कृतिक प्रक्रियाओं से प्रभावित होती हैं।",
@@ -746,16 +746,16 @@
           "hi": "कक्षा में लैंगिक समानता बढ़ाने का उचित तरीका क्या है?",
           "en": "What is an appropriate way to promote gender equity in the classroom?",
           "optionsHi": [
-            "लड़कों को विज्ञान और लड़कियों को कला देना / Assign science to boys and art to girls",
-            "सभी को सभी गतिविधियों में समान अवसर देना / Give everyone equal access to all activities",
-            "लड़कियों से कम प्रश्न पूछना / Ask girls fewer questions",
-            "लिंग के आधार पर नेतृत्व बाँटना / Allocate leadership by gender"
+            "लड़कों को विज्ञान और लड़कियों को कला देना",
+            "सभी को सभी गतिविधियों में समान अवसर देना",
+            "लड़कियों से कम प्रश्न पूछना",
+            "लिंग के आधार पर नेतृत्व बाँटना"
           ],
           "optionsEn": [
-            "लड़कों को विज्ञान और लड़कियों को कला देना / Assign science to boys and art to girls",
-            "सभी को सभी गतिविधियों में समान अवसर देना / Give everyone equal access to all activities",
-            "लड़कियों से कम प्रश्न पूछना / Ask girls fewer questions",
-            "लिंग के आधार पर नेतृत्व बाँटना / Allocate leadership by gender"
+            "Assign science to boys and art to girls",
+            "Give everyone equal access to all activities",
+            "Ask girls fewer questions",
+            "Allocate leadership by gender"
           ],
           "answer": 1,
           "whyHi": "समान अवसर और रूढ़ियों से मुक्त सहभागिता लैंगिक समानता को बढ़ाती है।",
@@ -777,16 +777,16 @@
           "hi": "आंतरिक प्रेरणा का उदाहरण कौन-सा है?",
           "en": "Which is an example of intrinsic motivation?",
           "optionsHi": [
-            "केवल पुरस्कार पाने के लिए पढ़ना / Studying only for a prize",
-            "दंड से बचने के लिए पढ़ना / Studying to avoid punishment",
-            "विषय में रुचि के कारण स्वयं पढ़ना / Studying independently out of interest in the subject",
-            "अंक के डर से पढ़ना / Studying out of fear of marks"
+            "केवल पुरस्कार पाने के लिए पढ़ना",
+            "दंड से बचने के लिए पढ़ना",
+            "विषय में रुचि के कारण स्वयं पढ़ना",
+            "अंक के डर से पढ़ना"
           ],
           "optionsEn": [
-            "केवल पुरस्कार पाने के लिए पढ़ना / Studying only for a prize",
-            "दंड से बचने के लिए पढ़ना / Studying to avoid punishment",
-            "विषय में रुचि के कारण स्वयं पढ़ना / Studying independently out of interest in the subject",
-            "अंक के डर से पढ़ना / Studying out of fear of marks"
+            "Studying only for a prize",
+            "Studying to avoid punishment",
+            "Studying independently out of interest in the subject",
+            "Studying out of fear of marks"
           ],
           "answer": 2,
           "whyHi": "आंतरिक प्रेरणा गतिविधि में निहित रुचि, आनंद या जिज्ञासा से उत्पन्न होती है।",
@@ -808,16 +808,16 @@
           "hi": "सीखने में सकारात्मक पुनर्बलन का अर्थ क्या है?",
           "en": "What does positive reinforcement mean in learning?",
           "optionsHi": [
-            "वांछित व्यवहार के बाद सुखद परिणाम देना / Providing a desirable consequence after a behaviour",
-            "हर गलती पर दंड देना / Punishing every mistake",
-            "प्रतिक्रिया न देना / Giving no feedback",
-            "कार्य कठिन कर देना / Making the task harder"
+            "वांछित व्यवहार के बाद सुखद परिणाम देना",
+            "हर गलती पर दंड देना",
+            "प्रतिक्रिया न देना",
+            "कार्य कठिन कर देना"
           ],
           "optionsEn": [
-            "वांछित व्यवहार के बाद सुखद परिणाम देना / Providing a desirable consequence after a behaviour",
-            "हर गलती पर दंड देना / Punishing every mistake",
-            "प्रतिक्रिया न देना / Giving no feedback",
-            "कार्य कठिन कर देना / Making the task harder"
+            "Providing a desirable consequence after a behaviour",
+            "Punishing every mistake",
+            "Giving no feedback",
+            "Making the task harder"
           ],
           "answer": 0,
           "whyHi": "सकारात्मक पुनर्बलन वांछित व्यवहार के बाद सकारात्मक परिणाम देकर उसकी पुनरावृत्ति की संभावना बढ़ाता है।",
@@ -839,16 +839,16 @@
           "hi": "रचनावादी कक्षा में विद्यार्थी की भूमिका क्या होती है?",
           "en": "What is the learner's role in a constructivist classroom?",
           "optionsHi": [
-            "निष्क्रिय श्रोता / Passive listener",
-            "ज्ञान का सक्रिय निर्माणकर्ता / Active constructor of knowledge",
-            "केवल नोट्स नकल करने वाला / Mere copier of notes",
-            "केवल उत्तर याद करने वाला / Memoriser of answers only"
+            "निष्क्रिय श्रोता",
+            "ज्ञान का सक्रिय निर्माणकर्ता",
+            "केवल नोट्स नकल करने वाला",
+            "केवल उत्तर याद करने वाला"
           ],
           "optionsEn": [
-            "निष्क्रिय श्रोता / Passive listener",
-            "ज्ञान का सक्रिय निर्माणकर्ता / Active constructor of knowledge",
-            "केवल नोट्स नकल करने वाला / Mere copier of notes",
-            "केवल उत्तर याद करने वाला / Memoriser of answers only"
+            "Passive listener",
+            "Active constructor of knowledge",
+            "Mere copier of notes",
+            "Memoriser of answers only"
           ],
           "answer": 1,
           "whyHi": "रचनावाद में विद्यार्थी अनुभव, पूर्वज्ञान और संवाद से अर्थ का निर्माण करता है।",
@@ -870,16 +870,16 @@
           "hi": "पूर्वज्ञान को नए पाठ से जोड़ने का मुख्य लाभ क्या है?",
           "en": "What is the main benefit of connecting prior knowledge to a new lesson?",
           "optionsHi": [
-            "सीखना यांत्रिक हो जाता है / Learning becomes mechanical",
-            "नई जानकारी अर्थपूर्ण ढंग से जुड़ती है / New information is connected meaningfully",
-            "जिज्ञासा घटती है / Curiosity decreases",
-            "गलत धारणाएँ कभी नहीं बनतीं / Misconceptions never occur"
+            "सीखना यांत्रिक हो जाता है",
+            "नई जानकारी अर्थपूर्ण ढंग से जुड़ती है",
+            "जिज्ञासा घटती है",
+            "गलत धारणाएँ कभी नहीं बनतीं"
           ],
           "optionsEn": [
-            "सीखना यांत्रिक हो जाता है / Learning becomes mechanical",
-            "नई जानकारी अर्थपूर्ण ढंग से जुड़ती है / New information is connected meaningfully",
-            "जिज्ञासा घटती है / Curiosity decreases",
-            "गलत धारणाएँ कभी नहीं बनतीं / Misconceptions never occur"
+            "Learning becomes mechanical",
+            "New information is connected meaningfully",
+            "Curiosity decreases",
+            "Misconceptions never occur"
           ],
           "answer": 1,
           "whyHi": "पूर्वज्ञान से संबंध नई अवधारणाओं को अर्थपूर्ण ढंग से समझने और याद रखने में मदद करता है।",
@@ -901,16 +901,16 @@
           "hi": "‘करके सीखना’ (Learning by doing) किस दृष्टिकोण से निकटता रखता है?",
           "en": "Learning by doing is closely associated with which approach?",
           "optionsHi": [
-            "अनुभवात्मक अधिगम / Experiential learning",
-            "रटकर याद करना / Rote memorisation",
-            "निष्क्रिय व्याख्यान / Passive lecturing",
-            "केवल दंड आधारित शिक्षण / Punishment-based teaching"
+            "अनुभवात्मक अधिगम",
+            "रटकर याद करना",
+            "निष्क्रिय व्याख्यान",
+            "केवल दंड आधारित शिक्षण"
           ],
           "optionsEn": [
-            "अनुभवात्मक अधिगम / Experiential learning",
-            "रटकर याद करना / Rote memorisation",
-            "निष्क्रिय व्याख्यान / Passive lecturing",
-            "केवल दंड आधारित शिक्षण / Punishment-based teaching"
+            "Experiential learning",
+            "Rote memorisation",
+            "Passive lecturing",
+            "Punishment-based teaching"
           ],
           "answer": 0,
           "whyHi": "अनुभवात्मक अधिगम में विद्यार्थी गतिविधि, अनुभव और चिंतन के माध्यम से सीखते हैं।",
@@ -932,16 +932,16 @@
           "hi": "बच्चे की गलती को शिक्षक को किस रूप में देखना चाहिए?",
           "en": "How should a teacher view a child's error?",
           "optionsHi": [
-            "अयोग्यता का प्रमाण / Proof of inability",
-            "सीखने की प्रक्रिया का संकेत / Evidence about the learning process",
-            "दंड देने का अवसर / An opportunity for punishment",
-            "हमेशा लापरवाही / Always carelessness"
+            "अयोग्यता का प्रमाण",
+            "सीखने की प्रक्रिया का संकेत",
+            "दंड देने का अवसर",
+            "हमेशा लापरवाही"
           ],
           "optionsEn": [
-            "अयोग्यता का प्रमाण / Proof of inability",
-            "सीखने की प्रक्रिया का संकेत / Evidence about the learning process",
-            "दंड देने का अवसर / An opportunity for punishment",
-            "हमेशा लापरवाही / Always carelessness"
+            "Proof of inability",
+            "Evidence about the learning process",
+            "An opportunity for punishment",
+            "Always carelessness"
           ],
           "answer": 1,
           "whyHi": "गलतियाँ बच्चे की सोच और भ्रांतियों को समझने का अवसर देती हैं।",
@@ -963,16 +963,16 @@
           "hi": "निदानात्मक मूल्यांकन का मुख्य उद्देश्य क्या है?",
           "en": "What is the main purpose of diagnostic assessment?",
           "optionsHi": [
-            "अंतिम ग्रेड देना / Assigning a final grade",
-            "सीखने की कठिनाइयों और उनके कारणों की पहचान / Identifying learning difficulties and their causes",
-            "विद्यालय की रैंकिंग / Ranking schools",
-            "केवल उपस्थिति मापना / Measuring attendance only"
+            "अंतिम ग्रेड देना",
+            "सीखने की कठिनाइयों और उनके कारणों की पहचान",
+            "विद्यालय की रैंकिंग",
+            "केवल उपस्थिति मापना"
           ],
           "optionsEn": [
-            "अंतिम ग्रेड देना / Assigning a final grade",
-            "सीखने की कठिनाइयों और उनके कारणों की पहचान / Identifying learning difficulties and their causes",
-            "विद्यालय की रैंकिंग / Ranking schools",
-            "केवल उपस्थिति मापना / Measuring attendance only"
+            "Assigning a final grade",
+            "Identifying learning difficulties and their causes",
+            "Ranking schools",
+            "Measuring attendance only"
           ],
           "answer": 1,
           "whyHi": "निदानात्मक मूल्यांकन कठिनाई के विशिष्ट क्षेत्र और संभावित कारण पहचानता है।",
@@ -994,16 +994,16 @@
           "hi": "रचनात्मक (Formative) मूल्यांकन कब किया जाता है?",
           "en": "When is formative assessment conducted?",
           "optionsHi": [
-            "केवल पाठ्यक्रम के अंत में / Only at the end of the course",
-            "अधिगम प्रक्रिया के दौरान / During the learning process",
-            "केवल प्रवेश के समय / Only at admission",
-            "केवल वार्षिक परीक्षा में / Only in the annual examination"
+            "केवल पाठ्यक्रम के अंत में",
+            "अधिगम प्रक्रिया के दौरान",
+            "केवल प्रवेश के समय",
+            "केवल वार्षिक परीक्षा में"
           ],
           "optionsEn": [
-            "केवल पाठ्यक्रम के अंत में / Only at the end of the course",
-            "अधिगम प्रक्रिया के दौरान / During the learning process",
-            "केवल प्रवेश के समय / Only at admission",
-            "केवल वार्षिक परीक्षा में / Only in the annual examination"
+            "Only at the end of the course",
+            "During the learning process",
+            "Only at admission",
+            "Only in the annual examination"
           ],
           "answer": 1,
           "whyHi": "रचनात्मक मूल्यांकन सीखने के दौरान प्रतिक्रिया देकर शिक्षण और अधिगम में सुधार करता है।",
@@ -1025,16 +1025,16 @@
           "hi": "समापनात्मक (Summative) मूल्यांकन का प्रमुख उद्देश्य क्या है?",
           "en": "What is the main purpose of summative assessment?",
           "optionsHi": [
-            "सीखने के दौरान तत्काल सुधार / Immediate improvement during learning",
-            "एक अवधि के अंत में उपलब्धि का आकलन / Judging achievement at the end of a period",
-            "कक्षा में चर्चा शुरू करना / Starting classroom discussion",
-            "सीखने की शैली पहचानना / Identifying learning style"
+            "सीखने के दौरान तत्काल सुधार",
+            "एक अवधि के अंत में उपलब्धि का आकलन",
+            "कक्षा में चर्चा शुरू करना",
+            "सीखने की शैली पहचानना"
           ],
           "optionsEn": [
-            "सीखने के दौरान तत्काल सुधार / Immediate improvement during learning",
-            "एक अवधि के अंत में उपलब्धि का आकलन / Judging achievement at the end of a period",
-            "कक्षा में चर्चा शुरू करना / Starting classroom discussion",
-            "सीखने की शैली पहचानना / Identifying learning style"
+            "Immediate improvement during learning",
+            "Judging achievement at the end of a period",
+            "Starting classroom discussion",
+            "Identifying learning style"
           ],
           "answer": 1,
           "whyHi": "समापनात्मक मूल्यांकन इकाई, सत्र या पाठ्यक्रम के अंत में उपलब्धि का सार प्रस्तुत करता है।",
@@ -1056,16 +1056,16 @@
           "hi": "‘Assessment for learning’ का सबसे अच्छा उदाहरण क्या है?",
           "en": "Which is the best example of assessment for learning?",
           "optionsHi": [
-            "केवल अंतिम परीक्षा का अंक / Only the final exam score",
-            "क्विज़ के बाद प्रतिक्रिया देकर अगली शिक्षण गतिविधि बदलना / Using quiz feedback to adapt the next lesson",
-            "केवल प्रमाणपत्र देना / Issuing a certificate only",
-            "विद्यार्थियों की सार्वजनिक रैंकिंग / Publicly ranking learners"
+            "केवल अंतिम परीक्षा का अंक",
+            "क्विज़ के बाद प्रतिक्रिया देकर अगली शिक्षण गतिविधि बदलना",
+            "केवल प्रमाणपत्र देना",
+            "विद्यार्थियों की सार्वजनिक रैंकिंग"
           ],
           "optionsEn": [
-            "केवल अंतिम परीक्षा का अंक / Only the final exam score",
-            "क्विज़ के बाद प्रतिक्रिया देकर अगली शिक्षण गतिविधि बदलना / Using quiz feedback to adapt the next lesson",
-            "केवल प्रमाणपत्र देना / Issuing a certificate only",
-            "विद्यार्थियों की सार्वजनिक रैंकिंग / Publicly ranking learners"
+            "Only the final exam score",
+            "Using quiz feedback to adapt the next lesson",
+            "Issuing a certificate only",
+            "Publicly ranking learners"
           ],
           "answer": 1,
           "whyHi": "Assessment for learning का उद्देश्य प्रतिक्रिया के आधार पर आगे के अधिगम को बेहतर बनाना है।",
@@ -1087,16 +1087,16 @@
           "hi": "सतत एवं व्यापक मूल्यांकन (CCE) का व्यापक आशय क्या है?",
           "en": "What is the broad meaning of Continuous and Comprehensive Evaluation (CCE)?",
           "optionsHi": [
-            "केवल वार्षिक लिखित परीक्षा / Only an annual written examination",
-            "नियमित और विविध क्षेत्रों में विद्यार्थी की प्रगति का आकलन / Regular assessment across varied areas of development",
-            "केवल खेल का मूल्यांकन / Assessment of sports only",
-            "केवल उपस्थिति का रिकॉर्ड / Attendance record only"
+            "केवल वार्षिक लिखित परीक्षा",
+            "नियमित और विविध क्षेत्रों में विद्यार्थी की प्रगति का आकलन",
+            "केवल खेल का मूल्यांकन",
+            "केवल उपस्थिति का रिकॉर्ड"
           ],
           "optionsEn": [
-            "केवल वार्षिक लिखित परीक्षा / Only an annual written examination",
-            "नियमित और विविध क्षेत्रों में विद्यार्थी की प्रगति का आकलन / Regular assessment across varied areas of development",
-            "केवल खेल का मूल्यांकन / Assessment of sports only",
-            "केवल उपस्थिति का रिकॉर्ड / Attendance record only"
+            "Only an annual written examination",
+            "Regular assessment across varied areas of development",
+            "Assessment of sports only",
+            "Attendance record only"
           ],
           "answer": 1,
           "whyHi": "CCE शैक्षिक और सह-शैक्षिक क्षेत्रों में निरंतर प्रगति पर ध्यान देता है।",
@@ -1118,16 +1118,16 @@
           "hi": "पोर्टफोलियो मूल्यांकन में क्या संकलित किया जाता है?",
           "en": "What is collected in portfolio assessment?",
           "optionsHi": [
-            "केवल एक अंतिम अंक / A single final score",
-            "समय के साथ विद्यार्थी के कार्यों के नमूने / Samples of a learner's work over time",
-            "केवल उपस्थिति पत्रक / Attendance sheets only",
-            "केवल मौखिक परीक्षा / Oral test only"
+            "केवल एक अंतिम अंक",
+            "समय के साथ विद्यार्थी के कार्यों के नमूने",
+            "केवल उपस्थिति पत्रक",
+            "केवल मौखिक परीक्षा"
           ],
           "optionsEn": [
-            "केवल एक अंतिम अंक / A single final score",
-            "समय के साथ विद्यार्थी के कार्यों के नमूने / Samples of a learner's work over time",
-            "केवल उपस्थिति पत्रक / Attendance sheets only",
-            "केवल मौखिक परीक्षा / Oral test only"
+            "A single final score",
+            "Samples of a learner's work over time",
+            "Attendance sheets only",
+            "Oral test only"
           ],
           "answer": 1,
           "whyHi": "पोर्टफोलियो समय के साथ कार्य, प्रगति और चिंतन का प्रमाण प्रस्तुत करता है।",
@@ -1149,16 +1149,16 @@
           "hi": "सहपाठी मूल्यांकन का एक प्रमुख लाभ क्या है?",
           "en": "What is a major benefit of peer assessment?",
           "optionsHi": [
-            "शिक्षक की भूमिका समाप्त करना / Eliminating the teacher's role",
-            "मानदंड समझना और रचनात्मक प्रतिक्रिया देना सीखना / Learning criteria and giving constructive feedback",
-            "प्रतिस्पर्धा को ही लक्ष्य बनाना / Making competition the only goal",
-            "अंक बिना मानदंड देना / Awarding marks without criteria"
+            "शिक्षक की भूमिका समाप्त करना",
+            "मानदंड समझना और रचनात्मक प्रतिक्रिया देना सीखना",
+            "प्रतिस्पर्धा को ही लक्ष्य बनाना",
+            "अंक बिना मानदंड देना"
           ],
           "optionsEn": [
-            "शिक्षक की भूमिका समाप्त करना / Eliminating the teacher's role",
-            "मानदंड समझना और रचनात्मक प्रतिक्रिया देना सीखना / Learning criteria and giving constructive feedback",
-            "प्रतिस्पर्धा को ही लक्ष्य बनाना / Making competition the only goal",
-            "अंक बिना मानदंड देना / Awarding marks without criteria"
+            "Eliminating the teacher's role",
+            "Learning criteria and giving constructive feedback",
+            "Making competition the only goal",
+            "Awarding marks without criteria"
           ],
           "answer": 1,
           "whyHi": "सहपाठी मूल्यांकन से विद्यार्थी मानदंडों का उपयोग और सम्मानजनक प्रतिक्रिया देना सीखते हैं।",
@@ -1180,16 +1180,16 @@
           "hi": "बहुभाषी कक्षा में शिक्षक का सबसे उपयुक्त दृष्टिकोण क्या है?",
           "en": "What is the most appropriate approach in a multilingual classroom?",
           "optionsHi": [
-            "घर की भाषा पर प्रतिबंध / Banning home languages",
-            "बच्चों की भाषाओं को संसाधन मानकर सीखने से जोड़ना / Treating children's languages as resources for learning",
-            "केवल एक भाषा बोलने पर दंड / Punishing use of any other language",
-            "भाषाई विविधता को समस्या मानना / Treating linguistic diversity as a problem"
+            "घर की भाषा पर प्रतिबंध",
+            "बच्चों की भाषाओं को संसाधन मानकर सीखने से जोड़ना",
+            "केवल एक भाषा बोलने पर दंड",
+            "भाषाई विविधता को समस्या मानना"
           ],
           "optionsEn": [
-            "घर की भाषा पर प्रतिबंध / Banning home languages",
-            "बच्चों की भाषाओं को संसाधन मानकर सीखने से जोड़ना / Treating children's languages as resources for learning",
-            "केवल एक भाषा बोलने पर दंड / Punishing use of any other language",
-            "भाषाई विविधता को समस्या मानना / Treating linguistic diversity as a problem"
+            "Banning home languages",
+            "Treating children's languages as resources for learning",
+            "Punishing use of any other language",
+            "Treating linguistic diversity as a problem"
           ],
           "answer": 1,
           "whyHi": "मातृभाषा और परिचित भाषाएँ अवधारणा समझने तथा सहभागिता बढ़ाने में सहायक हो सकती हैं।",
@@ -1211,16 +1211,16 @@
           "hi": "भाषा सीखने में अर्थपूर्ण संवाद क्यों महत्वपूर्ण है?",
           "en": "Why is meaningful interaction important in language learning?",
           "optionsHi": [
-            "यह केवल व्याकरण नियम याद कराता है / It only teaches grammar rules",
-            "यह भाषा को वास्तविक संदर्भ में प्रयोग करने का अवसर देता है / It allows language use in authentic contexts",
-            "यह त्रुटियों को पूरी तरह रोकता है / It eliminates all errors",
-            "यह सुनने की क्षमता घटाता है / It reduces listening ability"
+            "यह केवल व्याकरण नियम याद कराता है",
+            "यह भाषा को वास्तविक संदर्भ में प्रयोग करने का अवसर देता है",
+            "यह त्रुटियों को पूरी तरह रोकता है",
+            "यह सुनने की क्षमता घटाता है"
           ],
           "optionsEn": [
-            "यह केवल व्याकरण नियम याद कराता है / It only teaches grammar rules",
-            "यह भाषा को वास्तविक संदर्भ में प्रयोग करने का अवसर देता है / It allows language use in authentic contexts",
-            "यह त्रुटियों को पूरी तरह रोकता है / It eliminates all errors",
-            "यह सुनने की क्षमता घटाता है / It reduces listening ability"
+            "It only teaches grammar rules",
+            "It allows language use in authentic contexts",
+            "It eliminates all errors",
+            "It reduces listening ability"
           ],
           "answer": 1,
           "whyHi": "अर्थपूर्ण संवाद भाषा के प्रयोग, समझ और सामाजिक संप्रेषण को विकसित करता है।",
@@ -1242,16 +1242,16 @@
           "hi": "कक्षा में खुले प्रश्न (open-ended questions) पूछने का लाभ क्या है?",
           "en": "What is a benefit of asking open-ended questions in class?",
           "optionsHi": [
-            "केवल एक शब्द के उत्तर मिलते हैं / They elicit only one-word answers",
-            "तर्क, कल्पना और विविध दृष्टिकोण प्रोत्साहित होते हैं / They encourage reasoning, imagination and diverse perspectives",
-            "चर्चा समाप्त हो जाती है / They end discussion",
-            "केवल याददाश्त जाँची जाती है / They test memory only"
+            "केवल एक शब्द के उत्तर मिलते हैं",
+            "तर्क, कल्पना और विविध दृष्टिकोण प्रोत्साहित होते हैं",
+            "चर्चा समाप्त हो जाती है",
+            "केवल याददाश्त जाँची जाती है"
           ],
           "optionsEn": [
-            "केवल एक शब्द के उत्तर मिलते हैं / They elicit only one-word answers",
-            "तर्क, कल्पना और विविध दृष्टिकोण प्रोत्साहित होते हैं / They encourage reasoning, imagination and diverse perspectives",
-            "चर्चा समाप्त हो जाती है / They end discussion",
-            "केवल याददाश्त जाँची जाती है / They test memory only"
+            "They elicit only one-word answers",
+            "They encourage reasoning, imagination and diverse perspectives",
+            "They end discussion",
+            "They test memory only"
           ],
           "answer": 1,
           "whyHi": "खुले प्रश्न विद्यार्थियों को अपने विचार स्पष्ट करने और तर्क प्रस्तुत करने का अवसर देते हैं।",
@@ -1273,16 +1273,16 @@
           "hi": "सहयोगात्मक अधिगम में समूह कार्य का उद्देश्य क्या है?",
           "en": "What is the purpose of group work in cooperative learning?",
           "optionsHi": [
-            "एक विद्यार्थी सब काम करे / One learner does all the work",
-            "साझा लक्ष्य के लिए सहभागिता और पारस्परिक उत्तरदायित्व / Participation and mutual responsibility towards a shared goal",
-            "केवल तेज विद्यार्थियों को चुनना / Selecting only fast learners",
-            "व्यक्तिगत प्रयास रोकना / Preventing individual effort"
+            "एक विद्यार्थी सब काम करे",
+            "साझा लक्ष्य के लिए सहभागिता और पारस्परिक उत्तरदायित्व",
+            "केवल तेज विद्यार्थियों को चुनना",
+            "व्यक्तिगत प्रयास रोकना"
           ],
           "optionsEn": [
-            "एक विद्यार्थी सब काम करे / One learner does all the work",
-            "साझा लक्ष्य के लिए सहभागिता और पारस्परिक उत्तरदायित्व / Participation and mutual responsibility towards a shared goal",
-            "केवल तेज विद्यार्थियों को चुनना / Selecting only fast learners",
-            "व्यक्तिगत प्रयास रोकना / Preventing individual effort"
+            "One learner does all the work",
+            "Participation and mutual responsibility towards a shared goal",
+            "Selecting only fast learners",
+            "Preventing individual effort"
           ],
           "answer": 1,
           "whyHi": "सहयोगात्मक अधिगम में साझा लक्ष्य, सकारात्मक निर्भरता और व्यक्तिगत उत्तरदायित्व होते हैं।",
@@ -1304,16 +1304,16 @@
           "hi": "बाल-केंद्रित शिक्षण में पाठ योजना किस आधार पर बननी चाहिए?",
           "en": "On what should lesson planning be based in child-centred teaching?",
           "optionsHi": [
-            "केवल पाठ्यपुस्तक के पृष्ठ / Textbook pages alone",
-            "बच्चों की आवश्यकताओं, पूर्वज्ञान और रुचियों / Learners' needs, prior knowledge and interests",
-            "केवल परीक्षा की तारीख / Examination date only",
-            "केवल शिक्षक की सुविधा / Teacher convenience only"
+            "केवल पाठ्यपुस्तक के पृष्ठ",
+            "बच्चों की आवश्यकताओं, पूर्वज्ञान और रुचियों",
+            "केवल परीक्षा की तारीख",
+            "केवल शिक्षक की सुविधा"
           ],
           "optionsEn": [
-            "केवल पाठ्यपुस्तक के पृष्ठ / Textbook pages alone",
-            "बच्चों की आवश्यकताओं, पूर्वज्ञान और रुचियों / Learners' needs, prior knowledge and interests",
-            "केवल परीक्षा की तारीख / Examination date only",
-            "केवल शिक्षक की सुविधा / Teacher convenience only"
+            "Textbook pages alone",
+            "Learners' needs, prior knowledge and interests",
+            "Examination date only",
+            "Teacher convenience only"
           ],
           "answer": 1,
           "whyHi": "बाल-केंद्रित योजना में सीखने वालों की जरूरत, अनुभव और सक्रिय भागीदारी को केंद्र में रखा जाता है।",
@@ -1335,16 +1335,16 @@
           "hi": "सीखने के स्थानांतरण (transfer of learning) का अर्थ क्या है?",
           "en": "What does transfer of learning mean?",
           "optionsHi": [
-            "सीखी हुई बात भूल जाना / Forgetting what was learned",
-            "सीखे ज्ञान या कौशल को नई परिस्थिति में लागू करना / Applying learned knowledge or skills in a new situation",
-            "केवल दोहराना / Repeating only",
-            "परीक्षा छोड़ना / Skipping an examination"
+            "सीखी हुई बात भूल जाना",
+            "सीखे ज्ञान या कौशल को नई परिस्थिति में लागू करना",
+            "केवल दोहराना",
+            "परीक्षा छोड़ना"
           ],
           "optionsEn": [
-            "सीखी हुई बात भूल जाना / Forgetting what was learned",
-            "सीखे ज्ञान या कौशल को नई परिस्थिति में लागू करना / Applying learned knowledge or skills in a new situation",
-            "केवल दोहराना / Repeating only",
-            "परीक्षा छोड़ना / Skipping an examination"
+            "Forgetting what was learned",
+            "Applying learned knowledge or skills in a new situation",
+            "Repeating only",
+            "Skipping an examination"
           ],
           "answer": 1,
           "whyHi": "अधिगम का स्थानांतरण तब होता है जब पूर्व में सीखा ज्ञान नई समस्या या संदर्भ में उपयोग हो।",
@@ -1366,16 +1366,16 @@
           "hi": "मेटाकॉग्निशन का अर्थ क्या है?",
           "en": "What does metacognition mean?",
           "optionsHi": [
-            "दूसरों की नकल करना / Imitating others",
-            "अपने सोचने और सीखने की प्रक्रिया के प्रति जागरूकता / Awareness of one's own thinking and learning",
-            "केवल तेज पढ़ना / Reading quickly only",
-            "शारीरिक समन्वय / Physical coordination"
+            "दूसरों की नकल करना",
+            "अपने सोचने और सीखने की प्रक्रिया के प्रति जागरूकता",
+            "केवल तेज पढ़ना",
+            "शारीरिक समन्वय"
           ],
           "optionsEn": [
-            "दूसरों की नकल करना / Imitating others",
-            "अपने सोचने और सीखने की प्रक्रिया के प्रति जागरूकता / Awareness of one's own thinking and learning",
-            "केवल तेज पढ़ना / Reading quickly only",
-            "शारीरिक समन्वय / Physical coordination"
+            "Imitating others",
+            "Awareness of one's own thinking and learning",
+            "Reading quickly only",
+            "Physical coordination"
           ],
           "answer": 1,
           "whyHi": "मेटाकॉग्निशन में विद्यार्थी अपनी समझ की निगरानी और रणनीतियों का चयन करता है।",
@@ -1397,16 +1397,16 @@
           "hi": "आत्म-नियंत्रित अधिगम में विद्यार्थी क्या करता है?",
           "en": "What does a self-regulated learner do?",
           "optionsHi": [
-            "लक्ष्य तय नहीं करता / Sets no goals",
-            "लक्ष्य तय करता, प्रगति देखता और रणनीति बदलता है / Sets goals, monitors progress and adjusts strategies",
-            "केवल शिक्षक पर निर्भर रहता है / Depends entirely on the teacher",
-            "गलतियों से बचने के लिए प्रयास छोड़ देता है / Stops trying to avoid mistakes"
+            "लक्ष्य तय नहीं करता",
+            "लक्ष्य तय करता, प्रगति देखता और रणनीति बदलता है",
+            "केवल शिक्षक पर निर्भर रहता है",
+            "गलतियों से बचने के लिए प्रयास छोड़ देता है"
           ],
           "optionsEn": [
-            "लक्ष्य तय नहीं करता / Sets no goals",
-            "लक्ष्य तय करता, प्रगति देखता और रणनीति बदलता है / Sets goals, monitors progress and adjusts strategies",
-            "केवल शिक्षक पर निर्भर रहता है / Depends entirely on the teacher",
-            "गलतियों से बचने के लिए प्रयास छोड़ देता है / Stops trying to avoid mistakes"
+            "Sets no goals",
+            "Sets goals, monitors progress and adjusts strategies",
+            "Depends entirely on the teacher",
+            "Stops trying to avoid mistakes"
           ],
           "answer": 1,
           "whyHi": "आत्म-नियमन में योजना, निगरानी, रणनीति-संशोधन और आत्म-चिंतन शामिल हैं।",
@@ -1428,16 +1428,16 @@
           "hi": "सृजनात्मकता को बढ़ावा देने के लिए शिक्षक को क्या करना चाहिए?",
           "en": "What should a teacher do to encourage creativity?",
           "optionsHi": [
-            "एक ही सही तरीके पर जोर / Insist on one correct method",
-            "विविध समाधान और मौलिक विचारों को प्रोत्साहित करना / Encourage multiple solutions and original ideas",
-            "असामान्य उत्तरों को तुरंत खारिज करना / Reject unusual answers immediately",
-            "केवल नकल करवाना / Require copying only"
+            "एक ही सही तरीके पर जोर",
+            "विविध समाधान और मौलिक विचारों को प्रोत्साहित करना",
+            "असामान्य उत्तरों को तुरंत खारिज करना",
+            "केवल नकल करवाना"
           ],
           "optionsEn": [
-            "एक ही सही तरीके पर जोर / Insist on one correct method",
-            "विविध समाधान और मौलिक विचारों को प्रोत्साहित करना / Encourage multiple solutions and original ideas",
-            "असामान्य उत्तरों को तुरंत खारिज करना / Reject unusual answers immediately",
-            "केवल नकल करवाना / Require copying only"
+            "Insist on one correct method",
+            "Encourage multiple solutions and original ideas",
+            "Reject unusual answers immediately",
+            "Require copying only"
           ],
           "answer": 1,
           "whyHi": "सृजनात्मकता के लिए खोज, प्रयोग, लचीलेपन और मौलिकता के अवसर आवश्यक हैं।",
@@ -1459,16 +1459,16 @@
           "hi": "समस्या-समाधान आधारित अधिगम में पहला महत्वपूर्ण कदम क्या है?",
           "en": "What is an important first step in problem-based learning?",
           "optionsHi": [
-            "उत्तर याद करना / Memorising the answer",
-            "समस्या को समझना और स्पष्ट करना / Understanding and defining the problem",
-            "तुरंत निष्कर्ष लिखना / Writing a conclusion immediately",
-            "समस्या को अनदेखा करना / Ignoring the problem"
+            "उत्तर याद करना",
+            "समस्या को समझना और स्पष्ट करना",
+            "तुरंत निष्कर्ष लिखना",
+            "समस्या को अनदेखा करना"
           ],
           "optionsEn": [
-            "उत्तर याद करना / Memorising the answer",
-            "समस्या को समझना और स्पष्ट करना / Understanding and defining the problem",
-            "तुरंत निष्कर्ष लिखना / Writing a conclusion immediately",
-            "समस्या को अनदेखा करना / Ignoring the problem"
+            "Memorising the answer",
+            "Understanding and defining the problem",
+            "Writing a conclusion immediately",
+            "Ignoring the problem"
           ],
           "answer": 1,
           "whyHi": "समस्या की स्पष्ट समझ के बिना उपयुक्त रणनीति और समाधान चुनना कठिन होता है।",
@@ -1490,16 +1490,16 @@
           "hi": "यदि बच्चा किसी अवधारणा को गलत समझ रहा है, तो शिक्षक की पहली प्रतिक्रिया क्या होनी चाहिए?",
           "en": "If a child has a misconception, what should the teacher do first?",
           "optionsHi": [
-            "उसे डाँटना / Scold the child",
-            "उसकी सोच जानने के लिए प्रश्न पूछना / Ask questions to understand the child's thinking",
-            "उत्तर लिखवा देना / Dictate the correct answer",
-            "उसे चर्चा से हटाना / Remove the child from discussion"
+            "उसे डाँटना",
+            "उसकी सोच जानने के लिए प्रश्न पूछना",
+            "उत्तर लिखवा देना",
+            "उसे चर्चा से हटाना"
           ],
           "optionsEn": [
-            "उसे डाँटना / Scold the child",
-            "उसकी सोच जानने के लिए प्रश्न पूछना / Ask questions to understand the child's thinking",
-            "उत्तर लिखवा देना / Dictate the correct answer",
-            "उसे चर्चा से हटाना / Remove the child from discussion"
+            "Scold the child",
+            "Ask questions to understand the child's thinking",
+            "Dictate the correct answer",
+            "Remove the child from discussion"
           ],
           "answer": 1,
           "whyHi": "विद्यार्थी की सोच समझने से शिक्षक भ्रांति का स्रोत पहचानकर उपयुक्त अनुभव दे सकता है।",
@@ -1521,16 +1521,16 @@
           "hi": "भावनात्मक रूप से सुरक्षित कक्षा का प्रमुख संकेत क्या है?",
           "en": "What is a key sign of an emotionally safe classroom?",
           "optionsHi": [
-            "गलती पर उपहास / Ridicule for mistakes",
-            "विद्यार्थी बिना भय प्रश्न पूछ और विचार साझा कर सकें / Learners can ask questions and share ideas without fear",
-            "केवल चुप्पी / Silence only",
-            "सार्वजनिक तुलना / Public comparison"
+            "गलती पर उपहास",
+            "विद्यार्थी बिना भय प्रश्न पूछ और विचार साझा कर सकें",
+            "केवल चुप्पी",
+            "सार्वजनिक तुलना"
           ],
           "optionsEn": [
-            "गलती पर उपहास / Ridicule for mistakes",
-            "विद्यार्थी बिना भय प्रश्न पूछ और विचार साझा कर सकें / Learners can ask questions and share ideas without fear",
-            "केवल चुप्पी / Silence only",
-            "सार्वजनिक तुलना / Public comparison"
+            "Ridicule for mistakes",
+            "Learners can ask questions and share ideas without fear",
+            "Silence only",
+            "Public comparison"
           ],
           "answer": 1,
           "whyHi": "सुरक्षित वातावरण में सम्मान, भरोसा और बिना अपमान के भागीदारी होती है।",
@@ -1552,16 +1552,16 @@
           "hi": "सामाजिकरण की प्रक्रिया में प्राथमिक भूमिका किनकी होती है?",
           "en": "Who commonly play primary roles in a child's socialisation?",
           "optionsHi": [
-            "केवल पाठ्यपुस्तक / Textbooks only",
-            "परिवार, साथियों और समुदाय / Family, peers and community",
-            "केवल परीक्षा बोर्ड / Examination board only",
-            "केवल मीडिया / Media only"
+            "केवल पाठ्यपुस्तक",
+            "परिवार, साथियों और समुदाय",
+            "केवल परीक्षा बोर्ड",
+            "केवल मीडिया"
           ],
           "optionsEn": [
-            "केवल पाठ्यपुस्तक / Textbooks only",
-            "परिवार, साथियों और समुदाय / Family, peers and community",
-            "केवल परीक्षा बोर्ड / Examination board only",
-            "केवल मीडिया / Media only"
+            "Textbooks only",
+            "Family, peers and community",
+            "Examination board only",
+            "Media only"
           ],
           "answer": 1,
           "whyHi": "परिवार, मित्र, विद्यालय और समुदाय बच्चे के सामाजिक व्यवहार और मान्यताओं को प्रभावित करते हैं।",
@@ -1583,16 +1583,16 @@
           "hi": "अनुकरण द्वारा सीखना किस सिद्धांत से विशेष रूप से जुड़ा है?",
           "en": "Learning through imitation is especially associated with which theory?",
           "optionsHi": [
-            "सामाजिक अधिगम सिद्धांत / Social learning theory",
-            "केवल परिपक्वता सिद्धांत / Maturation theory only",
-            "शास्त्रीय परीक्षण सिद्धांत / Classical testing theory",
-            "संरचनात्मक भाषाविज्ञान / Structural linguistics"
+            "सामाजिक अधिगम सिद्धांत",
+            "केवल परिपक्वता सिद्धांत",
+            "शास्त्रीय परीक्षण सिद्धांत",
+            "संरचनात्मक भाषाविज्ञान"
           ],
           "optionsEn": [
-            "सामाजिक अधिगम सिद्धांत / Social learning theory",
-            "केवल परिपक्वता सिद्धांत / Maturation theory only",
-            "शास्त्रीय परीक्षण सिद्धांत / Classical testing theory",
-            "संरचनात्मक भाषाविज्ञान / Structural linguistics"
+            "Social learning theory",
+            "Maturation theory only",
+            "Classical testing theory",
+            "Structural linguistics"
           ],
           "answer": 0,
           "whyHi": "बंडूरा के सामाजिक अधिगम सिद्धांत में अवलोकन और मॉडलिंग महत्वपूर्ण हैं।",
@@ -1614,16 +1614,16 @@
           "hi": "बंडूरा के अनुसार आत्म-प्रभावकारिता (self-efficacy) क्या है?",
           "en": "According to Bandura, what is self-efficacy?",
           "optionsHi": [
-            "अपनी क्षमता पर विश्वास कि मैं कार्य कर सकता हूँ / Belief in one's capability to perform a task",
-            "दूसरों को नियंत्रित करना / Controlling others",
-            "केवल उच्च बुद्धिलब्धि / High IQ only",
-            "असफलता से पूर्ण बचाव / Complete avoidance of failure"
+            "अपनी क्षमता पर विश्वास कि मैं कार्य कर सकता हूँ",
+            "दूसरों को नियंत्रित करना",
+            "केवल उच्च बुद्धिलब्धि",
+            "असफलता से पूर्ण बचाव"
           ],
           "optionsEn": [
-            "अपनी क्षमता पर विश्वास कि मैं कार्य कर सकता हूँ / Belief in one's capability to perform a task",
-            "दूसरों को नियंत्रित करना / Controlling others",
-            "केवल उच्च बुद्धिलब्धि / High IQ only",
-            "असफलता से पूर्ण बचाव / Complete avoidance of failure"
+            "Belief in one's capability to perform a task",
+            "Controlling others",
+            "High IQ only",
+            "Complete avoidance of failure"
           ],
           "answer": 0,
           "whyHi": "आत्म-प्रभावकारिता किसी विशिष्ट कार्य को सफलतापूर्वक करने की अपनी क्षमता में विश्वास है।",
@@ -1645,16 +1645,16 @@
           "hi": "कक्षा में सकारात्मक अनुशासन का सर्वोत्तम आधार क्या है?",
           "en": "What is the best foundation for positive discipline in a classroom?",
           "optionsHi": [
-            "डर और दंड / Fear and punishment",
-            "स्पष्ट अपेक्षाएँ, सम्मान और तार्किक परिणाम / Clear expectations, respect and logical consequences",
-            "अपमान / Humiliation",
-            "मनमाने नियम / Arbitrary rules"
+            "डर और दंड",
+            "स्पष्ट अपेक्षाएँ, सम्मान और तार्किक परिणाम",
+            "अपमान",
+            "मनमाने नियम"
           ],
           "optionsEn": [
-            "डर और दंड / Fear and punishment",
-            "स्पष्ट अपेक्षाएँ, सम्मान और तार्किक परिणाम / Clear expectations, respect and logical consequences",
-            "अपमान / Humiliation",
-            "मनमाने नियम / Arbitrary rules"
+            "Fear and punishment",
+            "Clear expectations, respect and logical consequences",
+            "Humiliation",
+            "Arbitrary rules"
           ],
           "answer": 1,
           "whyHi": "सकारात्मक अनुशासन आत्म-नियमन और जिम्मेदारी को सम्मानजनक तरीके से विकसित करता है।",
@@ -1676,16 +1676,16 @@
           "hi": "बच्चों में जिज्ञासा बनाए रखने के लिए शिक्षक को क्या करना चाहिए?",
           "en": "What should a teacher do to sustain children's curiosity?",
           "optionsHi": [
-            "हर प्रश्न का उत्तर तुरंत बता देना / Immediately give every answer",
-            "खोजपरक प्रश्न और अन्वेषण के अवसर देना / Provide inquiry questions and opportunities to explore",
-            "प्रश्न पूछने पर रोक लगाना / Discourage questions",
-            "केवल परिभाषाएँ रटवाना / Teach definitions by rote only"
+            "हर प्रश्न का उत्तर तुरंत बता देना",
+            "खोजपरक प्रश्न और अन्वेषण के अवसर देना",
+            "प्रश्न पूछने पर रोक लगाना",
+            "केवल परिभाषाएँ रटवाना"
           ],
           "optionsEn": [
-            "हर प्रश्न का उत्तर तुरंत बता देना / Immediately give every answer",
-            "खोजपरक प्रश्न और अन्वेषण के अवसर देना / Provide inquiry questions and opportunities to explore",
-            "प्रश्न पूछने पर रोक लगाना / Discourage questions",
-            "केवल परिभाषाएँ रटवाना / Teach definitions by rote only"
+            "Immediately give every answer",
+            "Provide inquiry questions and opportunities to explore",
+            "Discourage questions",
+            "Teach definitions by rote only"
           ],
           "answer": 1,
           "whyHi": "अन्वेषण और प्रश्न आधारित गतिविधियाँ बच्चों की जिज्ञासा तथा स्वतंत्र सोच को प्रोत्साहित करती हैं।",
@@ -1707,16 +1707,16 @@
           "hi": "समावेशी कक्षा में सहायक उपकरणों का उपयोग किस उद्देश्य से किया जाता है?",
           "en": "Why are assistive devices used in an inclusive classroom?",
           "optionsHi": [
-            "विद्यार्थी को अलग दिखाने के लिए / To single out a learner",
-            "सीखने और सहभागिता की बाधाएँ कम करने के लिए / To reduce barriers to learning and participation",
-            "पाठ्यक्रम हटाने के लिए / To remove the curriculum",
-            "मूल्यांकन समाप्त करने के लिए / To eliminate assessment"
+            "विद्यार्थी को अलग दिखाने के लिए",
+            "सीखने और सहभागिता की बाधाएँ कम करने के लिए",
+            "पाठ्यक्रम हटाने के लिए",
+            "मूल्यांकन समाप्त करने के लिए"
           ],
           "optionsEn": [
-            "विद्यार्थी को अलग दिखाने के लिए / To single out a learner",
-            "सीखने और सहभागिता की बाधाएँ कम करने के लिए / To reduce barriers to learning and participation",
-            "पाठ्यक्रम हटाने के लिए / To remove the curriculum",
-            "मूल्यांकन समाप्त करने के लिए / To eliminate assessment"
+            "To single out a learner",
+            "To reduce barriers to learning and participation",
+            "To remove the curriculum",
+            "To eliminate assessment"
           ],
           "answer": 1,
           "whyHi": "सहायक उपकरण पहुँच, संचार और स्वतंत्र सहभागिता को बेहतर बना सकते हैं।",
@@ -1738,16 +1738,16 @@
           "hi": "सार्वभौमिक अधिगम अभिकल्पना (UDL) का उद्देश्य क्या है?",
           "en": "What is the purpose of Universal Design for Learning (UDL)?",
           "optionsHi": [
-            "सभी को एक ही तरीके से पढ़ाना / Teach everyone in one way",
-            "प्रस्तुति, सहभागिता और अभिव्यक्ति के अनेक तरीके उपलब्ध कराना / Offer multiple means of representation, engagement and expression",
-            "केवल विशेष बच्चों के लिए अलग पाठ्यक्रम / A separate curriculum only for selected children",
-            "परीक्षा हटाना / Remove examinations"
+            "सभी को एक ही तरीके से पढ़ाना",
+            "प्रस्तुति, सहभागिता और अभिव्यक्ति के अनेक तरीके उपलब्ध कराना",
+            "केवल विशेष बच्चों के लिए अलग पाठ्यक्रम",
+            "परीक्षा हटाना"
           ],
           "optionsEn": [
-            "सभी को एक ही तरीके से पढ़ाना / Teach everyone in one way",
-            "प्रस्तुति, सहभागिता और अभिव्यक्ति के अनेक तरीके उपलब्ध कराना / Offer multiple means of representation, engagement and expression",
-            "केवल विशेष बच्चों के लिए अलग पाठ्यक्रम / A separate curriculum only for selected children",
-            "परीक्षा हटाना / Remove examinations"
+            "Teach everyone in one way",
+            "Offer multiple means of representation, engagement and expression",
+            "A separate curriculum only for selected children",
+            "Remove examinations"
           ],
           "answer": 1,
           "whyHi": "UDL शुरुआत से ही विविध सीखने वालों के लिए लचीले रास्ते तैयार करता है।",
@@ -1769,16 +1769,16 @@
           "hi": "बच्चे की उपलब्धि की तुलना मुख्यतः किससे करना अधिक उपयोगी है?",
           "en": "What is often more useful when interpreting a child's achievement?",
           "optionsHi": [
-            "हमेशा दूसरे बच्चों से / Always with other children",
-            "उसकी पिछली प्रगति और निर्धारित अधिगम लक्ष्यों से / With the learner's own prior progress and learning goals",
-            "केवल कक्षा के प्रथम विद्यार्थी से / Only with the top learner",
-            "केवल आयु से / Age alone"
+            "हमेशा दूसरे बच्चों से",
+            "उसकी पिछली प्रगति और निर्धारित अधिगम लक्ष्यों से",
+            "केवल कक्षा के प्रथम विद्यार्थी से",
+            "केवल आयु से"
           ],
           "optionsEn": [
-            "हमेशा दूसरे बच्चों से / Always with other children",
-            "उसकी पिछली प्रगति और निर्धारित अधिगम लक्ष्यों से / With the learner's own prior progress and learning goals",
-            "केवल कक्षा के प्रथम विद्यार्थी से / Only with the top learner",
-            "केवल आयु से / Age alone"
+            "Always with other children",
+            "With the learner's own prior progress and learning goals",
+            "Only with the top learner",
+            "Age alone"
           ],
           "answer": 1,
           "whyHi": "व्यक्तिगत प्रगति पर ध्यान देने से सीखने की वास्तविक वृद्धि और आवश्यक सहयोग समझ आता है।",
@@ -1800,16 +1800,16 @@
           "hi": "किसी परीक्षण की वैधता (validity) का अर्थ क्या है?",
           "en": "What does the validity of a test mean?",
           "optionsHi": [
-            "हर बार समान अंक देना / Giving identical scores every time",
-            "जिस गुण को मापना है, उसी को उचित रूप से मापना / Measuring appropriately what it is intended to measure",
-            "परीक्षा का छोटा होना / Being short",
-            "प्रश्न कठिन होना / Having difficult questions"
+            "हर बार समान अंक देना",
+            "जिस गुण को मापना है, उसी को उचित रूप से मापना",
+            "परीक्षा का छोटा होना",
+            "प्रश्न कठिन होना"
           ],
           "optionsEn": [
-            "हर बार समान अंक देना / Giving identical scores every time",
-            "जिस गुण को मापना है, उसी को उचित रूप से मापना / Measuring appropriately what it is intended to measure",
-            "परीक्षा का छोटा होना / Being short",
-            "प्रश्न कठिन होना / Having difficult questions"
+            "Giving identical scores every time",
+            "Measuring appropriately what it is intended to measure",
+            "Being short",
+            "Having difficult questions"
           ],
           "answer": 1,
           "whyHi": "वैधता बताती है कि परीक्षण अपने घोषित उद्देश्य या गुण को कितनी सही तरह मापता है।",
@@ -1831,16 +1831,16 @@
           "hi": "विश्वसनीयता (reliability) का अर्थ क्या है?",
           "en": "What does reliability mean in assessment?",
           "optionsHi": [
-            "परीक्षण का आकर्षक दिखना / Attractive appearance",
-            "मापन में स्थिरता और संगति / Consistency and stability of measurement",
-            "केवल आसान प्रश्न / Easy questions only",
-            "सभी को समान अंक / Same marks for everyone"
+            "परीक्षण का आकर्षक दिखना",
+            "मापन में स्थिरता और संगति",
+            "केवल आसान प्रश्न",
+            "सभी को समान अंक"
           ],
           "optionsEn": [
-            "परीक्षण का आकर्षक दिखना / Attractive appearance",
-            "मापन में स्थिरता और संगति / Consistency and stability of measurement",
-            "केवल आसान प्रश्न / Easy questions only",
-            "सभी को समान अंक / Same marks for everyone"
+            "Attractive appearance",
+            "Consistency and stability of measurement",
+            "Easy questions only",
+            "Same marks for everyone"
           ],
           "answer": 1,
           "whyHi": "विश्वसनीय मापन समान परिस्थितियों में अपेक्षाकृत संगत परिणाम देता है।",
@@ -1862,16 +1862,16 @@
           "hi": "यदि शिक्षक सीखने के लक्ष्य पहले से स्पष्ट कर देता है, तो इससे क्या लाभ होता है?",
           "en": "What is a benefit of making learning goals explicit?",
           "optionsHi": [
-            "विद्यार्थी भ्रमित होते हैं / Learners become confused",
-            "विद्यार्थी अपेक्षाएँ समझकर अपनी प्रगति जाँच सकते हैं / Learners understand expectations and monitor progress",
-            "मूल्यांकन असंभव होता है / Assessment becomes impossible",
-            "केवल रटने को बढ़ावा मिलता है / It promotes rote learning only"
+            "विद्यार्थी भ्रमित होते हैं",
+            "विद्यार्थी अपेक्षाएँ समझकर अपनी प्रगति जाँच सकते हैं",
+            "मूल्यांकन असंभव होता है",
+            "केवल रटने को बढ़ावा मिलता है"
           ],
           "optionsEn": [
-            "विद्यार्थी भ्रमित होते हैं / Learners become confused",
-            "विद्यार्थी अपेक्षाएँ समझकर अपनी प्रगति जाँच सकते हैं / Learners understand expectations and monitor progress",
-            "मूल्यांकन असंभव होता है / Assessment becomes impossible",
-            "केवल रटने को बढ़ावा मिलता है / It promotes rote learning only"
+            "Learners become confused",
+            "Learners understand expectations and monitor progress",
+            "Assessment becomes impossible",
+            "It promotes rote learning only"
           ],
           "answer": 1,
           "whyHi": "स्पष्ट लक्ष्य विद्यार्थियों को दिशा देते हैं और आत्म-मूल्यांकन को संभव बनाते हैं।",
@@ -1893,16 +1893,16 @@
           "hi": "प्रतिक्रिया (feedback) सबसे प्रभावी कब होती है?",
           "en": "When is feedback most effective?",
           "optionsHi": [
-            "बहुत देर बाद और अस्पष्ट / Much later and vague",
-            "समय पर, विशिष्ट और सुधार के अगले कदम बताने वाली / Timely, specific and indicating next steps",
-            "केवल अंक के रूप में / As marks only",
-            "व्यक्तित्व पर टिप्पणी के रूप में / As comments on personality"
+            "बहुत देर बाद और अस्पष्ट",
+            "समय पर, विशिष्ट और सुधार के अगले कदम बताने वाली",
+            "केवल अंक के रूप में",
+            "व्यक्तित्व पर टिप्पणी के रूप में"
           ],
           "optionsEn": [
-            "बहुत देर बाद और अस्पष्ट / Much later and vague",
-            "समय पर, विशिष्ट और सुधार के अगले कदम बताने वाली / Timely, specific and indicating next steps",
-            "केवल अंक के रूप में / As marks only",
-            "व्यक्तित्व पर टिप्पणी के रूप में / As comments on personality"
+            "Much later and vague",
+            "Timely, specific and indicating next steps",
+            "As marks only",
+            "As comments on personality"
           ],
           "answer": 1,
           "whyHi": "प्रभावी प्रतिक्रिया कार्य और रणनीति पर केंद्रित होती है तथा आगे सुधार का रास्ता बताती है।",
@@ -1924,16 +1924,16 @@
           "hi": "कक्षा में विविधता को संसाधन मानने का अर्थ क्या है?",
           "en": "What does it mean to view diversity as a resource in the classroom?",
           "optionsHi": [
-            "अलग अनुभवों को दबाना / Suppress different experiences",
-            "विभिन्न अनुभवों और दृष्टिकोणों से सामूहिक सीखना / Learn collectively from varied experiences and perspectives",
-            "सभी को एक जैसा बनाना / Make everyone identical",
-            "कुछ समूहों को कम महत्व देना / Give some groups less value"
+            "अलग अनुभवों को दबाना",
+            "विभिन्न अनुभवों और दृष्टिकोणों से सामूहिक सीखना",
+            "सभी को एक जैसा बनाना",
+            "कुछ समूहों को कम महत्व देना"
           ],
           "optionsEn": [
-            "अलग अनुभवों को दबाना / Suppress different experiences",
-            "विभिन्न अनुभवों और दृष्टिकोणों से सामूहिक सीखना / Learn collectively from varied experiences and perspectives",
-            "सभी को एक जैसा बनाना / Make everyone identical",
-            "कुछ समूहों को कम महत्व देना / Give some groups less value"
+            "Suppress different experiences",
+            "Learn collectively from varied experiences and perspectives",
+            "Make everyone identical",
+            "Give some groups less value"
           ],
           "answer": 1,
           "whyHi": "विविधता चर्चा को समृद्ध करती है और विद्यार्थियों को अनेक दृष्टिकोण समझने में मदद करती है।",
@@ -1955,16 +1955,16 @@
           "hi": "कक्षा में शांत या कम बोलने वाले विद्यार्थी की सहभागिता बढ़ाने का उचित तरीका क्या है?",
           "en": "What is an appropriate way to increase participation of a quiet learner?",
           "optionsHi": [
-            "उसे अचानक सबके सामने बोलने को मजबूर करना / Force the learner to speak publicly without preparation",
-            "जोड़ी कार्य, लिखित प्रतिक्रिया और सुरक्षित अवसर देना / Offer pair work, written responses and safe opportunities",
-            "उसकी उपेक्षा करना / Ignore the learner",
-            "उसकी तुलना मुखर विद्यार्थियों से करना / Compare the learner with outspoken peers"
+            "उसे अचानक सबके सामने बोलने को मजबूर करना",
+            "जोड़ी कार्य, लिखित प्रतिक्रिया और सुरक्षित अवसर देना",
+            "उसकी उपेक्षा करना",
+            "उसकी तुलना मुखर विद्यार्थियों से करना"
           ],
           "optionsEn": [
-            "उसे अचानक सबके सामने बोलने को मजबूर करना / Force the learner to speak publicly without preparation",
-            "जोड़ी कार्य, लिखित प्रतिक्रिया और सुरक्षित अवसर देना / Offer pair work, written responses and safe opportunities",
-            "उसकी उपेक्षा करना / Ignore the learner",
-            "उसकी तुलना मुखर विद्यार्थियों से करना / Compare the learner with outspoken peers"
+            "Force the learner to speak publicly without preparation",
+            "Offer pair work, written responses and safe opportunities",
+            "Ignore the learner",
+            "Compare the learner with outspoken peers"
           ],
           "answer": 1,
           "whyHi": "विविध सहभागिता के रास्ते अलग-अलग स्वभाव और सहजता वाले बच्चों को आवाज देते हैं।",
@@ -1986,16 +1986,16 @@
           "hi": "अधिगम में खेल का शैक्षिक महत्व क्या है?",
           "en": "What is the educational value of play in learning?",
           "optionsHi": [
-            "यह समय की बर्बादी है / It is a waste of time",
-            "यह खोज, भाषा, सामाजिक कौशल और समस्या-समाधान को बढ़ावा दे सकता है / It can support exploration, language, social skills and problem-solving",
-            "यह केवल पुरस्कार है / It is only a reward",
-            "यह सीखने से अलग है / It is separate from learning"
+            "यह समय की बर्बादी है",
+            "यह खोज, भाषा, सामाजिक कौशल और समस्या-समाधान को बढ़ावा दे सकता है",
+            "यह केवल पुरस्कार है",
+            "यह सीखने से अलग है"
           ],
           "optionsEn": [
-            "यह समय की बर्बादी है / It is a waste of time",
-            "यह खोज, भाषा, सामाजिक कौशल और समस्या-समाधान को बढ़ावा दे सकता है / It can support exploration, language, social skills and problem-solving",
-            "यह केवल पुरस्कार है / It is only a reward",
-            "यह सीखने से अलग है / It is separate from learning"
+            "It is a waste of time",
+            "It can support exploration, language, social skills and problem-solving",
+            "It is only a reward",
+            "It is separate from learning"
           ],
           "answer": 1,
           "whyHi": "उद्देश्यपूर्ण खेल संज्ञानात्मक, सामाजिक, भाषाई और भावनात्मक विकास को सहारा देता है।",
@@ -2017,16 +2017,16 @@
           "hi": "शिक्षक को पाठ के दौरान समझ की जाँच क्यों करनी चाहिए?",
           "en": "Why should a teacher check understanding during a lesson?",
           "optionsHi": [
-            "केवल समय पूरा करने के लिए / Merely to fill time",
-            "ताकि गलतफहमी पहचानकर शिक्षण में समय रहते बदलाव कर सके / To identify misunderstandings and adapt instruction in time",
-            "विद्यार्थियों को डराने के लिए / To intimidate learners",
-            "अंतिम परीक्षा हटाने के लिए / To replace the final examination"
+            "केवल समय पूरा करने के लिए",
+            "ताकि गलतफहमी पहचानकर शिक्षण में समय रहते बदलाव कर सके",
+            "विद्यार्थियों को डराने के लिए",
+            "अंतिम परीक्षा हटाने के लिए"
           ],
           "optionsEn": [
-            "केवल समय पूरा करने के लिए / Merely to fill time",
-            "ताकि गलतफहमी पहचानकर शिक्षण में समय रहते बदलाव कर सके / To identify misunderstandings and adapt instruction in time",
-            "विद्यार्थियों को डराने के लिए / To intimidate learners",
-            "अंतिम परीक्षा हटाने के लिए / To replace the final examination"
+            "Merely to fill time",
+            "To identify misunderstandings and adapt instruction in time",
+            "To intimidate learners",
+            "To replace the final examination"
           ],
           "answer": 1,
           "whyHi": "बीच-बीच में जाँच से शिक्षक सीखने की स्थिति देखकर तत्काल सहायता दे सकता है।",
@@ -2048,16 +2048,16 @@
           "hi": "समानता (equality) और न्यायसंगतता (equity) में क्या अंतर है?",
           "en": "What is the difference between equality and equity?",
           "optionsHi": [
-            "दोनों का अर्थ हर स्थिति में एक जैसा है / They mean exactly the same in every context",
-            "समानता समान संसाधन देती है; न्यायसंगतता आवश्यकता अनुसार सहयोग देती है / Equality gives the same resources; equity provides support according to need",
-            "न्यायसंगतता में अवसर नहीं होते / Equity removes opportunity",
-            "समानता केवल परीक्षा में लागू होती है / Equality applies only to tests"
+            "दोनों का अर्थ हर स्थिति में एक जैसा है",
+            "समानता समान संसाधन देती है; न्यायसंगतता आवश्यकता अनुसार सहयोग देती है",
+            "न्यायसंगतता में अवसर नहीं होते",
+            "समानता केवल परीक्षा में लागू होती है"
           ],
           "optionsEn": [
-            "दोनों का अर्थ हर स्थिति में एक जैसा है / They mean exactly the same in every context",
-            "समानता समान संसाधन देती है; न्यायसंगतता आवश्यकता अनुसार सहयोग देती है / Equality gives the same resources; equity provides support according to need",
-            "न्यायसंगतता में अवसर नहीं होते / Equity removes opportunity",
-            "समानता केवल परीक्षा में लागू होती है / Equality applies only to tests"
+            "They mean exactly the same in every context",
+            "Equality gives the same resources; equity provides support according to need",
+            "Equity removes opportunity",
+            "Equality applies only to tests"
           ],
           "answer": 1,
           "whyHi": "न्यायसंगतता का लक्ष्य बाधाओं और जरूरतों के अनुसार समर्थन देकर वास्तविक अवसर सुनिश्चित करना है।",
@@ -2079,16 +2079,16 @@
           "hi": "शिक्षक का चिंतनशील अभ्यास (reflective practice) किसे कहते हैं?",
           "en": "What is reflective practice for a teacher?",
           "optionsHi": [
-            "बिना बदलाव वही पाठ दोहराना / Repeating the same lesson without change",
-            "अपने शिक्षण के प्रमाणों पर विचार कर सुधार करना / Examining evidence from one's teaching and making improvements",
-            "केवल दूसरों की आलोचना / Only criticising others",
-            "पाठ योजना न बनाना / Avoiding lesson planning"
+            "बिना बदलाव वही पाठ दोहराना",
+            "अपने शिक्षण के प्रमाणों पर विचार कर सुधार करना",
+            "केवल दूसरों की आलोचना",
+            "पाठ योजना न बनाना"
           ],
           "optionsEn": [
-            "बिना बदलाव वही पाठ दोहराना / Repeating the same lesson without change",
-            "अपने शिक्षण के प्रमाणों पर विचार कर सुधार करना / Examining evidence from one's teaching and making improvements",
-            "केवल दूसरों की आलोचना / Only criticising others",
-            "पाठ योजना न बनाना / Avoiding lesson planning"
+            "Repeating the same lesson without change",
+            "Examining evidence from one's teaching and making improvements",
+            "Only criticising others",
+            "Avoiding lesson planning"
           ],
           "answer": 1,
           "whyHi": "चिंतनशील शिक्षक विद्यार्थियों की प्रतिक्रिया और परिणाम देखकर अपनी रणनीतियों में सुधार करता है।",
@@ -2110,16 +2110,16 @@
           "hi": "पियाजे के अनुसार पूर्व-संक्रियात्मक अवस्था में बच्चे की एक सामान्य विशेषता क्या है?",
           "en": "Which is a common feature of the preoperational stage according to Piaget?",
           "optionsHi": [
-            "प्रतीकात्मक चिंतन / Symbolic thought",
-            "पूर्ण अमूर्त तर्क / Fully abstract reasoning",
-            "वैज्ञानिक परिकल्पना परीक्षण / Scientific hypothesis testing",
-            "संरक्षण की परिपक्व समझ / Mature understanding of conservation"
+            "प्रतीकात्मक चिंतन",
+            "पूर्ण अमूर्त तर्क",
+            "वैज्ञानिक परिकल्पना परीक्षण",
+            "संरक्षण की परिपक्व समझ"
           ],
           "optionsEn": [
-            "प्रतीकात्मक चिंतन / Symbolic thought",
-            "पूर्ण अमूर्त तर्क / Fully abstract reasoning",
-            "वैज्ञानिक परिकल्पना परीक्षण / Scientific hypothesis testing",
-            "संरक्षण की परिपक्व समझ / Mature understanding of conservation"
+            "Symbolic thought",
+            "Fully abstract reasoning",
+            "Scientific hypothesis testing",
+            "Mature understanding of conservation"
           ],
           "answer": 0,
           "whyHi": "पूर्व-संक्रियात्मक अवस्था में भाषा और प्रतीकात्मक खेल विकसित होते हैं, जबकि तर्क अभी आत्मकेन्द्रित हो सकता है।",
@@ -2141,16 +2141,16 @@
           "hi": "पियाजे के अनुसार ‘संरक्षण’ की समझ का अर्थ क्या है?",
           "en": "What does conservation mean in Piaget's theory?",
           "optionsHi": [
-            "रंगों के नाम याद रखना / Memorising colour names",
-            "आकार बदलने पर भी मात्रा समान रह सकती है / Quantity can remain the same despite a change in shape",
-            "हर वस्तु जीवित है मानना / Believing every object is alive",
-            "दूसरों की नकल करना / Imitating others"
+            "रंगों के नाम याद रखना",
+            "आकार बदलने पर भी मात्रा समान रह सकती है",
+            "हर वस्तु जीवित है मानना",
+            "दूसरों की नकल करना"
           ],
           "optionsEn": [
-            "रंगों के नाम याद रखना / Memorising colour names",
-            "आकार बदलने पर भी मात्रा समान रह सकती है / Quantity can remain the same despite a change in shape",
-            "हर वस्तु जीवित है मानना / Believing every object is alive",
-            "दूसरों की नकल करना / Imitating others"
+            "Memorising colour names",
+            "Quantity can remain the same despite a change in shape",
+            "Believing every object is alive",
+            "Imitating others"
           ],
           "answer": 1,
           "whyHi": "संरक्षण की समझ में बच्चा पहचानता है कि बाहरी रूप बदलने पर भी मात्रा या संख्या अपरिवर्तित रह सकती है।",
@@ -2172,16 +2172,16 @@
           "hi": "‘आत्मकेन्द्रिता’ (egocentrism) का अर्थ क्या है?",
           "en": "What does egocentrism mean in child development?",
           "optionsHi": [
-            "स्वार्थी होना / Being selfish",
-            "दूसरे के दृष्टिकोण को समझने में कठिनाई / Difficulty taking another person's perspective",
-            "समूह में नेतृत्व करना / Leading a group",
-            "स्वयं का मूल्यांकन करना / Self-assessment"
+            "स्वार्थी होना",
+            "दूसरे के दृष्टिकोण को समझने में कठिनाई",
+            "समूह में नेतृत्व करना",
+            "स्वयं का मूल्यांकन करना"
           ],
           "optionsEn": [
-            "स्वार्थी होना / Being selfish",
-            "दूसरे के दृष्टिकोण को समझने में कठिनाई / Difficulty taking another person's perspective",
-            "समूह में नेतृत्व करना / Leading a group",
-            "स्वयं का मूल्यांकन करना / Self-assessment"
+            "Being selfish",
+            "Difficulty taking another person's perspective",
+            "Leading a group",
+            "Self-assessment"
           ],
           "answer": 1,
           "whyHi": "आत्मकेन्द्रिता में बच्चा सहज रूप से दूसरे व्यक्ति का दृष्टिकोण ग्रहण नहीं कर पाता।",
@@ -2203,16 +2203,16 @@
           "hi": "वाइगोत्स्की के अनुसार अधिक जानकार अन्य (More Knowledgeable Other) कौन हो सकता है?",
           "en": "According to Vygotsky, who can be a More Knowledgeable Other?",
           "optionsHi": [
-            "केवल आयु में बड़ा व्यक्ति / Only an older person",
-            "शिक्षक, सक्षम सहपाठी या अन्य जानकार व्यक्ति / A teacher, capable peer or another knowledgeable person",
-            "केवल अभिभावक / Only a parent",
-            "केवल पाठ्यपुस्तक / Only a textbook"
+            "केवल आयु में बड़ा व्यक्ति",
+            "शिक्षक, सक्षम सहपाठी या अन्य जानकार व्यक्ति",
+            "केवल अभिभावक",
+            "केवल पाठ्यपुस्तक"
           ],
           "optionsEn": [
-            "केवल आयु में बड़ा व्यक्ति / Only an older person",
-            "शिक्षक, सक्षम सहपाठी या अन्य जानकार व्यक्ति / A teacher, capable peer or another knowledgeable person",
-            "केवल अभिभावक / Only a parent",
-            "केवल पाठ्यपुस्तक / Only a textbook"
+            "Only an older person",
+            "A teacher, capable peer or another knowledgeable person",
+            "Only a parent",
+            "Only a textbook"
           ],
           "answer": 1,
           "whyHi": "MKO वह व्यक्ति या स्रोत है जो किसी कार्य में सीखने वाले से अधिक दक्ष सहायता दे सके।",
@@ -2234,16 +2234,16 @@
           "hi": "सहपाठी शिक्षण (peer tutoring) किस सिद्धांत से विशेष रूप से मेल खाता है?",
           "en": "Peer tutoring particularly aligns with which idea?",
           "optionsHi": [
-            "सामाजिक अंतःक्रिया से सीखना / Learning through social interaction",
-            "केवल जैविक परिपक्वता / Biological maturation only",
-            "दंड द्वारा सीखना / Learning through punishment",
-            "अलगाव में सीखना / Learning in isolation"
+            "सामाजिक अंतःक्रिया से सीखना",
+            "केवल जैविक परिपक्वता",
+            "दंड द्वारा सीखना",
+            "अलगाव में सीखना"
           ],
           "optionsEn": [
-            "सामाजिक अंतःक्रिया से सीखना / Learning through social interaction",
-            "केवल जैविक परिपक्वता / Biological maturation only",
-            "दंड द्वारा सीखना / Learning through punishment",
-            "अलगाव में सीखना / Learning in isolation"
+            "Learning through social interaction",
+            "Biological maturation only",
+            "Learning through punishment",
+            "Learning in isolation"
           ],
           "answer": 0,
           "whyHi": "सहपाठी शिक्षण संवाद और सक्षम सहपाठी के सहयोग से सीखने के अवसर देता है।",
@@ -2265,16 +2265,16 @@
           "hi": "ब्रूनर के ‘खोज अधिगम’ (discovery learning) में शिक्षक की भूमिका क्या है?",
           "en": "What is the teacher's role in Bruner's discovery learning?",
           "optionsHi": [
-            "तैयार उत्तर देना / Giving ready-made answers",
-            "ऐसी परिस्थितियाँ बनाना जिनमें विद्यार्थी स्वयं संबंध खोजें / Creating conditions for learners to discover relationships",
-            "सभी गतिविधियाँ रोकना / Stopping all activities",
-            "केवल रटवाना / Promoting rote learning only"
+            "तैयार उत्तर देना",
+            "ऐसी परिस्थितियाँ बनाना जिनमें विद्यार्थी स्वयं संबंध खोजें",
+            "सभी गतिविधियाँ रोकना",
+            "केवल रटवाना"
           ],
           "optionsEn": [
-            "तैयार उत्तर देना / Giving ready-made answers",
-            "ऐसी परिस्थितियाँ बनाना जिनमें विद्यार्थी स्वयं संबंध खोजें / Creating conditions for learners to discover relationships",
-            "सभी गतिविधियाँ रोकना / Stopping all activities",
-            "केवल रटवाना / Promoting rote learning only"
+            "Giving ready-made answers",
+            "Creating conditions for learners to discover relationships",
+            "Stopping all activities",
+            "Promoting rote learning only"
           ],
           "answer": 1,
           "whyHi": "खोज अधिगम में शिक्षक मार्गदर्शक बनकर अन्वेषण और अवधारणा निर्माण को प्रोत्साहित करता है।",
@@ -2296,16 +2296,16 @@
           "hi": "ब्रूनर के अनुसार ‘स्पाइरल पाठ्यक्रम’ का क्या अर्थ है?",
           "en": "What is meant by a spiral curriculum according to Bruner?",
           "optionsHi": [
-            "विषय को केवल एक बार पढ़ाना / Teaching a topic only once",
-            "मुख्य अवधारणाओं को बढ़ती जटिलता के साथ दोबारा पढ़ना / Revisiting key ideas with increasing complexity",
-            "हर कक्षा में अलग विषय रखना / Using unrelated topics in every grade",
-            "केवल अभ्यास-पत्र देना / Giving worksheets only"
+            "विषय को केवल एक बार पढ़ाना",
+            "मुख्य अवधारणाओं को बढ़ती जटिलता के साथ दोबारा पढ़ना",
+            "हर कक्षा में अलग विषय रखना",
+            "केवल अभ्यास-पत्र देना"
           ],
           "optionsEn": [
-            "विषय को केवल एक बार पढ़ाना / Teaching a topic only once",
-            "मुख्य अवधारणाओं को बढ़ती जटिलता के साथ दोबारा पढ़ना / Revisiting key ideas with increasing complexity",
-            "हर कक्षा में अलग विषय रखना / Using unrelated topics in every grade",
-            "केवल अभ्यास-पत्र देना / Giving worksheets only"
+            "Teaching a topic only once",
+            "Revisiting key ideas with increasing complexity",
+            "Using unrelated topics in every grade",
+            "Giving worksheets only"
           ],
           "answer": 1,
           "whyHi": "स्पाइरल पाठ्यक्रम में अवधारणाएँ बार-बार लौटती हैं और हर बार अधिक गहराई से समझी जाती हैं।",
@@ -2327,16 +2327,16 @@
           "hi": "एरिक्सन के अनुसार विद्यालयी आयु में प्रमुख मनोसामाजिक संघर्ष क्या है?",
           "en": "According to Erikson, what is the major psychosocial conflict during school age?",
           "optionsHi": [
-            "विश्वास बनाम अविश्वास / Trust vs mistrust",
-            "उद्योगशीलता बनाम हीनभावना / Industry vs inferiority",
-            "पहचान बनाम भूमिका भ्रम / Identity vs role confusion",
-            "अंतरंगता बनाम एकाकीपन / Intimacy vs isolation"
+            "विश्वास बनाम अविश्वास",
+            "उद्योगशीलता बनाम हीनभावना",
+            "पहचान बनाम भूमिका भ्रम",
+            "अंतरंगता बनाम एकाकीपन"
           ],
           "optionsEn": [
-            "विश्वास बनाम अविश्वास / Trust vs mistrust",
-            "उद्योगशीलता बनाम हीनभावना / Industry vs inferiority",
-            "पहचान बनाम भूमिका भ्रम / Identity vs role confusion",
-            "अंतरंगता बनाम एकाकीपन / Intimacy vs isolation"
+            "Trust vs mistrust",
+            "Industry vs inferiority",
+            "Identity vs role confusion",
+            "Intimacy vs isolation"
           ],
           "answer": 1,
           "whyHi": "विद्यालयी आयु में बच्चे कौशल और कार्य पूरा करने से उद्योगशीलता विकसित करते हैं; लगातार असफलता हीनभावना बढ़ा सकती है।",
@@ -2358,16 +2358,16 @@
           "hi": "एरिक्सन के अनुसार किशोरावस्था का प्रमुख संघर्ष कौन-सा है?",
           "en": "Which is the major conflict of adolescence according to Erikson?",
           "optionsHi": [
-            "स्वायत्तता बनाम शर्म / Autonomy vs shame",
-            "पहल बनाम अपराधबोध / Initiative vs guilt",
-            "पहचान बनाम भूमिका भ्रम / Identity vs role confusion",
-            "उत्पादकता बनाम ठहराव / Generativity vs stagnation"
+            "स्वायत्तता बनाम शर्म",
+            "पहल बनाम अपराधबोध",
+            "पहचान बनाम भूमिका भ्रम",
+            "उत्पादकता बनाम ठहराव"
           ],
           "optionsEn": [
-            "स्वायत्तता बनाम शर्म / Autonomy vs shame",
-            "पहल बनाम अपराधबोध / Initiative vs guilt",
-            "पहचान बनाम भूमिका भ्रम / Identity vs role confusion",
-            "उत्पादकता बनाम ठहराव / Generativity vs stagnation"
+            "Autonomy vs shame",
+            "Initiative vs guilt",
+            "Identity vs role confusion",
+            "Generativity vs stagnation"
           ],
           "answer": 2,
           "whyHi": "किशोर अपनी पहचान, मूल्यों और सामाजिक भूमिकाओं को समझने का प्रयास करते हैं।",
@@ -2389,16 +2389,16 @@
           "hi": "बालक के विकास में आनुवंशिकता और वातावरण का संबंध कैसा है?",
           "en": "How do heredity and environment relate to child development?",
           "optionsHi": [
-            "केवल आनुवंशिकता प्रभाव डालती है / Only heredity matters",
-            "केवल वातावरण प्रभाव डालता है / Only environment matters",
-            "दोनों परस्पर क्रिया करते हैं / They interact with each other",
-            "दोनों का कोई प्रभाव नहीं / Neither has an effect"
+            "केवल आनुवंशिकता प्रभाव डालती है",
+            "केवल वातावरण प्रभाव डालता है",
+            "दोनों परस्पर क्रिया करते हैं",
+            "दोनों का कोई प्रभाव नहीं"
           ],
           "optionsEn": [
-            "केवल आनुवंशिकता प्रभाव डालती है / Only heredity matters",
-            "केवल वातावरण प्रभाव डालता है / Only environment matters",
-            "दोनों परस्पर क्रिया करते हैं / They interact with each other",
-            "दोनों का कोई प्रभाव नहीं / Neither has an effect"
+            "Only heredity matters",
+            "Only environment matters",
+            "They interact with each other",
+            "Neither has an effect"
           ],
           "answer": 2,
           "whyHi": "विकास आनुवंशिक संभावनाओं और पर्यावरणीय अनुभवों की पारस्परिक क्रिया से आकार लेता है।",
@@ -2420,16 +2420,16 @@
           "hi": "परिपक्वता (maturation) का अधिगम से क्या संबंध है?",
           "en": "How is maturation related to learning?",
           "optionsHi": [
-            "यह अधिगम की तैयारी और संभावनाओं को प्रभावित करती है / It influences readiness and possibilities for learning",
-            "यह अभ्यास को पूरी तरह अनावश्यक बनाती है / It makes practice entirely unnecessary",
-            "यह केवल वयस्कों में होती है / It occurs only in adults",
-            "इसका विकास से कोई संबंध नहीं / It is unrelated to development"
+            "यह अधिगम की तैयारी और संभावनाओं को प्रभावित करती है",
+            "यह अभ्यास को पूरी तरह अनावश्यक बनाती है",
+            "यह केवल वयस्कों में होती है",
+            "इसका विकास से कोई संबंध नहीं"
           ],
           "optionsEn": [
-            "यह अधिगम की तैयारी और संभावनाओं को प्रभावित करती है / It influences readiness and possibilities for learning",
-            "यह अभ्यास को पूरी तरह अनावश्यक बनाती है / It makes practice entirely unnecessary",
-            "यह केवल वयस्कों में होती है / It occurs only in adults",
-            "इसका विकास से कोई संबंध नहीं / It is unrelated to development"
+            "It influences readiness and possibilities for learning",
+            "It makes practice entirely unnecessary",
+            "It occurs only in adults",
+            "It is unrelated to development"
           ],
           "answer": 0,
           "whyHi": "परिपक्वता कुछ क्षमताओं के उभरने की जैविक तैयारी देती है, जबकि अनुभव और अभ्यास उन्हें विकसित करते हैं।",
@@ -2451,16 +2451,16 @@
           "hi": "बच्चों में सीखने की तत्परता का आकलन किस आधार पर करना चाहिए?",
           "en": "What should inform an assessment of a child's readiness to learn?",
           "optionsHi": [
-            "केवल जन्मतिथि / Date of birth only",
-            "पूर्व कौशल, अनुभव, रुचि और विकासात्मक स्थिति / Prior skills, experiences, interests and developmental status",
-            "केवल परिवार की आय / Family income only",
-            "केवल परीक्षा अंक / Examination marks only"
+            "केवल जन्मतिथि",
+            "पूर्व कौशल, अनुभव, रुचि और विकासात्मक स्थिति",
+            "केवल परिवार की आय",
+            "केवल परीक्षा अंक"
           ],
           "optionsEn": [
-            "केवल जन्मतिथि / Date of birth only",
-            "पूर्व कौशल, अनुभव, रुचि और विकासात्मक स्थिति / Prior skills, experiences, interests and developmental status",
-            "केवल परिवार की आय / Family income only",
-            "केवल परीक्षा अंक / Examination marks only"
+            "Date of birth only",
+            "Prior skills, experiences, interests and developmental status",
+            "Family income only",
+            "Examination marks only"
           ],
           "answer": 1,
           "whyHi": "तत्परता बहुआयामी है और पूर्व अनुभव तथा वर्तमान विकासात्मक जरूरतों से प्रभावित होती है।",
@@ -2482,16 +2482,16 @@
           "hi": "बच्चों में ध्यान बनाए रखने के लिए कौन-सी रणनीति अधिक उपयुक्त है?",
           "en": "Which strategy is more appropriate for sustaining children's attention?",
           "optionsHi": [
-            "लंबा एकतरफा व्याख्यान / Long one-way lecture",
-            "गतिविधियों में विविधता और छोटे स्पष्ट चरण / Varied activities and short clear steps",
-            "लगातार दंड / Continuous punishment",
-            "बिना विराम अत्यधिक कार्य / Excessive work without breaks"
+            "लंबा एकतरफा व्याख्यान",
+            "गतिविधियों में विविधता और छोटे स्पष्ट चरण",
+            "लगातार दंड",
+            "बिना विराम अत्यधिक कार्य"
           ],
           "optionsEn": [
-            "लंबा एकतरफा व्याख्यान / Long one-way lecture",
-            "गतिविधियों में विविधता और छोटे स्पष्ट चरण / Varied activities and short clear steps",
-            "लगातार दंड / Continuous punishment",
-            "बिना विराम अत्यधिक कार्य / Excessive work without breaks"
+            "Long one-way lecture",
+            "Varied activities and short clear steps",
+            "Continuous punishment",
+            "Excessive work without breaks"
           ],
           "answer": 1,
           "whyHi": "गतिविधि में विविधता, स्पष्ट चरण और उपयुक्त विराम ध्यान को सहारा देते हैं।",
@@ -2513,16 +2513,16 @@
           "hi": "स्मृति को मजबूत करने में पुनःस्मरण अभ्यास (retrieval practice) क्यों उपयोगी है?",
           "en": "Why is retrieval practice useful for strengthening memory?",
           "optionsHi": [
-            "यह जानकारी को बिना सोचे दोहराता है / It repeats information without thinking",
-            "सीखी जानकारी को स्मृति से निकालने का अभ्यास कराता है / It practises recalling learned information",
-            "यह सीखने के बीच संबंध हटाता है / It removes connections in learning",
-            "यह केवल लिखावट सुधारता है / It improves handwriting only"
+            "यह जानकारी को बिना सोचे दोहराता है",
+            "सीखी जानकारी को स्मृति से निकालने का अभ्यास कराता है",
+            "यह सीखने के बीच संबंध हटाता है",
+            "यह केवल लिखावट सुधारता है"
           ],
           "optionsEn": [
-            "यह जानकारी को बिना सोचे दोहराता है / It repeats information without thinking",
-            "सीखी जानकारी को स्मृति से निकालने का अभ्यास कराता है / It practises recalling learned information",
-            "यह सीखने के बीच संबंध हटाता है / It removes connections in learning",
-            "यह केवल लिखावट सुधारता है / It improves handwriting only"
+            "It repeats information without thinking",
+            "It practises recalling learned information",
+            "It removes connections in learning",
+            "It improves handwriting only"
           ],
           "answer": 1,
           "whyHi": "स्मृति से जानकारी पुनः प्राप्त करना सीखने को मजबूत करता है और याद रखने की क्षमता जाँचता है।",
@@ -2544,16 +2544,16 @@
           "hi": "वितरित अभ्यास (spaced practice) का लाभ क्या है?",
           "en": "What is the benefit of spaced practice?",
           "optionsHi": [
-            "एक ही समय में लगातार रटना / Cramming in one sitting",
-            "समयांतराल पर अभ्यास करके दीर्घकालिक स्मृति मजबूत करना / Strengthening long-term memory through practice spaced over time",
-            "अभ्यास को पूरी तरह हटाना / Eliminating practice",
-            "केवल कठिन प्रश्न करना / Doing only difficult questions"
+            "एक ही समय में लगातार रटना",
+            "समयांतराल पर अभ्यास करके दीर्घकालिक स्मृति मजबूत करना",
+            "अभ्यास को पूरी तरह हटाना",
+            "केवल कठिन प्रश्न करना"
           ],
           "optionsEn": [
-            "एक ही समय में लगातार रटना / Cramming in one sitting",
-            "समयांतराल पर अभ्यास करके दीर्घकालिक स्मृति मजबूत करना / Strengthening long-term memory through practice spaced over time",
-            "अभ्यास को पूरी तरह हटाना / Eliminating practice",
-            "केवल कठिन प्रश्न करना / Doing only difficult questions"
+            "Cramming in one sitting",
+            "Strengthening long-term memory through practice spaced over time",
+            "Eliminating practice",
+            "Doing only difficult questions"
           ],
           "answer": 1,
           "whyHi": "अंतराल देकर दोहराव दीर्घकालिक स्मृति और पुनःस्मरण में मदद करता है।",
@@ -2575,16 +2575,16 @@
           "hi": "अवधारणा मानचित्र (concept map) किसमें मदद करता है?",
           "en": "What does a concept map help learners do?",
           "optionsHi": [
-            "केवल सुंदर चित्र बनाना / Only draw attractive pictures",
-            "अवधारणाओं के बीच संबंध दिखाना / Show relationships among concepts",
-            "सभी तथ्यों को अलग-अलग रखना / Keep all facts separate",
-            "मूल्यांकन से बचना / Avoid assessment"
+            "केवल सुंदर चित्र बनाना",
+            "अवधारणाओं के बीच संबंध दिखाना",
+            "सभी तथ्यों को अलग-अलग रखना",
+            "मूल्यांकन से बचना"
           ],
           "optionsEn": [
-            "केवल सुंदर चित्र बनाना / Only draw attractive pictures",
-            "अवधारणाओं के बीच संबंध दिखाना / Show relationships among concepts",
-            "सभी तथ्यों को अलग-अलग रखना / Keep all facts separate",
-            "मूल्यांकन से बचना / Avoid assessment"
+            "Only draw attractive pictures",
+            "Show relationships among concepts",
+            "Keep all facts separate",
+            "Avoid assessment"
           ],
           "answer": 1,
           "whyHi": "अवधारणा मानचित्र ज्ञान को व्यवस्थित करता है और विचारों के बीच संबंध स्पष्ट करता है।",
@@ -2606,16 +2606,16 @@
           "hi": "विभेदीकृत शिक्षण (differentiated instruction) का अर्थ क्या है?",
           "en": "What does differentiated instruction mean?",
           "optionsHi": [
-            "हर बच्चे को बिल्कुल समान कार्य देना / Giving every learner exactly the same task",
-            "आवश्यकतानुसार सामग्री, प्रक्रिया या अभिव्यक्ति के तरीके बदलना / Adapting content, process or ways of expression to learner needs",
-            "केवल कमजोर विद्यार्थियों को पढ़ाना / Teaching only struggling learners",
-            "पाठ्यक्रम हटाना / Removing the curriculum"
+            "हर बच्चे को बिल्कुल समान कार्य देना",
+            "आवश्यकतानुसार सामग्री, प्रक्रिया या अभिव्यक्ति के तरीके बदलना",
+            "केवल कमजोर विद्यार्थियों को पढ़ाना",
+            "पाठ्यक्रम हटाना"
           ],
           "optionsEn": [
-            "हर बच्चे को बिल्कुल समान कार्य देना / Giving every learner exactly the same task",
-            "आवश्यकतानुसार सामग्री, प्रक्रिया या अभिव्यक्ति के तरीके बदलना / Adapting content, process or ways of expression to learner needs",
-            "केवल कमजोर विद्यार्थियों को पढ़ाना / Teaching only struggling learners",
-            "पाठ्यक्रम हटाना / Removing the curriculum"
+            "Giving every learner exactly the same task",
+            "Adapting content, process or ways of expression to learner needs",
+            "Teaching only struggling learners",
+            "Removing the curriculum"
           ],
           "answer": 1,
           "whyHi": "विभेदीकृत शिक्षण विद्यार्थियों की तैयारी, रुचि और सीखने की जरूरतों के अनुसार रास्ते उपलब्ध कराता है।",
@@ -2637,16 +2637,16 @@
           "hi": "व्यक्तिगत शिक्षा योजना (IEP) का मुख्य उद्देश्य क्या है?",
           "en": "What is the main purpose of an Individualised Education Plan (IEP)?",
           "optionsHi": [
-            "सभी बच्चों के लिए एक ही लक्ष्य / One identical goal for all children",
-            "विशिष्ट जरूरतों के अनुरूप लक्ष्य, सहायता और प्रगति की योजना / Plan goals, supports and progress for individual needs",
-            "विद्यार्थी को कक्षा से हटाना / Remove the learner from class",
-            "केवल चिकित्सा विवरण रखना / Record medical details only"
+            "सभी बच्चों के लिए एक ही लक्ष्य",
+            "विशिष्ट जरूरतों के अनुरूप लक्ष्य, सहायता और प्रगति की योजना",
+            "विद्यार्थी को कक्षा से हटाना",
+            "केवल चिकित्सा विवरण रखना"
           ],
           "optionsEn": [
-            "सभी बच्चों के लिए एक ही लक्ष्य / One identical goal for all children",
-            "विशिष्ट जरूरतों के अनुरूप लक्ष्य, सहायता और प्रगति की योजना / Plan goals, supports and progress for individual needs",
-            "विद्यार्थी को कक्षा से हटाना / Remove the learner from class",
-            "केवल चिकित्सा विवरण रखना / Record medical details only"
+            "One identical goal for all children",
+            "Plan goals, supports and progress for individual needs",
+            "Remove the learner from class",
+            "Record medical details only"
           ],
           "answer": 1,
           "whyHi": "IEP व्यक्तिगत शैक्षिक लक्ष्यों और आवश्यक सेवाओं/समर्थन को व्यवस्थित करता है।",
@@ -2668,16 +2668,16 @@
           "hi": "दृष्टिबाधित विद्यार्थी के लिए पाठ्य सामग्री सुलभ बनाने का उदाहरण क्या है?",
           "en": "What is an example of making learning material accessible for a learner with visual impairment?",
           "optionsHi": [
-            "केवल छोटे अक्षरों में छापना / Printing in tiny font only",
-            "ब्रेल, ऑडियो या बड़े अक्षरों का विकल्प देना / Offering Braille, audio or large-print options",
-            "चित्रों का वर्णन न करना / Leaving images undescribed",
-            "उसे गतिविधि से बाहर रखना / Excluding the learner"
+            "केवल छोटे अक्षरों में छापना",
+            "ब्रेल, ऑडियो या बड़े अक्षरों का विकल्प देना",
+            "चित्रों का वर्णन न करना",
+            "उसे गतिविधि से बाहर रखना"
           ],
           "optionsEn": [
-            "केवल छोटे अक्षरों में छापना / Printing in tiny font only",
-            "ब्रेल, ऑडियो या बड़े अक्षरों का विकल्प देना / Offering Braille, audio or large-print options",
-            "चित्रों का वर्णन न करना / Leaving images undescribed",
-            "उसे गतिविधि से बाहर रखना / Excluding the learner"
+            "Printing in tiny font only",
+            "Offering Braille, audio or large-print options",
+            "Leaving images undescribed",
+            "Excluding the learner"
           ],
           "answer": 1,
           "whyHi": "वैकल्पिक प्रारूप सामग्री तक पहुँच और स्वतंत्र सीखने को बढ़ाते हैं।",
@@ -2699,16 +2699,16 @@
           "hi": "श्रवण बाधित विद्यार्थी के साथ संवाद में कौन-सा तरीका सहायक है?",
           "en": "Which approach can support communication with a learner with hearing impairment?",
           "optionsHi": [
-            "पीठ फेरकर बोलना / Speaking while facing away",
-            "चेहरा स्पष्ट रखते हुए दृश्य संकेत और आवश्यकतानुसार सांकेतिक भाषा का उपयोग / Keeping the face visible and using visual cues or sign language as needed",
-            "बहुत तेजी से बोलना / Speaking very rapidly",
-            "सभी निर्देश केवल मौखिक देना / Giving all instructions orally"
+            "पीठ फेरकर बोलना",
+            "चेहरा स्पष्ट रखते हुए दृश्य संकेत और आवश्यकतानुसार सांकेतिक भाषा का उपयोग",
+            "बहुत तेजी से बोलना",
+            "सभी निर्देश केवल मौखिक देना"
           ],
           "optionsEn": [
-            "पीठ फेरकर बोलना / Speaking while facing away",
-            "चेहरा स्पष्ट रखते हुए दृश्य संकेत और आवश्यकतानुसार सांकेतिक भाषा का उपयोग / Keeping the face visible and using visual cues or sign language as needed",
-            "बहुत तेजी से बोलना / Speaking very rapidly",
-            "सभी निर्देश केवल मौखिक देना / Giving all instructions orally"
+            "Speaking while facing away",
+            "Keeping the face visible and using visual cues or sign language as needed",
+            "Speaking very rapidly",
+            "Giving all instructions orally"
           ],
           "answer": 1,
           "whyHi": "दृश्य संकेत, स्पष्ट मुखाभिव्यक्ति और उपयुक्त संचार साधन पहुँच बढ़ाते हैं।",
@@ -2730,16 +2730,16 @@
           "hi": "ऑटिज्म स्पेक्ट्रम वाले विद्यार्थी के लिए कौन-सी सहायता उपयोगी हो सकती है?",
           "en": "Which support may be useful for a learner on the autism spectrum?",
           "optionsHi": [
-            "अचानक बार-बार दिनचर्या बदलना / Frequently changing routines without warning",
-            "दृश्य समय-सारणी और स्पष्ट पूर्वानुमेय निर्देश / Visual schedules and clear predictable instructions",
-            "संवेदी जरूरतों की अनदेखी / Ignoring sensory needs",
-            "सामाजिक सहभागिता पर रोक / Preventing social participation"
+            "अचानक बार-बार दिनचर्या बदलना",
+            "दृश्य समय-सारणी और स्पष्ट पूर्वानुमेय निर्देश",
+            "संवेदी जरूरतों की अनदेखी",
+            "सामाजिक सहभागिता पर रोक"
           ],
           "optionsEn": [
-            "अचानक बार-बार दिनचर्या बदलना / Frequently changing routines without warning",
-            "दृश्य समय-सारणी और स्पष्ट पूर्वानुमेय निर्देश / Visual schedules and clear predictable instructions",
-            "संवेदी जरूरतों की अनदेखी / Ignoring sensory needs",
-            "सामाजिक सहभागिता पर रोक / Preventing social participation"
+            "Frequently changing routines without warning",
+            "Visual schedules and clear predictable instructions",
+            "Ignoring sensory needs",
+            "Preventing social participation"
           ],
           "answer": 1,
           "whyHi": "पूर्वानुमेय दिनचर्या और दृश्य संकेत कुछ विद्यार्थियों को गतिविधियों और बदलावों को समझने में मदद करते हैं।",
@@ -2761,16 +2761,16 @@
           "hi": "भावनात्मक बुद्धिमत्ता में कौन-सा कौशल शामिल है?",
           "en": "Which skill is included in emotional intelligence?",
           "optionsHi": [
-            "अपनी और दूसरों की भावनाओं को पहचानना और समझना / Recognising and understanding one's own and others' emotions",
-            "केवल गणना करना / Calculating only",
-            "केवल शब्द याद करना / Memorising words only",
-            "दूसरों की भावनाओं को अनदेखा करना / Ignoring others' emotions"
+            "अपनी और दूसरों की भावनाओं को पहचानना और समझना",
+            "केवल गणना करना",
+            "केवल शब्द याद करना",
+            "दूसरों की भावनाओं को अनदेखा करना"
           ],
           "optionsEn": [
-            "अपनी और दूसरों की भावनाओं को पहचानना और समझना / Recognising and understanding one's own and others' emotions",
-            "केवल गणना करना / Calculating only",
-            "केवल शब्द याद करना / Memorising words only",
-            "दूसरों की भावनाओं को अनदेखा करना / Ignoring others' emotions"
+            "Recognising and understanding one's own and others' emotions",
+            "Calculating only",
+            "Memorising words only",
+            "Ignoring others' emotions"
           ],
           "answer": 0,
           "whyHi": "भावनात्मक बुद्धिमत्ता में भावनाओं की पहचान, समझ और उनका रचनात्मक प्रबंधन शामिल है।",
@@ -2792,16 +2792,16 @@
           "hi": "सहानुभूति (empathy) का अर्थ क्या है?",
           "en": "What does empathy mean?",
           "optionsHi": [
-            "दूसरे की भावना और दृष्टिकोण समझने का प्रयास / Trying to understand another person's feelings and perspective",
-            "दूसरे से सहमत होना अनिवार्य / Having to agree with everyone",
-            "दूसरे को नियंत्रित करना / Controlling another person",
-            "केवल दया दिखाना / Showing pity only"
+            "दूसरे की भावना और दृष्टिकोण समझने का प्रयास",
+            "दूसरे से सहमत होना अनिवार्य",
+            "दूसरे को नियंत्रित करना",
+            "केवल दया दिखाना"
           ],
           "optionsEn": [
-            "दूसरे की भावना और दृष्टिकोण समझने का प्रयास / Trying to understand another person's feelings and perspective",
-            "दूसरे से सहमत होना अनिवार्य / Having to agree with everyone",
-            "दूसरे को नियंत्रित करना / Controlling another person",
-            "केवल दया दिखाना / Showing pity only"
+            "Trying to understand another person's feelings and perspective",
+            "Having to agree with everyone",
+            "Controlling another person",
+            "Showing pity only"
           ],
           "answer": 0,
           "whyHi": "सहानुभूति में दूसरे के अनुभव को उसके दृष्टिकोण से समझने का प्रयास होता है।",
@@ -2823,16 +2823,16 @@
           "hi": "विद्यालय में परामर्श (counselling) का उपयुक्त उद्देश्य क्या है?",
           "en": "What is an appropriate purpose of counselling in school?",
           "optionsHi": [
-            "विद्यार्थी के लिए हर निर्णय लेना / Making every decision for the learner",
-            "विद्यार्थी को अपनी समस्या समझने और विकल्प खोजने में सहायता देना / Helping the learner understand a concern and explore options",
-            "गलती पर दंड देना / Punishing mistakes",
-            "गोपनीयता का उल्लंघन करना / Breaching confidentiality"
+            "विद्यार्थी के लिए हर निर्णय लेना",
+            "विद्यार्थी को अपनी समस्या समझने और विकल्प खोजने में सहायता देना",
+            "गलती पर दंड देना",
+            "गोपनीयता का उल्लंघन करना"
           ],
           "optionsEn": [
-            "विद्यार्थी के लिए हर निर्णय लेना / Making every decision for the learner",
-            "विद्यार्थी को अपनी समस्या समझने और विकल्प खोजने में सहायता देना / Helping the learner understand a concern and explore options",
-            "गलती पर दंड देना / Punishing mistakes",
-            "गोपनीयता का उल्लंघन करना / Breaching confidentiality"
+            "Making every decision for the learner",
+            "Helping the learner understand a concern and explore options",
+            "Punishing mistakes",
+            "Breaching confidentiality"
           ],
           "answer": 1,
           "whyHi": "परामर्श विद्यार्थी की आत्म-समझ और निर्णय क्षमता को सहयोग देता है; गंभीर मामलों में विशेषज्ञ सहायता आवश्यक हो सकती है।",
@@ -2854,16 +2854,16 @@
           "hi": "कक्षा में बुलिंग की शिकायत मिलने पर शिक्षक की उचित पहली कार्रवाई क्या है?",
           "en": "What is an appropriate first response when bullying is reported?",
           "optionsHi": [
-            "इसे बच्चों का मजाक कहकर टालना / Dismiss it as children's joking",
-            "सुरक्षा सुनिश्चित कर निष्पक्षता से तथ्य जानना और विद्यालयी प्रक्रिया अपनाना / Ensure safety, establish facts fairly and follow school procedures",
-            "पीड़ित बच्चे को दोष देना / Blame the targeted learner",
-            "पूरी कक्षा में नाम लेकर अपमानित करना / Publicly shame learners by name"
+            "इसे बच्चों का मजाक कहकर टालना",
+            "सुरक्षा सुनिश्चित कर निष्पक्षता से तथ्य जानना और विद्यालयी प्रक्रिया अपनाना",
+            "पीड़ित बच्चे को दोष देना",
+            "पूरी कक्षा में नाम लेकर अपमानित करना"
           ],
           "optionsEn": [
-            "इसे बच्चों का मजाक कहकर टालना / Dismiss it as children's joking",
-            "सुरक्षा सुनिश्चित कर निष्पक्षता से तथ्य जानना और विद्यालयी प्रक्रिया अपनाना / Ensure safety, establish facts fairly and follow school procedures",
-            "पीड़ित बच्चे को दोष देना / Blame the targeted learner",
-            "पूरी कक्षा में नाम लेकर अपमानित करना / Publicly shame learners by name"
+            "Dismiss it as children's joking",
+            "Ensure safety, establish facts fairly and follow school procedures",
+            "Blame the targeted learner",
+            "Publicly shame learners by name"
           ],
           "answer": 1,
           "whyHi": "पहली प्राथमिकता सुरक्षा है; इसके बाद संवेदनशील, निष्पक्ष जाँच और निर्धारित सहायता/रिपोर्टिंग प्रक्रिया अपनाई जाती है।",
@@ -2885,16 +2885,16 @@
           "hi": "सकारात्मक कक्षा प्रबंधन में नियम कैसे होने चाहिए?",
           "en": "How should rules be designed in positive classroom management?",
           "optionsHi": [
-            "अस्पष्ट और बदलते हुए / Vague and changing",
-            "कम, स्पष्ट, न्यायसंगत और मिलकर समझे गए / Few, clear, fair and understood together",
-            "केवल दंड पर आधारित / Based only on punishment",
-            "केवल शिक्षक को ज्ञात / Known only to the teacher"
+            "अस्पष्ट और बदलते हुए",
+            "कम, स्पष्ट, न्यायसंगत और मिलकर समझे गए",
+            "केवल दंड पर आधारित",
+            "केवल शिक्षक को ज्ञात"
           ],
           "optionsEn": [
-            "अस्पष्ट और बदलते हुए / Vague and changing",
-            "कम, स्पष्ट, न्यायसंगत और मिलकर समझे गए / Few, clear, fair and understood together",
-            "केवल दंड पर आधारित / Based only on punishment",
-            "केवल शिक्षक को ज्ञात / Known only to the teacher"
+            "Vague and changing",
+            "Few, clear, fair and understood together",
+            "Based only on punishment",
+            "Known only to the teacher"
           ],
           "answer": 1,
           "whyHi": "स्पष्ट और न्यायसंगत नियम विद्यार्थियों को अपेक्षाएँ समझने और आत्म-नियमन में मदद करते हैं।",
@@ -2916,16 +2916,16 @@
           "hi": "नैतिक दुविधा पर चर्चा कराने से कौन-सा कौशल विकसित हो सकता है?",
           "en": "What skill can be developed through discussion of moral dilemmas?",
           "optionsHi": [
-            "नैतिक तर्क और दृष्टिकोण समझना / Moral reasoning and perspective-taking",
-            "केवल हस्तलेखन / Handwriting only",
-            "शारीरिक शक्ति / Physical strength",
-            "रटने की गति / Speed of memorisation"
+            "नैतिक तर्क और दृष्टिकोण समझना",
+            "केवल हस्तलेखन",
+            "शारीरिक शक्ति",
+            "रटने की गति"
           ],
           "optionsEn": [
-            "नैतिक तर्क और दृष्टिकोण समझना / Moral reasoning and perspective-taking",
-            "केवल हस्तलेखन / Handwriting only",
-            "शारीरिक शक्ति / Physical strength",
-            "रटने की गति / Speed of memorisation"
+            "Moral reasoning and perspective-taking",
+            "Handwriting only",
+            "Physical strength",
+            "Speed of memorisation"
           ],
           "answer": 0,
           "whyHi": "नैतिक दुविधाओं पर विचार करने से विद्यार्थी कारण, परिणाम और विभिन्न दृष्टिकोणों पर चर्चा करते हैं।",
@@ -2947,16 +2947,16 @@
           "hi": "सामाजिक-भावनात्मक अधिगम (SEL) में कौन-सा घटक शामिल है?",
           "en": "Which is a component of social-emotional learning (SEL)?",
           "optionsHi": [
-            "आत्म-जागरूकता / Self-awareness",
-            "केवल तथ्य याद करना / Memorising facts only",
-            "केवल परीक्षा रणनीति / Examination strategy only",
-            "केवल शारीरिक माप / Physical measurement only"
+            "आत्म-जागरूकता",
+            "केवल तथ्य याद करना",
+            "केवल परीक्षा रणनीति",
+            "केवल शारीरिक माप"
           ],
           "optionsEn": [
-            "आत्म-जागरूकता / Self-awareness",
-            "केवल तथ्य याद करना / Memorising facts only",
-            "केवल परीक्षा रणनीति / Examination strategy only",
-            "केवल शारीरिक माप / Physical measurement only"
+            "Self-awareness",
+            "Memorising facts only",
+            "Examination strategy only",
+            "Physical measurement only"
           ],
           "answer": 0,
           "whyHi": "SEL में आत्म-जागरूकता, आत्म-प्रबंधन, सामाजिक जागरूकता, संबंध कौशल और जिम्मेदार निर्णय शामिल हैं।",
@@ -2978,16 +2978,16 @@
           "hi": "अधिगम में रुचि और जिज्ञासा को पाठ्यक्रम से जोड़ने का लाभ क्या है?",
           "en": "What is the benefit of connecting learners' interests and curiosity to the curriculum?",
           "optionsHi": [
-            "सीखना अप्रासंगिक हो जाता है / Learning becomes irrelevant",
-            "भागीदारी और अर्थपूर्ण समझ बढ़ सकती है / Engagement and meaningful understanding can increase",
-            "सभी कठिनाई समाप्त हो जाती है / All difficulty disappears",
-            "मूल्यांकन अनावश्यक हो जाता है / Assessment becomes unnecessary"
+            "सीखना अप्रासंगिक हो जाता है",
+            "भागीदारी और अर्थपूर्ण समझ बढ़ सकती है",
+            "सभी कठिनाई समाप्त हो जाती है",
+            "मूल्यांकन अनावश्यक हो जाता है"
           ],
           "optionsEn": [
-            "सीखना अप्रासंगिक हो जाता है / Learning becomes irrelevant",
-            "भागीदारी और अर्थपूर्ण समझ बढ़ सकती है / Engagement and meaningful understanding can increase",
-            "सभी कठिनाई समाप्त हो जाती है / All difficulty disappears",
-            "मूल्यांकन अनावश्यक हो जाता है / Assessment becomes unnecessary"
+            "Learning becomes irrelevant",
+            "Engagement and meaningful understanding can increase",
+            "All difficulty disappears",
+            "Assessment becomes unnecessary"
           ],
           "answer": 1,
           "whyHi": "रुचियों से जुड़े संदर्भ विद्यार्थियों को विषय का अर्थ समझने और सक्रिय भागीदारी के लिए प्रेरित कर सकते हैं।",
@@ -3009,16 +3009,16 @@
           "hi": "शिक्षक द्वारा ‘थिंक-पेयर-शेयर’ रणनीति अपनाने का क्रम क्या है?",
           "en": "What is the sequence in the Think-Pair-Share strategy?",
           "optionsHi": [
-            "समूह–परीक्षा–व्याख्यान / Group–test–lecture",
-            "व्यक्तिगत सोच–जोड़ी में चर्चा–समूह से साझा करना / Individual thinking–pair discussion–sharing with the group",
-            "व्याख्यान–नकल–मौन / Lecture–copy–silence",
-            "परीक्षा–अंक–पुरस्कार / Test–marks–reward"
+            "समूह–परीक्षा–व्याख्यान",
+            "व्यक्तिगत सोच–जोड़ी में चर्चा–समूह से साझा करना",
+            "व्याख्यान–नकल–मौन",
+            "परीक्षा–अंक–पुरस्कार"
           ],
           "optionsEn": [
-            "समूह–परीक्षा–व्याख्यान / Group–test–lecture",
-            "व्यक्तिगत सोच–जोड़ी में चर्चा–समूह से साझा करना / Individual thinking–pair discussion–sharing with the group",
-            "व्याख्यान–नकल–मौन / Lecture–copy–silence",
-            "परीक्षा–अंक–पुरस्कार / Test–marks–reward"
+            "Group–test–lecture",
+            "Individual thinking–pair discussion–sharing with the group",
+            "Lecture–copy–silence",
+            "Test–marks–reward"
           ],
           "answer": 1,
           "whyHi": "इस रणनीति में पहले विद्यार्थी स्वयं सोचते हैं, फिर साथी से चर्चा और अंत में विचार साझा करते हैं।",
@@ -3040,16 +3040,16 @@
           "hi": "कक्षा में केस-आधारित अधिगम किसे प्रोत्साहित करता है?",
           "en": "What does case-based learning encourage?",
           "optionsHi": [
-            "वास्तविक या संदर्भित स्थिति का विश्लेषण और निर्णय / Analysis and decision-making about a real or contextual situation",
-            "केवल परिभाषाएँ याद करना / Memorising definitions only",
-            "प्रश्न पूछना बंद करना / Stopping questions",
-            "सभी समस्याओं का एक ही उत्तर / One answer to every problem"
+            "वास्तविक या संदर्भित स्थिति का विश्लेषण और निर्णय",
+            "केवल परिभाषाएँ याद करना",
+            "प्रश्न पूछना बंद करना",
+            "सभी समस्याओं का एक ही उत्तर"
           ],
           "optionsEn": [
-            "वास्तविक या संदर्भित स्थिति का विश्लेषण और निर्णय / Analysis and decision-making about a real or contextual situation",
-            "केवल परिभाषाएँ याद करना / Memorising definitions only",
-            "प्रश्न पूछना बंद करना / Stopping questions",
-            "सभी समस्याओं का एक ही उत्तर / One answer to every problem"
+            "Analysis and decision-making about a real or contextual situation",
+            "Memorising definitions only",
+            "Stopping questions",
+            "One answer to every problem"
           ],
           "answer": 0,
           "whyHi": "केस-आधारित अधिगम अवधारणाओं को परिस्थिति में लागू करने और तर्कपूर्ण निर्णय लेने का अभ्यास कराता है।",
@@ -3071,16 +3071,16 @@
           "hi": "शिक्षण में उदाहरण और गैर-उदाहरण (non-examples) देने का लाभ क्या है?",
           "en": "What is the benefit of using examples and non-examples in teaching?",
           "optionsHi": [
-            "अवधारणा की सीमाएँ स्पष्ट करना / Clarifying the boundaries of a concept",
-            "केवल समय बढ़ाना / Only increasing lesson time",
-            "भ्रम बढ़ाना / Increasing confusion",
-            "अवधारणा को छिपाना / Hiding the concept"
+            "अवधारणा की सीमाएँ स्पष्ट करना",
+            "केवल समय बढ़ाना",
+            "भ्रम बढ़ाना",
+            "अवधारणा को छिपाना"
           ],
           "optionsEn": [
-            "अवधारणा की सीमाएँ स्पष्ट करना / Clarifying the boundaries of a concept",
-            "केवल समय बढ़ाना / Only increasing lesson time",
-            "भ्रम बढ़ाना / Increasing confusion",
-            "अवधारणा को छिपाना / Hiding the concept"
+            "Clarifying the boundaries of a concept",
+            "Only increasing lesson time",
+            "Increasing confusion",
+            "Hiding the concept"
           ],
           "answer": 0,
           "whyHi": "उदाहरण और गैर-उदाहरण विद्यार्थियों को आवश्यक और अनावश्यक विशेषताओं में अंतर समझाते हैं।",
@@ -3102,16 +3102,16 @@
           "hi": "वस्तुनिष्ठ प्रश्नों में अच्छे distractors कैसे होने चाहिए?",
           "en": "How should good distractors in objective questions be designed?",
           "optionsHi": [
-            "स्पष्ट रूप से हास्यास्पद / Obviously absurd",
-            "विश्वसनीय लेकिन गलत धारणाओं को दर्शाने वाले / Plausible and reflecting common misconceptions",
-            "सही उत्तर के समान / Identical to the correct answer",
-            "व्याकरण की दृष्टि से असंगत / Grammatically inconsistent"
+            "स्पष्ट रूप से हास्यास्पद",
+            "विश्वसनीय लेकिन गलत धारणाओं को दर्शाने वाले",
+            "सही उत्तर के समान",
+            "व्याकरण की दृष्टि से असंगत"
           ],
           "optionsEn": [
-            "स्पष्ट रूप से हास्यास्पद / Obviously absurd",
-            "विश्वसनीय लेकिन गलत धारणाओं को दर्शाने वाले / Plausible and reflecting common misconceptions",
-            "सही उत्तर के समान / Identical to the correct answer",
-            "व्याकरण की दृष्टि से असंगत / Grammatically inconsistent"
+            "Obviously absurd",
+            "Plausible and reflecting common misconceptions",
+            "Identical to the correct answer",
+            "Grammatically inconsistent"
           ],
           "answer": 1,
           "whyHi": "अच्छे distractors संभावित गलतफहमियों को दर्शाते हैं और वास्तविक समझ की जाँच करते हैं।",
@@ -3133,16 +3133,16 @@
           "hi": "मौखिक प्रतिक्रिया के साथ लिखित प्रतिक्रिया देना कब उपयोगी है?",
           "en": "When can written feedback alongside oral feedback be useful?",
           "optionsHi": [
-            "जब विद्यार्थी को आगे के कदम याद रखने हों / When learners need to retain next steps",
-            "जब प्रतिक्रिया अस्पष्ट रखनी हो / When feedback should remain vague",
-            "जब विद्यार्थी को सुधार से रोकना हो / When improvement should be prevented",
-            "कभी नहीं / Never"
+            "जब विद्यार्थी को आगे के कदम याद रखने हों",
+            "जब प्रतिक्रिया अस्पष्ट रखनी हो",
+            "जब विद्यार्थी को सुधार से रोकना हो",
+            "कभी नहीं"
           ],
           "optionsEn": [
-            "जब विद्यार्थी को आगे के कदम याद रखने हों / When learners need to retain next steps",
-            "जब प्रतिक्रिया अस्पष्ट रखनी हो / When feedback should remain vague",
-            "जब विद्यार्थी को सुधार से रोकना हो / When improvement should be prevented",
-            "कभी नहीं / Never"
+            "When learners need to retain next steps",
+            "When feedback should remain vague",
+            "When improvement should be prevented",
+            "Never"
           ],
           "answer": 0,
           "whyHi": "लिखित प्रतिक्रिया विद्यार्थी को सुझावों पर दोबारा लौटने और सुधार की योजना बनाने में मदद करती है।",
@@ -3164,16 +3164,16 @@
           "hi": "किसी बच्चे की कम उपलब्धि का कारण जानने के लिए सबसे उचित कदम क्या है?",
           "en": "What is the most appropriate step to understand a child's low achievement?",
           "optionsHi": [
-            "उसे आलसी घोषित करना / Label the child lazy",
-            "कार्य नमूने, बातचीत, अवलोकन और संदर्भ की जाँच करना / Examine work samples, conversation, observation and context",
-            "केवल एक परीक्षा पर निर्णय लेना / Decide from one test only",
-            "परिवार को दोष देना / Blame the family"
+            "उसे आलसी घोषित करना",
+            "कार्य नमूने, बातचीत, अवलोकन और संदर्भ की जाँच करना",
+            "केवल एक परीक्षा पर निर्णय लेना",
+            "परिवार को दोष देना"
           ],
           "optionsEn": [
-            "उसे आलसी घोषित करना / Label the child lazy",
-            "कार्य नमूने, बातचीत, अवलोकन और संदर्भ की जाँच करना / Examine work samples, conversation, observation and context",
-            "केवल एक परीक्षा पर निर्णय लेना / Decide from one test only",
-            "परिवार को दोष देना / Blame the family"
+            "Label the child lazy",
+            "Examine work samples, conversation, observation and context",
+            "Decide from one test only",
+            "Blame the family"
           ],
           "answer": 1,
           "whyHi": "बहु-स्रोत जानकारी से कठिनाई के शैक्षिक, भाषाई, सामाजिक या अन्य कारण समझे जा सकते हैं।",
@@ -3195,16 +3195,16 @@
           "hi": "समावेशी मूल्यांकन में अतिरिक्त समय देना किसका उदाहरण है?",
           "en": "Providing extra time in inclusive assessment is an example of what?",
           "optionsHi": [
-            "अनुचित पक्षपात / Unfair favouritism",
-            "उचित समायोजन (reasonable accommodation) / Reasonable accommodation",
-            "पाठ्यक्रम हटाना / Removing the curriculum",
-            "मूल्यांकन समाप्त करना / Eliminating assessment"
+            "अनुचित पक्षपात",
+            "उचित समायोजन (reasonable accommodation)",
+            "पाठ्यक्रम हटाना",
+            "मूल्यांकन समाप्त करना"
           ],
           "optionsEn": [
-            "अनुचित पक्षपात / Unfair favouritism",
-            "उचित समायोजन (reasonable accommodation) / Reasonable accommodation",
-            "पाठ्यक्रम हटाना / Removing the curriculum",
-            "मूल्यांकन समाप्त करना / Eliminating assessment"
+            "Unfair favouritism",
+            "Reasonable accommodation",
+            "Removing the curriculum",
+            "Eliminating assessment"
           ],
           "answer": 1,
           "whyHi": "उचित समायोजन बाधा कम करता है, जबकि अपेक्षित अधिगम लक्ष्य को अनिवार्यतः नहीं बदलता।",
@@ -3226,16 +3226,16 @@
           "hi": "बच्चे के व्यवहार को समझते समय संदर्भ देखना क्यों आवश्यक है?",
           "en": "Why is it important to consider context when understanding a child's behaviour?",
           "optionsHi": [
-            "व्यवहार हमेशा स्थायी गुण होता है / Behaviour is always a fixed trait",
-            "परिस्थितियाँ, संबंध और जरूरतें व्यवहार को प्रभावित कर सकती हैं / Situations, relationships and needs can influence behaviour",
-            "संदर्भ का कोई महत्व नहीं / Context has no importance",
-            "केवल दंड से कारण पता चलता है / Punishment alone reveals the cause"
+            "व्यवहार हमेशा स्थायी गुण होता है",
+            "परिस्थितियाँ, संबंध और जरूरतें व्यवहार को प्रभावित कर सकती हैं",
+            "संदर्भ का कोई महत्व नहीं",
+            "केवल दंड से कारण पता चलता है"
           ],
           "optionsEn": [
-            "व्यवहार हमेशा स्थायी गुण होता है / Behaviour is always a fixed trait",
-            "परिस्थितियाँ, संबंध और जरूरतें व्यवहार को प्रभावित कर सकती हैं / Situations, relationships and needs can influence behaviour",
-            "संदर्भ का कोई महत्व नहीं / Context has no importance",
-            "केवल दंड से कारण पता चलता है / Punishment alone reveals the cause"
+            "Behaviour is always a fixed trait",
+            "Situations, relationships and needs can influence behaviour",
+            "Context has no importance",
+            "Punishment alone reveals the cause"
           ],
           "answer": 1,
           "whyHi": "व्यवहार संदर्भ-निर्भर हो सकता है; अवलोकन और संवाद से कारण समझना अधिक उचित है।",
@@ -3257,16 +3257,16 @@
           "hi": "कक्षा में विद्यार्थियों की आवाज को निर्णय प्रक्रिया में शामिल करना किसका उदाहरण है?",
           "en": "Including learners' voices in classroom decisions is an example of what?",
           "optionsHi": [
-            "लोकतांत्रिक कक्षा संस्कृति / Democratic classroom culture",
-            "अधिनायकवादी नियंत्रण / Authoritarian control",
-            "निष्क्रिय शिक्षण / Passive teaching",
-            "एकतरफा संचार / One-way communication"
+            "लोकतांत्रिक कक्षा संस्कृति",
+            "अधिनायकवादी नियंत्रण",
+            "निष्क्रिय शिक्षण",
+            "एकतरफा संचार"
           ],
           "optionsEn": [
-            "लोकतांत्रिक कक्षा संस्कृति / Democratic classroom culture",
-            "अधिनायकवादी नियंत्रण / Authoritarian control",
-            "निष्क्रिय शिक्षण / Passive teaching",
-            "एकतरफा संचार / One-way communication"
+            "Democratic classroom culture",
+            "Authoritarian control",
+            "Passive teaching",
+            "One-way communication"
           ],
           "answer": 0,
           "whyHi": "सार्थक सहभागिता जिम्मेदारी, अपनापन और लोकतांत्रिक व्यवहार को बढ़ाती है।",
@@ -3288,16 +3288,16 @@
           "hi": "अधिगम के लिए लक्ष्य निर्धारित करते समय लक्ष्य कैसे होने चाहिए?",
           "en": "How should learning goals be framed?",
           "optionsHi": [
-            "अस्पष्ट और असंभव / Vague and impossible",
-            "स्पष्ट, प्रासंगिक और जाँचने योग्य / Clear, relevant and assessable",
-            "केवल शिक्षक को समझ आने वाले / Understandable only to the teacher",
-            "केवल गतिविधि की सूची / A list of activities only"
+            "अस्पष्ट और असंभव",
+            "स्पष्ट, प्रासंगिक और जाँचने योग्य",
+            "केवल शिक्षक को समझ आने वाले",
+            "केवल गतिविधि की सूची"
           ],
           "optionsEn": [
-            "अस्पष्ट और असंभव / Vague and impossible",
-            "स्पष्ट, प्रासंगिक और जाँचने योग्य / Clear, relevant and assessable",
-            "केवल शिक्षक को समझ आने वाले / Understandable only to the teacher",
-            "केवल गतिविधि की सूची / A list of activities only"
+            "Vague and impossible",
+            "Clear, relevant and assessable",
+            "Understandable only to the teacher",
+            "A list of activities only"
           ],
           "answer": 1,
           "whyHi": "स्पष्ट और जाँचने योग्य लक्ष्य विद्यार्थी और शिक्षक दोनों को प्रगति समझने में मदद करते हैं।",
@@ -3319,16 +3319,16 @@
           "hi": "शिक्षक के लिए कक्षा अवलोकन का सबसे उपयोगी उद्देश्य क्या है?",
           "en": "What is the most useful purpose of classroom observation for a teacher?",
           "optionsHi": [
-            "विद्यार्थियों को लेबल करना / Labelling learners",
-            "भागीदारी, रणनीतियों और कठिनाइयों के प्रमाण जुटाना / Gathering evidence about participation, strategies and difficulties",
-            "केवल अनुशासन अंक देना / Giving discipline scores only",
-            "सभी बच्चों की तुलना करना / Comparing all children"
+            "विद्यार्थियों को लेबल करना",
+            "भागीदारी, रणनीतियों और कठिनाइयों के प्रमाण जुटाना",
+            "केवल अनुशासन अंक देना",
+            "सभी बच्चों की तुलना करना"
           ],
           "optionsEn": [
-            "विद्यार्थियों को लेबल करना / Labelling learners",
-            "भागीदारी, रणनीतियों और कठिनाइयों के प्रमाण जुटाना / Gathering evidence about participation, strategies and difficulties",
-            "केवल अनुशासन अंक देना / Giving discipline scores only",
-            "सभी बच्चों की तुलना करना / Comparing all children"
+            "Labelling learners",
+            "Gathering evidence about participation, strategies and difficulties",
+            "Giving discipline scores only",
+            "Comparing all children"
           ],
           "answer": 1,
           "whyHi": "व्यवस्थित अवलोकन शिक्षक को विद्यार्थियों की जरूरतों और शिक्षण के प्रभाव को समझने में मदद करता है।",
@@ -3350,16 +3350,16 @@
           "hi": "एक प्रभावी शिक्षक विकासात्मक उपयुक्तता का ध्यान कैसे रखता है?",
           "en": "How does an effective teacher consider developmental appropriateness?",
           "optionsHi": [
-            "सभी आयु समूहों को समान कार्य देना / Give identical tasks to all age groups",
-            "आयु, पूर्व अनुभव और व्यक्तिगत भिन्नताओं के अनुरूप चुनौती देना / Match challenge to age, prior experience and individual differences",
-            "केवल कठिनतम कार्य देना / Give only the hardest tasks",
-            "सीखने की गति की अनदेखी / Ignore learning pace"
+            "सभी आयु समूहों को समान कार्य देना",
+            "आयु, पूर्व अनुभव और व्यक्तिगत भिन्नताओं के अनुरूप चुनौती देना",
+            "केवल कठिनतम कार्य देना",
+            "सीखने की गति की अनदेखी"
           ],
           "optionsEn": [
-            "सभी आयु समूहों को समान कार्य देना / Give identical tasks to all age groups",
-            "आयु, पूर्व अनुभव और व्यक्तिगत भिन्नताओं के अनुरूप चुनौती देना / Match challenge to age, prior experience and individual differences",
-            "केवल कठिनतम कार्य देना / Give only the hardest tasks",
-            "सीखने की गति की अनदेखी / Ignore learning pace"
+            "Give identical tasks to all age groups",
+            "Match challenge to age, prior experience and individual differences",
+            "Give only the hardest tasks",
+            "Ignore learning pace"
           ],
           "answer": 1,
           "whyHi": "विकासात्मक उपयुक्तता का अर्थ है ऐसा कार्य देना जो चुनौतीपूर्ण हो पर उपलब्ध क्षमताओं और सहारे के भीतर संभव हो।",
