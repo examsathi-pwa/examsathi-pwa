@@ -1,5 +1,5 @@
 const cache=new Map();
-const centralStarterExams=new Set(['UPSC Civil Services','UPSC CAPF','SSC GD','SSC CPO','RRB ALP','RRB JE','UGC NET','NDA','CDS','AFCAT','Indian Army Agniveer','Indian Navy','Indian Coast Guard','SSC JE','SSC Stenographer','SSC Selection Post','UPSC Engineering Services','UPSC Combined Medical Services','UPSC Indian Forest Service','RRB Technician','RRB Paramedical','KVS Recruitment','NVS Recruitment','CSIR UGC NET','EPFO Recruitment','ESIC Recruitment']);
+const centralStarterExams=new Set(['UPSC CAPF','SSC GD','SSC CPO','RRB ALP','RRB JE','UGC NET','NDA','CDS','AFCAT','Indian Army Agniveer','Indian Navy','Indian Coast Guard','SSC JE','SSC Stenographer','SSC Selection Post','UPSC Engineering Services','UPSC Combined Medical Services','UPSC Indian Forest Service','RRB Technician','RRB Paramedical','KVS Recruitment','NVS Recruitment','CSIR UGC NET','EPFO Recruitment','ESIC Recruitment']);
 export function bankFileForExam(examName){
   if(centralStarterExams.has(examName))return './question-banks/central-exam-starters.json';
   const slug=String(examName||'').normalize('NFKD').toLowerCase()
