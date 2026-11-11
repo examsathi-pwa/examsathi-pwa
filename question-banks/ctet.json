@@ -1,0 +1,2112 @@
+{
+  "examId": "ctet-cdp",
+  "examName": "CTET",
+  "targetQuestions": 100,
+  "qualityStandardVersion": "1.0",
+  "bankStatus": "pilot_needs_subject_expert_review",
+  "sourceLabel": "ExamSathi original CTET Child Development & Pedagogy practice bank (50 questions; not official PYQs)",
+  "blueprint": {
+    "reference": "CBSE CTET September 2026 Information Bulletin, Paper I & II: Child Development and Pedagogy",
+    "officialSectionQuestions": 30,
+    "practiceBankQuestions": 50,
+    "note": "This is a 50-question subject practice bank, not a full 150-question CTET paper. Official CTET CDP section is 30 questions. Question content is original and requires independent subject-expert review before being labelled verified."
+  },
+  "sourceReferences": [
+    {
+      "title": "CBSE CTET September 2026 Information Bulletin",
+      "url": "https://ctet.nic.in/document/ctet-sept-2026-information-bulletin/"
+    },
+    {
+      "title": "CTET official website and syllabus information",
+      "url": "https://ctet.nic.in/"
+    }
+  ],
+  "tests": [
+    {
+      "id": "ctet-cdp-practice-001",
+      "hi": "CTET बाल विकास एवं शिक्षाशास्त्र — विषयवार अभ्यास",
+      "en": "CTET Child Development & Pedagogy — Subject Practice",
+      "minutes": 50,
+      "sourceKind": "authored_practice",
+      "questions": [
+        {
+          "hi": "बाल विकास के संदर्भ में ‘विकास’ का सबसे उपयुक्त अर्थ क्या है?",
+          "en": "In child development, what is the most appropriate meaning of development?",
+          "optionsHi": [
+            "केवल शारीरिक वृद्धि / Physical growth only",
+            "जीवनभर होने वाले गुणात्मक और मात्रात्मक परिवर्तन / Qualitative and quantitative changes across life",
+            "केवल आयु बढ़ना / Increase in age only",
+            "केवल विद्यालयी उपलब्धि / School achievement only"
+          ],
+          "optionsEn": [
+            "केवल शारीरिक वृद्धि / Physical growth only",
+            "जीवनभर होने वाले गुणात्मक और मात्रात्मक परिवर्तन / Qualitative and quantitative changes across life",
+            "केवल आयु बढ़ना / Increase in age only",
+            "केवल विद्यालयी उपलब्धि / School achievement only"
+          ],
+          "answer": 1,
+          "whyHi": "विकास में शारीरिक, संज्ञानात्मक, सामाजिक और भावनात्मक सभी पक्षों में परिवर्तन शामिल हैं।",
+          "whyEn": "Development includes changes in physical, cognitive, social and emotional domains.",
+          "subject": "Child Development & Pedagogy",
+          "topic": "विकास की अवधारणा",
+          "difficulty": "moderate",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "ctet-cdp-001",
+            "sourceUrl": "https://ctet.nic.in/document-category/public-notices/",
+            "sourceTitle": "Original ExamSathi CTET CDP practice question; syllabus alignment based on CBSE CTET 2026 Information Bulletin; not an official PYQ",
+            "answerKeyStatus": "needs_review",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "वृद्धि और विकास में मुख्य अंतर क्या है?",
+          "en": "What is the main difference between growth and development?",
+          "optionsHi": [
+            "वृद्धि गुणात्मक है, विकास केवल मात्रात्मक / Growth is qualitative, development only quantitative",
+            "दोनों समानार्थी हैं / They are synonyms",
+            "वृद्धि मुख्यतः मात्रात्मक, विकास व्यापक और गुणात्मक-मात्रात्मक दोनों / Growth is mainly quantitative; development is broader",
+            "विकास केवल बचपन में होता है / Development occurs only in childhood"
+          ],
+          "optionsEn": [
+            "वृद्धि गुणात्मक है, विकास केवल मात्रात्मक / Growth is qualitative, development only quantitative",
+            "दोनों समानार्थी हैं / They are synonyms",
+            "वृद्धि मुख्यतः मात्रात्मक, विकास व्यापक और गुणात्मक-मात्रात्मक दोनों / Growth is mainly quantitative; development is broader",
+            "विकास केवल बचपन में होता है / Development occurs only in childhood"
+          ],
+          "answer": 2,
+          "whyHi": "वृद्धि सामान्यतः आकार/मात्रा में बदलाव है, जबकि विकास व्यापक कार्यात्मक और गुणात्मक बदलाव भी समेटता है।",
+          "whyEn": "Growth usually refers to quantitative change, while development also includes broader functional and qualitative change.",
+          "subject": "Child Development & Pedagogy",
+          "topic": "वृद्धि और विकास",
+          "difficulty": "moderate",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "ctet-cdp-002",
+            "sourceUrl": "https://ctet.nic.in/document-category/public-notices/",
+            "sourceTitle": "Original ExamSathi CTET CDP practice question; syllabus alignment based on CBSE CTET 2026 Information Bulletin; not an official PYQ",
+            "answerKeyStatus": "needs_review",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "सिर से पैर की ओर विकास की प्रवृत्ति को क्या कहते हैं?",
+          "en": "What is the head-to-toe pattern of development called?",
+          "optionsHi": [
+            "निकट-दूर प्रवृत्ति / Proximodistal",
+            "मस्तकाधोमुखी प्रवृत्ति / Cephalocaudal",
+            "सामान्य-विशिष्ट प्रवृत्ति / General-to-specific",
+            "अनियमित प्रवृत्ति / Random pattern"
+          ],
+          "optionsEn": [
+            "निकट-दूर प्रवृत्ति / Proximodistal",
+            "मस्तकाधोमुखी प्रवृत्ति / Cephalocaudal",
+            "सामान्य-विशिष्ट प्रवृत्ति / General-to-specific",
+            "अनियमित प्रवृत्ति / Random pattern"
+          ],
+          "answer": 1,
+          "whyHi": "Cephalocaudal प्रवृत्ति में नियंत्रण सिर से नीचे के अंगों की ओर विकसित होता है।",
+          "whyEn": "In the cephalocaudal pattern, control develops from the head downward.",
+          "subject": "Child Development & Pedagogy",
+          "topic": "विकास के सिद्धांत",
+          "difficulty": "easy",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "ctet-cdp-003",
+            "sourceUrl": "https://ctet.nic.in/document-category/public-notices/",
+            "sourceTitle": "Original ExamSathi CTET CDP practice question; syllabus alignment based on CBSE CTET 2026 Information Bulletin; not an official PYQ",
+            "answerKeyStatus": "needs_review",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "शरीर के केंद्र से बाहरी अंगों की ओर विकास किस सिद्धांत का उदाहरण है?",
+          "en": "Development from the centre of the body towards the extremities illustrates which principle?",
+          "optionsHi": [
+            "मस्तकाधोमुखी / Cephalocaudal",
+            "निकट-दूर / Proximodistal",
+            "निरंतरता / Continuity",
+            "परिपक्वता / Maturation"
+          ],
+          "optionsEn": [
+            "मस्तकाधोमुखी / Cephalocaudal",
+            "निकट-दूर / Proximodistal",
+            "निरंतरता / Continuity",
+            "परिपक्वता / Maturation"
+          ],
+          "answer": 1,
+          "whyHi": "Proximodistal सिद्धांत के अनुसार नियंत्रण धड़ से हाथों और उँगलियों की ओर बढ़ता है।",
+          "whyEn": "The proximodistal principle describes development from the trunk towards the hands and fingers.",
+          "subject": "Child Development & Pedagogy",
+          "topic": "विकास के सिद्धांत",
+          "difficulty": "easy",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "ctet-cdp-004",
+            "sourceUrl": "https://ctet.nic.in/document-category/public-notices/",
+            "sourceTitle": "Original ExamSathi CTET CDP practice question; syllabus alignment based on CBSE CTET 2026 Information Bulletin; not an official PYQ",
+            "answerKeyStatus": "needs_review",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "बाल विकास को सबसे अधिक उपयुक्त रूप से कैसे समझा जाता है?",
+          "en": "How is child development best understood?",
+          "optionsHi": [
+            "एक ही गति से होने वाली प्रक्रिया / A process at one fixed rate",
+            "केवल आनुवंशिक प्रक्रिया / A purely genetic process",
+            "निरंतर, क्रमबद्ध लेकिन व्यक्तिगत गति में भिन्न प्रक्रिया / Continuous, sequential, but individually variable",
+            "केवल वातावरण से निर्धारित / Determined only by environment"
+          ],
+          "optionsEn": [
+            "एक ही गति से होने वाली प्रक्रिया / A process at one fixed rate",
+            "केवल आनुवंशिक प्रक्रिया / A purely genetic process",
+            "निरंतर, क्रमबद्ध लेकिन व्यक्तिगत गति में भिन्न प्रक्रिया / Continuous, sequential, but individually variable",
+            "केवल वातावरण से निर्धारित / Determined only by environment"
+          ],
+          "answer": 2,
+          "whyHi": "विकास क्रमबद्ध होता है, पर प्रत्येक बच्चे की गति और उपलब्धि अलग हो सकती है।",
+          "whyEn": "Development follows patterns, but individual children differ in pace and attainment.",
+          "subject": "Child Development & Pedagogy",
+          "topic": "विकास के सिद्धांत",
+          "difficulty": "moderate",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "ctet-cdp-005",
+            "sourceUrl": "https://ctet.nic.in/document-category/public-notices/",
+            "sourceTitle": "Original ExamSathi CTET CDP practice question; syllabus alignment based on CBSE CTET 2026 Information Bulletin; not an official PYQ",
+            "answerKeyStatus": "needs_review",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "पियाजे के अनुसार ठोस संक्रियात्मक अवस्था सामान्यतः किस आयु में होती है?",
+          "en": "According to Piaget, the concrete operational stage generally occurs at what age?",
+          "optionsHi": [
+            "0–2 वर्ष / 0–2 years",
+            "2–7 वर्ष / 2–7 years",
+            "7–11 वर्ष / 7–11 years",
+            "12 वर्ष के बाद / After 12 years"
+          ],
+          "optionsEn": [
+            "0–2 वर्ष / 0–2 years",
+            "2–7 वर्ष / 2–7 years",
+            "7–11 वर्ष / 7–11 years",
+            "12 वर्ष के बाद / After 12 years"
+          ],
+          "answer": 2,
+          "whyHi": "ठोस संक्रियात्मक अवस्था लगभग 7 से 11 वर्ष में होती है; बच्चा ठोस वस्तुओं पर तार्किक सोच सकता है।",
+          "whyEn": "The concrete operational stage is roughly 7–11 years, when children reason logically about concrete objects.",
+          "subject": "Child Development & Pedagogy",
+          "topic": "पियाजे का संज्ञानात्मक विकास",
+          "difficulty": "easy",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "ctet-cdp-006",
+            "sourceUrl": "https://ctet.nic.in/document-category/public-notices/",
+            "sourceTitle": "Original ExamSathi CTET CDP practice question; syllabus alignment based on CBSE CTET 2026 Information Bulletin; not an official PYQ",
+            "answerKeyStatus": "needs_review",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "पियाजे की संवेदी-गामक अवस्था की प्रमुख उपलब्धि क्या है?",
+          "en": "What is a major achievement of Piaget's sensorimotor stage?",
+          "optionsHi": [
+            "संरक्षण की समझ / Conservation",
+            "वस्तु स्थायित्व / Object permanence",
+            "अमूर्त चिंतन / Abstract reasoning",
+            "नैतिक सिद्धांत निर्माण / Formulating moral principles"
+          ],
+          "optionsEn": [
+            "संरक्षण की समझ / Conservation",
+            "वस्तु स्थायित्व / Object permanence",
+            "अमूर्त चिंतन / Abstract reasoning",
+            "नैतिक सिद्धांत निर्माण / Formulating moral principles"
+          ],
+          "answer": 1,
+          "whyHi": "वस्तु स्थायित्व का अर्थ है कि वस्तु दिखाई न देने पर भी उसका अस्तित्व बना रहता है।",
+          "whyEn": "Object permanence is the understanding that an object continues to exist when out of sight.",
+          "subject": "Child Development & Pedagogy",
+          "topic": "पियाजे का संज्ञानात्मक विकास",
+          "difficulty": "moderate",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "ctet-cdp-007",
+            "sourceUrl": "https://ctet.nic.in/document-category/public-notices/",
+            "sourceTitle": "Original ExamSathi CTET CDP practice question; syllabus alignment based on CBSE CTET 2026 Information Bulletin; not an official PYQ",
+            "answerKeyStatus": "needs_review",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "पियाजे के अनुसार ‘आत्मसातीकरण’ (Assimilation) क्या है?",
+          "en": "According to Piaget, what is assimilation?",
+          "optionsHi": [
+            "नई सूचना के लिए पुरानी योजना बदलना / Changing a schema for new information",
+            "नई सूचना को मौजूदा मानसिक योजना में समझना / Interpreting new information through an existing schema",
+            "सीखना रोक देना / Stopping learning",
+            "केवल नकल करना / Mere imitation"
+          ],
+          "optionsEn": [
+            "नई सूचना के लिए पुरानी योजना बदलना / Changing a schema for new information",
+            "नई सूचना को मौजूदा मानसिक योजना में समझना / Interpreting new information through an existing schema",
+            "सीखना रोक देना / Stopping learning",
+            "केवल नकल करना / Mere imitation"
+          ],
+          "answer": 1,
+          "whyHi": "आत्मसातीकरण में बच्चा नई जानकारी को पहले से मौजूद schema के माध्यम से समझता है।",
+          "whyEn": "Assimilation occurs when new information is interpreted through an existing schema.",
+          "subject": "Child Development & Pedagogy",
+          "topic": "पियाजे: आत्मसातीकरण",
+          "difficulty": "moderate",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "ctet-cdp-008",
+            "sourceUrl": "https://ctet.nic.in/document-category/public-notices/",
+            "sourceTitle": "Original ExamSathi CTET CDP practice question; syllabus alignment based on CBSE CTET 2026 Information Bulletin; not an official PYQ",
+            "answerKeyStatus": "needs_review",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "‘समायोजन’ (Accommodation) का सही उदाहरण कौन-सा है?",
+          "en": "Which is a correct example of accommodation?",
+          "optionsHi": [
+            "हर चार-पैर वाले जानवर को कुत्ता कहना जारी रखना / Continuing to call every four-legged animal a dog",
+            "नई जानकारी के आधार पर अपनी मानसिक श्रेणी बदलना / Revising a mental category in light of new information",
+            "उत्तर याद कर लेना / Memorising an answer",
+            "दूसरे बच्चे की नकल करना / Copying another child"
+          ],
+          "optionsEn": [
+            "हर चार-पैर वाले जानवर को कुत्ता कहना जारी रखना / Continuing to call every four-legged animal a dog",
+            "नई जानकारी के आधार पर अपनी मानसिक श्रेणी बदलना / Revising a mental category in light of new information",
+            "उत्तर याद कर लेना / Memorising an answer",
+            "दूसरे बच्चे की नकल करना / Copying another child"
+          ],
+          "answer": 1,
+          "whyHi": "समायोजन में नई परिस्थिति के अनुसार पुरानी मानसिक योजना में बदलाव किया जाता है।",
+          "whyEn": "Accommodation involves modifying an existing schema to fit new information.",
+          "subject": "Child Development & Pedagogy",
+          "topic": "पियाजे: समायोजन",
+          "difficulty": "moderate",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "ctet-cdp-009",
+            "sourceUrl": "https://ctet.nic.in/document-category/public-notices/",
+            "sourceTitle": "Original ExamSathi CTET CDP practice question; syllabus alignment based on CBSE CTET 2026 Information Bulletin; not an official PYQ",
+            "answerKeyStatus": "needs_review",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "वाइगोत्स्की के ‘निकटस्थ विकास क्षेत्र’ (ZPD) का अर्थ क्या है?",
+          "en": "What does Vygotsky's Zone of Proximal Development mean?",
+          "optionsHi": [
+            "जो बच्चा अकेले कर सकता है / What a child can do alone",
+            "जो बच्चा कभी नहीं कर सकता / What a child can never do",
+            "जो बच्चा सहायता से कर सकता है, पर अभी अकेले नहीं / What a child can do with guidance but not yet independently",
+            "केवल परीक्षा का स्तर / Only the examination level"
+          ],
+          "optionsEn": [
+            "जो बच्चा अकेले कर सकता है / What a child can do alone",
+            "जो बच्चा कभी नहीं कर सकता / What a child can never do",
+            "जो बच्चा सहायता से कर सकता है, पर अभी अकेले नहीं / What a child can do with guidance but not yet independently",
+            "केवल परीक्षा का स्तर / Only the examination level"
+          ],
+          "answer": 2,
+          "whyHi": "ZPD स्वतंत्र प्रदर्शन और सक्षम व्यक्ति की सहायता से संभावित प्रदर्शन के बीच का अंतर है।",
+          "whyEn": "ZPD is the gap between independent performance and what a learner can achieve with guidance.",
+          "subject": "Child Development & Pedagogy",
+          "topic": "वाइगोत्स्की: ZPD",
+          "difficulty": "moderate",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "ctet-cdp-010",
+            "sourceUrl": "https://ctet.nic.in/document-category/public-notices/",
+            "sourceTitle": "Original ExamSathi CTET CDP practice question; syllabus alignment based on CBSE CTET 2026 Information Bulletin; not an official PYQ",
+            "answerKeyStatus": "needs_review",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "शिक्षण में ‘स्कैफोल्डिंग’ का सर्वोत्तम उदाहरण क्या है?",
+          "en": "What is the best example of scaffolding in teaching?",
+          "optionsHi": [
+            "हर उत्तर शिक्षक स्वयं बता दे / Teacher gives every answer",
+            "सीखने वाले को अस्थायी संकेत और सहायता देकर धीरे-धीरे सहायता हटाना / Providing temporary prompts and gradually withdrawing support",
+            "बच्चे को बिना सहायता छोड़ देना / Leaving the child unsupported",
+            "केवल अंक देना / Only assigning marks"
+          ],
+          "optionsEn": [
+            "हर उत्तर शिक्षक स्वयं बता दे / Teacher gives every answer",
+            "सीखने वाले को अस्थायी संकेत और सहायता देकर धीरे-धीरे सहायता हटाना / Providing temporary prompts and gradually withdrawing support",
+            "बच्चे को बिना सहायता छोड़ देना / Leaving the child unsupported",
+            "केवल अंक देना / Only assigning marks"
+          ],
+          "answer": 1,
+          "whyHi": "स्कैफोल्डिंग अस्थायी सहारा है, जिसे दक्षता बढ़ने पर धीरे-धीरे कम किया जाता है।",
+          "whyEn": "Scaffolding is temporary support that is gradually withdrawn as competence grows.",
+          "subject": "Child Development & Pedagogy",
+          "topic": "वाइगोत्स्की: स्कैफोल्डिंग",
+          "difficulty": "moderate",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "ctet-cdp-011",
+            "sourceUrl": "https://ctet.nic.in/document-category/public-notices/",
+            "sourceTitle": "Original ExamSathi CTET CDP practice question; syllabus alignment based on CBSE CTET 2026 Information Bulletin; not an official PYQ",
+            "answerKeyStatus": "needs_review",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "वाइगोत्स्की के सिद्धांत में भाषा की मुख्य भूमिका क्या है?",
+          "en": "What is the major role of language in Vygotsky's theory?",
+          "optionsHi": [
+            "यह सोच से असंबंधित है / It is unrelated to thinking",
+            "यह सामाजिक संवाद और आत्म-नियमन के विकास में मदद करती है / It supports social interaction and self-regulation",
+            "यह केवल उच्चारण सिखाती है / It teaches pronunciation only",
+            "यह विकास को रोकती है / It hinders development"
+          ],
+          "optionsEn": [
+            "यह सोच से असंबंधित है / It is unrelated to thinking",
+            "यह सामाजिक संवाद और आत्म-नियमन के विकास में मदद करती है / It supports social interaction and self-regulation",
+            "यह केवल उच्चारण सिखाती है / It teaches pronunciation only",
+            "यह विकास को रोकती है / It hinders development"
+          ],
+          "answer": 1,
+          "whyHi": "वाइगोत्स्की भाषा को सामाजिक संवाद और विचारों के आंतरिकीकरण का महत्वपूर्ण साधन मानते हैं।",
+          "whyEn": "Vygotsky viewed language as a key tool for social interaction and internalising thought.",
+          "subject": "Child Development & Pedagogy",
+          "topic": "वाइगोत्स्की: भाषा",
+          "difficulty": "moderate",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "ctet-cdp-012",
+            "sourceUrl": "https://ctet.nic.in/document-category/public-notices/",
+            "sourceTitle": "Original ExamSathi CTET CDP practice question; syllabus alignment based on CBSE CTET 2026 Information Bulletin; not an official PYQ",
+            "answerKeyStatus": "needs_review",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "कोहलबर्ग का सिद्धांत मुख्यतः किस विकास से संबंधित है?",
+          "en": "Kohlberg's theory is primarily related to which aspect of development?",
+          "optionsHi": [
+            "भाषा विकास / Language development",
+            "नैतिक तर्क / Moral reasoning",
+            "शारीरिक विकास / Physical development",
+            "सृजनात्मकता / Creativity"
+          ],
+          "optionsEn": [
+            "भाषा विकास / Language development",
+            "नैतिक तर्क / Moral reasoning",
+            "शारीरिक विकास / Physical development",
+            "सृजनात्मकता / Creativity"
+          ],
+          "answer": 1,
+          "whyHi": "कोहलबर्ग ने नैतिक निर्णय और तर्क के विकास के स्तरों का वर्णन किया।",
+          "whyEn": "Kohlberg described stages in the development of moral judgement and reasoning.",
+          "subject": "Child Development & Pedagogy",
+          "topic": "कोहलबर्ग: नैतिक विकास",
+          "difficulty": "easy",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "ctet-cdp-013",
+            "sourceUrl": "https://ctet.nic.in/document-category/public-notices/",
+            "sourceTitle": "Original ExamSathi CTET CDP practice question; syllabus alignment based on CBSE CTET 2026 Information Bulletin; not an official PYQ",
+            "answerKeyStatus": "needs_review",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "कोहलबर्ग के पूर्व-परंपरागत स्तर पर बच्चा प्रायः किस आधार पर निर्णय लेता है?",
+          "en": "At Kohlberg's pre-conventional level, a child often makes decisions based on what?",
+          "optionsHi": [
+            "सार्वभौमिक नैतिक सिद्धांत / Universal ethical principles",
+            "दंड से बचना और पुरस्कार पाना / Avoiding punishment and obtaining rewards",
+            "सामाजिक अनुबंध / Social contract",
+            "कानून की आलोचनात्मक समीक्षा / Critical review of laws"
+          ],
+          "optionsEn": [
+            "सार्वभौमिक नैतिक सिद्धांत / Universal ethical principles",
+            "दंड से बचना और पुरस्कार पाना / Avoiding punishment and obtaining rewards",
+            "सामाजिक अनुबंध / Social contract",
+            "कानून की आलोचनात्मक समीक्षा / Critical review of laws"
+          ],
+          "answer": 1,
+          "whyHi": "इस स्तर पर निर्णय का आधार दंड, पुरस्कार और व्यक्तिगत परिणाम होते हैं।",
+          "whyEn": "At this level, decisions are strongly influenced by punishment, reward and personal consequences.",
+          "subject": "Child Development & Pedagogy",
+          "topic": "कोहलबर्ग: पूर्व-परंपरागत स्तर",
+          "difficulty": "moderate",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "ctet-cdp-014",
+            "sourceUrl": "https://ctet.nic.in/document-category/public-notices/",
+            "sourceTitle": "Original ExamSathi CTET CDP practice question; syllabus alignment based on CBSE CTET 2026 Information Bulletin; not an official PYQ",
+            "answerKeyStatus": "needs_review",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "बहु-बुद्धि सिद्धांत किस मनोवैज्ञानिक ने प्रस्तावित किया?",
+          "en": "Who proposed the theory of multiple intelligences?",
+          "optionsHi": [
+            "जीन पियाजे / Jean Piaget",
+            "हॉवर्ड गार्डनर / Howard Gardner",
+            "बी. एफ. स्किनर / B. F. Skinner",
+            "लॉरेंस कोहलबर्ग / Lawrence Kohlberg"
+          ],
+          "optionsEn": [
+            "जीन पियाजे / Jean Piaget",
+            "हॉवर्ड गार्डनर / Howard Gardner",
+            "बी. एफ. स्किनर / B. F. Skinner",
+            "लॉरेंस कोहलबर्ग / Lawrence Kohlberg"
+          ],
+          "answer": 1,
+          "whyHi": "हॉवर्ड गार्डनर ने बुद्धि के अनेक अपेक्षाकृत स्वतंत्र रूपों का प्रस्ताव किया।",
+          "whyEn": "Howard Gardner proposed multiple relatively distinct forms of intelligence.",
+          "subject": "Child Development & Pedagogy",
+          "topic": "बहु-बुद्धि सिद्धांत",
+          "difficulty": "easy",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "ctet-cdp-015",
+            "sourceUrl": "https://ctet.nic.in/document-category/public-notices/",
+            "sourceTitle": "Original ExamSathi CTET CDP practice question; syllabus alignment based on CBSE CTET 2026 Information Bulletin; not an official PYQ",
+            "answerKeyStatus": "needs_review",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "यदि विद्यार्थी संगीत, लय और ध्वनि के प्रति विशेष संवेदनशील है, तो गार्डनर के अनुसार कौन-सी बुद्धि प्रमुख हो सकती है?",
+          "en": "A learner is especially sensitive to music, rhythm and sound. Which intelligence may be prominent according to Gardner?",
+          "optionsHi": [
+            "स्थानिक / Spatial",
+            "संगीतात्मक / Musical",
+            "अंतरवैयक्तिक / Interpersonal",
+            "प्राकृतिक / Naturalistic"
+          ],
+          "optionsEn": [
+            "स्थानिक / Spatial",
+            "संगीतात्मक / Musical",
+            "अंतरवैयक्तिक / Interpersonal",
+            "प्राकृतिक / Naturalistic"
+          ],
+          "answer": 1,
+          "whyHi": "लय, स्वर और ध्वनि के प्रति संवेदनशीलता संगीतात्मक बुद्धि से जुड़ी है।",
+          "whyEn": "Sensitivity to rhythm, pitch and sound is associated with musical intelligence.",
+          "subject": "Child Development & Pedagogy",
+          "topic": "बहु-बुद्धि: संगीतात्मक",
+          "difficulty": "easy",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "ctet-cdp-016",
+            "sourceUrl": "https://ctet.nic.in/document-category/public-notices/",
+            "sourceTitle": "Original ExamSathi CTET CDP practice question; syllabus alignment based on CBSE CTET 2026 Information Bulletin; not an official PYQ",
+            "answerKeyStatus": "needs_review",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "समावेशी शिक्षा का मूल सिद्धांत क्या है?",
+          "en": "What is the core principle of inclusive education?",
+          "optionsHi": [
+            "विशेष आवश्यकता वाले बच्चों को अलग रखना / Separating children with special needs",
+            "सभी बच्चों को आवश्यक सहयोग के साथ साथ सीखने का अवसर देना / Enabling all children to learn together with appropriate support",
+            "केवल तेज विद्यार्थियों को पढ़ाना / Teaching only high achievers",
+            "सभी के लिए एक जैसी विधि अनिवार्य करना / Mandating one identical method for all"
+          ],
+          "optionsEn": [
+            "विशेष आवश्यकता वाले बच्चों को अलग रखना / Separating children with special needs",
+            "सभी बच्चों को आवश्यक सहयोग के साथ साथ सीखने का अवसर देना / Enabling all children to learn together with appropriate support",
+            "केवल तेज विद्यार्थियों को पढ़ाना / Teaching only high achievers",
+            "सभी के लिए एक जैसी विधि अनिवार्य करना / Mandating one identical method for all"
+          ],
+          "answer": 1,
+          "whyHi": "समावेशी शिक्षा विविध आवश्यकताओं को स्वीकार कर बाधाएँ कम करती है और सहभागिता सुनिश्चित करती है।",
+          "whyEn": "Inclusive education values diversity, reduces barriers and supports participation for all learners.",
+          "subject": "Child Development & Pedagogy",
+          "topic": "समावेशी शिक्षा",
+          "difficulty": "easy",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "ctet-cdp-017",
+            "sourceUrl": "https://ctet.nic.in/document-category/public-notices/",
+            "sourceTitle": "Original ExamSathi CTET CDP practice question; syllabus alignment based on CBSE CTET 2026 Information Bulletin; not an official PYQ",
+            "answerKeyStatus": "needs_review",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "‘व्यक्तिगत भिन्नता’ को ध्यान में रखते हुए शिक्षक को क्या करना चाहिए?",
+          "en": "What should a teacher do while considering individual differences?",
+          "optionsHi": [
+            "सभी से समान गति की अपेक्षा / Expect the same pace from everyone",
+            "केवल औसत विद्यार्थी पर ध्यान / Focus only on the average learner",
+            "विविध गतिविधियाँ और लचीले तरीके अपनाना / Use varied activities and flexible approaches",
+            "कम उपलब्धि वाले बच्चों को अनदेखा करना / Ignore low achievers"
+          ],
+          "optionsEn": [
+            "सभी से समान गति की अपेक्षा / Expect the same pace from everyone",
+            "केवल औसत विद्यार्थी पर ध्यान / Focus only on the average learner",
+            "विविध गतिविधियाँ और लचीले तरीके अपनाना / Use varied activities and flexible approaches",
+            "कम उपलब्धि वाले बच्चों को अनदेखा करना / Ignore low achievers"
+          ],
+          "answer": 2,
+          "whyHi": "लचीली शिक्षण रणनीतियाँ अलग-अलग गति, रुचि और सीखने की जरूरतों को पूरा करती हैं।",
+          "whyEn": "Flexible strategies address differences in pace, interests and learning needs.",
+          "subject": "Child Development & Pedagogy",
+          "topic": "व्यक्तिगत भिन्नताएँ",
+          "difficulty": "moderate",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "ctet-cdp-018",
+            "sourceUrl": "https://ctet.nic.in/document-category/public-notices/",
+            "sourceTitle": "Original ExamSathi CTET CDP practice question; syllabus alignment based on CBSE CTET 2026 Information Bulletin; not an official PYQ",
+            "answerKeyStatus": "needs_review",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "डिस्लेक्सिया मुख्यतः किस कठिनाई से संबंधित है?",
+          "en": "Dyslexia is primarily associated with difficulty in which area?",
+          "optionsHi": [
+            "पढ़ने और शब्द पहचानने / Reading and word recognition",
+            "चलने / Walking",
+            "सुनने / Hearing",
+            "रंग पहचानने / Colour recognition"
+          ],
+          "optionsEn": [
+            "पढ़ने और शब्द पहचानने / Reading and word recognition",
+            "चलने / Walking",
+            "सुनने / Hearing",
+            "रंग पहचानने / Colour recognition"
+          ],
+          "answer": 0,
+          "whyHi": "डिस्लेक्सिया एक विशिष्ट अधिगम कठिनाई है जो मुख्यतः पढ़ने की दक्षता को प्रभावित करती है।",
+          "whyEn": "Dyslexia is a specific learning difficulty that primarily affects reading skills.",
+          "subject": "Child Development & Pedagogy",
+          "topic": "विशिष्ट अधिगम कठिनाइयाँ",
+          "difficulty": "easy",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "ctet-cdp-019",
+            "sourceUrl": "https://ctet.nic.in/document-category/public-notices/",
+            "sourceTitle": "Original ExamSathi CTET CDP practice question; syllabus alignment based on CBSE CTET 2026 Information Bulletin; not an official PYQ",
+            "answerKeyStatus": "needs_review",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "डिस्कैल्कुलिया किस क्षेत्र में कठिनाई से संबंधित है?",
+          "en": "Dyscalculia is associated with difficulty in which area?",
+          "optionsHi": [
+            "लेखन / Writing",
+            "गणितीय अवधारणाएँ और संख्यात्मक कौशल / Mathematical concepts and number skills",
+            "सामाजिक संवाद / Social interaction",
+            "श्रवण स्मृति / Auditory memory"
+          ],
+          "optionsEn": [
+            "लेखन / Writing",
+            "गणितीय अवधारणाएँ और संख्यात्मक कौशल / Mathematical concepts and number skills",
+            "सामाजिक संवाद / Social interaction",
+            "श्रवण स्मृति / Auditory memory"
+          ],
+          "answer": 1,
+          "whyHi": "डिस्कैल्कुलिया में संख्या-बोध और गणितीय प्रक्रियाओं में कठिनाई हो सकती है।",
+          "whyEn": "Dyscalculia can affect number sense and mathematical processes.",
+          "subject": "Child Development & Pedagogy",
+          "topic": "विशिष्ट अधिगम कठिनाइयाँ",
+          "difficulty": "easy",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "ctet-cdp-020",
+            "sourceUrl": "https://ctet.nic.in/document-category/public-notices/",
+            "sourceTitle": "Original ExamSathi CTET CDP practice question; syllabus alignment based on CBSE CTET 2026 Information Bulletin; not an official PYQ",
+            "answerKeyStatus": "needs_review",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "ADHD वाले विद्यार्थी के लिए कौन-सी कक्षा रणनीति उपयोगी हो सकती है?",
+          "en": "Which classroom strategy may help a learner with ADHD?",
+          "optionsHi": [
+            "लंबे और अस्पष्ट निर्देश / Long and vague instructions",
+            "छोटे स्पष्ट निर्देश, संरचित दिनचर्या और छोटे कार्य / Short clear instructions, structured routines and manageable tasks",
+            "दंड को मुख्य उपाय बनाना / Rely mainly on punishment",
+            "उसे गतिविधियों से बाहर रखना / Exclude the learner from activities"
+          ],
+          "optionsEn": [
+            "लंबे और अस्पष्ट निर्देश / Long and vague instructions",
+            "छोटे स्पष्ट निर्देश, संरचित दिनचर्या और छोटे कार्य / Short clear instructions, structured routines and manageable tasks",
+            "दंड को मुख्य उपाय बनाना / Rely mainly on punishment",
+            "उसे गतिविधियों से बाहर रखना / Exclude the learner from activities"
+          ],
+          "answer": 1,
+          "whyHi": "स्पष्ट छोटे चरण, नियमितता और सकारात्मक प्रतिक्रिया ध्यान एवं कार्य-नियोजन में मदद कर सकते हैं।",
+          "whyEn": "Short steps, predictable routines and positive feedback can support attention and task management.",
+          "subject": "Child Development & Pedagogy",
+          "topic": "ADHD: कक्षा सहयोग",
+          "difficulty": "moderate",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "ctet-cdp-021",
+            "sourceUrl": "https://ctet.nic.in/document-category/public-notices/",
+            "sourceTitle": "Original ExamSathi CTET CDP practice question; syllabus alignment based on CBSE CTET 2026 Information Bulletin; not an official PYQ",
+            "answerKeyStatus": "needs_review",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "प्रतिभाशाली विद्यार्थी के लिए उपयुक्त शैक्षिक व्यवस्था क्या है?",
+          "en": "What is an appropriate educational provision for a gifted learner?",
+          "optionsHi": [
+            "उसे बार-बार वही सरल कार्य देना / Repeating the same easy tasks",
+            "समृद्ध, चुनौतीपूर्ण और गहन अधिगम अवसर देना / Providing enriched, challenging and deeper learning opportunities",
+            "उसे सहपाठियों से अलग कर देना / Isolating the learner",
+            "उसकी जिज्ञासा रोकना / Discouraging curiosity"
+          ],
+          "optionsEn": [
+            "उसे बार-बार वही सरल कार्य देना / Repeating the same easy tasks",
+            "समृद्ध, चुनौतीपूर्ण और गहन अधिगम अवसर देना / Providing enriched, challenging and deeper learning opportunities",
+            "उसे सहपाठियों से अलग कर देना / Isolating the learner",
+            "उसकी जिज्ञासा रोकना / Discouraging curiosity"
+          ],
+          "answer": 1,
+          "whyHi": "समृद्धिकरण और चुनौतीपूर्ण कार्य प्रतिभाशाली विद्यार्थियों की उच्च क्षमता और जिज्ञासा को विकसित करते हैं।",
+          "whyEn": "Enrichment and challenge nurture the advanced abilities and curiosity of gifted learners.",
+          "subject": "Child Development & Pedagogy",
+          "topic": "प्रतिभाशाली विद्यार्थी",
+          "difficulty": "moderate",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "ctet-cdp-022",
+            "sourceUrl": "https://ctet.nic.in/document-category/public-notices/",
+            "sourceTitle": "Original ExamSathi CTET CDP practice question; syllabus alignment based on CBSE CTET 2026 Information Bulletin; not an official PYQ",
+            "answerKeyStatus": "needs_review",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "लिंग (Gender) को सामाजिक निर्माण मानने का क्या आशय है?",
+          "en": "What does it mean to regard gender as a social construct?",
+          "optionsHi": [
+            "जैविक अंतर ही सभी भूमिकाएँ तय करते हैं / Biology alone determines all roles",
+            "समाज कई भूमिकाएँ और अपेक्षाएँ निर्मित करता है / Society shapes many roles and expectations",
+            "लिंग का शिक्षा से कोई संबंध नहीं / Gender has no relation to education",
+            "सभी संस्कृतियों में भूमिकाएँ समान हैं / Roles are identical in all cultures"
+          ],
+          "optionsEn": [
+            "जैविक अंतर ही सभी भूमिकाएँ तय करते हैं / Biology alone determines all roles",
+            "समाज कई भूमिकाएँ और अपेक्षाएँ निर्मित करता है / Society shapes many roles and expectations",
+            "लिंग का शिक्षा से कोई संबंध नहीं / Gender has no relation to education",
+            "सभी संस्कृतियों में भूमिकाएँ समान हैं / Roles are identical in all cultures"
+          ],
+          "answer": 1,
+          "whyHi": "लैंगिक भूमिकाएँ और अपेक्षाएँ सामाजिक-सांस्कृतिक प्रक्रियाओं से प्रभावित होती हैं।",
+          "whyEn": "Gender roles and expectations are shaped by social and cultural processes.",
+          "subject": "Child Development & Pedagogy",
+          "topic": "लिंग और शिक्षा",
+          "difficulty": "moderate",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "ctet-cdp-023",
+            "sourceUrl": "https://ctet.nic.in/document-category/public-notices/",
+            "sourceTitle": "Original ExamSathi CTET CDP practice question; syllabus alignment based on CBSE CTET 2026 Information Bulletin; not an official PYQ",
+            "answerKeyStatus": "needs_review",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "कक्षा में लैंगिक समानता बढ़ाने का उचित तरीका क्या है?",
+          "en": "What is an appropriate way to promote gender equity in the classroom?",
+          "optionsHi": [
+            "लड़कों को विज्ञान और लड़कियों को कला देना / Assign science to boys and art to girls",
+            "सभी को सभी गतिविधियों में समान अवसर देना / Give everyone equal access to all activities",
+            "लड़कियों से कम प्रश्न पूछना / Ask girls fewer questions",
+            "लिंग के आधार पर नेतृत्व बाँटना / Allocate leadership by gender"
+          ],
+          "optionsEn": [
+            "लड़कों को विज्ञान और लड़कियों को कला देना / Assign science to boys and art to girls",
+            "सभी को सभी गतिविधियों में समान अवसर देना / Give everyone equal access to all activities",
+            "लड़कियों से कम प्रश्न पूछना / Ask girls fewer questions",
+            "लिंग के आधार पर नेतृत्व बाँटना / Allocate leadership by gender"
+          ],
+          "answer": 1,
+          "whyHi": "समान अवसर और रूढ़ियों से मुक्त सहभागिता लैंगिक समानता को बढ़ाती है।",
+          "whyEn": "Equal opportunities and stereotype-free participation promote gender equity.",
+          "subject": "Child Development & Pedagogy",
+          "topic": "लैंगिक समानता",
+          "difficulty": "easy",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "ctet-cdp-024",
+            "sourceUrl": "https://ctet.nic.in/document-category/public-notices/",
+            "sourceTitle": "Original ExamSathi CTET CDP practice question; syllabus alignment based on CBSE CTET 2026 Information Bulletin; not an official PYQ",
+            "answerKeyStatus": "needs_review",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "आंतरिक प्रेरणा का उदाहरण कौन-सा है?",
+          "en": "Which is an example of intrinsic motivation?",
+          "optionsHi": [
+            "केवल पुरस्कार पाने के लिए पढ़ना / Studying only for a prize",
+            "दंड से बचने के लिए पढ़ना / Studying to avoid punishment",
+            "विषय में रुचि के कारण स्वयं पढ़ना / Studying independently out of interest in the subject",
+            "अंक के डर से पढ़ना / Studying out of fear of marks"
+          ],
+          "optionsEn": [
+            "केवल पुरस्कार पाने के लिए पढ़ना / Studying only for a prize",
+            "दंड से बचने के लिए पढ़ना / Studying to avoid punishment",
+            "विषय में रुचि के कारण स्वयं पढ़ना / Studying independently out of interest in the subject",
+            "अंक के डर से पढ़ना / Studying out of fear of marks"
+          ],
+          "answer": 2,
+          "whyHi": "आंतरिक प्रेरणा गतिविधि में निहित रुचि, आनंद या जिज्ञासा से उत्पन्न होती है।",
+          "whyEn": "Intrinsic motivation arises from interest, enjoyment or curiosity in the activity itself.",
+          "subject": "Child Development & Pedagogy",
+          "topic": "प्रेरणा",
+          "difficulty": "easy",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "ctet-cdp-025",
+            "sourceUrl": "https://ctet.nic.in/document-category/public-notices/",
+            "sourceTitle": "Original ExamSathi CTET CDP practice question; syllabus alignment based on CBSE CTET 2026 Information Bulletin; not an official PYQ",
+            "answerKeyStatus": "needs_review",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "सीखने में सकारात्मक पुनर्बलन का अर्थ क्या है?",
+          "en": "What does positive reinforcement mean in learning?",
+          "optionsHi": [
+            "वांछित व्यवहार के बाद सुखद परिणाम देना / Providing a desirable consequence after a behaviour",
+            "हर गलती पर दंड देना / Punishing every mistake",
+            "प्रतिक्रिया न देना / Giving no feedback",
+            "कार्य कठिन कर देना / Making the task harder"
+          ],
+          "optionsEn": [
+            "वांछित व्यवहार के बाद सुखद परिणाम देना / Providing a desirable consequence after a behaviour",
+            "हर गलती पर दंड देना / Punishing every mistake",
+            "प्रतिक्रिया न देना / Giving no feedback",
+            "कार्य कठिन कर देना / Making the task harder"
+          ],
+          "answer": 0,
+          "whyHi": "सकारात्मक पुनर्बलन वांछित व्यवहार के बाद सकारात्मक परिणाम देकर उसकी पुनरावृत्ति की संभावना बढ़ाता है।",
+          "whyEn": "Positive reinforcement increases the likelihood of a behaviour by following it with a favourable consequence.",
+          "subject": "Child Development & Pedagogy",
+          "topic": "व्यवहारवादी अधिगम",
+          "difficulty": "moderate",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "ctet-cdp-026",
+            "sourceUrl": "https://ctet.nic.in/document-category/public-notices/",
+            "sourceTitle": "Original ExamSathi CTET CDP practice question; syllabus alignment based on CBSE CTET 2026 Information Bulletin; not an official PYQ",
+            "answerKeyStatus": "needs_review",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "रचनावादी कक्षा में विद्यार्थी की भूमिका क्या होती है?",
+          "en": "What is the learner's role in a constructivist classroom?",
+          "optionsHi": [
+            "निष्क्रिय श्रोता / Passive listener",
+            "ज्ञान का सक्रिय निर्माणकर्ता / Active constructor of knowledge",
+            "केवल नोट्स नकल करने वाला / Mere copier of notes",
+            "केवल उत्तर याद करने वाला / Memoriser of answers only"
+          ],
+          "optionsEn": [
+            "निष्क्रिय श्रोता / Passive listener",
+            "ज्ञान का सक्रिय निर्माणकर्ता / Active constructor of knowledge",
+            "केवल नोट्स नकल करने वाला / Mere copier of notes",
+            "केवल उत्तर याद करने वाला / Memoriser of answers only"
+          ],
+          "answer": 1,
+          "whyHi": "रचनावाद में विद्यार्थी अनुभव, पूर्वज्ञान और संवाद से अर्थ का निर्माण करता है।",
+          "whyEn": "In constructivism, learners build meaning through experience, prior knowledge and dialogue.",
+          "subject": "Child Development & Pedagogy",
+          "topic": "रचनावाद",
+          "difficulty": "easy",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "ctet-cdp-027",
+            "sourceUrl": "https://ctet.nic.in/document-category/public-notices/",
+            "sourceTitle": "Original ExamSathi CTET CDP practice question; syllabus alignment based on CBSE CTET 2026 Information Bulletin; not an official PYQ",
+            "answerKeyStatus": "needs_review",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "पूर्वज्ञान को नए पाठ से जोड़ने का मुख्य लाभ क्या है?",
+          "en": "What is the main benefit of connecting prior knowledge to a new lesson?",
+          "optionsHi": [
+            "सीखना यांत्रिक हो जाता है / Learning becomes mechanical",
+            "नई जानकारी अर्थपूर्ण ढंग से जुड़ती है / New information is connected meaningfully",
+            "जिज्ञासा घटती है / Curiosity decreases",
+            "गलत धारणाएँ कभी नहीं बनतीं / Misconceptions never occur"
+          ],
+          "optionsEn": [
+            "सीखना यांत्रिक हो जाता है / Learning becomes mechanical",
+            "नई जानकारी अर्थपूर्ण ढंग से जुड़ती है / New information is connected meaningfully",
+            "जिज्ञासा घटती है / Curiosity decreases",
+            "गलत धारणाएँ कभी नहीं बनतीं / Misconceptions never occur"
+          ],
+          "answer": 1,
+          "whyHi": "पूर्वज्ञान से संबंध नई अवधारणाओं को अर्थपूर्ण ढंग से समझने और याद रखने में मदद करता है।",
+          "whyEn": "Linking prior knowledge helps learners understand and retain new concepts meaningfully.",
+          "subject": "Child Development & Pedagogy",
+          "topic": "पूर्वज्ञान और अधिगम",
+          "difficulty": "moderate",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "ctet-cdp-028",
+            "sourceUrl": "https://ctet.nic.in/document-category/public-notices/",
+            "sourceTitle": "Original ExamSathi CTET CDP practice question; syllabus alignment based on CBSE CTET 2026 Information Bulletin; not an official PYQ",
+            "answerKeyStatus": "needs_review",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "‘करके सीखना’ (Learning by doing) किस दृष्टिकोण से निकटता रखता है?",
+          "en": "Learning by doing is closely associated with which approach?",
+          "optionsHi": [
+            "अनुभवात्मक अधिगम / Experiential learning",
+            "रटकर याद करना / Rote memorisation",
+            "निष्क्रिय व्याख्यान / Passive lecturing",
+            "केवल दंड आधारित शिक्षण / Punishment-based teaching"
+          ],
+          "optionsEn": [
+            "अनुभवात्मक अधिगम / Experiential learning",
+            "रटकर याद करना / Rote memorisation",
+            "निष्क्रिय व्याख्यान / Passive lecturing",
+            "केवल दंड आधारित शिक्षण / Punishment-based teaching"
+          ],
+          "answer": 0,
+          "whyHi": "अनुभवात्मक अधिगम में विद्यार्थी गतिविधि, अनुभव और चिंतन के माध्यम से सीखते हैं।",
+          "whyEn": "Experiential learning uses activity, experience and reflection as central learning processes.",
+          "subject": "Child Development & Pedagogy",
+          "topic": "अनुभवात्मक अधिगम",
+          "difficulty": "easy",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "ctet-cdp-029",
+            "sourceUrl": "https://ctet.nic.in/document-category/public-notices/",
+            "sourceTitle": "Original ExamSathi CTET CDP practice question; syllabus alignment based on CBSE CTET 2026 Information Bulletin; not an official PYQ",
+            "answerKeyStatus": "needs_review",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "बच्चे की गलती को शिक्षक को किस रूप में देखना चाहिए?",
+          "en": "How should a teacher view a child's error?",
+          "optionsHi": [
+            "अयोग्यता का प्रमाण / Proof of inability",
+            "सीखने की प्रक्रिया का संकेत / Evidence about the learning process",
+            "दंड देने का अवसर / An opportunity for punishment",
+            "हमेशा लापरवाही / Always carelessness"
+          ],
+          "optionsEn": [
+            "अयोग्यता का प्रमाण / Proof of inability",
+            "सीखने की प्रक्रिया का संकेत / Evidence about the learning process",
+            "दंड देने का अवसर / An opportunity for punishment",
+            "हमेशा लापरवाही / Always carelessness"
+          ],
+          "answer": 1,
+          "whyHi": "गलतियाँ बच्चे की सोच और भ्रांतियों को समझने का अवसर देती हैं।",
+          "whyEn": "Errors provide insight into a learner's thinking and misconceptions.",
+          "subject": "Child Development & Pedagogy",
+          "topic": "त्रुटि विश्लेषण",
+          "difficulty": "moderate",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "ctet-cdp-030",
+            "sourceUrl": "https://ctet.nic.in/document-category/public-notices/",
+            "sourceTitle": "Original ExamSathi CTET CDP practice question; syllabus alignment based on CBSE CTET 2026 Information Bulletin; not an official PYQ",
+            "answerKeyStatus": "needs_review",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "निदानात्मक मूल्यांकन का मुख्य उद्देश्य क्या है?",
+          "en": "What is the main purpose of diagnostic assessment?",
+          "optionsHi": [
+            "अंतिम ग्रेड देना / Assigning a final grade",
+            "सीखने की कठिनाइयों और उनके कारणों की पहचान / Identifying learning difficulties and their causes",
+            "विद्यालय की रैंकिंग / Ranking schools",
+            "केवल उपस्थिति मापना / Measuring attendance only"
+          ],
+          "optionsEn": [
+            "अंतिम ग्रेड देना / Assigning a final grade",
+            "सीखने की कठिनाइयों और उनके कारणों की पहचान / Identifying learning difficulties and their causes",
+            "विद्यालय की रैंकिंग / Ranking schools",
+            "केवल उपस्थिति मापना / Measuring attendance only"
+          ],
+          "answer": 1,
+          "whyHi": "निदानात्मक मूल्यांकन कठिनाई के विशिष्ट क्षेत्र और संभावित कारण पहचानता है।",
+          "whyEn": "Diagnostic assessment identifies specific areas of difficulty and possible causes.",
+          "subject": "Child Development & Pedagogy",
+          "topic": "निदानात्मक मूल्यांकन",
+          "difficulty": "easy",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "ctet-cdp-031",
+            "sourceUrl": "https://ctet.nic.in/document-category/public-notices/",
+            "sourceTitle": "Original ExamSathi CTET CDP practice question; syllabus alignment based on CBSE CTET 2026 Information Bulletin; not an official PYQ",
+            "answerKeyStatus": "needs_review",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "रचनात्मक (Formative) मूल्यांकन कब किया जाता है?",
+          "en": "When is formative assessment conducted?",
+          "optionsHi": [
+            "केवल पाठ्यक्रम के अंत में / Only at the end of the course",
+            "अधिगम प्रक्रिया के दौरान / During the learning process",
+            "केवल प्रवेश के समय / Only at admission",
+            "केवल वार्षिक परीक्षा में / Only in the annual examination"
+          ],
+          "optionsEn": [
+            "केवल पाठ्यक्रम के अंत में / Only at the end of the course",
+            "अधिगम प्रक्रिया के दौरान / During the learning process",
+            "केवल प्रवेश के समय / Only at admission",
+            "केवल वार्षिक परीक्षा में / Only in the annual examination"
+          ],
+          "answer": 1,
+          "whyHi": "रचनात्मक मूल्यांकन सीखने के दौरान प्रतिक्रिया देकर शिक्षण और अधिगम में सुधार करता है।",
+          "whyEn": "Formative assessment provides feedback during learning to improve teaching and learning.",
+          "subject": "Child Development & Pedagogy",
+          "topic": "रचनात्मक मूल्यांकन",
+          "difficulty": "easy",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "ctet-cdp-032",
+            "sourceUrl": "https://ctet.nic.in/document-category/public-notices/",
+            "sourceTitle": "Original ExamSathi CTET CDP practice question; syllabus alignment based on CBSE CTET 2026 Information Bulletin; not an official PYQ",
+            "answerKeyStatus": "needs_review",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "समापनात्मक (Summative) मूल्यांकन का प्रमुख उद्देश्य क्या है?",
+          "en": "What is the main purpose of summative assessment?",
+          "optionsHi": [
+            "सीखने के दौरान तत्काल सुधार / Immediate improvement during learning",
+            "एक अवधि के अंत में उपलब्धि का आकलन / Judging achievement at the end of a period",
+            "कक्षा में चर्चा शुरू करना / Starting classroom discussion",
+            "सीखने की शैली पहचानना / Identifying learning style"
+          ],
+          "optionsEn": [
+            "सीखने के दौरान तत्काल सुधार / Immediate improvement during learning",
+            "एक अवधि के अंत में उपलब्धि का आकलन / Judging achievement at the end of a period",
+            "कक्षा में चर्चा शुरू करना / Starting classroom discussion",
+            "सीखने की शैली पहचानना / Identifying learning style"
+          ],
+          "answer": 1,
+          "whyHi": "समापनात्मक मूल्यांकन इकाई, सत्र या पाठ्यक्रम के अंत में उपलब्धि का सार प्रस्तुत करता है।",
+          "whyEn": "Summative assessment summarises achievement at the end of a unit, term or course.",
+          "subject": "Child Development & Pedagogy",
+          "topic": "समापनात्मक मूल्यांकन",
+          "difficulty": "easy",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "ctet-cdp-033",
+            "sourceUrl": "https://ctet.nic.in/document-category/public-notices/",
+            "sourceTitle": "Original ExamSathi CTET CDP practice question; syllabus alignment based on CBSE CTET 2026 Information Bulletin; not an official PYQ",
+            "answerKeyStatus": "needs_review",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "‘Assessment for learning’ का सबसे अच्छा उदाहरण क्या है?",
+          "en": "Which is the best example of assessment for learning?",
+          "optionsHi": [
+            "केवल अंतिम परीक्षा का अंक / Only the final exam score",
+            "क्विज़ के बाद प्रतिक्रिया देकर अगली शिक्षण गतिविधि बदलना / Using quiz feedback to adapt the next lesson",
+            "केवल प्रमाणपत्र देना / Issuing a certificate only",
+            "विद्यार्थियों की सार्वजनिक रैंकिंग / Publicly ranking learners"
+          ],
+          "optionsEn": [
+            "केवल अंतिम परीक्षा का अंक / Only the final exam score",
+            "क्विज़ के बाद प्रतिक्रिया देकर अगली शिक्षण गतिविधि बदलना / Using quiz feedback to adapt the next lesson",
+            "केवल प्रमाणपत्र देना / Issuing a certificate only",
+            "विद्यार्थियों की सार्वजनिक रैंकिंग / Publicly ranking learners"
+          ],
+          "answer": 1,
+          "whyHi": "Assessment for learning का उद्देश्य प्रतिक्रिया के आधार पर आगे के अधिगम को बेहतर बनाना है।",
+          "whyEn": "Assessment for learning uses evidence and feedback to improve the next steps in learning.",
+          "subject": "Child Development & Pedagogy",
+          "topic": "अधिगम हेतु मूल्यांकन",
+          "difficulty": "moderate",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "ctet-cdp-034",
+            "sourceUrl": "https://ctet.nic.in/document-category/public-notices/",
+            "sourceTitle": "Original ExamSathi CTET CDP practice question; syllabus alignment based on CBSE CTET 2026 Information Bulletin; not an official PYQ",
+            "answerKeyStatus": "needs_review",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "सतत एवं व्यापक मूल्यांकन (CCE) का व्यापक आशय क्या है?",
+          "en": "What is the broad meaning of Continuous and Comprehensive Evaluation (CCE)?",
+          "optionsHi": [
+            "केवल वार्षिक लिखित परीक्षा / Only an annual written examination",
+            "नियमित और विविध क्षेत्रों में विद्यार्थी की प्रगति का आकलन / Regular assessment across varied areas of development",
+            "केवल खेल का मूल्यांकन / Assessment of sports only",
+            "केवल उपस्थिति का रिकॉर्ड / Attendance record only"
+          ],
+          "optionsEn": [
+            "केवल वार्षिक लिखित परीक्षा / Only an annual written examination",
+            "नियमित और विविध क्षेत्रों में विद्यार्थी की प्रगति का आकलन / Regular assessment across varied areas of development",
+            "केवल खेल का मूल्यांकन / Assessment of sports only",
+            "केवल उपस्थिति का रिकॉर्ड / Attendance record only"
+          ],
+          "answer": 1,
+          "whyHi": "CCE शैक्षिक और सह-शैक्षिक क्षेत्रों में निरंतर प्रगति पर ध्यान देता है।",
+          "whyEn": "CCE focuses on ongoing progress in scholastic and co-scholastic areas.",
+          "subject": "Child Development & Pedagogy",
+          "topic": "CCE",
+          "difficulty": "moderate",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "ctet-cdp-035",
+            "sourceUrl": "https://ctet.nic.in/document-category/public-notices/",
+            "sourceTitle": "Original ExamSathi CTET CDP practice question; syllabus alignment based on CBSE CTET 2026 Information Bulletin; not an official PYQ",
+            "answerKeyStatus": "needs_review",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "पोर्टफोलियो मूल्यांकन में क्या संकलित किया जाता है?",
+          "en": "What is collected in portfolio assessment?",
+          "optionsHi": [
+            "केवल एक अंतिम अंक / A single final score",
+            "समय के साथ विद्यार्थी के कार्यों के नमूने / Samples of a learner's work over time",
+            "केवल उपस्थिति पत्रक / Attendance sheets only",
+            "केवल मौखिक परीक्षा / Oral test only"
+          ],
+          "optionsEn": [
+            "केवल एक अंतिम अंक / A single final score",
+            "समय के साथ विद्यार्थी के कार्यों के नमूने / Samples of a learner's work over time",
+            "केवल उपस्थिति पत्रक / Attendance sheets only",
+            "केवल मौखिक परीक्षा / Oral test only"
+          ],
+          "answer": 1,
+          "whyHi": "पोर्टफोलियो समय के साथ कार्य, प्रगति और चिंतन का प्रमाण प्रस्तुत करता है।",
+          "whyEn": "A portfolio documents work, progress and reflection over time.",
+          "subject": "Child Development & Pedagogy",
+          "topic": "पोर्टफोलियो मूल्यांकन",
+          "difficulty": "easy",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "ctet-cdp-036",
+            "sourceUrl": "https://ctet.nic.in/document-category/public-notices/",
+            "sourceTitle": "Original ExamSathi CTET CDP practice question; syllabus alignment based on CBSE CTET 2026 Information Bulletin; not an official PYQ",
+            "answerKeyStatus": "needs_review",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "सहपाठी मूल्यांकन का एक प्रमुख लाभ क्या है?",
+          "en": "What is a major benefit of peer assessment?",
+          "optionsHi": [
+            "शिक्षक की भूमिका समाप्त करना / Eliminating the teacher's role",
+            "मानदंड समझना और रचनात्मक प्रतिक्रिया देना सीखना / Learning criteria and giving constructive feedback",
+            "प्रतिस्पर्धा को ही लक्ष्य बनाना / Making competition the only goal",
+            "अंक बिना मानदंड देना / Awarding marks without criteria"
+          ],
+          "optionsEn": [
+            "शिक्षक की भूमिका समाप्त करना / Eliminating the teacher's role",
+            "मानदंड समझना और रचनात्मक प्रतिक्रिया देना सीखना / Learning criteria and giving constructive feedback",
+            "प्रतिस्पर्धा को ही लक्ष्य बनाना / Making competition the only goal",
+            "अंक बिना मानदंड देना / Awarding marks without criteria"
+          ],
+          "answer": 1,
+          "whyHi": "सहपाठी मूल्यांकन से विद्यार्थी मानदंडों का उपयोग और सम्मानजनक प्रतिक्रिया देना सीखते हैं।",
+          "whyEn": "Peer assessment helps learners use criteria and provide respectful feedback.",
+          "subject": "Child Development & Pedagogy",
+          "topic": "सहपाठी मूल्यांकन",
+          "difficulty": "moderate",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "ctet-cdp-037",
+            "sourceUrl": "https://ctet.nic.in/document-category/public-notices/",
+            "sourceTitle": "Original ExamSathi CTET CDP practice question; syllabus alignment based on CBSE CTET 2026 Information Bulletin; not an official PYQ",
+            "answerKeyStatus": "needs_review",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "बहुभाषी कक्षा में शिक्षक का सबसे उपयुक्त दृष्टिकोण क्या है?",
+          "en": "What is the most appropriate approach in a multilingual classroom?",
+          "optionsHi": [
+            "घर की भाषा पर प्रतिबंध / Banning home languages",
+            "बच्चों की भाषाओं को संसाधन मानकर सीखने से जोड़ना / Treating children's languages as resources for learning",
+            "केवल एक भाषा बोलने पर दंड / Punishing use of any other language",
+            "भाषाई विविधता को समस्या मानना / Treating linguistic diversity as a problem"
+          ],
+          "optionsEn": [
+            "घर की भाषा पर प्रतिबंध / Banning home languages",
+            "बच्चों की भाषाओं को संसाधन मानकर सीखने से जोड़ना / Treating children's languages as resources for learning",
+            "केवल एक भाषा बोलने पर दंड / Punishing use of any other language",
+            "भाषाई विविधता को समस्या मानना / Treating linguistic diversity as a problem"
+          ],
+          "answer": 1,
+          "whyHi": "मातृभाषा और परिचित भाषाएँ अवधारणा समझने तथा सहभागिता बढ़ाने में सहायक हो सकती हैं।",
+          "whyEn": "Home and familiar languages can support conceptual understanding and participation.",
+          "subject": "Child Development & Pedagogy",
+          "topic": "बहुभाषिकता",
+          "difficulty": "moderate",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "ctet-cdp-038",
+            "sourceUrl": "https://ctet.nic.in/document-category/public-notices/",
+            "sourceTitle": "Original ExamSathi CTET CDP practice question; syllabus alignment based on CBSE CTET 2026 Information Bulletin; not an official PYQ",
+            "answerKeyStatus": "needs_review",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "भाषा सीखने में अर्थपूर्ण संवाद क्यों महत्वपूर्ण है?",
+          "en": "Why is meaningful interaction important in language learning?",
+          "optionsHi": [
+            "यह केवल व्याकरण नियम याद कराता है / It only teaches grammar rules",
+            "यह भाषा को वास्तविक संदर्भ में प्रयोग करने का अवसर देता है / It allows language use in authentic contexts",
+            "यह त्रुटियों को पूरी तरह रोकता है / It eliminates all errors",
+            "यह सुनने की क्षमता घटाता है / It reduces listening ability"
+          ],
+          "optionsEn": [
+            "यह केवल व्याकरण नियम याद कराता है / It only teaches grammar rules",
+            "यह भाषा को वास्तविक संदर्भ में प्रयोग करने का अवसर देता है / It allows language use in authentic contexts",
+            "यह त्रुटियों को पूरी तरह रोकता है / It eliminates all errors",
+            "यह सुनने की क्षमता घटाता है / It reduces listening ability"
+          ],
+          "answer": 1,
+          "whyHi": "अर्थपूर्ण संवाद भाषा के प्रयोग, समझ और सामाजिक संप्रेषण को विकसित करता है।",
+          "whyEn": "Meaningful interaction develops language use, comprehension and social communication.",
+          "subject": "Child Development & Pedagogy",
+          "topic": "भाषा अधिगम",
+          "difficulty": "moderate",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "ctet-cdp-039",
+            "sourceUrl": "https://ctet.nic.in/document-category/public-notices/",
+            "sourceTitle": "Original ExamSathi CTET CDP practice question; syllabus alignment based on CBSE CTET 2026 Information Bulletin; not an official PYQ",
+            "answerKeyStatus": "needs_review",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "कक्षा में खुले प्रश्न (open-ended questions) पूछने का लाभ क्या है?",
+          "en": "What is a benefit of asking open-ended questions in class?",
+          "optionsHi": [
+            "केवल एक शब्द के उत्तर मिलते हैं / They elicit only one-word answers",
+            "तर्क, कल्पना और विविध दृष्टिकोण प्रोत्साहित होते हैं / They encourage reasoning, imagination and diverse perspectives",
+            "चर्चा समाप्त हो जाती है / They end discussion",
+            "केवल याददाश्त जाँची जाती है / They test memory only"
+          ],
+          "optionsEn": [
+            "केवल एक शब्द के उत्तर मिलते हैं / They elicit only one-word answers",
+            "तर्क, कल्पना और विविध दृष्टिकोण प्रोत्साहित होते हैं / They encourage reasoning, imagination and diverse perspectives",
+            "चर्चा समाप्त हो जाती है / They end discussion",
+            "केवल याददाश्त जाँची जाती है / They test memory only"
+          ],
+          "answer": 1,
+          "whyHi": "खुले प्रश्न विद्यार्थियों को अपने विचार स्पष्ट करने और तर्क प्रस्तुत करने का अवसर देते हैं।",
+          "whyEn": "Open-ended questions let learners explain ideas and present reasoning.",
+          "subject": "Child Development & Pedagogy",
+          "topic": "प्रश्न पूछने की रणनीति",
+          "difficulty": "easy",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "ctet-cdp-040",
+            "sourceUrl": "https://ctet.nic.in/document-category/public-notices/",
+            "sourceTitle": "Original ExamSathi CTET CDP practice question; syllabus alignment based on CBSE CTET 2026 Information Bulletin; not an official PYQ",
+            "answerKeyStatus": "needs_review",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "सहयोगात्मक अधिगम में समूह कार्य का उद्देश्य क्या है?",
+          "en": "What is the purpose of group work in cooperative learning?",
+          "optionsHi": [
+            "एक विद्यार्थी सब काम करे / One learner does all the work",
+            "साझा लक्ष्य के लिए सहभागिता और पारस्परिक उत्तरदायित्व / Participation and mutual responsibility towards a shared goal",
+            "केवल तेज विद्यार्थियों को चुनना / Selecting only fast learners",
+            "व्यक्तिगत प्रयास रोकना / Preventing individual effort"
+          ],
+          "optionsEn": [
+            "एक विद्यार्थी सब काम करे / One learner does all the work",
+            "साझा लक्ष्य के लिए सहभागिता और पारस्परिक उत्तरदायित्व / Participation and mutual responsibility towards a shared goal",
+            "केवल तेज विद्यार्थियों को चुनना / Selecting only fast learners",
+            "व्यक्तिगत प्रयास रोकना / Preventing individual effort"
+          ],
+          "answer": 1,
+          "whyHi": "सहयोगात्मक अधिगम में साझा लक्ष्य, सकारात्मक निर्भरता और व्यक्तिगत उत्तरदायित्व होते हैं।",
+          "whyEn": "Cooperative learning involves shared goals, positive interdependence and individual accountability.",
+          "subject": "Child Development & Pedagogy",
+          "topic": "सहयोगात्मक अधिगम",
+          "difficulty": "moderate",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "ctet-cdp-041",
+            "sourceUrl": "https://ctet.nic.in/document-category/public-notices/",
+            "sourceTitle": "Original ExamSathi CTET CDP practice question; syllabus alignment based on CBSE CTET 2026 Information Bulletin; not an official PYQ",
+            "answerKeyStatus": "needs_review",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "बाल-केंद्रित शिक्षण में पाठ योजना किस आधार पर बननी चाहिए?",
+          "en": "On what should lesson planning be based in child-centred teaching?",
+          "optionsHi": [
+            "केवल पाठ्यपुस्तक के पृष्ठ / Textbook pages alone",
+            "बच्चों की आवश्यकताओं, पूर्वज्ञान और रुचियों / Learners' needs, prior knowledge and interests",
+            "केवल परीक्षा की तारीख / Examination date only",
+            "केवल शिक्षक की सुविधा / Teacher convenience only"
+          ],
+          "optionsEn": [
+            "केवल पाठ्यपुस्तक के पृष्ठ / Textbook pages alone",
+            "बच्चों की आवश्यकताओं, पूर्वज्ञान और रुचियों / Learners' needs, prior knowledge and interests",
+            "केवल परीक्षा की तारीख / Examination date only",
+            "केवल शिक्षक की सुविधा / Teacher convenience only"
+          ],
+          "answer": 1,
+          "whyHi": "बाल-केंद्रित योजना में सीखने वालों की जरूरत, अनुभव और सक्रिय भागीदारी को केंद्र में रखा जाता है।",
+          "whyEn": "Child-centred planning places learners' needs, experiences and active participation at the centre.",
+          "subject": "Child Development & Pedagogy",
+          "topic": "बाल-केंद्रित शिक्षण",
+          "difficulty": "easy",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "ctet-cdp-042",
+            "sourceUrl": "https://ctet.nic.in/document-category/public-notices/",
+            "sourceTitle": "Original ExamSathi CTET CDP practice question; syllabus alignment based on CBSE CTET 2026 Information Bulletin; not an official PYQ",
+            "answerKeyStatus": "needs_review",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "सीखने के स्थानांतरण (transfer of learning) का अर्थ क्या है?",
+          "en": "What does transfer of learning mean?",
+          "optionsHi": [
+            "सीखी हुई बात भूल जाना / Forgetting what was learned",
+            "सीखे ज्ञान या कौशल को नई परिस्थिति में लागू करना / Applying learned knowledge or skills in a new situation",
+            "केवल दोहराना / Repeating only",
+            "परीक्षा छोड़ना / Skipping an examination"
+          ],
+          "optionsEn": [
+            "सीखी हुई बात भूल जाना / Forgetting what was learned",
+            "सीखे ज्ञान या कौशल को नई परिस्थिति में लागू करना / Applying learned knowledge or skills in a new situation",
+            "केवल दोहराना / Repeating only",
+            "परीक्षा छोड़ना / Skipping an examination"
+          ],
+          "answer": 1,
+          "whyHi": "अधिगम का स्थानांतरण तब होता है जब पूर्व में सीखा ज्ञान नई समस्या या संदर्भ में उपयोग हो।",
+          "whyEn": "Transfer occurs when previously learned knowledge is applied to a new problem or context.",
+          "subject": "Child Development & Pedagogy",
+          "topic": "अधिगम का स्थानांतरण",
+          "difficulty": "moderate",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "ctet-cdp-043",
+            "sourceUrl": "https://ctet.nic.in/document-category/public-notices/",
+            "sourceTitle": "Original ExamSathi CTET CDP practice question; syllabus alignment based on CBSE CTET 2026 Information Bulletin; not an official PYQ",
+            "answerKeyStatus": "needs_review",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "मेटाकॉग्निशन का अर्थ क्या है?",
+          "en": "What does metacognition mean?",
+          "optionsHi": [
+            "दूसरों की नकल करना / Imitating others",
+            "अपने सोचने और सीखने की प्रक्रिया के प्रति जागरूकता / Awareness of one's own thinking and learning",
+            "केवल तेज पढ़ना / Reading quickly only",
+            "शारीरिक समन्वय / Physical coordination"
+          ],
+          "optionsEn": [
+            "दूसरों की नकल करना / Imitating others",
+            "अपने सोचने और सीखने की प्रक्रिया के प्रति जागरूकता / Awareness of one's own thinking and learning",
+            "केवल तेज पढ़ना / Reading quickly only",
+            "शारीरिक समन्वय / Physical coordination"
+          ],
+          "answer": 1,
+          "whyHi": "मेटाकॉग्निशन में विद्यार्थी अपनी समझ की निगरानी और रणनीतियों का चयन करता है।",
+          "whyEn": "Metacognition involves monitoring one's understanding and choosing learning strategies.",
+          "subject": "Child Development & Pedagogy",
+          "topic": "मेटाकॉग्निशन",
+          "difficulty": "moderate",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "ctet-cdp-044",
+            "sourceUrl": "https://ctet.nic.in/document-category/public-notices/",
+            "sourceTitle": "Original ExamSathi CTET CDP practice question; syllabus alignment based on CBSE CTET 2026 Information Bulletin; not an official PYQ",
+            "answerKeyStatus": "needs_review",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "आत्म-नियंत्रित अधिगम में विद्यार्थी क्या करता है?",
+          "en": "What does a self-regulated learner do?",
+          "optionsHi": [
+            "लक्ष्य तय नहीं करता / Sets no goals",
+            "लक्ष्य तय करता, प्रगति देखता और रणनीति बदलता है / Sets goals, monitors progress and adjusts strategies",
+            "केवल शिक्षक पर निर्भर रहता है / Depends entirely on the teacher",
+            "गलतियों से बचने के लिए प्रयास छोड़ देता है / Stops trying to avoid mistakes"
+          ],
+          "optionsEn": [
+            "लक्ष्य तय नहीं करता / Sets no goals",
+            "लक्ष्य तय करता, प्रगति देखता और रणनीति बदलता है / Sets goals, monitors progress and adjusts strategies",
+            "केवल शिक्षक पर निर्भर रहता है / Depends entirely on the teacher",
+            "गलतियों से बचने के लिए प्रयास छोड़ देता है / Stops trying to avoid mistakes"
+          ],
+          "answer": 1,
+          "whyHi": "आत्म-नियमन में योजना, निगरानी, रणनीति-संशोधन और आत्म-चिंतन शामिल हैं।",
+          "whyEn": "Self-regulation includes planning, monitoring, strategy adjustment and reflection.",
+          "subject": "Child Development & Pedagogy",
+          "topic": "आत्म-नियंत्रित अधिगम",
+          "difficulty": "moderate",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "ctet-cdp-045",
+            "sourceUrl": "https://ctet.nic.in/document-category/public-notices/",
+            "sourceTitle": "Original ExamSathi CTET CDP practice question; syllabus alignment based on CBSE CTET 2026 Information Bulletin; not an official PYQ",
+            "answerKeyStatus": "needs_review",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "सृजनात्मकता को बढ़ावा देने के लिए शिक्षक को क्या करना चाहिए?",
+          "en": "What should a teacher do to encourage creativity?",
+          "optionsHi": [
+            "एक ही सही तरीके पर जोर / Insist on one correct method",
+            "विविध समाधान और मौलिक विचारों को प्रोत्साहित करना / Encourage multiple solutions and original ideas",
+            "असामान्य उत्तरों को तुरंत खारिज करना / Reject unusual answers immediately",
+            "केवल नकल करवाना / Require copying only"
+          ],
+          "optionsEn": [
+            "एक ही सही तरीके पर जोर / Insist on one correct method",
+            "विविध समाधान और मौलिक विचारों को प्रोत्साहित करना / Encourage multiple solutions and original ideas",
+            "असामान्य उत्तरों को तुरंत खारिज करना / Reject unusual answers immediately",
+            "केवल नकल करवाना / Require copying only"
+          ],
+          "answer": 1,
+          "whyHi": "सृजनात्मकता के लिए खोज, प्रयोग, लचीलेपन और मौलिकता के अवसर आवश्यक हैं।",
+          "whyEn": "Creativity needs opportunities for exploration, experimentation, flexibility and originality.",
+          "subject": "Child Development & Pedagogy",
+          "topic": "सृजनात्मकता",
+          "difficulty": "easy",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "ctet-cdp-046",
+            "sourceUrl": "https://ctet.nic.in/document-category/public-notices/",
+            "sourceTitle": "Original ExamSathi CTET CDP practice question; syllabus alignment based on CBSE CTET 2026 Information Bulletin; not an official PYQ",
+            "answerKeyStatus": "needs_review",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "समस्या-समाधान आधारित अधिगम में पहला महत्वपूर्ण कदम क्या है?",
+          "en": "What is an important first step in problem-based learning?",
+          "optionsHi": [
+            "उत्तर याद करना / Memorising the answer",
+            "समस्या को समझना और स्पष्ट करना / Understanding and defining the problem",
+            "तुरंत निष्कर्ष लिखना / Writing a conclusion immediately",
+            "समस्या को अनदेखा करना / Ignoring the problem"
+          ],
+          "optionsEn": [
+            "उत्तर याद करना / Memorising the answer",
+            "समस्या को समझना और स्पष्ट करना / Understanding and defining the problem",
+            "तुरंत निष्कर्ष लिखना / Writing a conclusion immediately",
+            "समस्या को अनदेखा करना / Ignoring the problem"
+          ],
+          "answer": 1,
+          "whyHi": "समस्या की स्पष्ट समझ के बिना उपयुक्त रणनीति और समाधान चुनना कठिन होता है।",
+          "whyEn": "A clear understanding of the problem is needed before selecting strategies and solutions.",
+          "subject": "Child Development & Pedagogy",
+          "topic": "समस्या-समाधान",
+          "difficulty": "moderate",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "ctet-cdp-047",
+            "sourceUrl": "https://ctet.nic.in/document-category/public-notices/",
+            "sourceTitle": "Original ExamSathi CTET CDP practice question; syllabus alignment based on CBSE CTET 2026 Information Bulletin; not an official PYQ",
+            "answerKeyStatus": "needs_review",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "यदि बच्चा किसी अवधारणा को गलत समझ रहा है, तो शिक्षक की पहली प्रतिक्रिया क्या होनी चाहिए?",
+          "en": "If a child has a misconception, what should the teacher do first?",
+          "optionsHi": [
+            "उसे डाँटना / Scold the child",
+            "उसकी सोच जानने के लिए प्रश्न पूछना / Ask questions to understand the child's thinking",
+            "उत्तर लिखवा देना / Dictate the correct answer",
+            "उसे चर्चा से हटाना / Remove the child from discussion"
+          ],
+          "optionsEn": [
+            "उसे डाँटना / Scold the child",
+            "उसकी सोच जानने के लिए प्रश्न पूछना / Ask questions to understand the child's thinking",
+            "उत्तर लिखवा देना / Dictate the correct answer",
+            "उसे चर्चा से हटाना / Remove the child from discussion"
+          ],
+          "answer": 1,
+          "whyHi": "विद्यार्थी की सोच समझने से शिक्षक भ्रांति का स्रोत पहचानकर उपयुक्त अनुभव दे सकता है।",
+          "whyEn": "Understanding the learner's reasoning helps the teacher identify and address the misconception.",
+          "subject": "Child Development & Pedagogy",
+          "topic": "भ्रांतियों का निराकरण",
+          "difficulty": "moderate",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "ctet-cdp-048",
+            "sourceUrl": "https://ctet.nic.in/document-category/public-notices/",
+            "sourceTitle": "Original ExamSathi CTET CDP practice question; syllabus alignment based on CBSE CTET 2026 Information Bulletin; not an official PYQ",
+            "answerKeyStatus": "needs_review",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "भावनात्मक रूप से सुरक्षित कक्षा का प्रमुख संकेत क्या है?",
+          "en": "What is a key sign of an emotionally safe classroom?",
+          "optionsHi": [
+            "गलती पर उपहास / Ridicule for mistakes",
+            "विद्यार्थी बिना भय प्रश्न पूछ और विचार साझा कर सकें / Learners can ask questions and share ideas without fear",
+            "केवल चुप्पी / Silence only",
+            "सार्वजनिक तुलना / Public comparison"
+          ],
+          "optionsEn": [
+            "गलती पर उपहास / Ridicule for mistakes",
+            "विद्यार्थी बिना भय प्रश्न पूछ और विचार साझा कर सकें / Learners can ask questions and share ideas without fear",
+            "केवल चुप्पी / Silence only",
+            "सार्वजनिक तुलना / Public comparison"
+          ],
+          "answer": 1,
+          "whyHi": "सुरक्षित वातावरण में सम्मान, भरोसा और बिना अपमान के भागीदारी होती है।",
+          "whyEn": "A safe environment supports respect, trust and participation without humiliation.",
+          "subject": "Child Development & Pedagogy",
+          "topic": "कक्षा का भावनात्मक वातावरण",
+          "difficulty": "easy",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "ctet-cdp-049",
+            "sourceUrl": "https://ctet.nic.in/document-category/public-notices/",
+            "sourceTitle": "Original ExamSathi CTET CDP practice question; syllabus alignment based on CBSE CTET 2026 Information Bulletin; not an official PYQ",
+            "answerKeyStatus": "needs_review",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "सामाजिकरण की प्रक्रिया में प्राथमिक भूमिका किनकी होती है?",
+          "en": "Who commonly play primary roles in a child's socialisation?",
+          "optionsHi": [
+            "केवल पाठ्यपुस्तक / Textbooks only",
+            "परिवार, साथियों और समुदाय / Family, peers and community",
+            "केवल परीक्षा बोर्ड / Examination board only",
+            "केवल मीडिया / Media only"
+          ],
+          "optionsEn": [
+            "केवल पाठ्यपुस्तक / Textbooks only",
+            "परिवार, साथियों और समुदाय / Family, peers and community",
+            "केवल परीक्षा बोर्ड / Examination board only",
+            "केवल मीडिया / Media only"
+          ],
+          "answer": 1,
+          "whyHi": "परिवार, मित्र, विद्यालय और समुदाय बच्चे के सामाजिक व्यवहार और मान्यताओं को प्रभावित करते हैं।",
+          "whyEn": "Family, peers, school and community influence a child's social behaviour and beliefs.",
+          "subject": "Child Development & Pedagogy",
+          "topic": "सामाजिकरण",
+          "difficulty": "easy",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "ctet-cdp-050",
+            "sourceUrl": "https://ctet.nic.in/document-category/public-notices/",
+            "sourceTitle": "Original ExamSathi CTET CDP practice question; syllabus alignment based on CBSE CTET 2026 Information Bulletin; not an official PYQ",
+            "answerKeyStatus": "needs_review",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "अनुकरण द्वारा सीखना किस सिद्धांत से विशेष रूप से जुड़ा है?",
+          "en": "Learning through imitation is especially associated with which theory?",
+          "optionsHi": [
+            "सामाजिक अधिगम सिद्धांत / Social learning theory",
+            "केवल परिपक्वता सिद्धांत / Maturation theory only",
+            "शास्त्रीय परीक्षण सिद्धांत / Classical testing theory",
+            "संरचनात्मक भाषाविज्ञान / Structural linguistics"
+          ],
+          "optionsEn": [
+            "सामाजिक अधिगम सिद्धांत / Social learning theory",
+            "केवल परिपक्वता सिद्धांत / Maturation theory only",
+            "शास्त्रीय परीक्षण सिद्धांत / Classical testing theory",
+            "संरचनात्मक भाषाविज्ञान / Structural linguistics"
+          ],
+          "answer": 0,
+          "whyHi": "बंडूरा के सामाजिक अधिगम सिद्धांत में अवलोकन और मॉडलिंग महत्वपूर्ण हैं।",
+          "whyEn": "Bandura's social learning theory emphasises observation and modelling.",
+          "subject": "Child Development & Pedagogy",
+          "topic": "बंडूरा: सामाजिक अधिगम",
+          "difficulty": "moderate",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "ctet-cdp-051",
+            "sourceUrl": "https://ctet.nic.in/document-category/public-notices/",
+            "sourceTitle": "Original ExamSathi CTET CDP practice question; syllabus alignment based on CBSE CTET 2026 Information Bulletin; not an official PYQ",
+            "answerKeyStatus": "needs_review",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "बंडूरा के अनुसार आत्म-प्रभावकारिता (self-efficacy) क्या है?",
+          "en": "According to Bandura, what is self-efficacy?",
+          "optionsHi": [
+            "अपनी क्षमता पर विश्वास कि मैं कार्य कर सकता हूँ / Belief in one's capability to perform a task",
+            "दूसरों को नियंत्रित करना / Controlling others",
+            "केवल उच्च बुद्धिलब्धि / High IQ only",
+            "असफलता से पूर्ण बचाव / Complete avoidance of failure"
+          ],
+          "optionsEn": [
+            "अपनी क्षमता पर विश्वास कि मैं कार्य कर सकता हूँ / Belief in one's capability to perform a task",
+            "दूसरों को नियंत्रित करना / Controlling others",
+            "केवल उच्च बुद्धिलब्धि / High IQ only",
+            "असफलता से पूर्ण बचाव / Complete avoidance of failure"
+          ],
+          "answer": 0,
+          "whyHi": "आत्म-प्रभावकारिता किसी विशिष्ट कार्य को सफलतापूर्वक करने की अपनी क्षमता में विश्वास है।",
+          "whyEn": "Self-efficacy is one's belief in the ability to successfully perform a particular task.",
+          "subject": "Child Development & Pedagogy",
+          "topic": "आत्म-प्रभावकारिता",
+          "difficulty": "moderate",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "ctet-cdp-052",
+            "sourceUrl": "https://ctet.nic.in/document-category/public-notices/",
+            "sourceTitle": "Original ExamSathi CTET CDP practice question; syllabus alignment based on CBSE CTET 2026 Information Bulletin; not an official PYQ",
+            "answerKeyStatus": "needs_review",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "कक्षा में सकारात्मक अनुशासन का सर्वोत्तम आधार क्या है?",
+          "en": "What is the best foundation for positive discipline in a classroom?",
+          "optionsHi": [
+            "डर और दंड / Fear and punishment",
+            "स्पष्ट अपेक्षाएँ, सम्मान और तार्किक परिणाम / Clear expectations, respect and logical consequences",
+            "अपमान / Humiliation",
+            "मनमाने नियम / Arbitrary rules"
+          ],
+          "optionsEn": [
+            "डर और दंड / Fear and punishment",
+            "स्पष्ट अपेक्षाएँ, सम्मान और तार्किक परिणाम / Clear expectations, respect and logical consequences",
+            "अपमान / Humiliation",
+            "मनमाने नियम / Arbitrary rules"
+          ],
+          "answer": 1,
+          "whyHi": "सकारात्मक अनुशासन आत्म-नियमन और जिम्मेदारी को सम्मानजनक तरीके से विकसित करता है।",
+          "whyEn": "Positive discipline develops self-regulation and responsibility respectfully.",
+          "subject": "Child Development & Pedagogy",
+          "topic": "सकारात्मक अनुशासन",
+          "difficulty": "moderate",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "ctet-cdp-053",
+            "sourceUrl": "https://ctet.nic.in/document-category/public-notices/",
+            "sourceTitle": "Original ExamSathi CTET CDP practice question; syllabus alignment based on CBSE CTET 2026 Information Bulletin; not an official PYQ",
+            "answerKeyStatus": "needs_review",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "बच्चों में जिज्ञासा बनाए रखने के लिए शिक्षक को क्या करना चाहिए?",
+          "en": "What should a teacher do to sustain children's curiosity?",
+          "optionsHi": [
+            "हर प्रश्न का उत्तर तुरंत बता देना / Immediately give every answer",
+            "खोजपरक प्रश्न और अन्वेषण के अवसर देना / Provide inquiry questions and opportunities to explore",
+            "प्रश्न पूछने पर रोक लगाना / Discourage questions",
+            "केवल परिभाषाएँ रटवाना / Teach definitions by rote only"
+          ],
+          "optionsEn": [
+            "हर प्रश्न का उत्तर तुरंत बता देना / Immediately give every answer",
+            "खोजपरक प्रश्न और अन्वेषण के अवसर देना / Provide inquiry questions and opportunities to explore",
+            "प्रश्न पूछने पर रोक लगाना / Discourage questions",
+            "केवल परिभाषाएँ रटवाना / Teach definitions by rote only"
+          ],
+          "answer": 1,
+          "whyHi": "अन्वेषण और प्रश्न आधारित गतिविधियाँ बच्चों की जिज्ञासा तथा स्वतंत्र सोच को प्रोत्साहित करती हैं।",
+          "whyEn": "Inquiry and exploration activities nurture curiosity and independent thinking.",
+          "subject": "Child Development & Pedagogy",
+          "topic": "जिज्ञासा और अन्वेषण",
+          "difficulty": "easy",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "ctet-cdp-054",
+            "sourceUrl": "https://ctet.nic.in/document-category/public-notices/",
+            "sourceTitle": "Original ExamSathi CTET CDP practice question; syllabus alignment based on CBSE CTET 2026 Information Bulletin; not an official PYQ",
+            "answerKeyStatus": "needs_review",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "समावेशी कक्षा में सहायक उपकरणों का उपयोग किस उद्देश्य से किया जाता है?",
+          "en": "Why are assistive devices used in an inclusive classroom?",
+          "optionsHi": [
+            "विद्यार्थी को अलग दिखाने के लिए / To single out a learner",
+            "सीखने और सहभागिता की बाधाएँ कम करने के लिए / To reduce barriers to learning and participation",
+            "पाठ्यक्रम हटाने के लिए / To remove the curriculum",
+            "मूल्यांकन समाप्त करने के लिए / To eliminate assessment"
+          ],
+          "optionsEn": [
+            "विद्यार्थी को अलग दिखाने के लिए / To single out a learner",
+            "सीखने और सहभागिता की बाधाएँ कम करने के लिए / To reduce barriers to learning and participation",
+            "पाठ्यक्रम हटाने के लिए / To remove the curriculum",
+            "मूल्यांकन समाप्त करने के लिए / To eliminate assessment"
+          ],
+          "answer": 1,
+          "whyHi": "सहायक उपकरण पहुँच, संचार और स्वतंत्र सहभागिता को बेहतर बना सकते हैं।",
+          "whyEn": "Assistive devices can improve access, communication and independent participation.",
+          "subject": "Child Development & Pedagogy",
+          "topic": "सहायक तकनीक",
+          "difficulty": "easy",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "ctet-cdp-055",
+            "sourceUrl": "https://ctet.nic.in/document-category/public-notices/",
+            "sourceTitle": "Original ExamSathi CTET CDP practice question; syllabus alignment based on CBSE CTET 2026 Information Bulletin; not an official PYQ",
+            "answerKeyStatus": "needs_review",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "सार्वभौमिक अधिगम अभिकल्पना (UDL) का उद्देश्य क्या है?",
+          "en": "What is the purpose of Universal Design for Learning (UDL)?",
+          "optionsHi": [
+            "सभी को एक ही तरीके से पढ़ाना / Teach everyone in one way",
+            "प्रस्तुति, सहभागिता और अभिव्यक्ति के अनेक तरीके उपलब्ध कराना / Offer multiple means of representation, engagement and expression",
+            "केवल विशेष बच्चों के लिए अलग पाठ्यक्रम / A separate curriculum only for selected children",
+            "परीक्षा हटाना / Remove examinations"
+          ],
+          "optionsEn": [
+            "सभी को एक ही तरीके से पढ़ाना / Teach everyone in one way",
+            "प्रस्तुति, सहभागिता और अभिव्यक्ति के अनेक तरीके उपलब्ध कराना / Offer multiple means of representation, engagement and expression",
+            "केवल विशेष बच्चों के लिए अलग पाठ्यक्रम / A separate curriculum only for selected children",
+            "परीक्षा हटाना / Remove examinations"
+          ],
+          "answer": 1,
+          "whyHi": "UDL शुरुआत से ही विविध सीखने वालों के लिए लचीले रास्ते तैयार करता है।",
+          "whyEn": "UDL proactively designs flexible pathways for diverse learners.",
+          "subject": "Child Development & Pedagogy",
+          "topic": "UDL",
+          "difficulty": "hard",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "ctet-cdp-056",
+            "sourceUrl": "https://ctet.nic.in/document-category/public-notices/",
+            "sourceTitle": "Original ExamSathi CTET CDP practice question; syllabus alignment based on CBSE CTET 2026 Information Bulletin; not an official PYQ",
+            "answerKeyStatus": "needs_review",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "बच्चे की उपलब्धि की तुलना मुख्यतः किससे करना अधिक उपयोगी है?",
+          "en": "What is often more useful when interpreting a child's achievement?",
+          "optionsHi": [
+            "हमेशा दूसरे बच्चों से / Always with other children",
+            "उसकी पिछली प्रगति और निर्धारित अधिगम लक्ष्यों से / With the learner's own prior progress and learning goals",
+            "केवल कक्षा के प्रथम विद्यार्थी से / Only with the top learner",
+            "केवल आयु से / Age alone"
+          ],
+          "optionsEn": [
+            "हमेशा दूसरे बच्चों से / Always with other children",
+            "उसकी पिछली प्रगति और निर्धारित अधिगम लक्ष्यों से / With the learner's own prior progress and learning goals",
+            "केवल कक्षा के प्रथम विद्यार्थी से / Only with the top learner",
+            "केवल आयु से / Age alone"
+          ],
+          "answer": 1,
+          "whyHi": "व्यक्तिगत प्रगति पर ध्यान देने से सीखने की वास्तविक वृद्धि और आवश्यक सहयोग समझ आता है।",
+          "whyEn": "Tracking individual progress reveals growth and the support still needed.",
+          "subject": "Child Development & Pedagogy",
+          "topic": "प्रगति का आकलन",
+          "difficulty": "moderate",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "ctet-cdp-057",
+            "sourceUrl": "https://ctet.nic.in/document-category/public-notices/",
+            "sourceTitle": "Original ExamSathi CTET CDP practice question; syllabus alignment based on CBSE CTET 2026 Information Bulletin; not an official PYQ",
+            "answerKeyStatus": "needs_review",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "किसी परीक्षण की वैधता (validity) का अर्थ क्या है?",
+          "en": "What does the validity of a test mean?",
+          "optionsHi": [
+            "हर बार समान अंक देना / Giving identical scores every time",
+            "जिस गुण को मापना है, उसी को उचित रूप से मापना / Measuring appropriately what it is intended to measure",
+            "परीक्षा का छोटा होना / Being short",
+            "प्रश्न कठिन होना / Having difficult questions"
+          ],
+          "optionsEn": [
+            "हर बार समान अंक देना / Giving identical scores every time",
+            "जिस गुण को मापना है, उसी को उचित रूप से मापना / Measuring appropriately what it is intended to measure",
+            "परीक्षा का छोटा होना / Being short",
+            "प्रश्न कठिन होना / Having difficult questions"
+          ],
+          "answer": 1,
+          "whyHi": "वैधता बताती है कि परीक्षण अपने घोषित उद्देश्य या गुण को कितनी सही तरह मापता है।",
+          "whyEn": "Validity concerns how well a test measures the construct it is intended to measure.",
+          "subject": "Child Development & Pedagogy",
+          "topic": "मूल्यांकन: वैधता",
+          "difficulty": "hard",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "ctet-cdp-058",
+            "sourceUrl": "https://ctet.nic.in/document-category/public-notices/",
+            "sourceTitle": "Original ExamSathi CTET CDP practice question; syllabus alignment based on CBSE CTET 2026 Information Bulletin; not an official PYQ",
+            "answerKeyStatus": "needs_review",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "विश्वसनीयता (reliability) का अर्थ क्या है?",
+          "en": "What does reliability mean in assessment?",
+          "optionsHi": [
+            "परीक्षण का आकर्षक दिखना / Attractive appearance",
+            "मापन में स्थिरता और संगति / Consistency and stability of measurement",
+            "केवल आसान प्रश्न / Easy questions only",
+            "सभी को समान अंक / Same marks for everyone"
+          ],
+          "optionsEn": [
+            "परीक्षण का आकर्षक दिखना / Attractive appearance",
+            "मापन में स्थिरता और संगति / Consistency and stability of measurement",
+            "केवल आसान प्रश्न / Easy questions only",
+            "सभी को समान अंक / Same marks for everyone"
+          ],
+          "answer": 1,
+          "whyHi": "विश्वसनीय मापन समान परिस्थितियों में अपेक्षाकृत संगत परिणाम देता है।",
+          "whyEn": "A reliable measure produces reasonably consistent results under similar conditions.",
+          "subject": "Child Development & Pedagogy",
+          "topic": "मूल्यांकन: विश्वसनीयता",
+          "difficulty": "moderate",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "ctet-cdp-059",
+            "sourceUrl": "https://ctet.nic.in/document-category/public-notices/",
+            "sourceTitle": "Original ExamSathi CTET CDP practice question; syllabus alignment based on CBSE CTET 2026 Information Bulletin; not an official PYQ",
+            "answerKeyStatus": "needs_review",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "यदि शिक्षक सीखने के लक्ष्य पहले से स्पष्ट कर देता है, तो इससे क्या लाभ होता है?",
+          "en": "What is a benefit of making learning goals explicit?",
+          "optionsHi": [
+            "विद्यार्थी भ्रमित होते हैं / Learners become confused",
+            "विद्यार्थी अपेक्षाएँ समझकर अपनी प्रगति जाँच सकते हैं / Learners understand expectations and monitor progress",
+            "मूल्यांकन असंभव होता है / Assessment becomes impossible",
+            "केवल रटने को बढ़ावा मिलता है / It promotes rote learning only"
+          ],
+          "optionsEn": [
+            "विद्यार्थी भ्रमित होते हैं / Learners become confused",
+            "विद्यार्थी अपेक्षाएँ समझकर अपनी प्रगति जाँच सकते हैं / Learners understand expectations and monitor progress",
+            "मूल्यांकन असंभव होता है / Assessment becomes impossible",
+            "केवल रटने को बढ़ावा मिलता है / It promotes rote learning only"
+          ],
+          "answer": 1,
+          "whyHi": "स्पष्ट लक्ष्य विद्यार्थियों को दिशा देते हैं और आत्म-मूल्यांकन को संभव बनाते हैं।",
+          "whyEn": "Clear goals provide direction and make self-assessment possible.",
+          "subject": "Child Development & Pedagogy",
+          "topic": "अधिगम लक्ष्य",
+          "difficulty": "easy",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "ctet-cdp-060",
+            "sourceUrl": "https://ctet.nic.in/document-category/public-notices/",
+            "sourceTitle": "Original ExamSathi CTET CDP practice question; syllabus alignment based on CBSE CTET 2026 Information Bulletin; not an official PYQ",
+            "answerKeyStatus": "needs_review",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "प्रतिक्रिया (feedback) सबसे प्रभावी कब होती है?",
+          "en": "When is feedback most effective?",
+          "optionsHi": [
+            "बहुत देर बाद और अस्पष्ट / Much later and vague",
+            "समय पर, विशिष्ट और सुधार के अगले कदम बताने वाली / Timely, specific and indicating next steps",
+            "केवल अंक के रूप में / As marks only",
+            "व्यक्तित्व पर टिप्पणी के रूप में / As comments on personality"
+          ],
+          "optionsEn": [
+            "बहुत देर बाद और अस्पष्ट / Much later and vague",
+            "समय पर, विशिष्ट और सुधार के अगले कदम बताने वाली / Timely, specific and indicating next steps",
+            "केवल अंक के रूप में / As marks only",
+            "व्यक्तित्व पर टिप्पणी के रूप में / As comments on personality"
+          ],
+          "answer": 1,
+          "whyHi": "प्रभावी प्रतिक्रिया कार्य और रणनीति पर केंद्रित होती है तथा आगे सुधार का रास्ता बताती है।",
+          "whyEn": "Effective feedback focuses on the work and strategies and guides the next improvement.",
+          "subject": "Child Development & Pedagogy",
+          "topic": "प्रभावी प्रतिक्रिया",
+          "difficulty": "moderate",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "ctet-cdp-061",
+            "sourceUrl": "https://ctet.nic.in/document-category/public-notices/",
+            "sourceTitle": "Original ExamSathi CTET CDP practice question; syllabus alignment based on CBSE CTET 2026 Information Bulletin; not an official PYQ",
+            "answerKeyStatus": "needs_review",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "कक्षा में विविधता को संसाधन मानने का अर्थ क्या है?",
+          "en": "What does it mean to view diversity as a resource in the classroom?",
+          "optionsHi": [
+            "अलग अनुभवों को दबाना / Suppress different experiences",
+            "विभिन्न अनुभवों और दृष्टिकोणों से सामूहिक सीखना / Learn collectively from varied experiences and perspectives",
+            "सभी को एक जैसा बनाना / Make everyone identical",
+            "कुछ समूहों को कम महत्व देना / Give some groups less value"
+          ],
+          "optionsEn": [
+            "अलग अनुभवों को दबाना / Suppress different experiences",
+            "विभिन्न अनुभवों और दृष्टिकोणों से सामूहिक सीखना / Learn collectively from varied experiences and perspectives",
+            "सभी को एक जैसा बनाना / Make everyone identical",
+            "कुछ समूहों को कम महत्व देना / Give some groups less value"
+          ],
+          "answer": 1,
+          "whyHi": "विविधता चर्चा को समृद्ध करती है और विद्यार्थियों को अनेक दृष्टिकोण समझने में मदद करती है।",
+          "whyEn": "Diversity enriches discussion and helps learners understand multiple perspectives.",
+          "subject": "Child Development & Pedagogy",
+          "topic": "विविधता और शिक्षा",
+          "difficulty": "moderate",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "ctet-cdp-062",
+            "sourceUrl": "https://ctet.nic.in/document-category/public-notices/",
+            "sourceTitle": "Original ExamSathi CTET CDP practice question; syllabus alignment based on CBSE CTET 2026 Information Bulletin; not an official PYQ",
+            "answerKeyStatus": "needs_review",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "कक्षा में शांत या कम बोलने वाले विद्यार्थी की सहभागिता बढ़ाने का उचित तरीका क्या है?",
+          "en": "What is an appropriate way to increase participation of a quiet learner?",
+          "optionsHi": [
+            "उसे अचानक सबके सामने बोलने को मजबूर करना / Force the learner to speak publicly without preparation",
+            "जोड़ी कार्य, लिखित प्रतिक्रिया और सुरक्षित अवसर देना / Offer pair work, written responses and safe opportunities",
+            "उसकी उपेक्षा करना / Ignore the learner",
+            "उसकी तुलना मुखर विद्यार्थियों से करना / Compare the learner with outspoken peers"
+          ],
+          "optionsEn": [
+            "उसे अचानक सबके सामने बोलने को मजबूर करना / Force the learner to speak publicly without preparation",
+            "जोड़ी कार्य, लिखित प्रतिक्रिया और सुरक्षित अवसर देना / Offer pair work, written responses and safe opportunities",
+            "उसकी उपेक्षा करना / Ignore the learner",
+            "उसकी तुलना मुखर विद्यार्थियों से करना / Compare the learner with outspoken peers"
+          ],
+          "answer": 1,
+          "whyHi": "विविध सहभागिता के रास्ते अलग-अलग स्वभाव और सहजता वाले बच्चों को आवाज देते हैं।",
+          "whyEn": "Multiple participation routes give learners with different comfort levels a voice.",
+          "subject": "Child Development & Pedagogy",
+          "topic": "सहभागिता",
+          "difficulty": "moderate",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "ctet-cdp-063",
+            "sourceUrl": "https://ctet.nic.in/document-category/public-notices/",
+            "sourceTitle": "Original ExamSathi CTET CDP practice question; syllabus alignment based on CBSE CTET 2026 Information Bulletin; not an official PYQ",
+            "answerKeyStatus": "needs_review",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "अधिगम में खेल का शैक्षिक महत्व क्या है?",
+          "en": "What is the educational value of play in learning?",
+          "optionsHi": [
+            "यह समय की बर्बादी है / It is a waste of time",
+            "यह खोज, भाषा, सामाजिक कौशल और समस्या-समाधान को बढ़ावा दे सकता है / It can support exploration, language, social skills and problem-solving",
+            "यह केवल पुरस्कार है / It is only a reward",
+            "यह सीखने से अलग है / It is separate from learning"
+          ],
+          "optionsEn": [
+            "यह समय की बर्बादी है / It is a waste of time",
+            "यह खोज, भाषा, सामाजिक कौशल और समस्या-समाधान को बढ़ावा दे सकता है / It can support exploration, language, social skills and problem-solving",
+            "यह केवल पुरस्कार है / It is only a reward",
+            "यह सीखने से अलग है / It is separate from learning"
+          ],
+          "answer": 1,
+          "whyHi": "उद्देश्यपूर्ण खेल संज्ञानात्मक, सामाजिक, भाषाई और भावनात्मक विकास को सहारा देता है।",
+          "whyEn": "Purposeful play can support cognitive, social, language and emotional development.",
+          "subject": "Child Development & Pedagogy",
+          "topic": "खेल आधारित अधिगम",
+          "difficulty": "easy",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "ctet-cdp-064",
+            "sourceUrl": "https://ctet.nic.in/document-category/public-notices/",
+            "sourceTitle": "Original ExamSathi CTET CDP practice question; syllabus alignment based on CBSE CTET 2026 Information Bulletin; not an official PYQ",
+            "answerKeyStatus": "needs_review",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "शिक्षक को पाठ के दौरान समझ की जाँच क्यों करनी चाहिए?",
+          "en": "Why should a teacher check understanding during a lesson?",
+          "optionsHi": [
+            "केवल समय पूरा करने के लिए / Merely to fill time",
+            "ताकि गलतफहमी पहचानकर शिक्षण में समय रहते बदलाव कर सके / To identify misunderstandings and adapt instruction in time",
+            "विद्यार्थियों को डराने के लिए / To intimidate learners",
+            "अंतिम परीक्षा हटाने के लिए / To replace the final examination"
+          ],
+          "optionsEn": [
+            "केवल समय पूरा करने के लिए / Merely to fill time",
+            "ताकि गलतफहमी पहचानकर शिक्षण में समय रहते बदलाव कर सके / To identify misunderstandings and adapt instruction in time",
+            "विद्यार्थियों को डराने के लिए / To intimidate learners",
+            "अंतिम परीक्षा हटाने के लिए / To replace the final examination"
+          ],
+          "answer": 1,
+          "whyHi": "बीच-बीच में जाँच से शिक्षक सीखने की स्थिति देखकर तत्काल सहायता दे सकता है।",
+          "whyEn": "Checks during a lesson help the teacher respond to learners' needs promptly.",
+          "subject": "Child Development & Pedagogy",
+          "topic": "समझ की जाँच",
+          "difficulty": "moderate",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "ctet-cdp-065",
+            "sourceUrl": "https://ctet.nic.in/document-category/public-notices/",
+            "sourceTitle": "Original ExamSathi CTET CDP practice question; syllabus alignment based on CBSE CTET 2026 Information Bulletin; not an official PYQ",
+            "answerKeyStatus": "needs_review",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "समानता (equality) और न्यायसंगतता (equity) में क्या अंतर है?",
+          "en": "What is the difference between equality and equity?",
+          "optionsHi": [
+            "दोनों का अर्थ हर स्थिति में एक जैसा है / They mean exactly the same in every context",
+            "समानता समान संसाधन देती है; न्यायसंगतता आवश्यकता अनुसार सहयोग देती है / Equality gives the same resources; equity provides support according to need",
+            "न्यायसंगतता में अवसर नहीं होते / Equity removes opportunity",
+            "समानता केवल परीक्षा में लागू होती है / Equality applies only to tests"
+          ],
+          "optionsEn": [
+            "दोनों का अर्थ हर स्थिति में एक जैसा है / They mean exactly the same in every context",
+            "समानता समान संसाधन देती है; न्यायसंगतता आवश्यकता अनुसार सहयोग देती है / Equality gives the same resources; equity provides support according to need",
+            "न्यायसंगतता में अवसर नहीं होते / Equity removes opportunity",
+            "समानता केवल परीक्षा में लागू होती है / Equality applies only to tests"
+          ],
+          "answer": 1,
+          "whyHi": "न्यायसंगतता का लक्ष्य बाधाओं और जरूरतों के अनुसार समर्थन देकर वास्तविक अवसर सुनिश्चित करना है।",
+          "whyEn": "Equity aims to ensure meaningful opportunity by responding to different needs and barriers.",
+          "subject": "Child Development & Pedagogy",
+          "topic": "समानता और न्यायसंगतता",
+          "difficulty": "hard",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "ctet-cdp-066",
+            "sourceUrl": "https://ctet.nic.in/document-category/public-notices/",
+            "sourceTitle": "Original ExamSathi CTET CDP practice question; syllabus alignment based on CBSE CTET 2026 Information Bulletin; not an official PYQ",
+            "answerKeyStatus": "needs_review",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "शिक्षक का चिंतनशील अभ्यास (reflective practice) किसे कहते हैं?",
+          "en": "What is reflective practice for a teacher?",
+          "optionsHi": [
+            "बिना बदलाव वही पाठ दोहराना / Repeating the same lesson without change",
+            "अपने शिक्षण के प्रमाणों पर विचार कर सुधार करना / Examining evidence from one's teaching and making improvements",
+            "केवल दूसरों की आलोचना / Only criticising others",
+            "पाठ योजना न बनाना / Avoiding lesson planning"
+          ],
+          "optionsEn": [
+            "बिना बदलाव वही पाठ दोहराना / Repeating the same lesson without change",
+            "अपने शिक्षण के प्रमाणों पर विचार कर सुधार करना / Examining evidence from one's teaching and making improvements",
+            "केवल दूसरों की आलोचना / Only criticising others",
+            "पाठ योजना न बनाना / Avoiding lesson planning"
+          ],
+          "answer": 1,
+          "whyHi": "चिंतनशील शिक्षक विद्यार्थियों की प्रतिक्रिया और परिणाम देखकर अपनी रणनीतियों में सुधार करता है।",
+          "whyEn": "A reflective teacher uses learner responses and outcomes to improve instructional strategies.",
+          "subject": "Child Development & Pedagogy",
+          "topic": "चिंतनशील शिक्षण",
+          "difficulty": "moderate",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "ctet-cdp-067",
+            "sourceUrl": "https://ctet.nic.in/document-category/public-notices/",
+            "sourceTitle": "Original ExamSathi CTET CDP practice question; syllabus alignment based on CBSE CTET 2026 Information Bulletin; not an official PYQ",
+            "answerKeyStatus": "needs_review",
+            "reuseStatus": "original"
+          }
+        }
+      ]
+    }
+  ]
+}
