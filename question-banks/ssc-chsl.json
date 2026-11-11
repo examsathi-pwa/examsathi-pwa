@@ -3,7 +3,7 @@
   "examName": "SSC CHSL",
   "targetQuestions": 100,
   "qualityStandardVersion": "1.0",
-  "bankStatus": "initial_practice_bank",
+  "bankStatus": "expanded_practice_bank",
   "sourceLabel": "ExamSathi original bilingual practice; not official PYQs",
   "blueprint": {
     "status": "verified_against_official_notice_2026",
@@ -41,7 +41,7 @@
       "negativeMarking": 0.5
     },
     "tierII": "Objective CBT with Mathematical Abilities, Reasoning and General Intelligence, English Language and Comprehension, General Awareness, qualifying Computer Knowledge Test and post-specific Skill/Typing Test; section timings and penalty follow 2026 notice.",
-    "difficulty": "10+2 level; Tier-I practice includes arithmetic, reasoning, English and general awareness; bank is an initial 25-question starter pool, not a full-length paper."
+    "difficulty": "50-question staged Tier-I practice pool; expansion to the full 100-question section blueprint is in progress."
   },
   "sourceReferences": [
     {
@@ -53,10 +53,10 @@
   ],
   "tests": [
     {
-      "id": "ssc-chsl-mixed-practice-001",
-      "hi": "SSC CHSL मिश्रित अभ्यास प्रश्न",
-      "en": "SSC CHSL mixed practice questions",
-      "minutes": 25,
+      "id": "ssc-chsl-tier1-staged-practice",
+      "hi": "SSC CHSL Tier-I अभ्यास प्रश्न (50 प्रश्न)",
+      "en": "SSC CHSL Tier-I Practice (50 Questions)",
+      "minutes": 35,
       "sourceKind": "authored_practice",
       "questions": [
         {
@@ -1078,6 +1078,533 @@
             "questionId": "ssc-chsl-020",
             "sourceUrl": null,
             "sourceTitle": "Original ExamSathi practice item; not a previous-year question",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "Choose the antonym of 'Ancient'.",
+          "en": "Choose the antonym of 'Ancient'.",
+          "optionsHi": [
+            "Old",
+            "Modern",
+            "Historic",
+            "Antique"
+          ],
+          "optionsEn": [
+            "Old",
+            "Modern",
+            "Historic",
+            "Antique"
+          ],
+          "answer": 1,
+          "whyHi": "Modern is the opposite of ancient.",
+          "whyEn": "Modern is the opposite of ancient.",
+          "subject": "English Language",
+          "topic": "Antonym",
+          "difficulty": "easy",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "ssc-chsl-stage2-001",
+            "sourceUrl": null,
+            "sourceTitle": "Original ExamSathi practice; not an official PYQ",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "Fill in: He is good ___ mathematics.",
+          "en": "Fill in: He is good ___ mathematics.",
+          "optionsHi": [
+            "in",
+            "at",
+            "on",
+            "for"
+          ],
+          "optionsEn": [
+            "in",
+            "at",
+            "on",
+            "for"
+          ],
+          "answer": 1,
+          "whyHi": "The correct collocation is good at.",
+          "whyEn": "The correct collocation is good at.",
+          "subject": "English Language",
+          "topic": "Preposition",
+          "difficulty": "easy",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "ssc-chsl-stage2-002",
+            "sourceUrl": null,
+            "sourceTitle": "Original ExamSathi practice; not an official PYQ",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "Choose the correct spelling.",
+          "en": "Choose the correct spelling.",
+          "optionsHi": [
+            "Separate",
+            "Seperate",
+            "Seprate",
+            "Separete"
+          ],
+          "optionsEn": [
+            "Separate",
+            "Seperate",
+            "Seprate",
+            "Separete"
+          ],
+          "answer": 0,
+          "whyHi": "Separate is the correct spelling.",
+          "whyEn": "Separate is the correct spelling.",
+          "subject": "English Language",
+          "topic": "Spelling",
+          "difficulty": "easy",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "ssc-chsl-stage2-003",
+            "sourceUrl": null,
+            "sourceTitle": "Original ExamSathi practice; not an official PYQ",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "Choose the synonym of 'Brief'.",
+          "en": "Choose the synonym of 'Brief'.",
+          "optionsHi": [
+            "Short",
+            "Lengthy",
+            "Complex",
+            "Late"
+          ],
+          "optionsEn": [
+            "Short",
+            "Lengthy",
+            "Complex",
+            "Late"
+          ],
+          "answer": 0,
+          "whyHi": "Brief means short in duration or length.",
+          "whyEn": "Brief means short in duration or length.",
+          "subject": "English Language",
+          "topic": "Synonym",
+          "difficulty": "easy",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "ssc-chsl-stage2-004",
+            "sourceUrl": null,
+            "sourceTitle": "Original ExamSathi practice; not an official PYQ",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "Choose the correct form: Neither of the answers ___ correct.",
+          "en": "Choose the correct form: Neither of the answers ___ correct.",
+          "optionsHi": [
+            "are",
+            "were",
+            "is",
+            "have"
+          ],
+          "optionsEn": [
+            "are",
+            "were",
+            "is",
+            "have"
+          ],
+          "answer": 2,
+          "whyHi": "Neither is singular and takes is.",
+          "whyEn": "Neither is singular and takes is.",
+          "subject": "English Language",
+          "topic": "Grammar",
+          "difficulty": "easy",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "ssc-chsl-stage2-005",
+            "sourceUrl": null,
+            "sourceTitle": "Original ExamSathi practice; not an official PYQ",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "Find the next number: 7, 14, 28, 56, ?",
+          "en": "Find the next number: 7, 14, 28, 56, ?",
+          "optionsHi": [
+            "84",
+            "98",
+            "112",
+            "120"
+          ],
+          "optionsEn": [
+            "84",
+            "98",
+            "112",
+            "120"
+          ],
+          "answer": 2,
+          "whyHi": "Each term is doubled; next is 112.",
+          "whyEn": "Each term is doubled; next is 112.",
+          "subject": "General Intelligence",
+          "topic": "Number series",
+          "difficulty": "easy",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "ssc-chsl-stage2-006",
+            "sourceUrl": null,
+            "sourceTitle": "Original ExamSathi practice; not an official PYQ",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "A faces north, turns right, then left. Direction?",
+          "en": "A faces north, turns right, then left. Direction?",
+          "optionsHi": [
+            "North",
+            "South",
+            "East",
+            "West"
+          ],
+          "optionsEn": [
+            "North",
+            "South",
+            "East",
+            "West"
+          ],
+          "answer": 2,
+          "whyHi": "North → east → north; correct answer is north.",
+          "whyEn": "North → east → north; correct answer is north.",
+          "subject": "General Intelligence",
+          "topic": "Direction",
+          "difficulty": "easy",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "ssc-chsl-stage2-007",
+            "sourceUrl": null,
+            "sourceTitle": "Original ExamSathi practice; not an official PYQ",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "Odd one out.",
+          "en": "Odd one out.",
+          "optionsHi": [
+            "January",
+            "March",
+            "May",
+            "Monday"
+          ],
+          "optionsEn": [
+            "January",
+            "March",
+            "May",
+            "Monday"
+          ],
+          "answer": 3,
+          "whyHi": "Monday is a weekday; the others are months.",
+          "whyEn": "Monday is a weekday; the others are months.",
+          "subject": "General Intelligence",
+          "topic": "Classification",
+          "difficulty": "easy",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "ssc-chsl-stage2-008",
+            "sourceUrl": null,
+            "sourceTitle": "Original ExamSathi practice; not an official PYQ",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "If 1= A, 2=B, what is 4th letter?",
+          "en": "If 1= A, 2=B, what is 4th letter?",
+          "optionsHi": [
+            "C",
+            "D",
+            "E",
+            "F"
+          ],
+          "optionsEn": [
+            "C",
+            "D",
+            "E",
+            "F"
+          ],
+          "answer": 1,
+          "whyHi": "The fourth letter is D.",
+          "whyEn": "The fourth letter is D.",
+          "subject": "General Intelligence",
+          "topic": "Alphabet",
+          "difficulty": "easy",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "ssc-chsl-stage2-009",
+            "sourceUrl": null,
+            "sourceTitle": "Original ExamSathi practice; not an official PYQ",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "What is 25% of 360?",
+          "en": "What is 25% of 360?",
+          "optionsHi": [
+            "80",
+            "85",
+            "90",
+            "95"
+          ],
+          "optionsEn": [
+            "80",
+            "85",
+            "90",
+            "95"
+          ],
+          "answer": 2,
+          "whyHi": "360×25/100=90.",
+          "whyEn": "360×25/100=90.",
+          "subject": "Quantitative Aptitude",
+          "topic": "Percentage",
+          "difficulty": "easy",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "ssc-chsl-stage2-010",
+            "sourceUrl": null,
+            "sourceTitle": "Original ExamSathi practice; not an official PYQ",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "Find the LCM of 6 and 8.",
+          "en": "Find the LCM of 6 and 8.",
+          "optionsHi": [
+            "12",
+            "18",
+            "24",
+            "48"
+          ],
+          "optionsEn": [
+            "12",
+            "18",
+            "24",
+            "48"
+          ],
+          "answer": 2,
+          "whyHi": "The least common multiple is 24.",
+          "whyEn": "The least common multiple is 24.",
+          "subject": "Quantitative Aptitude",
+          "topic": "LCM",
+          "difficulty": "easy",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "ssc-chsl-stage2-011",
+            "sourceUrl": null,
+            "sourceTitle": "Original ExamSathi practice; not an official PYQ",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "A ₹500 item is sold at 10% profit. Selling price?",
+          "en": "A ₹500 item is sold at 10% profit. Selling price?",
+          "optionsHi": [
+            "₹525",
+            "₹540",
+            "₹550",
+            "₹560"
+          ],
+          "optionsEn": [
+            "₹525",
+            "₹540",
+            "₹550",
+            "₹560"
+          ],
+          "answer": 2,
+          "whyHi": "500×1.10=₹550.",
+          "whyEn": "500×1.10=₹550.",
+          "subject": "Quantitative Aptitude",
+          "topic": "Profit and loss",
+          "difficulty": "easy",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "ssc-chsl-stage2-012",
+            "sourceUrl": null,
+            "sourceTitle": "Original ExamSathi practice; not an official PYQ",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "Convert 2.5 km into metres.",
+          "en": "Convert 2.5 km into metres.",
+          "optionsHi": [
+            "250",
+            "2500",
+            "25000",
+            "2050"
+          ],
+          "optionsEn": [
+            "250",
+            "2500",
+            "25000",
+            "2050"
+          ],
+          "answer": 1,
+          "whyHi": "2.5 km = 2500 metres.",
+          "whyEn": "2.5 km = 2500 metres.",
+          "subject": "Quantitative Aptitude",
+          "topic": "Measurement",
+          "difficulty": "easy",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "ssc-chsl-stage2-013",
+            "sourceUrl": null,
+            "sourceTitle": "Original ExamSathi practice; not an official PYQ",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "Which is the national animal of India?",
+          "en": "Which is the national animal of India?",
+          "optionsHi": [
+            "Lion",
+            "Elephant",
+            "Bengal tiger",
+            "Leopard"
+          ],
+          "optionsEn": [
+            "Lion",
+            "Elephant",
+            "Bengal tiger",
+            "Leopard"
+          ],
+          "answer": 2,
+          "whyHi": "The Bengal tiger is India's national animal.",
+          "whyEn": "The Bengal tiger is India's national animal.",
+          "subject": "General Awareness",
+          "topic": "India",
+          "difficulty": "easy",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "ssc-chsl-stage2-014",
+            "sourceUrl": null,
+            "sourceTitle": "Original ExamSathi practice; not an official PYQ",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "Which planet is closest to the Sun?",
+          "en": "Which planet is closest to the Sun?",
+          "optionsHi": [
+            "Venus",
+            "Mercury",
+            "Earth",
+            "Mars"
+          ],
+          "optionsEn": [
+            "Venus",
+            "Mercury",
+            "Earth",
+            "Mars"
+          ],
+          "answer": 1,
+          "whyHi": "Mercury is the closest planet to the Sun.",
+          "whyEn": "Mercury is the closest planet to the Sun.",
+          "subject": "General Awareness",
+          "topic": "Astronomy",
+          "difficulty": "easy",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "ssc-chsl-stage2-015",
+            "sourceUrl": null,
+            "sourceTitle": "Original ExamSathi practice; not an official PYQ",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "Who was the first woman Prime Minister of India?",
+          "en": "Who was the first woman Prime Minister of India?",
+          "optionsHi": [
+            "Pratibha Patil",
+            "Indira Gandhi",
+            "Sarojini Naidu",
+            "Sushma Swaraj"
+          ],
+          "optionsEn": [
+            "Pratibha Patil",
+            "Indira Gandhi",
+            "Sarojini Naidu",
+            "Sushma Swaraj"
+          ],
+          "answer": 1,
+          "whyHi": "Indira Gandhi was India's first woman Prime Minister.",
+          "whyEn": "Indira Gandhi was India's first woman Prime Minister.",
+          "subject": "General Awareness",
+          "topic": "History",
+          "difficulty": "easy",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "ssc-chsl-stage2-016",
+            "sourceUrl": null,
+            "sourceTitle": "Original ExamSathi practice; not an official PYQ",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "Which part of a plant mainly absorbs water?",
+          "en": "Which part of a plant mainly absorbs water?",
+          "optionsHi": [
+            "Leaf",
+            "Flower",
+            "Root",
+            "Stem"
+          ],
+          "optionsEn": [
+            "Leaf",
+            "Flower",
+            "Root",
+            "Stem"
+          ],
+          "answer": 2,
+          "whyHi": "Roots absorb water and minerals from soil.",
+          "whyEn": "Roots absorb water and minerals from soil.",
+          "subject": "General Awareness",
+          "topic": "Biology",
+          "difficulty": "easy",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "ssc-chsl-stage2-017",
+            "sourceUrl": null,
+            "sourceTitle": "Original ExamSathi practice; not an official PYQ",
             "answerKeyStatus": "reviewed",
             "reuseStatus": "original"
           }
