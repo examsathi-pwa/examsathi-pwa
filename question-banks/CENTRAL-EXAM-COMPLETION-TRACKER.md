@@ -11,10 +11,10 @@ A central exam is complete only when it has a dedicated exam-specific bank, a ve
 
 | Exam | Current dedicated bank | Current questions | Status |
 |---|---:|---:|---|
-| UPSC Civil Services | central-exam-starters.json | 10 local + shared foundation pool | Starter only; needs UPSC Prelims GS-specific expansion |
+| UPSC Civil Services | upsc-civil-services.json | 100 (10 UPSC introductory + 90 shared foundation) | 10/50/100 mock lengths enabled; foundation only, still needs UPSC-specific GS expansion, CSAT and current affairs |
 | UPSC CAPF | central-exam-starters.json | 10 local + shared foundation pool | Starter only; needs CAPF-specific expansion |
 | SSC CGL | ssc-cgl.json | 1,000 | Existing dedicated bank; review blueprint, balance and answer quality |
-| SSC CHSL | ssc-chsl.json | 33 | Incomplete; expand to dedicated 100+ bank |
+| SSC CHSL | ssc-chsl.json | 100 | Tier-I foundation practice expanded; Tier-II and full blueprint/answer review remain |
 | SSC MTS | ssc-mts.json | 24 | Incomplete; expand to dedicated 100+ bank |
 | SSC GD | central-exam-starters.json | 10 local + shared foundation pool | Starter only; needs GD-specific expansion |
 | SSC CPO | central-exam-starters.json | 10 local + shared foundation pool | Starter only; needs CPO-specific expansion |
