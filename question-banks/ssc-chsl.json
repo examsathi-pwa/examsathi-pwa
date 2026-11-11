@@ -3,7 +3,7 @@
   "examName": "SSC CHSL",
   "targetQuestions": 100,
   "qualityStandardVersion": "1.0",
-  "bankStatus": "expanded_practice_bank",
+  "bankStatus": "expanded_100_question_practice_bank",
   "sourceLabel": "ExamSathi original bilingual practice; not official PYQs",
   "blueprint": {
     "status": "verified_against_official_notice_2026",
@@ -41,7 +41,7 @@
       "negativeMarking": 0.5
     },
     "tierII": "Objective CBT with Mathematical Abilities, Reasoning and General Intelligence, English Language and Comprehension, General Awareness, qualifying Computer Knowledge Test and post-specific Skill/Typing Test; section timings and penalty follow 2026 notice.",
-    "difficulty": "50-question staged Tier-I practice pool; expansion to the full 100-question section blueprint is in progress."
+    "difficulty": "100-question original Tier-I practice pool; section distribution and answer-key audit pending. Not official PYQs; Tier-II modules remain separate."
   },
   "sourceReferences": [
     {
@@ -53,10 +53,10 @@
   ],
   "tests": [
     {
-      "id": "ssc-chsl-tier1-staged-practice",
-      "hi": "SSC CHSL Tier-I अभ्यास प्रश्न (50 प्रश्न)",
-      "en": "SSC CHSL Tier-I Practice (50 Questions)",
-      "minutes": 35,
+      "id": "ssc-chsl-tier1-full-practice-001",
+      "hi": "SSC CHSL Tier-I अभ्यास प्रश्न (100 प्रश्न)",
+      "en": "SSC CHSL Tier-I Practice Bank (100 Questions)",
+      "minutes": 60,
       "sourceKind": "authored_practice",
       "questions": [
         {
@@ -1605,6 +1605,1556 @@
             "questionId": "ssc-chsl-stage2-017",
             "sourceUrl": null,
             "sourceTitle": "Original ExamSathi practice; not an official PYQ",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "subject": "English Language",
+          "en": "Choose the synonym of 'Abundant'.",
+          "hi": "'Abundant' का समानार्थी चुनें।",
+          "optionsEn": [
+            "Scarce",
+            "Plentiful",
+            "Tiny",
+            "Empty"
+          ],
+          "optionsHi": [
+            "Scarce",
+            "Plentiful",
+            "Tiny",
+            "Empty"
+          ],
+          "answer": 1,
+          "whyEn": "Abundant means plentiful.",
+          "whyHi": "अर्थ प्रचुर।",
+          "topic": "English grammar and vocabulary",
+          "difficulty": "moderate",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "ssc-chsl-stage5-001",
+            "sourceUrl": null,
+            "sourceTitle": "Original ExamSathi practice; not official PYQ",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "subject": "English Language",
+          "en": "Choose the antonym of 'Diligent'.",
+          "hi": "'Diligent' का विलोम चुनें।",
+          "optionsEn": [
+            "Hardworking",
+            "Careful",
+            "Lazy",
+            "Active"
+          ],
+          "optionsHi": [
+            "Hardworking",
+            "Careful",
+            "Lazy",
+            "Active"
+          ],
+          "answer": 2,
+          "whyEn": "Lazy is the opposite.",
+          "whyHi": "Lazy विलोम है।",
+          "topic": "English grammar and vocabulary",
+          "difficulty": "moderate",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "ssc-chsl-stage5-002",
+            "sourceUrl": null,
+            "sourceTitle": "Original ExamSathi practice; not official PYQ",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "subject": "English Language",
+          "en": "The committee ___ submitted its report.",
+          "hi": "The committee ___ submitted its report. रिक्त स्थान।",
+          "optionsEn": [
+            "have",
+            "has",
+            "are",
+            "were"
+          ],
+          "optionsHi": [
+            "have",
+            "has",
+            "are",
+            "were"
+          ],
+          "answer": 1,
+          "whyEn": "Committee is singular here.",
+          "whyHi": "यहाँ committee एकवचन है।",
+          "topic": "English grammar and vocabulary",
+          "difficulty": "moderate",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "ssc-chsl-stage5-003",
+            "sourceUrl": null,
+            "sourceTitle": "Original ExamSathi practice; not official PYQ",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "subject": "English Language",
+          "en": "Choose the correct spelling.",
+          "hi": "सही वर्तनी चुनें।",
+          "optionsEn": [
+            "Separate",
+            "Seperate",
+            "Seprate",
+            "Seperete"
+          ],
+          "optionsHi": [
+            "Separate",
+            "Seperate",
+            "Seprate",
+            "Seperete"
+          ],
+          "answer": 0,
+          "whyEn": "Separate is correct.",
+          "whyHi": "Separate सही है।",
+          "topic": "English grammar and vocabulary",
+          "difficulty": "moderate",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "ssc-chsl-stage5-004",
+            "sourceUrl": null,
+            "sourceTitle": "Original ExamSathi practice; not official PYQ",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "subject": "English Language",
+          "en": "She is senior ___ me.",
+          "hi": "She is senior ___ me. सही शब्द चुनें।",
+          "optionsEn": [
+            "than",
+            "to",
+            "from",
+            "with"
+          ],
+          "optionsHi": [
+            "than",
+            "to",
+            "from",
+            "with"
+          ],
+          "answer": 1,
+          "whyEn": "Senior takes to.",
+          "whyHi": "Senior के बाद to।",
+          "topic": "English grammar and vocabulary",
+          "difficulty": "moderate",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "ssc-chsl-stage5-005",
+            "sourceUrl": null,
+            "sourceTitle": "Original ExamSathi practice; not official PYQ",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "subject": "English Language",
+          "en": "Meaning of 'once in a blue moon'?",
+          "hi": "'Once in a blue moon' का अर्थ?",
+          "optionsEn": [
+            "Often",
+            "Rarely",
+            "Daily",
+            "Immediately"
+          ],
+          "optionsHi": [
+            "Often",
+            "Rarely",
+            "Daily",
+            "Immediately"
+          ],
+          "answer": 1,
+          "whyEn": "It means very rarely.",
+          "whyHi": "इसका अर्थ बहुत कम है।",
+          "topic": "English grammar and vocabulary",
+          "difficulty": "moderate",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "ssc-chsl-stage5-006",
+            "sourceUrl": null,
+            "sourceTitle": "Original ExamSathi practice; not official PYQ",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "subject": "English Language",
+          "en": "Choose the passive: They clean the room.",
+          "hi": "Passive चुनें: They clean the room.",
+          "optionsEn": [
+            "The room is cleaned by them",
+            "The room cleaned by them",
+            "The room was clean",
+            "The room has cleaned"
+          ],
+          "optionsHi": [
+            "The room is cleaned by them",
+            "The room cleaned by them",
+            "The room was clean",
+            "The room has cleaned"
+          ],
+          "answer": 0,
+          "whyEn": "Simple present passive uses is + V3.",
+          "whyHi": "Simple present passive में is + V3।",
+          "topic": "English grammar and vocabulary",
+          "difficulty": "moderate",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "ssc-chsl-stage5-007",
+            "sourceUrl": null,
+            "sourceTitle": "Original ExamSathi practice; not official PYQ",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "subject": "English Language",
+          "en": "One who writes poems is a:",
+          "hi": "कविता लिखने वाला कहलाता है:",
+          "optionsEn": [
+            "Novelist",
+            "Poet",
+            "Editor",
+            "Critic"
+          ],
+          "optionsHi": [
+            "Novelist",
+            "Poet",
+            "Editor",
+            "Critic"
+          ],
+          "answer": 1,
+          "whyEn": "A poet writes poems.",
+          "whyHi": "Poet कविता लिखता है।",
+          "topic": "English grammar and vocabulary",
+          "difficulty": "moderate",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "ssc-chsl-stage5-008",
+            "sourceUrl": null,
+            "sourceTitle": "Original ExamSathi practice; not official PYQ",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "subject": "English Language",
+          "en": "Synonym of 'Rapid'?",
+          "hi": "'Rapid' का समानार्थी?",
+          "optionsEn": [
+            "Slow",
+            "Fast",
+            "Weak",
+            "Late"
+          ],
+          "optionsHi": [
+            "Slow",
+            "Fast",
+            "Weak",
+            "Late"
+          ],
+          "answer": 1,
+          "whyEn": "Rapid means fast.",
+          "whyHi": "Rapid का अर्थ तेज़ है।",
+          "topic": "English grammar and vocabulary",
+          "difficulty": "moderate",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "ssc-chsl-stage5-009",
+            "sourceUrl": null,
+            "sourceTitle": "Original ExamSathi practice; not official PYQ",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "subject": "English Language",
+          "en": "Antonym of 'Victory'?",
+          "hi": "'Victory' का विलोम?",
+          "optionsEn": [
+            "Success",
+            "Defeat",
+            "Win",
+            "Triumph"
+          ],
+          "optionsHi": [
+            "Success",
+            "Defeat",
+            "Win",
+            "Triumph"
+          ],
+          "answer": 1,
+          "whyEn": "Defeat is the opposite.",
+          "whyHi": "Defeat विलोम है।",
+          "topic": "English grammar and vocabulary",
+          "difficulty": "moderate",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "ssc-chsl-stage5-010",
+            "sourceUrl": null,
+            "sourceTitle": "Original ExamSathi practice; not official PYQ",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "subject": "English Language",
+          "en": "Each student ___ a book.",
+          "hi": "Each student ___ a book. सही शब्द चुनें।",
+          "optionsEn": [
+            "have",
+            "has",
+            "are",
+            "were"
+          ],
+          "optionsHi": [
+            "have",
+            "has",
+            "are",
+            "were"
+          ],
+          "answer": 1,
+          "whyEn": "Each is singular.",
+          "whyHi": "Each एकवचन है।",
+          "topic": "English grammar and vocabulary",
+          "difficulty": "moderate",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "ssc-chsl-stage5-011",
+            "sourceUrl": null,
+            "sourceTitle": "Original ExamSathi practice; not official PYQ",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "subject": "English Language",
+          "en": "Plural of 'criterion'?",
+          "hi": "'Criterion' का बहुवचन?",
+          "optionsEn": [
+            "Criterions",
+            "Criteria",
+            "Criterias",
+            "Criterion"
+          ],
+          "optionsHi": [
+            "Criterions",
+            "Criteria",
+            "Criterias",
+            "Criterion"
+          ],
+          "answer": 1,
+          "whyEn": "Criteria is plural.",
+          "whyHi": "Criteria बहुवचन है।",
+          "topic": "English grammar and vocabulary",
+          "difficulty": "moderate",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "ssc-chsl-stage5-012",
+            "sourceUrl": null,
+            "sourceTitle": "Original ExamSathi practice; not official PYQ",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "subject": "English Language",
+          "en": "Meaning of 'generous'?",
+          "hi": "'Generous' का अर्थ?",
+          "optionsEn": [
+            "Selfish",
+            "Kind and giving",
+            "Angry",
+            "Fearful"
+          ],
+          "optionsHi": [
+            "Selfish",
+            "Kind and giving",
+            "Angry",
+            "Fearful"
+          ],
+          "answer": 1,
+          "whyEn": "Generous means giving.",
+          "whyHi": "Generous का अर्थ उदार है।",
+          "topic": "English grammar and vocabulary",
+          "difficulty": "moderate",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "ssc-chsl-stage5-013",
+            "sourceUrl": null,
+            "sourceTitle": "Original ExamSathi practice; not official PYQ",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "subject": "General Intelligence",
+          "en": "Next: 5,10,17,26,37,?",
+          "hi": "अगला: 5,10,17,26,37,?",
+          "optionsEn": [
+            "48",
+            "50",
+            "52",
+            "54"
+          ],
+          "optionsHi": [
+            "48",
+            "50",
+            "52",
+            "54"
+          ],
+          "answer": 1,
+          "whyEn": "Differences 5,7,9,11; next 13.",
+          "whyHi": "अंतर 5,7,9,11; अगला 13।",
+          "topic": "Reasoning",
+          "difficulty": "moderate",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "ssc-chsl-stage5-014",
+            "sourceUrl": null,
+            "sourceTitle": "Original ExamSathi practice; not official PYQ",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "subject": "General Intelligence",
+          "en": "Next: 2,6,18,54,?",
+          "hi": "अगला: 2,6,18,54,?",
+          "optionsEn": [
+            "108",
+            "126",
+            "162",
+            "216"
+          ],
+          "optionsHi": [
+            "108",
+            "126",
+            "162",
+            "216"
+          ],
+          "answer": 2,
+          "whyEn": "Multiply by 3 each time.",
+          "whyHi": "हर बार 3 से गुणा।",
+          "topic": "Reasoning",
+          "difficulty": "moderate",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "ssc-chsl-stage5-015",
+            "sourceUrl": null,
+            "sourceTitle": "Original ExamSathi practice; not official PYQ",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "subject": "General Intelligence",
+          "en": "If CAT=DBU, then DOG=?",
+          "hi": "यदि CAT=DBU, तो DOG=?",
+          "optionsEn": [
+            "EPH",
+            "EOG",
+            "DPH",
+            "FPI"
+          ],
+          "optionsHi": [
+            "EPH",
+            "EOG",
+            "DPH",
+            "FPI"
+          ],
+          "answer": 0,
+          "whyEn": "Each letter shifts one forward.",
+          "whyHi": "हर अक्षर एक स्थान आगे।",
+          "topic": "Reasoning",
+          "difficulty": "moderate",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "ssc-chsl-stage5-016",
+            "sourceUrl": null,
+            "sourceTitle": "Original ExamSathi practice; not official PYQ",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "subject": "General Intelligence",
+          "en": "Odd one: Rose, Lotus, Mango, Lily.",
+          "hi": "असंगत: Rose, Lotus, Mango, Lily.",
+          "optionsEn": [
+            "Rose",
+            "Lotus",
+            "Mango",
+            "Lily"
+          ],
+          "optionsHi": [
+            "Rose",
+            "Lotus",
+            "Mango",
+            "Lily"
+          ],
+          "answer": 2,
+          "whyEn": "Mango is a fruit; others are flowers.",
+          "whyHi": "Mango फल है; बाकी फूल।",
+          "topic": "Reasoning",
+          "difficulty": "moderate",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "ssc-chsl-stage5-017",
+            "sourceUrl": null,
+            "sourceTitle": "Original ExamSathi practice; not official PYQ",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "subject": "General Intelligence",
+          "en": "A is mother's brother of B. A is B's?",
+          "hi": "A, B की माँ का भाई है। A, B का?",
+          "optionsEn": [
+            "Father",
+            "Uncle",
+            "Brother",
+            "Grandfather"
+          ],
+          "optionsHi": [
+            "Father",
+            "Uncle",
+            "Brother",
+            "Grandfather"
+          ],
+          "answer": 1,
+          "whyEn": "Mother's brother is maternal uncle.",
+          "whyHi": "माँ का भाई मामा है।",
+          "topic": "Reasoning",
+          "difficulty": "moderate",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "ssc-chsl-stage5-018",
+            "sourceUrl": null,
+            "sourceTitle": "Original ExamSathi practice; not official PYQ",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "subject": "General Intelligence",
+          "en": "Facing south, turn left. Direction?",
+          "hi": "दक्षिण की ओर मुख करके बाएँ मुड़ें। दिशा?",
+          "optionsEn": [
+            "East",
+            "West",
+            "North",
+            "South"
+          ],
+          "optionsHi": [
+            "East",
+            "West",
+            "North",
+            "South"
+          ],
+          "answer": 0,
+          "whyEn": "Left from south is east.",
+          "whyHi": "दक्षिण से बायाँ पूर्व।",
+          "topic": "Reasoning",
+          "difficulty": "moderate",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "ssc-chsl-stage5-019",
+            "sourceUrl": null,
+            "sourceTitle": "Original ExamSathi practice; not official PYQ",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "subject": "General Intelligence",
+          "en": "Rank 7th from top in 25. From bottom?",
+          "hi": "25 में ऊपर से 7वाँ। नीचे से स्थान?",
+          "optionsEn": [
+            "17",
+            "18",
+            "19",
+            "20"
+          ],
+          "optionsHi": [
+            "17",
+            "18",
+            "19",
+            "20"
+          ],
+          "answer": 2,
+          "whyEn": "25−7+1=19.",
+          "whyHi": "25−7+1=19।",
+          "topic": "Reasoning",
+          "difficulty": "moderate",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "ssc-chsl-stage5-020",
+            "sourceUrl": null,
+            "sourceTitle": "Original ExamSathi practice; not official PYQ",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "subject": "General Intelligence",
+          "en": "How many months have 28 days?",
+          "hi": "कितने महीनों में 28 दिन होते हैं?",
+          "optionsEn": [
+            "1",
+            "2",
+            "6",
+            "12"
+          ],
+          "optionsHi": [
+            "1",
+            "2",
+            "6",
+            "12"
+          ],
+          "answer": 3,
+          "whyEn": "All 12 months have at least 28 days.",
+          "whyHi": "सभी 12 महीनों में कम से कम 28 दिन।",
+          "topic": "Reasoning",
+          "difficulty": "moderate",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "ssc-chsl-stage5-021",
+            "sourceUrl": null,
+            "sourceTitle": "Original ExamSathi practice; not official PYQ",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "subject": "General Intelligence",
+          "en": "Next letters: B,D,F,H,?",
+          "hi": "अगले अक्षर: B,D,F,H,?",
+          "optionsEn": [
+            "I",
+            "J",
+            "K",
+            "L"
+          ],
+          "optionsHi": [
+            "I",
+            "J",
+            "K",
+            "L"
+          ],
+          "answer": 1,
+          "whyEn": "Every second alphabet letter.",
+          "whyHi": "हर दूसरा अक्षर।",
+          "topic": "Reasoning",
+          "difficulty": "moderate",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "ssc-chsl-stage5-022",
+            "sourceUrl": null,
+            "sourceTitle": "Original ExamSathi practice; not official PYQ",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "subject": "General Intelligence",
+          "en": "Odd number: 9,16,25,36,48.",
+          "hi": "असंगत संख्या: 9,16,25,36,48।",
+          "optionsEn": [
+            "9",
+            "16",
+            "36",
+            "48"
+          ],
+          "optionsHi": [
+            "9",
+            "16",
+            "36",
+            "48"
+          ],
+          "answer": 3,
+          "whyEn": "First four are squares; 48 is not.",
+          "whyHi": "पहली चार पूर्ण वर्ग हैं; 48 नहीं।",
+          "topic": "Reasoning",
+          "difficulty": "moderate",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "ssc-chsl-stage5-023",
+            "sourceUrl": null,
+            "sourceTitle": "Original ExamSathi practice; not official PYQ",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "subject": "General Intelligence",
+          "en": "If 1 Jan is Monday, 8 Jan is?",
+          "hi": "1 जनवरी सोमवार है, 8 जनवरी कौन-सा दिन?",
+          "optionsEn": [
+            "Sunday",
+            "Monday",
+            "Tuesday",
+            "Wednesday"
+          ],
+          "optionsHi": [
+            "Sunday",
+            "Monday",
+            "Tuesday",
+            "Wednesday"
+          ],
+          "answer": 1,
+          "whyEn": "Seven days later is same weekday.",
+          "whyHi": "सात दिन बाद वही दिन।",
+          "topic": "Reasoning",
+          "difficulty": "moderate",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "ssc-chsl-stage5-024",
+            "sourceUrl": null,
+            "sourceTitle": "Original ExamSathi practice; not official PYQ",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "subject": "General Intelligence",
+          "en": "Next: AZ,BY,CX,?",
+          "hi": "अगला: AZ,BY,CX,?",
+          "optionsEn": [
+            "DW",
+            "EV",
+            "DU",
+            "EX"
+          ],
+          "optionsHi": [
+            "DW",
+            "EV",
+            "DU",
+            "EX"
+          ],
+          "answer": 0,
+          "whyEn": "First letter forward, second backward.",
+          "whyHi": "पहला अक्षर आगे, दूसरा पीछे।",
+          "topic": "Reasoning",
+          "difficulty": "moderate",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "ssc-chsl-stage5-025",
+            "sourceUrl": null,
+            "sourceTitle": "Original ExamSathi practice; not official PYQ",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "subject": "General Intelligence",
+          "en": "How many sides in a hexagon?",
+          "hi": "षट्भुज की कितनी भुजाएँ?",
+          "optionsEn": [
+            "5",
+            "6",
+            "7",
+            "8"
+          ],
+          "optionsHi": [
+            "5",
+            "6",
+            "7",
+            "8"
+          ],
+          "answer": 1,
+          "whyEn": "A hexagon has six sides.",
+          "whyHi": "षट्भुज की छह भुजाएँ।",
+          "topic": "Reasoning",
+          "difficulty": "moderate",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "ssc-chsl-stage5-026",
+            "sourceUrl": null,
+            "sourceTitle": "Original ExamSathi practice; not official PYQ",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "subject": "General Intelligence",
+          "en": "Next: 100,90,81,73,?",
+          "hi": "अगला: 100,90,81,73,?",
+          "optionsEn": [
+            "64",
+            "66",
+            "67",
+            "68"
+          ],
+          "optionsHi": [
+            "64",
+            "66",
+            "67",
+            "68"
+          ],
+          "answer": 2,
+          "whyEn": "Subtract 10,9,8, then 7.",
+          "whyHi": "10,9,8 घटे; अब 7 घटेगा।",
+          "topic": "Reasoning",
+          "difficulty": "moderate",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "ssc-chsl-stage5-027",
+            "sourceUrl": null,
+            "sourceTitle": "Original ExamSathi practice; not official PYQ",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "subject": "Quantitative Aptitude",
+          "en": "25% of 480?",
+          "hi": "480 का 25%?",
+          "optionsEn": [
+            "100",
+            "110",
+            "120",
+            "130"
+          ],
+          "optionsHi": [
+            "100",
+            "110",
+            "120",
+            "130"
+          ],
+          "answer": 2,
+          "whyEn": "480/4=120.",
+          "whyHi": "480/4=120।",
+          "topic": "Quantitative aptitude",
+          "difficulty": "moderate",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "ssc-chsl-stage5-028",
+            "sourceUrl": null,
+            "sourceTitle": "Original ExamSathi practice; not official PYQ",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "subject": "Quantitative Aptitude",
+          "en": "LCM of 12 and 18?",
+          "hi": "12 और 18 का LCM?",
+          "optionsEn": [
+            "24",
+            "30",
+            "36",
+            "48"
+          ],
+          "optionsHi": [
+            "24",
+            "30",
+            "36",
+            "48"
+          ],
+          "answer": 2,
+          "whyEn": "LCM is 36.",
+          "whyHi": "LCM 36 है।",
+          "topic": "Quantitative aptitude",
+          "difficulty": "moderate",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "ssc-chsl-stage5-029",
+            "sourceUrl": null,
+            "sourceTitle": "Original ExamSathi practice; not official PYQ",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "subject": "Quantitative Aptitude",
+          "en": "HCF of 42 and 56?",
+          "hi": "42 और 56 का HCF?",
+          "optionsEn": [
+            "7",
+            "14",
+            "21",
+            "28"
+          ],
+          "optionsHi": [
+            "7",
+            "14",
+            "21",
+            "28"
+          ],
+          "answer": 1,
+          "whyEn": "HCF is 14.",
+          "whyHi": "HCF 14 है।",
+          "topic": "Quantitative aptitude",
+          "difficulty": "moderate",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "ssc-chsl-stage5-030",
+            "sourceUrl": null,
+            "sourceTitle": "Original ExamSathi practice; not official PYQ",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "subject": "Quantitative Aptitude",
+          "en": "CP ₹500, profit 20%. SP?",
+          "hi": "क्रय मूल्य ₹500, लाभ 20%। विक्रय मूल्य?",
+          "optionsEn": [
+            "550",
+            "580",
+            "600",
+            "620"
+          ],
+          "optionsHi": [
+            "550",
+            "580",
+            "600",
+            "620"
+          ],
+          "answer": 2,
+          "whyEn": "500×1.2=600.",
+          "whyHi": "500×1.2=600।",
+          "topic": "Quantitative aptitude",
+          "difficulty": "moderate",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "ssc-chsl-stage5-031",
+            "sourceUrl": null,
+            "sourceTitle": "Original ExamSathi practice; not official PYQ",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "subject": "Quantitative Aptitude",
+          "en": "SI on ₹3000 at 5% for 2 years?",
+          "hi": "₹3000 पर 5% से 2 वर्ष का SI?",
+          "optionsEn": [
+            "250",
+            "300",
+            "350",
+            "400"
+          ],
+          "optionsHi": [
+            "250",
+            "300",
+            "350",
+            "400"
+          ],
+          "answer": 1,
+          "whyEn": "3000×5×2/100=300.",
+          "whyHi": "3000×5×2/100=300।",
+          "topic": "Quantitative aptitude",
+          "difficulty": "moderate",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "ssc-chsl-stage5-032",
+            "sourceUrl": null,
+            "sourceTitle": "Original ExamSathi practice; not official PYQ",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "subject": "Quantitative Aptitude",
+          "en": "150 m train crosses pole in 10 sec. Speed km/h?",
+          "hi": "150 m ट्रेन खंभा 10 सेकंड में पार करे। गति?",
+          "optionsEn": [
+            "45",
+            "50",
+            "54",
+            "60"
+          ],
+          "optionsHi": [
+            "45",
+            "50",
+            "54",
+            "60"
+          ],
+          "answer": 2,
+          "whyEn": "15 m/s = 54 km/h.",
+          "whyHi": "15 m/s = 54 km/h।",
+          "topic": "Quantitative aptitude",
+          "difficulty": "moderate",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "ssc-chsl-stage5-033",
+            "sourceUrl": null,
+            "sourceTitle": "Original ExamSathi practice; not official PYQ",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "subject": "Quantitative Aptitude",
+          "en": "Area of square side 9 cm?",
+          "hi": "9 cm भुजा वाले वर्ग का क्षेत्रफल?",
+          "optionsEn": [
+            "18",
+            "36",
+            "72",
+            "81"
+          ],
+          "optionsHi": [
+            "18",
+            "36",
+            "72",
+            "81"
+          ],
+          "answer": 3,
+          "whyEn": "9²=81.",
+          "whyHi": "9²=81।",
+          "topic": "Quantitative aptitude",
+          "difficulty": "moderate",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "ssc-chsl-stage5-034",
+            "sourceUrl": null,
+            "sourceTitle": "Original ExamSathi practice; not official PYQ",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "subject": "Quantitative Aptitude",
+          "en": "Solve 4x=52.",
+          "hi": "हल करें 4x=52।",
+          "optionsEn": [
+            "11",
+            "12",
+            "13",
+            "14"
+          ],
+          "optionsHi": [
+            "11",
+            "12",
+            "13",
+            "14"
+          ],
+          "answer": 2,
+          "whyEn": "x=13.",
+          "whyHi": "x=13।",
+          "topic": "Quantitative aptitude",
+          "difficulty": "moderate",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "ssc-chsl-stage5-035",
+            "sourceUrl": null,
+            "sourceTitle": "Original ExamSathi practice; not official PYQ",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "subject": "Quantitative Aptitude",
+          "en": "Ratio 2:3, total 45. Smaller?",
+          "hi": "अनुपात 2:3, योग 45। छोटी संख्या?",
+          "optionsEn": [
+            "15",
+            "18",
+            "20",
+            "27"
+          ],
+          "optionsHi": [
+            "15",
+            "18",
+            "20",
+            "27"
+          ],
+          "answer": 1,
+          "whyEn": "Five parts=45; smaller=18.",
+          "whyHi": "5 भाग=45; छोटी संख्या 18।",
+          "topic": "Quantitative aptitude",
+          "difficulty": "moderate",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "ssc-chsl-stage5-036",
+            "sourceUrl": null,
+            "sourceTitle": "Original ExamSathi practice; not official PYQ",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "subject": "Quantitative Aptitude",
+          "en": "Convert 3/5 to percentage.",
+          "hi": "3/5 को प्रतिशत में बदलें।",
+          "optionsEn": [
+            "30%",
+            "40%",
+            "50%",
+            "60%"
+          ],
+          "optionsHi": [
+            "30%",
+            "40%",
+            "50%",
+            "60%"
+          ],
+          "answer": 3,
+          "whyEn": "3/5×100=60%.",
+          "whyHi": "3/5×100=60%।",
+          "topic": "Quantitative aptitude",
+          "difficulty": "moderate",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "ssc-chsl-stage5-037",
+            "sourceUrl": null,
+            "sourceTitle": "Original ExamSathi practice; not official PYQ",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "subject": "General Awareness",
+          "en": "Capital of Australia?",
+          "hi": "ऑस्ट्रेलिया की राजधानी?",
+          "optionsEn": [
+            "Sydney",
+            "Melbourne",
+            "Canberra",
+            "Perth"
+          ],
+          "optionsHi": [
+            "Sydney",
+            "Melbourne",
+            "Canberra",
+            "Perth"
+          ],
+          "answer": 2,
+          "whyEn": "Canberra is the capital.",
+          "whyHi": "कैनबरा राजधानी है।",
+          "topic": "General awareness",
+          "difficulty": "moderate",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "ssc-chsl-stage5-038",
+            "sourceUrl": null,
+            "sourceTitle": "Original ExamSathi practice; not official PYQ",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "subject": "General Awareness",
+          "en": "Largest planet?",
+          "hi": "सबसे बड़ा ग्रह?",
+          "optionsEn": [
+            "Earth",
+            "Saturn",
+            "Jupiter",
+            "Neptune"
+          ],
+          "optionsHi": [
+            "Earth",
+            "Saturn",
+            "Jupiter",
+            "Neptune"
+          ],
+          "answer": 2,
+          "whyEn": "Jupiter is largest.",
+          "whyHi": "बृहस्पति सबसे बड़ा है।",
+          "topic": "General awareness",
+          "difficulty": "moderate",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "ssc-chsl-stage5-039",
+            "sourceUrl": null,
+            "sourceTitle": "Original ExamSathi practice; not official PYQ",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "subject": "General Awareness",
+          "en": "Who composed India's national anthem?",
+          "hi": "भारत का राष्ट्रगान किसने रचा?",
+          "optionsEn": [
+            "Bankim Chandra",
+            "Rabindranath Tagore",
+            "Sarojini Naidu",
+            "Premchand"
+          ],
+          "optionsHi": [
+            "Bankim Chandra",
+            "Rabindranath Tagore",
+            "Sarojini Naidu",
+            "Premchand"
+          ],
+          "answer": 1,
+          "whyEn": "Rabindranath Tagore composed it.",
+          "whyHi": "रवींद्रनाथ टैगोर ने रचा।",
+          "topic": "General awareness",
+          "difficulty": "moderate",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "ssc-chsl-stage5-040",
+            "sourceUrl": null,
+            "sourceTitle": "Original ExamSathi practice; not official PYQ",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "subject": "General Awareness",
+          "en": "Main source of energy for Earth?",
+          "hi": "पृथ्वी की ऊर्जा का मुख्य स्रोत?",
+          "optionsEn": [
+            "Moon",
+            "Sun",
+            "Wind",
+            "Coal"
+          ],
+          "optionsHi": [
+            "Moon",
+            "Sun",
+            "Wind",
+            "Coal"
+          ],
+          "answer": 1,
+          "whyEn": "The Sun is Earth's primary energy source.",
+          "whyHi": "सूर्य मुख्य ऊर्जा स्रोत है।",
+          "topic": "General awareness",
+          "difficulty": "moderate",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "ssc-chsl-stage5-041",
+            "sourceUrl": null,
+            "sourceTitle": "Original ExamSathi practice; not official PYQ",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "subject": "General Awareness",
+          "en": "Which organ pumps blood?",
+          "hi": "रक्त पंप करने वाला अंग?",
+          "optionsEn": [
+            "Liver",
+            "Lung",
+            "Heart",
+            "Kidney"
+          ],
+          "optionsHi": [
+            "Liver",
+            "Lung",
+            "Heart",
+            "Kidney"
+          ],
+          "answer": 2,
+          "whyEn": "The heart pumps blood.",
+          "whyHi": "हृदय रक्त पंप करता है।",
+          "topic": "General awareness",
+          "difficulty": "moderate",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "ssc-chsl-stage5-042",
+            "sourceUrl": null,
+            "sourceTitle": "Original ExamSathi practice; not official PYQ",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "subject": "General Awareness",
+          "en": "India's first woman President?",
+          "hi": "भारत की पहली महिला राष्ट्रपति?",
+          "optionsEn": [
+            "Indira Gandhi",
+            "Pratibha Patil",
+            "Sarojini Naidu",
+            "Droupadi Murmu"
+          ],
+          "optionsHi": [
+            "Indira Gandhi",
+            "Pratibha Patil",
+            "Sarojini Naidu",
+            "Droupadi Murmu"
+          ],
+          "answer": 1,
+          "whyEn": "Pratibha Patil was first woman President.",
+          "whyHi": "प्रतिभा पाटिल पहली महिला राष्ट्रपति थीं।",
+          "topic": "General awareness",
+          "difficulty": "moderate",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "ssc-chsl-stage5-043",
+            "sourceUrl": null,
+            "sourceTitle": "Original ExamSathi practice; not official PYQ",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "subject": "General Awareness",
+          "en": "Largest ocean?",
+          "hi": "सबसे बड़ा महासागर?",
+          "optionsEn": [
+            "Atlantic",
+            "Indian",
+            "Arctic",
+            "Pacific"
+          ],
+          "optionsHi": [
+            "Atlantic",
+            "Indian",
+            "Arctic",
+            "Pacific"
+          ],
+          "answer": 3,
+          "whyEn": "Pacific is the largest ocean.",
+          "whyHi": "प्रशांत सबसे बड़ा महासागर है।",
+          "topic": "General awareness",
+          "difficulty": "moderate",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "ssc-chsl-stage5-044",
+            "sourceUrl": null,
+            "sourceTitle": "Original ExamSathi practice; not official PYQ",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "subject": "General Awareness",
+          "en": "Where is the Taj Mahal?",
+          "hi": "ताजमहल कहाँ है?",
+          "optionsEn": [
+            "Delhi",
+            "Agra",
+            "Jaipur",
+            "Lucknow"
+          ],
+          "optionsHi": [
+            "Delhi",
+            "Agra",
+            "Jaipur",
+            "Lucknow"
+          ],
+          "answer": 1,
+          "whyEn": "Taj Mahal is in Agra.",
+          "whyHi": "ताजमहल आगरा में है।",
+          "topic": "General awareness",
+          "difficulty": "moderate",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "ssc-chsl-stage5-045",
+            "sourceUrl": null,
+            "sourceTitle": "Original ExamSathi practice; not official PYQ",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "subject": "General Awareness",
+          "en": "Metal traditionally used in thermometer?",
+          "hi": "परंपरागत थर्मामीटर में प्रयुक्त धातु?",
+          "optionsEn": [
+            "Copper",
+            "Mercury",
+            "Iron",
+            "Zinc"
+          ],
+          "optionsHi": [
+            "Copper",
+            "Mercury",
+            "Iron",
+            "Zinc"
+          ],
+          "answer": 1,
+          "whyEn": "Mercury was traditionally used.",
+          "whyHi": "परंपरागत रूप से पारा प्रयुक्त होता था।",
+          "topic": "General awareness",
+          "difficulty": "moderate",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "ssc-chsl-stage5-046",
+            "sourceUrl": null,
+            "sourceTitle": "Original ExamSathi practice; not official PYQ",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "subject": "General Awareness",
+          "en": "Who discovered penicillin?",
+          "hi": "पेनिसिलिन की खोज किसने की?",
+          "optionsEn": [
+            "Newton",
+            "Alexander Fleming",
+            "Pasteur",
+            "Darwin"
+          ],
+          "optionsHi": [
+            "Newton",
+            "Alexander Fleming",
+            "Pasteur",
+            "Darwin"
+          ],
+          "answer": 1,
+          "whyEn": "Alexander Fleming discovered penicillin.",
+          "whyHi": "अलेक्जेंडर फ्लेमिंग ने खोज की।",
+          "topic": "General awareness",
+          "difficulty": "moderate",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "ssc-chsl-stage5-047",
+            "sourceUrl": null,
+            "sourceTitle": "Original ExamSathi practice; not official PYQ",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "subject": "General Awareness",
+          "en": "Spice Garden of India state?",
+          "hi": "भारत का मसाला उद्यान किस राज्य को कहते हैं?",
+          "optionsEn": [
+            "Punjab",
+            "Kerala",
+            "Bihar",
+            "Haryana"
+          ],
+          "optionsHi": [
+            "Punjab",
+            "Kerala",
+            "Bihar",
+            "Haryana"
+          ],
+          "answer": 1,
+          "whyEn": "Kerala is known as the Spice Garden.",
+          "whyHi": "केरल को मसाला उद्यान कहते हैं।",
+          "topic": "General awareness",
+          "difficulty": "moderate",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "ssc-chsl-stage5-048",
+            "sourceUrl": null,
+            "sourceTitle": "Original ExamSathi practice; not official PYQ",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "subject": "General Awareness",
+          "en": "National aquatic animal of India?",
+          "hi": "भारत का राष्ट्रीय जलीय जीव?",
+          "optionsEn": [
+            "Blue whale",
+            "Ganges river dolphin",
+            "Crocodile",
+            "Turtle"
+          ],
+          "optionsHi": [
+            "Blue whale",
+            "Ganges river dolphin",
+            "Crocodile",
+            "Turtle"
+          ],
+          "answer": 1,
+          "whyEn": "Ganges river dolphin is the national aquatic animal.",
+          "whyHi": "गंगा डॉल्फिन राष्ट्रीय जलीय जीव है।",
+          "topic": "General awareness",
+          "difficulty": "moderate",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "ssc-chsl-stage5-049",
+            "sourceUrl": null,
+            "sourceTitle": "Original ExamSathi practice; not official PYQ",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "subject": "General Awareness",
+          "en": "Scurvy is caused by deficiency of?",
+          "hi": "स्कर्वी किस विटामिन की कमी से होता है?",
+          "optionsEn": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "optionsHi": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "answer": 2,
+          "whyEn": "Vitamin C deficiency causes scurvy.",
+          "whyHi": "विटामिन C की कमी से स्कर्वी होता है।",
+          "topic": "General awareness",
+          "difficulty": "moderate",
+          "year": null,
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "ssc-chsl-stage5-050",
+            "sourceUrl": null,
+            "sourceTitle": "Original ExamSathi practice; not official PYQ",
             "answerKeyStatus": "reviewed",
             "reuseStatus": "original"
           }
