@@ -1,0 +1,2933 @@
+{
+  "title": "ExamSathi UPSC Civil Services Practice Bank",
+  "examId": "upsc-civil-services",
+  "examName": "UPSC Civil Services",
+  "jurisdiction": "Central Government",
+  "releaseStatus": "100_question_foundation_practice",
+  "sourceLabel": "ExamSathi original UPSC introductory and shared general aptitude/awareness foundation practice; not official PYQs",
+  "notes": "This dedicated bank contains 10 UPSC Civil Services introductory questions plus 90 shared general aptitude and awareness foundation questions. It supports 10, 50 and 100-question practice mocks, but it is NOT a complete UPSC Civil Services Prelims syllabus bank: specialist GS coverage, CSAT Paper II, current affairs and expert review remain necessary. Questions are authored practice, not official previous-year questions.",
+  "tests": [
+    {
+      "examName": "UPSC Civil Services",
+      "id": "upsc-civil-services-foundation-100",
+      "hi": "UPSC Civil Services — 100 प्रश्न Foundation Practice Bank",
+      "en": "UPSC Civil Services — 100-Question Foundation Practice Bank",
+      "minutes": 100,
+      "subject": "Mixed Foundation",
+      "paper": "Prelims Foundation Practice",
+      "sourceKind": "authored_practice",
+      "questions": [
+        {
+          "hi": "भारतीय संविधान का अनुच्छेद 32 किससे संबंधित है?",
+          "en": "Article 32 of the Indian Constitution relates to which of the following?",
+          "optionsHi": [
+            "संवैधानिक उपचार का अधिकार / Right to Constitutional Remedies",
+            "समानता का अधिकार / Right to Equality",
+            "वित्त आयोग / Finance Commission",
+            "राज्यपाल की नियुक्ति / Appointment of Governor"
+          ],
+          "optionsEn": [
+            "संवैधानिक उपचार का अधिकार / Right to Constitutional Remedies",
+            "समानता का अधिकार / Right to Equality",
+            "वित्त आयोग / Finance Commission",
+            "राज्यपाल की नियुक्ति / Appointment of Governor"
+          ],
+          "answer": 0,
+          "whyHi": "अनुच्छेद 32 मौलिक अधिकारों के प्रवर्तन हेतु सर्वोच्च न्यायालय जाने का अधिकार देता है। / Article 32 provides the right to approach the Supreme Court for enforcement of Fundamental Rights.",
+          "whyEn": "अनुच्छेद 32 मौलिक अधिकारों के प्रवर्तन हेतु सर्वोच्च न्यायालय जाने का अधिकार देता है। / Article 32 provides the right to approach the Supreme Court for enforcement of Fundamental Rights.",
+          "subject": "Indian Polity",
+          "topic": "Fundamental Rights",
+          "difficulty": "moderate",
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "upsc-cse-foundation-001",
+            "sourceUrl": null,
+            "sourceTitle": "ExamSathi UPSC Civil Services introductory practice item; not an official PYQ",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "भारत में वित्त आयोग का गठन किस अनुच्छेद के तहत होता है?",
+          "en": "Under which Article is the Finance Commission constituted?",
+          "optionsHi": [
+            "अनुच्छेद 280 / Article 280",
+            "अनुच्छेद 324 / Article 324",
+            "अनुच्छेद 148 / Article 148",
+            "अनुच्छेद 356 / Article 356"
+          ],
+          "optionsEn": [
+            "अनुच्छेद 280 / Article 280",
+            "अनुच्छेद 324 / Article 324",
+            "अनुच्छेद 148 / Article 148",
+            "अनुच्छेद 356 / Article 356"
+          ],
+          "answer": 0,
+          "whyHi": "वित्त आयोग का प्रावधान अनुच्छेद 280 में है। / Article 280 provides for the Finance Commission.",
+          "whyEn": "वित्त आयोग का प्रावधान अनुच्छेद 280 में है। / Article 280 provides for the Finance Commission.",
+          "subject": "Indian Polity",
+          "topic": "Constitutional Bodies",
+          "difficulty": "moderate",
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "upsc-cse-foundation-002",
+            "sourceUrl": null,
+            "sourceTitle": "ExamSathi UPSC Civil Services introductory practice item; not an official PYQ",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "मॉन्ट्रियल प्रोटोकॉल मुख्यतः किसकी रक्षा से संबंधित है?",
+          "en": "The Montreal Protocol primarily concerns the protection of:",
+          "optionsHi": [
+            "ओजोन परत / Ozone layer",
+            "समुद्री जैव विविधता / Marine biodiversity",
+            "आर्द्रभूमि / Wetlands",
+            "मरुस्थलीय पारिस्थितिकी / Desert ecosystems"
+          ],
+          "optionsEn": [
+            "ओजोन परत / Ozone layer",
+            "समुद्री जैव विविधता / Marine biodiversity",
+            "आर्द्रभूमि / Wetlands",
+            "मरुस्थलीय पारिस्थितिकी / Desert ecosystems"
+          ],
+          "answer": 0,
+          "whyHi": "मॉन्ट्रियल प्रोटोकॉल ओजोन-क्षयकारी पदार्थों को नियंत्रित करता है। / It controls ozone-depleting substances.",
+          "whyEn": "मॉन्ट्रियल प्रोटोकॉल ओजोन-क्षयकारी पदार्थों को नियंत्रित करता है। / It controls ozone-depleting substances.",
+          "subject": "Environment",
+          "topic": "International Agreements",
+          "difficulty": "moderate",
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "upsc-cse-foundation-003",
+            "sourceUrl": null,
+            "sourceTitle": "ExamSathi UPSC Civil Services introductory practice item; not an official PYQ",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "भारत में हरित क्रांति का प्रारंभिक प्रभाव सबसे अधिक किस फसल पर पड़ा?",
+          "en": "The Green Revolution initially had its strongest impact on which crop in India?",
+          "optionsHi": [
+            "गेहूँ / Wheat",
+            "जूट / Jute",
+            "चाय / Tea",
+            "कपास / Cotton"
+          ],
+          "optionsEn": [
+            "गेहूँ / Wheat",
+            "जूट / Jute",
+            "चाय / Tea",
+            "कपास / Cotton"
+          ],
+          "answer": 0,
+          "whyHi": "उच्च उपज वाले गेहूँ के बीजों और सिंचाई से शुरुआती वृद्धि विशेष रूप से हुई। / High-yield wheat varieties and irrigation drove early gains.",
+          "whyEn": "उच्च उपज वाले गेहूँ के बीजों और सिंचाई से शुरुआती वृद्धि विशेष रूप से हुई। / High-yield wheat varieties and irrigation drove early gains.",
+          "subject": "Economy",
+          "topic": "Agriculture",
+          "difficulty": "moderate",
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "upsc-cse-foundation-004",
+            "sourceUrl": null,
+            "sourceTitle": "ExamSathi UPSC Civil Services introductory practice item; not an official PYQ",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "स्थायी बंदोबस्त 1793 किस गवर्नर-जनरल से जुड़ा है?",
+          "en": "The Permanent Settlement of 1793 is associated with which Governor-General?",
+          "optionsHi": [
+            "लॉर्ड कॉर्नवालिस / Lord Cornwallis",
+            "लॉर्ड वेलेजली / Lord Wellesley",
+            "लॉर्ड डलहौजी / Lord Dalhousie",
+            "वॉरेन हेस्टिंग्स / Warren Hastings"
+          ],
+          "optionsEn": [
+            "लॉर्ड कॉर्नवालिस / Lord Cornwallis",
+            "लॉर्ड वेलेजली / Lord Wellesley",
+            "लॉर्ड डलहौजी / Lord Dalhousie",
+            "वॉरेन हेस्टिंग्स / Warren Hastings"
+          ],
+          "answer": 0,
+          "whyHi": "लॉर्ड कॉर्नवालिस ने बंगाल में स्थायी बंदोबस्त लागू किया। / Lord Cornwallis introduced it in Bengal.",
+          "whyEn": "लॉर्ड कॉर्नवालिस ने बंगाल में स्थायी बंदोबस्त लागू किया। / Lord Cornwallis introduced it in Bengal.",
+          "subject": "History",
+          "topic": "Colonial Administration",
+          "difficulty": "moderate",
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "upsc-cse-foundation-005",
+            "sourceUrl": null,
+            "sourceTitle": "ExamSathi UPSC Civil Services introductory practice item; not an official PYQ",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "कर्क रेखा भारत के कितने राज्यों से होकर गुजरती है?",
+          "en": "Through how many Indian states does the Tropic of Cancer pass?",
+          "optionsHi": [
+            "8",
+            "6",
+            "7",
+            "9"
+          ],
+          "optionsEn": [
+            "8",
+            "6",
+            "7",
+            "9"
+          ],
+          "answer": 0,
+          "whyHi": "कर्क रेखा भारत के आठ राज्यों से गुजरती है। / It passes through eight Indian states.",
+          "whyEn": "कर्क रेखा भारत के आठ राज्यों से गुजरती है। / It passes through eight Indian states.",
+          "subject": "Geography",
+          "topic": "Indian Geography",
+          "difficulty": "moderate",
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "upsc-cse-foundation-006",
+            "sourceUrl": null,
+            "sourceTitle": "ExamSathi UPSC Civil Services introductory practice item; not an official PYQ",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "मौलिक कर्तव्य संविधान के किस भाग में हैं?",
+          "en": "Fundamental Duties are placed in which Part of the Constitution?",
+          "optionsHi": [
+            "भाग IVA / Part IVA",
+            "भाग III / Part III",
+            "भाग IV / Part IV",
+            "भाग V / Part V"
+          ],
+          "optionsEn": [
+            "भाग IVA / Part IVA",
+            "भाग III / Part III",
+            "भाग IV / Part IV",
+            "भाग V / Part V"
+          ],
+          "answer": 0,
+          "whyHi": "मौलिक कर्तव्य भाग IVA में अनुच्छेद 51A के अंतर्गत हैं। / They are in Part IVA under Article 51A.",
+          "whyEn": "मौलिक कर्तव्य भाग IVA में अनुच्छेद 51A के अंतर्गत हैं। / They are in Part IVA under Article 51A.",
+          "subject": "Indian Polity",
+          "topic": "Fundamental Duties",
+          "difficulty": "moderate",
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "upsc-cse-foundation-007",
+            "sourceUrl": null,
+            "sourceTitle": "ExamSathi UPSC Civil Services introductory practice item; not an official PYQ",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "रेपो दर का निर्धारण भारत में कौन करता है?",
+          "en": "Who determines the repo rate in India?",
+          "optionsHi": [
+            "RBI की मौद्रिक नीति समिति / RBI Monetary Policy Committee",
+            "वित्त आयोग / Finance Commission",
+            "नीति आयोग / NITI Aayog",
+            "SEBI बोर्ड / SEBI Board"
+          ],
+          "optionsEn": [
+            "RBI की मौद्रिक नीति समिति / RBI Monetary Policy Committee",
+            "वित्त आयोग / Finance Commission",
+            "नीति आयोग / NITI Aayog",
+            "SEBI बोर्ड / SEBI Board"
+          ],
+          "answer": 0,
+          "whyHi": "नीतिगत रेपो दर MPC तय करती है। / The MPC decides the policy repo rate.",
+          "whyEn": "नीतिगत रेपो दर MPC तय करती है। / The MPC decides the policy repo rate.",
+          "subject": "Economy",
+          "topic": "Monetary Policy",
+          "difficulty": "moderate",
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "upsc-cse-foundation-008",
+            "sourceUrl": null,
+            "sourceTitle": "ExamSathi UPSC Civil Services introductory practice item; not an official PYQ",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "रामसर अभिसमय किससे संबंधित है?",
+          "en": "The Ramsar Convention is related to:",
+          "optionsHi": [
+            "आर्द्रभूमियों का संरक्षण / Wetland conservation",
+            "विश्व धरोहर भवन / World heritage buildings",
+            "जलवायु वित्त / Climate finance",
+            "वन्यजीव व्यापार / Wildlife trade"
+          ],
+          "optionsEn": [
+            "आर्द्रभूमियों का संरक्षण / Wetland conservation",
+            "विश्व धरोहर भवन / World heritage buildings",
+            "जलवायु वित्त / Climate finance",
+            "वन्यजीव व्यापार / Wildlife trade"
+          ],
+          "answer": 0,
+          "whyHi": "रामसर अभिसमय आर्द्रभूमियों के संरक्षण और विवेकपूर्ण उपयोग पर केंद्रित है। / It promotes conservation and wise use of wetlands.",
+          "whyEn": "रामसर अभिसमय आर्द्रभूमियों के संरक्षण और विवेकपूर्ण उपयोग पर केंद्रित है। / It promotes conservation and wise use of wetlands.",
+          "subject": "Environment",
+          "topic": "Conventions",
+          "difficulty": "moderate",
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "upsc-cse-foundation-009",
+            "sourceUrl": null,
+            "sourceTitle": "ExamSathi UPSC Civil Services introductory practice item; not an official PYQ",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "भारतीय संसद के संयुक्त अधिवेशन की अध्यक्षता सामान्यतः कौन करता है?",
+          "en": "Who normally presides over a joint sitting of the Indian Parliament?",
+          "optionsHi": [
+            "लोकसभा अध्यक्ष / Speaker of Lok Sabha",
+            "राष्ट्रपति / President",
+            "राज्यसभा के सभापति / Chairman of Rajya Sabha",
+            "प्रधानमंत्री / Prime Minister"
+          ],
+          "optionsEn": [
+            "लोकसभा अध्यक्ष / Speaker of Lok Sabha",
+            "राष्ट्रपति / President",
+            "राज्यसभा के सभापति / Chairman of Rajya Sabha",
+            "प्रधानमंत्री / Prime Minister"
+          ],
+          "answer": 0,
+          "whyHi": "संयुक्त बैठक की अध्यक्षता लोकसभा अध्यक्ष करते हैं। / The Speaker of the Lok Sabha presides.",
+          "whyEn": "संयुक्त बैठक की अध्यक्षता लोकसभा अध्यक्ष करते हैं। / The Speaker of the Lok Sabha presides.",
+          "subject": "Indian Polity",
+          "topic": "Parliament",
+          "difficulty": "moderate",
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "upsc-cse-foundation-010",
+            "sourceUrl": null,
+            "sourceTitle": "ExamSathi UPSC Civil Services introductory practice item; not an official PYQ",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "भारत का संविधान कब लागू हुआ?",
+          "en": "When did the Constitution of India come into effect?",
+          "optionsHi": [
+            "15 अगस्त 1947",
+            "26 जनवरी 1950",
+            "26 नवंबर 1949",
+            "2 अक्टूबर 1950"
+          ],
+          "optionsEn": [
+            "15 August 1947",
+            "26 January 1950",
+            "26 November 1949",
+            "2 October 1950"
+          ],
+          "answer": 1,
+          "whyHi": "संविधान 26 जनवरी 1950 को लागू हुआ।",
+          "whyEn": "The Constitution came into effect on 26 January 1950.",
+          "subject": "General Awareness",
+          "topic": "Polity",
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "upsc-cse-foundation-011",
+            "sourceUrl": null,
+            "sourceTitle": "ExamSathi shared general aptitude and awareness foundation practice item; not an official UPSC PYQ",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "प्रारूप समिति के अध्यक्ष कौन थे?",
+          "en": "Who chaired the Drafting Committee?",
+          "optionsHi": [
+            "जवाहरलाल नेहरू",
+            "डॉ. बी. आर. आंबेडकर",
+            "राजेंद्र प्रसाद",
+            "सरदार पटेल"
+          ],
+          "optionsEn": [
+            "Jawaharlal Nehru",
+            "Dr B. R. Ambedkar",
+            "Rajendra Prasad",
+            "Sardar Patel"
+          ],
+          "answer": 1,
+          "whyHi": "डॉ. बी. आर. आंबेडकर प्रारूप समिति के अध्यक्ष थे।",
+          "whyEn": "Dr B. R. Ambedkar chaired the Drafting Committee.",
+          "subject": "General Awareness",
+          "topic": "Polity",
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "upsc-cse-foundation-012",
+            "sourceUrl": null,
+            "sourceTitle": "ExamSathi shared general aptitude and awareness foundation practice item; not an official UPSC PYQ",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "क्षेत्रफल के आधार पर भारत का सबसे बड़ा राज्य कौन-सा है?",
+          "en": "Which is India’s largest state by area?",
+          "optionsHi": [
+            "मध्य प्रदेश",
+            "महाराष्ट्र",
+            "राजस्थान",
+            "उत्तर प्रदेश"
+          ],
+          "optionsEn": [
+            "Madhya Pradesh",
+            "Maharashtra",
+            "Rajasthan",
+            "Uttar Pradesh"
+          ],
+          "answer": 2,
+          "whyHi": "राजस्थान क्षेत्रफल के आधार पर सबसे बड़ा राज्य है।",
+          "whyEn": "Rajasthan is India’s largest state by area.",
+          "subject": "General Awareness",
+          "topic": "Geography",
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "upsc-cse-foundation-013",
+            "sourceUrl": null,
+            "sourceTitle": "ExamSathi shared general aptitude and awareness foundation practice item; not an official UPSC PYQ",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "RBI ने कार्य कब शुरू किया?",
+          "en": "When did the RBI commence operations?",
+          "optionsHi": [
+            "1930",
+            "1 अप्रैल 1935",
+            "1947",
+            "1950"
+          ],
+          "optionsEn": [
+            "1930",
+            "1 April 1935",
+            "1947",
+            "1950"
+          ],
+          "answer": 1,
+          "whyHi": "RBI ने 1 अप्रैल 1935 को कार्य शुरू किया।",
+          "whyEn": "The RBI commenced operations on 1 April 1935.",
+          "subject": "General Awareness",
+          "topic": "Economy",
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "upsc-cse-foundation-014",
+            "sourceUrl": null,
+            "sourceTitle": "ExamSathi shared general aptitude and awareness foundation practice item; not an official UPSC PYQ",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "पंचायती राज को संवैधानिक दर्जा किस संशोधन से मिला?",
+          "en": "Which amendment gave constitutional status to Panchayati Raj?",
+          "optionsHi": [
+            "42वाँ",
+            "44वाँ",
+            "73वाँ",
+            "74वाँ"
+          ],
+          "optionsEn": [
+            "42nd",
+            "44th",
+            "73rd",
+            "74th"
+          ],
+          "answer": 2,
+          "whyHi": "73वें संशोधन ने पंचायती राज संस्थाओं को संवैधानिक दर्जा दिया।",
+          "whyEn": "The 73rd Amendment gave constitutional status to Panchayati Raj.",
+          "subject": "General Awareness",
+          "topic": "Polity",
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "upsc-cse-foundation-015",
+            "sourceUrl": null,
+            "sourceTitle": "ExamSathi shared general aptitude and awareness foundation practice item; not an official UPSC PYQ",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "भारत का पहला उपग्रह कौन-सा था?",
+          "en": "What was India’s first satellite?",
+          "optionsHi": [
+            "भास्कर",
+            "आर्यभट्ट",
+            "रोहिणी",
+            "इनसैट-1A"
+          ],
+          "optionsEn": [
+            "Bhaskara",
+            "Aryabhata",
+            "Rohini",
+            "INSAT-1A"
+          ],
+          "answer": 1,
+          "whyHi": "आर्यभट्ट भारत का पहला उपग्रह था, जिसे 1975 में प्रक्षेपित किया गया।",
+          "whyEn": "Aryabhata was India’s first satellite, launched in 1975.",
+          "subject": "General Awareness",
+          "topic": "Science",
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "upsc-cse-foundation-016",
+            "sourceUrl": null,
+            "sourceTitle": "ExamSathi shared general aptitude and awareness foundation practice item; not an official UPSC PYQ",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "प्रकाश संश्लेषण में पौधे कौन-सी गैस ग्रहण करते हैं?",
+          "en": "Which gas do plants absorb during photosynthesis?",
+          "optionsHi": [
+            "ऑक्सीजन",
+            "नाइट्रोजन",
+            "कार्बन डाइऑक्साइड",
+            "हाइड्रोजन"
+          ],
+          "optionsEn": [
+            "Oxygen",
+            "Nitrogen",
+            "Carbon dioxide",
+            "Hydrogen"
+          ],
+          "answer": 2,
+          "whyHi": "प्रकाश संश्लेषण में पौधे कार्बन डाइऑक्साइड ग्रहण करते हैं।",
+          "whyEn": "Plants absorb carbon dioxide during photosynthesis.",
+          "subject": "General Awareness",
+          "topic": "Science",
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "upsc-cse-foundation-017",
+            "sourceUrl": null,
+            "sourceTitle": "ExamSathi shared general aptitude and awareness foundation practice item; not an official UPSC PYQ",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "रक्त का लाल रंग किसके कारण होता है?",
+          "en": "What gives blood its red colour?",
+          "optionsHi": [
+            "प्लाज्मा",
+            "हीमोग्लोबिन",
+            "प्लेटलेट्स",
+            "इंसुलिन"
+          ],
+          "optionsEn": [
+            "Plasma",
+            "Haemoglobin",
+            "Platelets",
+            "Insulin"
+          ],
+          "answer": 1,
+          "whyHi": "हीमोग्लोबिन में हीम समूह रक्त को लाल रंग देता है।",
+          "whyEn": "Haem in haemoglobin gives blood its red colour.",
+          "subject": "General Awareness",
+          "topic": "Science",
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "upsc-cse-foundation-018",
+            "sourceUrl": null,
+            "sourceTitle": "ExamSathi shared general aptitude and awareness foundation practice item; not an official UPSC PYQ",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "लोकसभा का सामान्य कार्यकाल कितने वर्ष है?",
+          "en": "What is the normal term of the Lok Sabha?",
+          "optionsHi": [
+            "4 वर्ष",
+            "5 वर्ष",
+            "6 वर्ष",
+            "7 वर्ष"
+          ],
+          "optionsEn": [
+            "4 years",
+            "5 years",
+            "6 years",
+            "7 years"
+          ],
+          "answer": 1,
+          "whyHi": "लोकसभा का सामान्य कार्यकाल पाँच वर्ष है।",
+          "whyEn": "The Lok Sabha normally lasts five years.",
+          "subject": "General Awareness",
+          "topic": "Polity",
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "upsc-cse-foundation-019",
+            "sourceUrl": null,
+            "sourceTitle": "ExamSathi shared general aptitude and awareness foundation practice item; not an official UPSC PYQ",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "CAG की नियुक्ति कौन करता है?",
+          "en": "Who appoints the CAG of India?",
+          "optionsHi": [
+            "प्रधानमंत्री",
+            "राष्ट्रपति",
+            "मुख्य न्यायाधीश",
+            "लोकसभा अध्यक्ष"
+          ],
+          "optionsEn": [
+            "Prime Minister",
+            "President",
+            "Chief Justice",
+            "Speaker of Lok Sabha"
+          ],
+          "answer": 1,
+          "whyHi": "भारत के CAG की नियुक्ति राष्ट्रपति करते हैं।",
+          "whyEn": "The President appoints the CAG of India.",
+          "subject": "General Awareness",
+          "topic": "Polity",
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "upsc-cse-foundation-020",
+            "sourceUrl": null,
+            "sourceTitle": "ExamSathi shared general aptitude and awareness foundation practice item; not an official UPSC PYQ",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "कर्क रेखा भारत के कितने राज्यों से गुजरती है?",
+          "en": "Through how many Indian states does the Tropic of Cancer pass?",
+          "optionsHi": [
+            "6",
+            "7",
+            "8",
+            "9"
+          ],
+          "optionsEn": [
+            "6",
+            "7",
+            "8",
+            "9"
+          ],
+          "answer": 2,
+          "whyHi": "कर्क रेखा भारत के आठ राज्यों से गुजरती है।",
+          "whyEn": "The Tropic of Cancer passes through eight Indian states.",
+          "subject": "General Awareness",
+          "topic": "Geography",
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "upsc-cse-foundation-021",
+            "sourceUrl": null,
+            "sourceTitle": "ExamSathi shared general aptitude and awareness foundation practice item; not an official UPSC PYQ",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "भारत छोड़ो आंदोलन किस वर्ष शुरू हुआ?",
+          "en": "In which year did the Quit India Movement begin?",
+          "optionsHi": [
+            "1930",
+            "1942",
+            "1946",
+            "1919"
+          ],
+          "optionsEn": [
+            "1930",
+            "1942",
+            "1946",
+            "1919"
+          ],
+          "answer": 1,
+          "whyHi": "भारत छोड़ो आंदोलन अगस्त 1942 में शुरू हुआ।",
+          "whyEn": "The Quit India Movement began in August 1942.",
+          "subject": "General Awareness",
+          "topic": "History",
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "upsc-cse-foundation-022",
+            "sourceUrl": null,
+            "sourceTitle": "ExamSathi shared general aptitude and awareness foundation practice item; not an official UPSC PYQ",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "दांडी मार्च किससे संबंधित था?",
+          "en": "The Dandi March was associated with which movement?",
+          "optionsHi": [
+            "असहयोग",
+            "नमक सत्याग्रह",
+            "भारत छोड़ो",
+            "स्वदेशी"
+          ],
+          "optionsEn": [
+            "Non-Cooperation",
+            "Salt Satyagraha",
+            "Quit India",
+            "Swadeshi"
+          ],
+          "answer": 1,
+          "whyHi": "दांडी मार्च 1930 के नमक सत्याग्रह का हिस्सा था।",
+          "whyEn": "The Dandi March was part of the 1930 Salt Satyagraha.",
+          "subject": "General Awareness",
+          "topic": "History",
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "upsc-cse-foundation-023",
+            "sourceUrl": null,
+            "sourceTitle": "ExamSathi shared general aptitude and awareness foundation practice item; not an official UPSC PYQ",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "संसद के दो सदन कौन-से हैं?",
+          "en": "What are the two Houses of Parliament?",
+          "optionsHi": [
+            "विधानसभा और परिषद",
+            "लोकसभा और राज्यसभा",
+            "लोकसभा और विधानसभा",
+            "राज्यसभा और पंचायत"
+          ],
+          "optionsEn": [
+            "Assembly and Council",
+            "Lok Sabha and Rajya Sabha",
+            "Lok Sabha and Assembly",
+            "Rajya Sabha and Panchayat"
+          ],
+          "answer": 1,
+          "whyHi": "संसद के दो सदन लोकसभा और राज्यसभा हैं।",
+          "whyEn": "The two Houses are the Lok Sabha and Rajya Sabha.",
+          "subject": "General Awareness",
+          "topic": "Polity",
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "upsc-cse-foundation-024",
+            "sourceUrl": null,
+            "sourceTitle": "ExamSathi shared general aptitude and awareness foundation practice item; not an official UPSC PYQ",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "भारत का राष्ट्रीय पशु कौन है?",
+          "en": "What is India’s national animal?",
+          "optionsHi": [
+            "एशियाई सिंह",
+            "बंगाल टाइगर",
+            "हाथी",
+            "हिम तेंदुआ"
+          ],
+          "optionsEn": [
+            "Asiatic lion",
+            "Bengal tiger",
+            "Elephant",
+            "Snow leopard"
+          ],
+          "answer": 1,
+          "whyHi": "बाघ भारत का राष्ट्रीय पशु है।",
+          "whyEn": "The tiger is India’s national animal.",
+          "subject": "General Awareness",
+          "topic": "General Awareness",
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "upsc-cse-foundation-025",
+            "sourceUrl": null,
+            "sourceTitle": "ExamSathi shared general aptitude and awareness foundation practice item; not an official UPSC PYQ",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "'abundant' का सबसे उपयुक्त समानार्थी शब्द चुनें।",
+          "en": "Choose the closest synonym of 'abundant'.",
+          "optionsHi": [
+            "plentiful",
+            "scarce",
+            "empty",
+            "weak"
+          ],
+          "optionsEn": [
+            "plentiful",
+            "scarce",
+            "empty",
+            "weak"
+          ],
+          "answer": 0,
+          "whyHi": "abundant का अर्थ प्रचुर है।",
+          "whyEn": "abundant means plentiful.",
+          "subject": "English Language",
+          "topic": "Vocabulary",
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "upsc-cse-foundation-026",
+            "sourceUrl": null,
+            "sourceTitle": "ExamSathi shared general aptitude and awareness foundation practice item; not an official UPSC PYQ",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "'ancient' का सबसे उपयुक्त समानार्थी शब्द चुनें।",
+          "en": "Choose the closest synonym of 'ancient'.",
+          "optionsHi": [
+            "old",
+            "modern",
+            "recent",
+            "future"
+          ],
+          "optionsEn": [
+            "old",
+            "modern",
+            "recent",
+            "future"
+          ],
+          "answer": 0,
+          "whyHi": "ancient का अर्थ प्राचीन है।",
+          "whyEn": "ancient means old.",
+          "subject": "English Language",
+          "topic": "Vocabulary",
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "upsc-cse-foundation-027",
+            "sourceUrl": null,
+            "sourceTitle": "ExamSathi shared general aptitude and awareness foundation practice item; not an official UPSC PYQ",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "'brief' का सबसे उपयुक्त समानार्थी शब्द चुनें।",
+          "en": "Choose the closest synonym of 'brief'.",
+          "optionsHi": [
+            "short",
+            "lengthy",
+            "broad",
+            "late"
+          ],
+          "optionsEn": [
+            "short",
+            "lengthy",
+            "broad",
+            "late"
+          ],
+          "answer": 0,
+          "whyHi": "brief का अर्थ संक्षिप्त है।",
+          "whyEn": "brief means short.",
+          "subject": "English Language",
+          "topic": "Vocabulary",
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "upsc-cse-foundation-028",
+            "sourceUrl": null,
+            "sourceTitle": "ExamSathi shared general aptitude and awareness foundation practice item; not an official UPSC PYQ",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "'candid' का सबसे उपयुक्त समानार्थी शब्द चुनें।",
+          "en": "Choose the closest synonym of 'candid'.",
+          "optionsHi": [
+            "frank",
+            "secretive",
+            "unclear",
+            "timid"
+          ],
+          "optionsEn": [
+            "frank",
+            "secretive",
+            "unclear",
+            "timid"
+          ],
+          "answer": 0,
+          "whyHi": "candid का अर्थ स्पष्टवादी है।",
+          "whyEn": "candid means frank.",
+          "subject": "English Language",
+          "topic": "Vocabulary",
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "upsc-cse-foundation-029",
+            "sourceUrl": null,
+            "sourceTitle": "ExamSathi shared general aptitude and awareness foundation practice item; not an official UPSC PYQ",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "'diligent' का सबसे उपयुक्त समानार्थी शब्द चुनें।",
+          "en": "Choose the closest synonym of 'diligent'.",
+          "optionsHi": [
+            "hardworking",
+            "lazy",
+            "careless",
+            "idle"
+          ],
+          "optionsEn": [
+            "hardworking",
+            "lazy",
+            "careless",
+            "idle"
+          ],
+          "answer": 0,
+          "whyHi": "diligent का अर्थ परिश्रमी है।",
+          "whyEn": "diligent means hardworking.",
+          "subject": "English Language",
+          "topic": "Vocabulary",
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "upsc-cse-foundation-030",
+            "sourceUrl": null,
+            "sourceTitle": "ExamSathi shared general aptitude and awareness foundation practice item; not an official UPSC PYQ",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "'enormous' का सबसे उपयुक्त समानार्थी शब्द चुनें।",
+          "en": "Choose the closest synonym of 'enormous'.",
+          "optionsHi": [
+            "huge",
+            "tiny",
+            "narrow",
+            "weak"
+          ],
+          "optionsEn": [
+            "huge",
+            "tiny",
+            "narrow",
+            "weak"
+          ],
+          "answer": 0,
+          "whyHi": "enormous का अर्थ विशाल है।",
+          "whyEn": "enormous means huge.",
+          "subject": "English Language",
+          "topic": "Vocabulary",
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "upsc-cse-foundation-031",
+            "sourceUrl": null,
+            "sourceTitle": "ExamSathi shared general aptitude and awareness foundation practice item; not an official UPSC PYQ",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "'fragile' का सबसे उपयुक्त समानार्थी शब्द चुनें।",
+          "en": "Choose the closest synonym of 'fragile'.",
+          "optionsHi": [
+            "delicate",
+            "strong",
+            "solid",
+            "durable"
+          ],
+          "optionsEn": [
+            "delicate",
+            "strong",
+            "solid",
+            "durable"
+          ],
+          "answer": 0,
+          "whyHi": "fragile का अर्थ नाजुक है।",
+          "whyEn": "fragile means delicate.",
+          "subject": "English Language",
+          "topic": "Vocabulary",
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "upsc-cse-foundation-032",
+            "sourceUrl": null,
+            "sourceTitle": "ExamSathi shared general aptitude and awareness foundation practice item; not an official UPSC PYQ",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "'genuine' का सबसे उपयुक्त समानार्थी शब्द चुनें।",
+          "en": "Choose the closest synonym of 'genuine'.",
+          "optionsHi": [
+            "authentic",
+            "fake",
+            "false",
+            "imitation"
+          ],
+          "optionsEn": [
+            "authentic",
+            "fake",
+            "false",
+            "imitation"
+          ],
+          "answer": 0,
+          "whyHi": "genuine का अर्थ असली है।",
+          "whyEn": "genuine means authentic.",
+          "subject": "English Language",
+          "topic": "Vocabulary",
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "upsc-cse-foundation-033",
+            "sourceUrl": null,
+            "sourceTitle": "ExamSathi shared general aptitude and awareness foundation practice item; not an official UPSC PYQ",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "'hostile' का सबसे उपयुक्त समानार्थी शब्द चुनें।",
+          "en": "Choose the closest synonym of 'hostile'.",
+          "optionsHi": [
+            "unfriendly",
+            "kind",
+            "helpful",
+            "cordial"
+          ],
+          "optionsEn": [
+            "unfriendly",
+            "kind",
+            "helpful",
+            "cordial"
+          ],
+          "answer": 0,
+          "whyHi": "hostile का अर्थ शत्रुतापूर्ण है।",
+          "whyEn": "hostile means unfriendly.",
+          "subject": "English Language",
+          "topic": "Vocabulary",
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "upsc-cse-foundation-034",
+            "sourceUrl": null,
+            "sourceTitle": "ExamSathi shared general aptitude and awareness foundation practice item; not an official UPSC PYQ",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "'inevitable' का सबसे उपयुक्त समानार्थी शब्द चुनें।",
+          "en": "Choose the closest synonym of 'inevitable'.",
+          "optionsHi": [
+            "unavoidable",
+            "doubtful",
+            "optional",
+            "preventable"
+          ],
+          "optionsEn": [
+            "unavoidable",
+            "doubtful",
+            "optional",
+            "preventable"
+          ],
+          "answer": 0,
+          "whyHi": "inevitable का अर्थ अपरिहार्य है।",
+          "whyEn": "inevitable means unavoidable.",
+          "subject": "English Language",
+          "topic": "Vocabulary",
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "upsc-cse-foundation-035",
+            "sourceUrl": null,
+            "sourceTitle": "ExamSathi shared general aptitude and awareness foundation practice item; not an official UPSC PYQ",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "'liberty' का सबसे उपयुक्त समानार्थी शब्द चुनें।",
+          "en": "Choose the closest synonym of 'liberty'.",
+          "optionsHi": [
+            "freedom",
+            "captivity",
+            "control",
+            "restriction"
+          ],
+          "optionsEn": [
+            "freedom",
+            "captivity",
+            "control",
+            "restriction"
+          ],
+          "answer": 0,
+          "whyHi": "liberty का अर्थ स्वतंत्रता है।",
+          "whyEn": "liberty means freedom.",
+          "subject": "English Language",
+          "topic": "Vocabulary",
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "upsc-cse-foundation-036",
+            "sourceUrl": null,
+            "sourceTitle": "ExamSathi shared general aptitude and awareness foundation practice item; not an official UPSC PYQ",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "'meticulous' का सबसे उपयुक्त समानार्थी शब्द चुनें।",
+          "en": "Choose the closest synonym of 'meticulous'.",
+          "optionsHi": [
+            "careful",
+            "careless",
+            "hasty",
+            "rough"
+          ],
+          "optionsEn": [
+            "careful",
+            "careless",
+            "hasty",
+            "rough"
+          ],
+          "answer": 0,
+          "whyHi": "meticulous का अर्थ सूक्ष्मता से सावधान है।",
+          "whyEn": "meticulous means careful.",
+          "subject": "English Language",
+          "topic": "Vocabulary",
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "upsc-cse-foundation-037",
+            "sourceUrl": null,
+            "sourceTitle": "ExamSathi shared general aptitude and awareness foundation practice item; not an official UPSC PYQ",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "'obsolete' का सबसे उपयुक्त समानार्थी शब्द चुनें।",
+          "en": "Choose the closest synonym of 'obsolete'.",
+          "optionsHi": [
+            "outdated",
+            "current",
+            "modern",
+            "useful"
+          ],
+          "optionsEn": [
+            "outdated",
+            "current",
+            "modern",
+            "useful"
+          ],
+          "answer": 0,
+          "whyHi": "obsolete का अर्थ अप्रचलित है।",
+          "whyEn": "obsolete means outdated.",
+          "subject": "English Language",
+          "topic": "Vocabulary",
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "upsc-cse-foundation-038",
+            "sourceUrl": null,
+            "sourceTitle": "ExamSathi shared general aptitude and awareness foundation practice item; not an official UPSC PYQ",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "'optimistic' का सबसे उपयुक्त समानार्थी शब्द चुनें।",
+          "en": "Choose the closest synonym of 'optimistic'.",
+          "optionsHi": [
+            "hopeful",
+            "pessimistic",
+            "doubtful",
+            "gloomy"
+          ],
+          "optionsEn": [
+            "hopeful",
+            "pessimistic",
+            "doubtful",
+            "gloomy"
+          ],
+          "answer": 0,
+          "whyHi": "optimistic का अर्थ आशावादी है।",
+          "whyEn": "optimistic means hopeful.",
+          "subject": "English Language",
+          "topic": "Vocabulary",
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "upsc-cse-foundation-039",
+            "sourceUrl": null,
+            "sourceTitle": "ExamSathi shared general aptitude and awareness foundation practice item; not an official UPSC PYQ",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "'pious' का सबसे उपयुक्त समानार्थी शब्द चुनें।",
+          "en": "Choose the closest synonym of 'pious'.",
+          "optionsHi": [
+            "devout",
+            "irreligious",
+            "wicked",
+            "careless"
+          ],
+          "optionsEn": [
+            "devout",
+            "irreligious",
+            "wicked",
+            "careless"
+          ],
+          "answer": 0,
+          "whyHi": "pious का अर्थ धार्मिक है।",
+          "whyEn": "pious means devout.",
+          "subject": "English Language",
+          "topic": "Vocabulary",
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "upsc-cse-foundation-040",
+            "sourceUrl": null,
+            "sourceTitle": "ExamSathi shared general aptitude and awareness foundation practice item; not an official UPSC PYQ",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "200 का 5% कितना है?",
+          "en": "What is 5% of 200?",
+          "optionsHi": [
+            "5",
+            "10",
+            "15",
+            "20"
+          ],
+          "optionsEn": [
+            "5",
+            "10",
+            "15",
+            "20"
+          ],
+          "answer": 1,
+          "whyHi": "200 × 5/100 = 10।",
+          "whyEn": "200 × 5/100 = 10।",
+          "subject": "Quantitative Aptitude",
+          "topic": "Percentage",
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "upsc-cse-foundation-041",
+            "sourceUrl": null,
+            "sourceTitle": "ExamSathi shared general aptitude and awareness foundation practice item; not an official UPSC PYQ",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "₹1100 पर 6% वार्षिक दर से 2 वर्ष का साधारण ब्याज कितना होगा?",
+          "en": "Find simple interest on ₹1100 at 6% per annum for 2 years.",
+          "optionsHi": [
+            "32",
+            "132",
+            "182",
+            "232"
+          ],
+          "optionsEn": [
+            "32",
+            "132",
+            "182",
+            "232"
+          ],
+          "answer": 1,
+          "whyHi": "साधारण ब्याज = मूलधन × दर × समय / 100 = ₹132।",
+          "whyEn": "साधारण ब्याज = मूलधन × दर × समय / 100 = ₹132।",
+          "subject": "Quantitative Aptitude",
+          "topic": "Simple Interest",
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "upsc-cse-foundation-042",
+            "sourceUrl": null,
+            "sourceTitle": "ExamSathi shared general aptitude and awareness foundation practice item; not an official UPSC PYQ",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "24 और 38 का औसत कितना है?",
+          "en": "What is the average of 24 and 38?",
+          "optionsHi": [
+            "29",
+            "31",
+            "33",
+            "35"
+          ],
+          "optionsEn": [
+            "29",
+            "31",
+            "33",
+            "35"
+          ],
+          "answer": 1,
+          "whyHi": "औसत = (24 + 38) / 2 = 31।",
+          "whyEn": "औसत = (24 + 38) / 2 = 31।",
+          "subject": "Quantitative Aptitude",
+          "topic": "Average",
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "upsc-cse-foundation-043",
+            "sourceUrl": null,
+            "sourceTitle": "ExamSathi shared general aptitude and awareness foundation practice item; not an official UPSC PYQ",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "दो राशियों का अनुपात 5:6 है। पहली राशि 40 है। दूसरी राशि कितनी है?",
+          "en": "Two amounts are in the ratio 5:6. The first is 40. Find the second.",
+          "optionsHi": [
+            "40",
+            "48",
+            "56",
+            "64"
+          ],
+          "optionsEn": [
+            "40",
+            "48",
+            "56",
+            "64"
+          ],
+          "answer": 1,
+          "whyHi": "एक भाग = 40/5 = 8; दूसरी राशि = 6 × 8 = 48।",
+          "whyEn": "एक भाग = 40/5 = 8; दूसरी राशि = 6 × 8 = 48।",
+          "subject": "Quantitative Aptitude",
+          "topic": "Ratio",
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "upsc-cse-foundation-044",
+            "sourceUrl": null,
+            "sourceTitle": "ExamSathi shared general aptitude and awareness foundation practice item; not an official UPSC PYQ",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "3130 का 7% कितना है?",
+          "en": "What is 7% of 3130?",
+          "optionsHi": [
+            "224.1",
+            "219.1",
+            "214.1",
+            "229.1"
+          ],
+          "optionsEn": [
+            "224.1",
+            "219.1",
+            "214.1",
+            "229.1"
+          ],
+          "answer": 1,
+          "whyHi": "3130 × 7/100 = 219.1।",
+          "whyEn": "3130 × 7/100 = 219.1।",
+          "subject": "Quantitative Aptitude",
+          "topic": "Percentage",
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "upsc-cse-foundation-045",
+            "sourceUrl": null,
+            "sourceTitle": "ExamSathi shared general aptitude and awareness foundation practice item; not an official UPSC PYQ",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "₹5150 पर 6% वार्षिक दर से 2 वर्ष का साधारण ब्याज कितना होगा?",
+          "en": "Find simple interest on ₹5150 at 6% per annum for 2 years.",
+          "optionsHi": [
+            "718",
+            "618",
+            "518",
+            "668"
+          ],
+          "optionsEn": [
+            "718",
+            "618",
+            "518",
+            "668"
+          ],
+          "answer": 1,
+          "whyHi": "SI = P × R × T / 100 = ₹618।",
+          "whyEn": "SI = P × R × T / 100 = ₹618।",
+          "subject": "Quantitative Aptitude",
+          "topic": "Simple Interest",
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "upsc-cse-foundation-046",
+            "sourceUrl": null,
+            "sourceTitle": "ExamSathi shared general aptitude and awareness foundation practice item; not an official UPSC PYQ",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "47 और 61 का औसत क्या है?",
+          "en": "What is the average of 47 and 61?",
+          "optionsHi": [
+            "56",
+            "52",
+            "54",
+            "58"
+          ],
+          "optionsEn": [
+            "56",
+            "52",
+            "54",
+            "58"
+          ],
+          "answer": 2,
+          "whyHi": "(47+61)/2 = 54।",
+          "whyEn": "(47+61)/2 = 54।",
+          "subject": "Quantitative Aptitude",
+          "topic": "Average",
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "upsc-cse-foundation-047",
+            "sourceUrl": null,
+            "sourceTitle": "ExamSathi shared general aptitude and awareness foundation practice item; not an official UPSC PYQ",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "दो राशियों का अनुपात 5:9 है। पहली राशि 70 है। दूसरी राशि ज्ञात कीजिए।",
+          "en": "Two amounts are in the ratio 5:9. The first is 70. Find the second.",
+          "optionsHi": [
+            "140",
+            "126",
+            "112",
+            "154"
+          ],
+          "optionsEn": [
+            "140",
+            "126",
+            "112",
+            "154"
+          ],
+          "answer": 1,
+          "whyHi": "एक भाग = 70/5 = 14; दूसरी राशि = 9 × 14 = 126।",
+          "whyEn": "एक भाग = 70/5 = 14; दूसरी राशि = 9 × 14 = 126।",
+          "subject": "Quantitative Aptitude",
+          "topic": "Ratio",
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "upsc-cse-foundation-048",
+            "sourceUrl": null,
+            "sourceTitle": "ExamSathi shared general aptitude and awareness foundation practice item; not an official UPSC PYQ",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "₹1000 की वस्तु 25% लाभ पर बेची गई। विक्रय मूल्य कितना है?",
+          "en": "An item costing ₹1000 is sold at 25% profit. Find its selling price.",
+          "optionsHi": [
+            "1270",
+            "1250",
+            "1230",
+            "1290"
+          ],
+          "optionsEn": [
+            "1270",
+            "1250",
+            "1230",
+            "1290"
+          ],
+          "answer": 1,
+          "whyHi": "विक्रय मूल्य = 1000 × (100+25)/100 = ₹1250।",
+          "whyEn": "विक्रय मूल्य = 1000 × (100+25)/100 = ₹1250।",
+          "subject": "Quantitative Aptitude",
+          "topic": "Profit and Loss",
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "upsc-cse-foundation-049",
+            "sourceUrl": null,
+            "sourceTitle": "ExamSathi shared general aptitude and awareness foundation practice item; not an official UPSC PYQ",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "3480 का 12% कितना है?",
+          "en": "What is 12% of 3480?",
+          "optionsHi": [
+            "422.6",
+            "417.6",
+            "412.6",
+            "427.6"
+          ],
+          "optionsEn": [
+            "422.6",
+            "417.6",
+            "412.6",
+            "427.6"
+          ],
+          "answer": 1,
+          "whyHi": "3480 × 12/100 = 417.6।",
+          "whyEn": "3480 × 12/100 = 417.6।",
+          "subject": "Quantitative Aptitude",
+          "topic": "Percentage",
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "upsc-cse-foundation-050",
+            "sourceUrl": null,
+            "sourceTitle": "ExamSathi shared general aptitude and awareness foundation practice item; not an official UPSC PYQ",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "₹5400 पर 11% वार्षिक दर से 3 वर्ष का साधारण ब्याज कितना होगा?",
+          "en": "Find simple interest on ₹5400 at 11% per annum for 3 years.",
+          "optionsHi": [
+            "1882",
+            "1782",
+            "1682",
+            "1832"
+          ],
+          "optionsEn": [
+            "1882",
+            "1782",
+            "1682",
+            "1832"
+          ],
+          "answer": 1,
+          "whyHi": "SI = P × R × T / 100 = ₹1782।",
+          "whyEn": "SI = P × R × T / 100 = ₹1782।",
+          "subject": "Quantitative Aptitude",
+          "topic": "Simple Interest",
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "upsc-cse-foundation-051",
+            "sourceUrl": null,
+            "sourceTitle": "ExamSathi shared general aptitude and awareness foundation practice item; not an official UPSC PYQ",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "57 और 71 का औसत क्या है?",
+          "en": "What is the average of 57 and 71?",
+          "optionsHi": [
+            "66",
+            "62",
+            "64",
+            "68"
+          ],
+          "optionsEn": [
+            "66",
+            "62",
+            "64",
+            "68"
+          ],
+          "answer": 2,
+          "whyHi": "(57+71)/2 = 64।",
+          "whyEn": "(57+71)/2 = 64।",
+          "subject": "Quantitative Aptitude",
+          "topic": "Average",
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "upsc-cse-foundation-052",
+            "sourceUrl": null,
+            "sourceTitle": "ExamSathi shared general aptitude and awareness foundation practice item; not an official UPSC PYQ",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "दो राशियों का अनुपात 5:5 है। पहली राशि 95 है। दूसरी राशि ज्ञात कीजिए।",
+          "en": "Two amounts are in the ratio 5:5. The first is 95. Find the second.",
+          "optionsHi": [
+            "114",
+            "95",
+            "76",
+            "133"
+          ],
+          "optionsEn": [
+            "114",
+            "95",
+            "76",
+            "133"
+          ],
+          "answer": 1,
+          "whyHi": "एक भाग = 95/5 = 19; दूसरी राशि = 5 × 19 = 95।",
+          "whyEn": "एक भाग = 95/5 = 19; दूसरी राशि = 5 × 19 = 95।",
+          "subject": "Quantitative Aptitude",
+          "topic": "Ratio",
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "upsc-cse-foundation-053",
+            "sourceUrl": null,
+            "sourceTitle": "ExamSathi shared general aptitude and awareness foundation practice item; not an official UPSC PYQ",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "₹1500 की वस्तु 10% लाभ पर बेची गई। विक्रय मूल्य कितना है?",
+          "en": "An item costing ₹1500 is sold at 10% profit. Find its selling price.",
+          "optionsHi": [
+            "1670",
+            "1650",
+            "1630",
+            "1690"
+          ],
+          "optionsEn": [
+            "1670",
+            "1650",
+            "1630",
+            "1690"
+          ],
+          "answer": 1,
+          "whyHi": "विक्रय मूल्य = 1500 × (100+10)/100 = ₹1650।",
+          "whyEn": "विक्रय मूल्य = 1500 × (100+10)/100 = ₹1650।",
+          "subject": "Quantitative Aptitude",
+          "topic": "Profit and Loss",
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "upsc-cse-foundation-054",
+            "sourceUrl": null,
+            "sourceTitle": "ExamSathi shared general aptitude and awareness foundation practice item; not an official UPSC PYQ",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "3830 का 17% कितना है?",
+          "en": "What is 17% of 3830?",
+          "optionsHi": [
+            "656.1",
+            "651.1",
+            "646.1",
+            "661.1"
+          ],
+          "optionsEn": [
+            "656.1",
+            "651.1",
+            "646.1",
+            "661.1"
+          ],
+          "answer": 1,
+          "whyHi": "3830 × 17/100 = 651.1।",
+          "whyEn": "3830 × 17/100 = 651.1।",
+          "subject": "Quantitative Aptitude",
+          "topic": "Percentage",
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "upsc-cse-foundation-055",
+            "sourceUrl": null,
+            "sourceTitle": "ExamSathi shared general aptitude and awareness foundation practice item; not an official UPSC PYQ",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "₹5650 पर 9% वार्षिक दर से 4 वर्ष का साधारण ब्याज कितना होगा?",
+          "en": "Find simple interest on ₹5650 at 9% per annum for 4 years.",
+          "optionsHi": [
+            "2134",
+            "2034",
+            "1934",
+            "2084"
+          ],
+          "optionsEn": [
+            "2134",
+            "2034",
+            "1934",
+            "2084"
+          ],
+          "answer": 1,
+          "whyHi": "SI = P × R × T / 100 = ₹2034।",
+          "whyEn": "SI = P × R × T / 100 = ₹2034।",
+          "subject": "Quantitative Aptitude",
+          "topic": "Simple Interest",
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "upsc-cse-foundation-056",
+            "sourceUrl": null,
+            "sourceTitle": "ExamSathi shared general aptitude and awareness foundation practice item; not an official UPSC PYQ",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "67 और 81 का औसत क्या है?",
+          "en": "What is the average of 67 and 81?",
+          "optionsHi": [
+            "76",
+            "72",
+            "74",
+            "78"
+          ],
+          "optionsEn": [
+            "76",
+            "72",
+            "74",
+            "78"
+          ],
+          "answer": 2,
+          "whyHi": "(67+81)/2 = 74।",
+          "whyEn": "(67+81)/2 = 74।",
+          "subject": "Quantitative Aptitude",
+          "topic": "Average",
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "upsc-cse-foundation-057",
+            "sourceUrl": null,
+            "sourceTitle": "ExamSathi shared general aptitude and awareness foundation practice item; not an official UPSC PYQ",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "दो राशियों का अनुपात 5:8 है। पहली राशि 120 है। दूसरी राशि ज्ञात कीजिए।",
+          "en": "Two amounts are in the ratio 5:8. The first is 120. Find the second.",
+          "optionsHi": [
+            "216",
+            "192",
+            "168",
+            "240"
+          ],
+          "optionsEn": [
+            "216",
+            "192",
+            "168",
+            "240"
+          ],
+          "answer": 1,
+          "whyHi": "एक भाग = 120/5 = 24; दूसरी राशि = 8 × 24 = 192।",
+          "whyEn": "एक भाग = 120/5 = 24; दूसरी राशि = 8 × 24 = 192।",
+          "subject": "Quantitative Aptitude",
+          "topic": "Ratio",
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "upsc-cse-foundation-058",
+            "sourceUrl": null,
+            "sourceTitle": "ExamSathi shared general aptitude and awareness foundation practice item; not an official UPSC PYQ",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "₹2000 की वस्तु 35% लाभ पर बेची गई। विक्रय मूल्य कितना है?",
+          "en": "An item costing ₹2000 is sold at 35% profit. Find its selling price.",
+          "optionsHi": [
+            "2720",
+            "2700",
+            "2680",
+            "2740"
+          ],
+          "optionsEn": [
+            "2720",
+            "2700",
+            "2680",
+            "2740"
+          ],
+          "answer": 1,
+          "whyHi": "विक्रय मूल्य = 2000 × (100+35)/100 = ₹2700।",
+          "whyEn": "विक्रय मूल्य = 2000 × (100+35)/100 = ₹2700।",
+          "subject": "Quantitative Aptitude",
+          "topic": "Profit and Loss",
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "upsc-cse-foundation-059",
+            "sourceUrl": null,
+            "sourceTitle": "ExamSathi shared general aptitude and awareness foundation practice item; not an official UPSC PYQ",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "4180 का 22% कितना है?",
+          "en": "What is 22% of 4180?",
+          "optionsHi": [
+            "924.6",
+            "919.6",
+            "914.6",
+            "929.6"
+          ],
+          "optionsEn": [
+            "924.6",
+            "919.6",
+            "914.6",
+            "929.6"
+          ],
+          "answer": 1,
+          "whyHi": "4180 × 22/100 = 919.6।",
+          "whyEn": "4180 × 22/100 = 919.6।",
+          "subject": "Quantitative Aptitude",
+          "topic": "Percentage",
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "upsc-cse-foundation-060",
+            "sourceUrl": null,
+            "sourceTitle": "ExamSathi shared general aptitude and awareness foundation practice item; not an official UPSC PYQ",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "240 का 9% कितना है?",
+          "en": "What is 9% of 240?",
+          "optionsHi": [
+            "16.6",
+            "21.6",
+            "26.6",
+            "31.6"
+          ],
+          "optionsEn": [
+            "16.6",
+            "21.6",
+            "26.6",
+            "31.6"
+          ],
+          "answer": 1,
+          "whyHi": "240 × 9/100 = 21.6।",
+          "whyEn": "240 × 9/100 = 21.6।",
+          "subject": "Quantitative Aptitude",
+          "topic": "Percentage",
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "upsc-cse-foundation-061",
+            "sourceUrl": null,
+            "sourceTitle": "ExamSathi shared general aptitude and awareness foundation practice item; not an official UPSC PYQ",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "₹1500 पर 10% वार्षिक दर से 2 वर्ष का साधारण ब्याज कितना होगा?",
+          "en": "Find simple interest on ₹1500 at 10% per annum for 2 years.",
+          "optionsHi": [
+            "200",
+            "300",
+            "350",
+            "400"
+          ],
+          "optionsEn": [
+            "200",
+            "300",
+            "350",
+            "400"
+          ],
+          "answer": 1,
+          "whyHi": "साधारण ब्याज = मूलधन × दर × समय / 100 = ₹300।",
+          "whyEn": "साधारण ब्याज = मूलधन × दर × समय / 100 = ₹300।",
+          "subject": "Quantitative Aptitude",
+          "topic": "Simple Interest",
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "upsc-cse-foundation-062",
+            "sourceUrl": null,
+            "sourceTitle": "ExamSathi shared general aptitude and awareness foundation practice item; not an official UPSC PYQ",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "32 और 54 का औसत कितना है?",
+          "en": "What is the average of 32 and 54?",
+          "optionsHi": [
+            "41",
+            "43",
+            "45",
+            "47"
+          ],
+          "optionsEn": [
+            "41",
+            "43",
+            "45",
+            "47"
+          ],
+          "answer": 1,
+          "whyHi": "औसत = (32 + 54) / 2 = 43।",
+          "whyEn": "औसत = (32 + 54) / 2 = 43।",
+          "subject": "Quantitative Aptitude",
+          "topic": "Average",
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "upsc-cse-foundation-063",
+            "sourceUrl": null,
+            "sourceTitle": "ExamSathi shared general aptitude and awareness foundation practice item; not an official UPSC PYQ",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "दो राशियों का अनुपात 2:5 है। पहली राशि 24 है। दूसरी राशि कितनी है?",
+          "en": "Two amounts are in the ratio 2:5. The first is 24. Find the second.",
+          "optionsHi": [
+            "48",
+            "60",
+            "72",
+            "84"
+          ],
+          "optionsEn": [
+            "48",
+            "60",
+            "72",
+            "84"
+          ],
+          "answer": 1,
+          "whyHi": "एक भाग = 24/2 = 12; दूसरी राशि = 5 × 12 = 60।",
+          "whyEn": "एक भाग = 24/2 = 12; दूसरी राशि = 5 × 12 = 60।",
+          "subject": "Quantitative Aptitude",
+          "topic": "Ratio",
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "upsc-cse-foundation-064",
+            "sourceUrl": null,
+            "sourceTitle": "ExamSathi shared general aptitude and awareness foundation practice item; not an official UPSC PYQ",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "3260 का 7% कितना है?",
+          "en": "What is 7% of 3260?",
+          "optionsHi": [
+            "233.2",
+            "228.2",
+            "223.2",
+            "238.2"
+          ],
+          "optionsEn": [
+            "233.2",
+            "228.2",
+            "223.2",
+            "238.2"
+          ],
+          "answer": 1,
+          "whyHi": "3260 × 7/100 = 228.2।",
+          "whyEn": "3260 × 7/100 = 228.2।",
+          "subject": "Quantitative Aptitude",
+          "topic": "Percentage",
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "upsc-cse-foundation-065",
+            "sourceUrl": null,
+            "sourceTitle": "ExamSathi shared general aptitude and awareness foundation practice item; not an official UPSC PYQ",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "₹5250 पर 6% वार्षिक दर से 2 वर्ष का साधारण ब्याज कितना होगा?",
+          "en": "Find simple interest on ₹5250 at 6% per annum for 2 years.",
+          "optionsHi": [
+            "730",
+            "630",
+            "530",
+            "680"
+          ],
+          "optionsEn": [
+            "730",
+            "630",
+            "530",
+            "680"
+          ],
+          "answer": 1,
+          "whyHi": "SI = P × R × T / 100 = ₹630।",
+          "whyEn": "SI = P × R × T / 100 = ₹630।",
+          "subject": "Quantitative Aptitude",
+          "topic": "Simple Interest",
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "upsc-cse-foundation-066",
+            "sourceUrl": null,
+            "sourceTitle": "ExamSathi shared general aptitude and awareness foundation practice item; not an official UPSC PYQ",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "50 और 64 का औसत क्या है?",
+          "en": "What is the average of 50 and 64?",
+          "optionsHi": [
+            "59",
+            "55",
+            "57",
+            "61"
+          ],
+          "optionsEn": [
+            "59",
+            "55",
+            "57",
+            "61"
+          ],
+          "answer": 2,
+          "whyHi": "(50+64)/2 = 57।",
+          "whyEn": "(50+64)/2 = 57।",
+          "subject": "Quantitative Aptitude",
+          "topic": "Average",
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "upsc-cse-foundation-067",
+            "sourceUrl": null,
+            "sourceTitle": "ExamSathi shared general aptitude and awareness foundation practice item; not an official UPSC PYQ",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "दो राशियों का अनुपात 5:9 है। पहली राशि 75 है। दूसरी राशि ज्ञात कीजिए।",
+          "en": "Two amounts are in the ratio 5:9. The first is 75. Find the second.",
+          "optionsHi": [
+            "150",
+            "135",
+            "120",
+            "165"
+          ],
+          "optionsEn": [
+            "150",
+            "135",
+            "120",
+            "165"
+          ],
+          "answer": 1,
+          "whyHi": "एक भाग = 75/5 = 15; दूसरी राशि = 9 × 15 = 135।",
+          "whyEn": "एक भाग = 75/5 = 15; दूसरी राशि = 9 × 15 = 135।",
+          "subject": "Quantitative Aptitude",
+          "topic": "Ratio",
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "upsc-cse-foundation-068",
+            "sourceUrl": null,
+            "sourceTitle": "ExamSathi shared general aptitude and awareness foundation practice item; not an official UPSC PYQ",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "₹1100 की वस्तु 25% लाभ पर बेची गई। विक्रय मूल्य कितना है?",
+          "en": "An item costing ₹1100 is sold at 25% profit. Find its selling price.",
+          "optionsHi": [
+            "1395",
+            "1375",
+            "1355",
+            "1415"
+          ],
+          "optionsEn": [
+            "1395",
+            "1375",
+            "1355",
+            "1415"
+          ],
+          "answer": 1,
+          "whyHi": "विक्रय मूल्य = 1100 × (100+25)/100 = ₹1375।",
+          "whyEn": "विक्रय मूल्य = 1100 × (100+25)/100 = ₹1375।",
+          "subject": "Quantitative Aptitude",
+          "topic": "Profit and Loss",
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "upsc-cse-foundation-069",
+            "sourceUrl": null,
+            "sourceTitle": "ExamSathi shared general aptitude and awareness foundation practice item; not an official UPSC PYQ",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "3610 का 12% कितना है?",
+          "en": "What is 12% of 3610?",
+          "optionsHi": [
+            "438.2",
+            "433.2",
+            "428.2",
+            "443.2"
+          ],
+          "optionsEn": [
+            "438.2",
+            "433.2",
+            "428.2",
+            "443.2"
+          ],
+          "answer": 1,
+          "whyHi": "3610 × 12/100 = 433.2।",
+          "whyEn": "3610 × 12/100 = 433.2।",
+          "subject": "Quantitative Aptitude",
+          "topic": "Percentage",
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "upsc-cse-foundation-070",
+            "sourceUrl": null,
+            "sourceTitle": "ExamSathi shared general aptitude and awareness foundation practice item; not an official UPSC PYQ",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "संख्या श्रृंखला 3, 5, 7, 9, ? में अगली संख्या क्या है?",
+          "en": "Find the next number: 3, 5, 7, 9, ?",
+          "optionsHi": [
+            "13",
+            "9",
+            "11",
+            "15"
+          ],
+          "optionsEn": [
+            "13",
+            "9",
+            "11",
+            "15"
+          ],
+          "answer": 2,
+          "whyHi": "हर बार 2 जोड़ा जाता है; अगली संख्या 11 है।",
+          "whyEn": "Add 2 each time; the next number is 11.",
+          "subject": "General Intelligence & Reasoning",
+          "topic": "Number Series",
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "upsc-cse-foundation-071",
+            "sourceUrl": null,
+            "sourceTitle": "ExamSathi shared general aptitude and awareness foundation practice item; not an official UPSC PYQ",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "संख्या श्रृंखला 8, 11, 14, 17, ? में अगली संख्या क्या है?",
+          "en": "Find the next number: 8, 11, 14, 17, ?",
+          "optionsHi": [
+            "23",
+            "17",
+            "20",
+            "26"
+          ],
+          "optionsEn": [
+            "23",
+            "17",
+            "20",
+            "26"
+          ],
+          "answer": 2,
+          "whyHi": "हर बार 3 जोड़ा जाता है; अगली संख्या 20 है।",
+          "whyEn": "Add 3 each time; the next number is 20.",
+          "subject": "General Intelligence & Reasoning",
+          "topic": "Number Series",
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "upsc-cse-foundation-072",
+            "sourceUrl": null,
+            "sourceTitle": "ExamSathi shared general aptitude and awareness foundation practice item; not an official UPSC PYQ",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "संख्या श्रृंखला 13, 17, 21, 25, ? में अगली संख्या क्या है?",
+          "en": "Find the next number: 13, 17, 21, 25, ?",
+          "optionsHi": [
+            "33",
+            "25",
+            "29",
+            "37"
+          ],
+          "optionsEn": [
+            "33",
+            "25",
+            "29",
+            "37"
+          ],
+          "answer": 2,
+          "whyHi": "हर बार 4 जोड़ा जाता है; अगली संख्या 29 है।",
+          "whyEn": "Add 4 each time; the next number is 29.",
+          "subject": "General Intelligence & Reasoning",
+          "topic": "Number Series",
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "upsc-cse-foundation-073",
+            "sourceUrl": null,
+            "sourceTitle": "ExamSathi shared general aptitude and awareness foundation practice item; not an official UPSC PYQ",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "संख्या श्रृंखला 18, 23, 28, 33, ? में अगली संख्या क्या है?",
+          "en": "Find the next number: 18, 23, 28, 33, ?",
+          "optionsHi": [
+            "43",
+            "33",
+            "38",
+            "48"
+          ],
+          "optionsEn": [
+            "43",
+            "33",
+            "38",
+            "48"
+          ],
+          "answer": 2,
+          "whyHi": "हर बार 5 जोड़ा जाता है; अगली संख्या 38 है।",
+          "whyEn": "Add 5 each time; the next number is 38.",
+          "subject": "General Intelligence & Reasoning",
+          "topic": "Number Series",
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "upsc-cse-foundation-074",
+            "sourceUrl": null,
+            "sourceTitle": "ExamSathi shared general aptitude and awareness foundation practice item; not an official UPSC PYQ",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "श्रृंखला 305, 307, 309, 311, ? में अगली संख्या क्या होगी?",
+          "en": "Find the next number: 305, 307, 309, 311, ?",
+          "optionsHi": [
+            "315",
+            "311",
+            "313",
+            "317"
+          ],
+          "optionsEn": [
+            "315",
+            "311",
+            "313",
+            "317"
+          ],
+          "answer": 2,
+          "whyHi": "हर बार 2 जोड़ा जाता है; अगली संख्या 313 है।",
+          "whyEn": "हर बार 2 जोड़ा जाता है; अगली संख्या 313 है।",
+          "subject": "General Intelligence & Reasoning",
+          "topic": "Number Series",
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "upsc-cse-foundation-075",
+            "sourceUrl": null,
+            "sourceTitle": "ExamSathi shared general aptitude and awareness foundation practice item; not an official UPSC PYQ",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "श्रृंखला 308, 311, 314, 317, ? में अगली संख्या क्या होगी?",
+          "en": "Find the next number: 308, 311, 314, 317, ?",
+          "optionsHi": [
+            "323",
+            "317",
+            "320",
+            "326"
+          ],
+          "optionsEn": [
+            "323",
+            "317",
+            "320",
+            "326"
+          ],
+          "answer": 2,
+          "whyHi": "हर बार 3 जोड़ा जाता है; अगली संख्या 320 है।",
+          "whyEn": "हर बार 3 जोड़ा जाता है; अगली संख्या 320 है।",
+          "subject": "General Intelligence & Reasoning",
+          "topic": "Number Series",
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "upsc-cse-foundation-076",
+            "sourceUrl": null,
+            "sourceTitle": "ExamSathi shared general aptitude and awareness foundation practice item; not an official UPSC PYQ",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "श्रृंखला 311, 315, 319, 323, ? में अगली संख्या क्या होगी?",
+          "en": "Find the next number: 311, 315, 319, 323, ?",
+          "optionsHi": [
+            "331",
+            "323",
+            "327",
+            "335"
+          ],
+          "optionsEn": [
+            "331",
+            "323",
+            "327",
+            "335"
+          ],
+          "answer": 2,
+          "whyHi": "हर बार 4 जोड़ा जाता है; अगली संख्या 327 है।",
+          "whyEn": "हर बार 4 जोड़ा जाता है; अगली संख्या 327 है।",
+          "subject": "General Intelligence & Reasoning",
+          "topic": "Number Series",
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "upsc-cse-foundation-077",
+            "sourceUrl": null,
+            "sourceTitle": "ExamSathi shared general aptitude and awareness foundation practice item; not an official UPSC PYQ",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "श्रृंखला 314, 319, 324, 329, ? में अगली संख्या क्या होगी?",
+          "en": "Find the next number: 314, 319, 324, 329, ?",
+          "optionsHi": [
+            "339",
+            "329",
+            "334",
+            "344"
+          ],
+          "optionsEn": [
+            "339",
+            "329",
+            "334",
+            "344"
+          ],
+          "answer": 2,
+          "whyHi": "हर बार 5 जोड़ा जाता है; अगली संख्या 334 है।",
+          "whyEn": "हर बार 5 जोड़ा जाता है; अगली संख्या 334 है।",
+          "subject": "General Intelligence & Reasoning",
+          "topic": "Number Series",
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "upsc-cse-foundation-078",
+            "sourceUrl": null,
+            "sourceTitle": "ExamSathi shared general aptitude and awareness foundation practice item; not an official UPSC PYQ",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "श्रृंखला 317, 323, 329, 335, ? में अगली संख्या क्या होगी?",
+          "en": "Find the next number: 317, 323, 329, 335, ?",
+          "optionsHi": [
+            "347",
+            "335",
+            "341",
+            "353"
+          ],
+          "optionsEn": [
+            "347",
+            "335",
+            "341",
+            "353"
+          ],
+          "answer": 2,
+          "whyHi": "हर बार 6 जोड़ा जाता है; अगली संख्या 341 है।",
+          "whyEn": "हर बार 6 जोड़ा जाता है; अगली संख्या 341 है।",
+          "subject": "General Intelligence & Reasoning",
+          "topic": "Number Series",
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "upsc-cse-foundation-079",
+            "sourceUrl": null,
+            "sourceTitle": "ExamSathi shared general aptitude and awareness foundation practice item; not an official UPSC PYQ",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "श्रृंखला 320, 327, 334, 341, ? में अगली संख्या क्या होगी?",
+          "en": "Find the next number: 320, 327, 334, 341, ?",
+          "optionsHi": [
+            "355",
+            "341",
+            "348",
+            "362"
+          ],
+          "optionsEn": [
+            "355",
+            "341",
+            "348",
+            "362"
+          ],
+          "answer": 2,
+          "whyHi": "हर बार 7 जोड़ा जाता है; अगली संख्या 348 है।",
+          "whyEn": "हर बार 7 जोड़ा जाता है; अगली संख्या 348 है।",
+          "subject": "General Intelligence & Reasoning",
+          "topic": "Number Series",
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "upsc-cse-foundation-080",
+            "sourceUrl": null,
+            "sourceTitle": "ExamSathi shared general aptitude and awareness foundation practice item; not an official UPSC PYQ",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "श्रृंखला 323, 331, 339, 347, ? में अगली संख्या क्या होगी?",
+          "en": "Find the next number: 323, 331, 339, 347, ?",
+          "optionsHi": [
+            "363",
+            "347",
+            "355",
+            "371"
+          ],
+          "optionsEn": [
+            "363",
+            "347",
+            "355",
+            "371"
+          ],
+          "answer": 2,
+          "whyHi": "हर बार 8 जोड़ा जाता है; अगली संख्या 355 है।",
+          "whyEn": "हर बार 8 जोड़ा जाता है; अगली संख्या 355 है।",
+          "subject": "General Intelligence & Reasoning",
+          "topic": "Number Series",
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "upsc-cse-foundation-081",
+            "sourceUrl": null,
+            "sourceTitle": "ExamSathi shared general aptitude and awareness foundation practice item; not an official UPSC PYQ",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "श्रृंखला 326, 335, 344, 353, ? में अगली संख्या क्या होगी?",
+          "en": "Find the next number: 326, 335, 344, 353, ?",
+          "optionsHi": [
+            "371",
+            "353",
+            "362",
+            "380"
+          ],
+          "optionsEn": [
+            "371",
+            "353",
+            "362",
+            "380"
+          ],
+          "answer": 2,
+          "whyHi": "हर बार 9 जोड़ा जाता है; अगली संख्या 362 है।",
+          "whyEn": "हर बार 9 जोड़ा जाता है; अगली संख्या 362 है।",
+          "subject": "General Intelligence & Reasoning",
+          "topic": "Number Series",
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "upsc-cse-foundation-082",
+            "sourceUrl": null,
+            "sourceTitle": "ExamSathi shared general aptitude and awareness foundation practice item; not an official UPSC PYQ",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "श्रृंखला 329, 339, 349, 359, ? में अगली संख्या क्या होगी?",
+          "en": "Find the next number: 329, 339, 349, 359, ?",
+          "optionsHi": [
+            "379",
+            "359",
+            "369",
+            "389"
+          ],
+          "optionsEn": [
+            "379",
+            "359",
+            "369",
+            "389"
+          ],
+          "answer": 2,
+          "whyHi": "हर बार 10 जोड़ा जाता है; अगली संख्या 369 है।",
+          "whyEn": "हर बार 10 जोड़ा जाता है; अगली संख्या 369 है।",
+          "subject": "General Intelligence & Reasoning",
+          "topic": "Number Series",
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "upsc-cse-foundation-083",
+            "sourceUrl": null,
+            "sourceTitle": "ExamSathi shared general aptitude and awareness foundation practice item; not an official UPSC PYQ",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "श्रृंखला 332, 334, 336, 338, ? में अगली संख्या क्या होगी?",
+          "en": "Find the next number: 332, 334, 336, 338, ?",
+          "optionsHi": [
+            "342",
+            "338",
+            "340",
+            "344"
+          ],
+          "optionsEn": [
+            "342",
+            "338",
+            "340",
+            "344"
+          ],
+          "answer": 2,
+          "whyHi": "हर बार 2 जोड़ा जाता है; अगली संख्या 340 है।",
+          "whyEn": "हर बार 2 जोड़ा जाता है; अगली संख्या 340 है।",
+          "subject": "General Intelligence & Reasoning",
+          "topic": "Number Series",
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "upsc-cse-foundation-084",
+            "sourceUrl": null,
+            "sourceTitle": "ExamSathi shared general aptitude and awareness foundation practice item; not an official UPSC PYQ",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "यदि प्रत्येक अक्षर को अगले अंग्रेज़ी अक्षर से बदला जाए, तो BAT का कोड क्या होगा?",
+          "en": "If each letter is replaced by the next alphabet letter, how is BAT coded?",
+          "optionsHi": [
+            "CBU",
+            "BAT",
+            "CBZ",
+            "CXU"
+          ],
+          "optionsEn": [
+            "CBU",
+            "BAT",
+            "CBZ",
+            "CXU"
+          ],
+          "answer": 0,
+          "whyHi": "हर अक्षर को वर्णमाला में एक स्थान आगे किया गया है।",
+          "whyEn": "हर अक्षर को वर्णमाला में एक स्थान आगे किया गया है।",
+          "subject": "General Intelligence & Reasoning",
+          "topic": "Coding-Decoding",
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "upsc-cse-foundation-085",
+            "sourceUrl": null,
+            "sourceTitle": "ExamSathi shared general aptitude and awareness foundation practice item; not an official UPSC PYQ",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "यदि प्रत्येक अक्षर को अगले अंग्रेज़ी अक्षर से बदला जाए, तो CUP का कोड क्या होगा?",
+          "en": "If each letter is replaced by the next alphabet letter, how is CUP coded?",
+          "optionsHi": [
+            "DVQ",
+            "CUP",
+            "DVZ",
+            "DXQ"
+          ],
+          "optionsEn": [
+            "DVQ",
+            "CUP",
+            "DVZ",
+            "DXQ"
+          ],
+          "answer": 0,
+          "whyHi": "हर अक्षर को वर्णमाला में एक स्थान आगे किया गया है।",
+          "whyEn": "हर अक्षर को वर्णमाला में एक स्थान आगे किया गया है।",
+          "subject": "General Intelligence & Reasoning",
+          "topic": "Coding-Decoding",
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "upsc-cse-foundation-086",
+            "sourceUrl": null,
+            "sourceTitle": "ExamSathi shared general aptitude and awareness foundation practice item; not an official UPSC PYQ",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "यदि प्रत्येक अक्षर को अगले अंग्रेज़ी अक्षर से बदला जाए, तो TOP का कोड क्या होगा?",
+          "en": "If each letter is replaced by the next alphabet letter, how is TOP coded?",
+          "optionsHi": [
+            "UPQ",
+            "TOP",
+            "UPZ",
+            "UXQ"
+          ],
+          "optionsEn": [
+            "UPQ",
+            "TOP",
+            "UPZ",
+            "UXQ"
+          ],
+          "answer": 0,
+          "whyHi": "हर अक्षर को वर्णमाला में एक स्थान आगे किया गया है।",
+          "whyEn": "हर अक्षर को वर्णमाला में एक स्थान आगे किया गया है।",
+          "subject": "General Intelligence & Reasoning",
+          "topic": "Coding-Decoding",
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "upsc-cse-foundation-087",
+            "sourceUrl": null,
+            "sourceTitle": "ExamSathi shared general aptitude and awareness foundation practice item; not an official UPSC PYQ",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "यदि प्रत्येक अक्षर को अगले अंग्रेज़ी अक्षर से बदला जाए, तो RUN का कोड क्या होगा?",
+          "en": "If each letter is replaced by the next alphabet letter, how is RUN coded?",
+          "optionsHi": [
+            "SVO",
+            "RUN",
+            "SVZ",
+            "SXO"
+          ],
+          "optionsEn": [
+            "SVO",
+            "RUN",
+            "SVZ",
+            "SXO"
+          ],
+          "answer": 0,
+          "whyHi": "हर अक्षर को वर्णमाला में एक स्थान आगे किया गया है।",
+          "whyEn": "हर अक्षर को वर्णमाला में एक स्थान आगे किया गया है।",
+          "subject": "General Intelligence & Reasoning",
+          "topic": "Coding-Decoding",
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "upsc-cse-foundation-088",
+            "sourceUrl": null,
+            "sourceTitle": "ExamSathi shared general aptitude and awareness foundation practice item; not an official UPSC PYQ",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "यदि प्रत्येक अक्षर को अगले अंग्रेज़ी अक्षर से बदला जाए, तो HEN का कोड क्या होगा?",
+          "en": "If each letter is replaced by the next alphabet letter, how is HEN coded?",
+          "optionsHi": [
+            "IFO",
+            "HEN",
+            "IFZ",
+            "IXO"
+          ],
+          "optionsEn": [
+            "IFO",
+            "HEN",
+            "IFZ",
+            "IXO"
+          ],
+          "answer": 0,
+          "whyHi": "हर अक्षर को वर्णमाला में एक स्थान आगे किया गया है।",
+          "whyEn": "हर अक्षर को वर्णमाला में एक स्थान आगे किया गया है।",
+          "subject": "General Intelligence & Reasoning",
+          "topic": "Coding-Decoding",
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "upsc-cse-foundation-089",
+            "sourceUrl": null,
+            "sourceTitle": "ExamSathi shared general aptitude and awareness foundation practice item; not an official UPSC PYQ",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "एक व्यक्ति 9 किमी उत्तर और फिर 3 किमी पूर्व जाता है। वह प्रारंभिक स्थान से किस दिशा में है?",
+          "en": "A person walks 9 km north and then 3 km east. In which direction is the person from the start?",
+          "optionsHi": [
+            "उत्तर-पूर्व",
+            "उत्तर-पश्चिम",
+            "दक्षिण-पूर्व",
+            "दक्षिण-पश्चिम"
+          ],
+          "optionsEn": [
+            "उत्तर-पूर्व",
+            "उत्तर-पश्चिम",
+            "दक्षिण-पूर्व",
+            "दक्षिण-पश्चिम"
+          ],
+          "answer": 0,
+          "whyHi": "उत्तर और पूर्व की संयुक्त दिशा उत्तर-पूर्व होती है।",
+          "whyEn": "उत्तर और पूर्व की संयुक्त दिशा उत्तर-पूर्व होती है।",
+          "subject": "General Intelligence & Reasoning",
+          "topic": "Direction Sense",
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "upsc-cse-foundation-090",
+            "sourceUrl": null,
+            "sourceTitle": "ExamSathi shared general aptitude and awareness foundation practice item; not an official UPSC PYQ",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "संख्या श्रृंखला 23, 29, 35, 41, ? में अगली संख्या क्या है?",
+          "en": "Find the next number: 23, 29, 35, 41, ?",
+          "optionsHi": [
+            "53",
+            "41",
+            "47",
+            "59"
+          ],
+          "optionsEn": [
+            "53",
+            "41",
+            "47",
+            "59"
+          ],
+          "answer": 2,
+          "whyHi": "हर बार 6 जोड़ा जाता है; अगली संख्या 47 है।",
+          "whyEn": "Add 6 each time; the next number is 47.",
+          "subject": "General Intelligence & Reasoning",
+          "topic": "Number Series",
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "upsc-cse-foundation-091",
+            "sourceUrl": null,
+            "sourceTitle": "ExamSathi shared general aptitude and awareness foundation practice item; not an official UPSC PYQ",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "संख्या श्रृंखला 28, 35, 42, 49, ? में अगली संख्या क्या है?",
+          "en": "Find the next number: 28, 35, 42, 49, ?",
+          "optionsHi": [
+            "63",
+            "49",
+            "56",
+            "70"
+          ],
+          "optionsEn": [
+            "63",
+            "49",
+            "56",
+            "70"
+          ],
+          "answer": 2,
+          "whyHi": "हर बार 7 जोड़ा जाता है; अगली संख्या 56 है।",
+          "whyEn": "Add 7 each time; the next number is 56.",
+          "subject": "General Intelligence & Reasoning",
+          "topic": "Number Series",
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "upsc-cse-foundation-092",
+            "sourceUrl": null,
+            "sourceTitle": "ExamSathi shared general aptitude and awareness foundation practice item; not an official UPSC PYQ",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "संख्या श्रृंखला 33, 41, 49, 57, ? में अगली संख्या क्या है?",
+          "en": "Find the next number: 33, 41, 49, 57, ?",
+          "optionsHi": [
+            "73",
+            "57",
+            "65",
+            "81"
+          ],
+          "optionsEn": [
+            "73",
+            "57",
+            "65",
+            "81"
+          ],
+          "answer": 2,
+          "whyHi": "हर बार 8 जोड़ा जाता है; अगली संख्या 65 है।",
+          "whyEn": "Add 8 each time; the next number is 65.",
+          "subject": "General Intelligence & Reasoning",
+          "topic": "Number Series",
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "upsc-cse-foundation-093",
+            "sourceUrl": null,
+            "sourceTitle": "ExamSathi shared general aptitude and awareness foundation practice item; not an official UPSC PYQ",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "संख्या श्रृंखला 38, 47, 56, 65, ? में अगली संख्या क्या है?",
+          "en": "Find the next number: 38, 47, 56, 65, ?",
+          "optionsHi": [
+            "83",
+            "65",
+            "74",
+            "92"
+          ],
+          "optionsEn": [
+            "83",
+            "65",
+            "74",
+            "92"
+          ],
+          "answer": 2,
+          "whyHi": "हर बार 9 जोड़ा जाता है; अगली संख्या 74 है।",
+          "whyEn": "Add 9 each time; the next number is 74.",
+          "subject": "General Intelligence & Reasoning",
+          "topic": "Number Series",
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "upsc-cse-foundation-094",
+            "sourceUrl": null,
+            "sourceTitle": "ExamSathi shared general aptitude and awareness foundation practice item; not an official UPSC PYQ",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "श्रृंखला 605, 607, 609, 611, ? में अगली संख्या क्या होगी?",
+          "en": "Find the next number: 605, 607, 609, 611, ?",
+          "optionsHi": [
+            "615",
+            "611",
+            "613",
+            "617"
+          ],
+          "optionsEn": [
+            "615",
+            "611",
+            "613",
+            "617"
+          ],
+          "answer": 2,
+          "whyHi": "हर बार 2 जोड़ा जाता है; अगली संख्या 613 है।",
+          "whyEn": "हर बार 2 जोड़ा जाता है; अगली संख्या 613 है।",
+          "subject": "General Intelligence & Reasoning",
+          "topic": "Number Series",
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "upsc-cse-foundation-095",
+            "sourceUrl": null,
+            "sourceTitle": "ExamSathi shared general aptitude and awareness foundation practice item; not an official UPSC PYQ",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "श्रृंखला 608, 611, 614, 617, ? में अगली संख्या क्या होगी?",
+          "en": "Find the next number: 608, 611, 614, 617, ?",
+          "optionsHi": [
+            "623",
+            "617",
+            "620",
+            "626"
+          ],
+          "optionsEn": [
+            "623",
+            "617",
+            "620",
+            "626"
+          ],
+          "answer": 2,
+          "whyHi": "हर बार 3 जोड़ा जाता है; अगली संख्या 620 है।",
+          "whyEn": "हर बार 3 जोड़ा जाता है; अगली संख्या 620 है।",
+          "subject": "General Intelligence & Reasoning",
+          "topic": "Number Series",
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "upsc-cse-foundation-096",
+            "sourceUrl": null,
+            "sourceTitle": "ExamSathi shared general aptitude and awareness foundation practice item; not an official UPSC PYQ",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "श्रृंखला 611, 615, 619, 623, ? में अगली संख्या क्या होगी?",
+          "en": "Find the next number: 611, 615, 619, 623, ?",
+          "optionsHi": [
+            "631",
+            "623",
+            "627",
+            "635"
+          ],
+          "optionsEn": [
+            "631",
+            "623",
+            "627",
+            "635"
+          ],
+          "answer": 2,
+          "whyHi": "हर बार 4 जोड़ा जाता है; अगली संख्या 627 है।",
+          "whyEn": "हर बार 4 जोड़ा जाता है; अगली संख्या 627 है।",
+          "subject": "General Intelligence & Reasoning",
+          "topic": "Number Series",
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "upsc-cse-foundation-097",
+            "sourceUrl": null,
+            "sourceTitle": "ExamSathi shared general aptitude and awareness foundation practice item; not an official UPSC PYQ",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "श्रृंखला 614, 619, 624, 629, ? में अगली संख्या क्या होगी?",
+          "en": "Find the next number: 614, 619, 624, 629, ?",
+          "optionsHi": [
+            "639",
+            "629",
+            "634",
+            "644"
+          ],
+          "optionsEn": [
+            "639",
+            "629",
+            "634",
+            "644"
+          ],
+          "answer": 2,
+          "whyHi": "हर बार 5 जोड़ा जाता है; अगली संख्या 634 है।",
+          "whyEn": "हर बार 5 जोड़ा जाता है; अगली संख्या 634 है।",
+          "subject": "General Intelligence & Reasoning",
+          "topic": "Number Series",
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "upsc-cse-foundation-098",
+            "sourceUrl": null,
+            "sourceTitle": "ExamSathi shared general aptitude and awareness foundation practice item; not an official UPSC PYQ",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "श्रृंखला 617, 623, 629, 635, ? में अगली संख्या क्या होगी?",
+          "en": "Find the next number: 617, 623, 629, 635, ?",
+          "optionsHi": [
+            "647",
+            "635",
+            "641",
+            "653"
+          ],
+          "optionsEn": [
+            "647",
+            "635",
+            "641",
+            "653"
+          ],
+          "answer": 2,
+          "whyHi": "हर बार 6 जोड़ा जाता है; अगली संख्या 641 है।",
+          "whyEn": "हर बार 6 जोड़ा जाता है; अगली संख्या 641 है।",
+          "subject": "General Intelligence & Reasoning",
+          "topic": "Number Series",
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "upsc-cse-foundation-099",
+            "sourceUrl": null,
+            "sourceTitle": "ExamSathi shared general aptitude and awareness foundation practice item; not an official UPSC PYQ",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        },
+        {
+          "hi": "श्रृंखला 620, 627, 634, 641, ? में अगली संख्या क्या होगी?",
+          "en": "Find the next number: 620, 627, 634, 641, ?",
+          "optionsHi": [
+            "655",
+            "641",
+            "648",
+            "662"
+          ],
+          "optionsEn": [
+            "655",
+            "641",
+            "648",
+            "662"
+          ],
+          "answer": 2,
+          "whyHi": "हर बार 7 जोड़ा जाता है; अगली संख्या 648 है।",
+          "whyEn": "हर बार 7 जोड़ा जाता है; अगली संख्या 648 है।",
+          "subject": "General Intelligence & Reasoning",
+          "topic": "Number Series",
+          "provenance": {
+            "kind": "authored_practice",
+            "questionId": "upsc-cse-foundation-100",
+            "sourceUrl": null,
+            "sourceTitle": "ExamSathi shared general aptitude and awareness foundation practice item; not an official UPSC PYQ",
+            "answerKeyStatus": "reviewed",
+            "reuseStatus": "original"
+          }
+        }
+      ]
+    }
+  ]
+}
