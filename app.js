@@ -168,7 +168,11 @@ function authErrorMessage(error){
   'auth/invalid-phone-number':'मोबाइल नंबर country code सहित लिखें, जैसे +919876543210।',
   'auth/invalid-verification-code':'OTP गलत है। दोबारा जाँचें।',
   'auth/code-expired':'OTP की समय-सीमा समाप्त हो गई। नया OTP भेजें।',
-  'auth/billing-not-enabled':'वास्तविक SMS OTP के लिए Firebase billing सेटअप आवश्यक हो सकता है।'
+  'auth/billing-not-enabled':'वास्तविक SMS OTP भेजने के लिए Firebase प्रोजेक्ट में Cloud Billing लिंक करें। शुल्क लग सकता है।',
+  'auth/captcha-check-failed':'reCAPTCHA सत्यापन नहीं हुआ। पेज रिफ्रेश करके दोबारा कोशिश करें।',
+  'auth/quota-exceeded':'इस समय SMS की सीमा पूरी हो गई है। बाद में कोशिश करें या Firebase quota जाँचें।',
+  'auth/app-not-authorized':'यह वेबसाइट Firebase में अधिकृत नहीं है। Authorized domains में इसका hostname जोड़ें।',
+  'auth/missing-phone-number':'मोबाइल नंबर दर्ज करें।'
  };
  return messages[code]||('समस्या: '+(error?.message||code||'कृपया फिर कोशिश करें।'));
 }
@@ -221,7 +225,7 @@ async function initFirebase(){
     if(window.esVerifier){try{window.esVerifier.clear()}catch{}}
     window.esVerifier=new RecaptchaVerifier(auth,'recaptcha-container',{size:'normal'});
     confirmation=await signInWithPhoneNumber(auth,phone,window.esVerifier);
-    setAuthMessage('OTP भेज दिया गया है। SMS में आया 6 अंकों का OTP दर्ज करें।');
+    setAuthMessage('Firebase ने OTP भेजने का अनुरोध स्वीकार किया। अपने मोबाइल पर SMS देखें; टेस्ट नंबर होने पर SMS नहीं आएगा।');
    }catch(e){setAuthMessage(e.message?.startsWith('मोबाइल')?e.message:authErrorMessage(e),true);if(window.esVerifier){try{window.esVerifier.clear()}catch{}window.esVerifier=null}}
   };
   $('verifyOtp').onclick=async()=>{
